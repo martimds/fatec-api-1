@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar com Tailwind</title>
+    <link href="../dist/output.css" rel="stylesheet">
+    <style>
+        body, html { height: 100%; }
+        .sidebar { width: 250px; }
+        .content { margin-left: 250px; }
+        .content-inner { height: 2000px; } /* Ajustar conforme necessário */
+    </style>
+</head>
+
+<body class="flex h-screen bg-gray-100">
+    <!-- Sidebar -->
+    <div class="bg-blue-600 text-white p-4 sidebar">
+        <h2 class="text-2xl mb-4">Sidebar</h2>
+        <ul>
+            <li class="mb-2"><a href="#" class="hover:text-gray-300">Link 1</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-gray-300">Link 2</a></li>
+            <li class="mb-2"><a href="#" class="hover:text-gray-300">Link 3</a></li>
+            <!-- Adicionar mais itens -->
+        </ul>
+    </div>
+
+    <!-- Conteúdo Rolável -->
+    <div class="flex-1 p-4 content">
+        <h1 class="text-2xl mb-4">Conteúdo Rolável</h1>
+        <div class="content-inner">
+            <!-- Conteúdo aqui -->
+        </div>
+    </div>
+</body>
+
+</html>
