@@ -1,0 +1,62 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  background: #343a40;
+  color: #fff;
+  transition: all 0.3s;
+  height: 100%;
+  position: fixed;
+  overflow-y: auto;
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+  border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+  transition: all 0.3s;
+}
+
+#sidebar ul li a:hover {
+  background: #868e96;
+}
+
+#sidebar ul li.active {
+  background: #6d757d;
+}
+
+#content {
+  margin-left: 250px;
+  padding: 20px;
+  transition: margin 0.3s;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    min-width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  #content {
+    margin-left: 0;
+  }
+}
