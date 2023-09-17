@@ -106,14 +106,11 @@ Ao clicar você será redirecionado ao cronograma detalhado desse projeto, lá �
 - [ ] Criação do vídeo;
 - [ ] Finalize e aprovação.
 
+![Backlog do produto-2](https://github.com/martimds/fatec-api-1/assets/142838760/0df1e79e-ebf8-4c68-ba85-803dbc263aa9)
+![Backlog do produto-1](https://github.com/martimds/fatec-api-1/assets/142838760/8f1eb600-8f40-4e93-8da4-5a50a890bfd8)
 
-  
-<div aligne = center>
-    
-![product backlog](https://github.com/martimds/fatec-api-1/assets/142838760/be3b71cd-a678-4a47-80d3-29e363ae3ac0)
-![product backlog](https://github.com/martimds/fatec-api-1/assets/142838760/be3b71cd-a678-4a47-80d3-29e363ae3ac0)
-![sprint backlog](https://user-images.githubusercontent.com/69374340/172057787-dcc1ecce-1b08-464b-850e-7019dc050056.png)
-</div>
+
+
 
 Regras de Negócio
 - 
