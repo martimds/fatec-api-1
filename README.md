@@ -106,10 +106,12 @@ Ao clicar você será redirecionado ao cronograma detalhado desse projeto, lá �
 - [ ] Criação do vídeo;
 - [ ] Finalize e aprovação.
 
+
   
-<div style="border: 2px solid #555; border-radius: 12px; overflow: hidden; margin: 0 auto; width: 200px;">
+<div aligne = center>
     
-![product backlog](https://github.com/martimds/fatec-api-1/assets/142838760/9ba5a2c1-0f37-4e76-92f3-632129037478)
+![product backlog](https://github.com/martimds/fatec-api-1/assets/142838760/be3b71cd-a678-4a47-80d3-29e363ae3ac0)
+![product backlog](https://github.com/martimds/fatec-api-1/assets/142838760/be3b71cd-a678-4a47-80d3-29e363ae3ac0)
 ![sprint backlog](https://user-images.githubusercontent.com/69374340/172057787-dcc1ecce-1b08-464b-850e-7019dc050056.png)
 </div>
 
