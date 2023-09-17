@@ -107,7 +107,7 @@ Ao clicar você será redirecionado ao cronograma detalhado desse projeto, lá �
 - [ ] Finalize e aprovação.
 
   
-<div align="center">
+<div style="border: 2px solid #555; padding: 10px;">
     
 ![product backlog](https://github.com/martimds/fatec-api-1/assets/142838760/9ba5a2c1-0f37-4e76-92f3-632129037478)
 ![sprint backlog](https://user-images.githubusercontent.com/69374340/172057787-dcc1ecce-1b08-464b-850e-7019dc050056.png)
