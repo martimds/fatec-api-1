@@ -1,4 +1,4 @@
-#   Buttlerfly
+#   Butterfly
 
 Template para os projetos de API, ensinando na utilização do repositório digital "GitHub". 
 
