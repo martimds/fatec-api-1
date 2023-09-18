@@ -53,7 +53,9 @@ Adicionar video e documentos nessa seção
 
 ## Tecnologias Utilizadas
 
-![jira](https://github.com/jeancosta4/githubapi/assets/89345200/8e492185-a267-49a3-b60e-dac9dec0add6)
+- Linguagens de Programação: [HTML, CSS e Python]
+- Frameworks: [Liste os frameworks utilizados]
+- Outras Tecnologias: [Mencione outras tecnologias relevantes]
 
   ### Produto 
   > Descreva aqui a parte do MVP referente a Sprint
