@@ -32,7 +32,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,figma,flask,python,html,css" />
+    <img src="https://skillicons.dev/icons?i=vscode,git,figma,flask,python,html,css,bootstrap" />
   </a>
 </p>
 
