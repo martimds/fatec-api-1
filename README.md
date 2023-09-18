@@ -30,10 +30,11 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ## Tecnologias Utilizadas
 
-- Linguagens de Programação: [HTML, CSS e Python]
-- Frameworks: [SCRUM]
-- Outras Tecnologias: [FIGMA]
-
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,figma,flask,python,html,css" />
+  </a>
+</p>
 
 
 ## Sprints
