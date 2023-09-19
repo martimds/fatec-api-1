@@ -14,13 +14,15 @@
 
 ## Objetivo do Projeto
 
-O objetivo principal do Scrum Wiki é capacitar equipes de TI a adotar e implementar com sucesso o framework SCRUM, promovendo eficiência, colaboração e entregas mais rápidas e de alta qualidade em projetos de Tecnologia da Informação.
+O produto tem como finalidade fornecer uma plataforma web que permita aos usuários acessar, visualizar e compreender de maneira eficaz todos os processos e artefatos da metodologia ágil Scrum. A interface será projetada para oferecer uma experiência de navegação intuitiva e de fácil acesso.
 
 **Status do Projeto:** Em andamento ✍🏻
 
 ## Visão do Produto
 
-O Scrum Wiki é uma aplicação web dedicada a simplificar o gerenciamento de projetos ágeis na área de TI, com foco no framework SCRUM. Ele promove a eficiência, a colaboração e a transparência, permitindo entregas mais rápidas e de alta qualidade. Nossa missão é capacitar equipes de TI a adotar práticas ágeis com sucesso, melhorando a satisfação do cliente e a eficiência operacional, enquanto se destaca pela facilidade de uso e suporte integral ao SCRUM.
+Para profissionais da área de desenvolvimento em busca de um ambiente educativo sobre a metodologia ágil Scrum, o nosso sistema oferece uma experiência única. Diferentemente de recursos que podem ser desatualizados ou carentes de validação, o ScrumWiki proporciona acesso a informações sobre o Scrum de forma precisa e confiável.
+
+Com uma interface limpa e de fácil navegação, o produto permite que os usuários acessem, visualizem e compreendam os processos e artefatos do Scrum de maneira eficaz. Além disso, exemplos práticos são fornecidos para ilustrar a aplicação real desses conceitos.
 
 ## Metodologia
 
