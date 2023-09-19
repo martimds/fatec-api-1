@@ -28,7 +28,7 @@ O framework de Metodologia Ágil utilizado no produto foi o Scrum, um método á
 
 Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo necessário para cada Tarefa, sendo dividido, de maneira mais otimizada, entre os Desenvolvedores do time.
 
-### **MVP**
+## **MVP**
 
 [Protótipo navegável](https://www.google.com)
 
@@ -41,8 +41,8 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ## Backlog do Produto
 
-![https://placehold.co/600x400](#)
-![https://placehold.co/600x400](#)
+![Placeholder 1](https://placehold.co/600x400)
+![Placeholder 2](https://placehold.co/600x400)
 
 ## Autores
 
