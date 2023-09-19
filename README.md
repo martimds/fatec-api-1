@@ -43,8 +43,8 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ## Backlog do Produto
 
-![Placeholder 1](https://placehold.co/600x400)
-![Placeholder 2](https://placehold.co/600x400)
+![Requisitos 1](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/requisitos-essenciais.png?raw=true)
+![Requisitos 2](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/requistos-nao-essenciais.png?raw=true)
 
 ## Autores
 
