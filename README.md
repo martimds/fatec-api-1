@@ -1,6 +1,5 @@
-# **Scrum Wiki**
-
 <p align="center">
+# **Scrum Wiki**
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=vscode,git,figma,flask,python,html,css,bootstrap" />
   </a>
@@ -47,12 +46,12 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ## Autores
 
-| Função    | Nome       | GitHub          |
-|-----------|------------|-----------------|
-| Product Owner | Daniel Sendreti Broder | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
-| Scrum Master | Martim Dias de Oliveira | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/martimds) |
-| Dev Team | Gabriel Carvalho Silva | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
-| Dev Team | Gabriel Vasconcelos Ferreira | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
-| Dev Team | Guilherme Cleyton Pereira | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
-| Dev Team | Lucas Gabriel Dias Pereira | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
-| Dev Team  | Victor Herculano Godoy | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/victorrgodoy) |
+| Função        | Nome                         | GitHub                                                                                                                                       |
+| ------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Product Owner | Daniel Sendreti Broder       | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/)             |
+| Scrum Master  | Martim Dias de Oliveira      | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/martimds)     |
+| Dev Team      | Gabriel Carvalho Silva       | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/)             |
+| Dev Team      | Gabriel Vasconcelos Ferreira | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/)             |
+| Dev Team      | Guilherme Cleyton Pereira    | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/)             |
+| Dev Team      | Lucas Gabriel Dias Pereira   | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/)             |
+| Dev Team      | Victor Herculano Godoy       | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/victorrgodoy) |
