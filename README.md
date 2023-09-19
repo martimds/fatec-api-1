@@ -37,9 +37,9 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 ## Backlog da sprint
 
 - [Sprint I](docs/backlog/sprint-1.md)
-- [Sprint II](#)
-- [Sprint III](#)
-- [Sprint IV](#)
+- [Sprint II](docs/backlog/sprint-2.md)
+- [Sprint III](docs/backlog/sprint-3.md)
+- [Sprint IV](docs/backlog/sprint-4.md)
 
 ## Backlog do Produto
 
