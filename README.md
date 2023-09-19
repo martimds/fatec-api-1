@@ -8,7 +8,8 @@
 - [Objetivo do Projeto](#objetivo-do-projeto)
 - [Metodologia](#metodologia)
 - [MVP](#mvp)
-- [Backlog do produto](#Backlog-da-sprint)
+- [Sprints](#Backlog-da-sprint)
+- [Backlog do produto](#Backlog-do-produto)
 - [Autores](#autores)
 
 ## Objetivo do Projeto
