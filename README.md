@@ -1,4 +1,4 @@
-# **Agile Learn**
+# Agile Learn
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=vscode,git,figma,flask,python,html,css,bootstrap" />
@@ -30,7 +30,7 @@ O framework de Metodologia Ágil utilizado no produto foi o Scrum, um método á
 
 Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo necessário para cada Tarefa, sendo dividido, de maneira mais otimizada, entre os Desenvolvedores do time.
 
-## **MVP**
+## MVP
 
 [Protótipo navegável](https://www.google.com)
 
