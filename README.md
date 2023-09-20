@@ -1,4 +1,4 @@
-# **Scrum Wiki**
+# **Agile Learn**
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=vscode,git,figma,flask,python,html,css,bootstrap" />
