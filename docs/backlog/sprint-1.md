@@ -1,7 +1,7 @@
-<p align="center"> <h1><b>Sprint 1</b></h1>
-</p>
+<h1 align="center"> <b>Sprint 1</b>
+</h1>
 
-# **Épico:** Protótipo navegável
+## **Épico:** Protótipo navegável
 
 ## **Backlog da sprint**
 
