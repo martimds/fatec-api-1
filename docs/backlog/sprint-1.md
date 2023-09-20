@@ -1,6 +1,6 @@
 # **Épico**
 
-<p> Protótipo navegável
+<p align="center"> <b>Protótipo navegável</b>
 </p>
 
 # **Backlog da sprint**
