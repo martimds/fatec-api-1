@@ -1,9 +1,9 @@
-# **Épico**
-
-<p align="center"> <b>Protótipo navegável</b>
+<p align="center"> <h1><b>Sprint 1</b></h1>
 </p>
 
-# **Backlog da sprint**
+# **Épico:** Protótipo navegável
+
+## **Backlog da sprint**
 
 | ID do item |                      Resumo                       |                                                               Descrição                                                                | Story Points | Prioridade |    Status    |
 | :--------: | :-----------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------: | :----------: | :--------: | :----------: |
