@@ -43,11 +43,6 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ## Backlog do Produto
 
-<p align="center">
-  <img src="https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/requisitos-essenciais.png?raw=true" alt="Descrição da Imagem" style="border-radius: 10px; max-width: 80%;">
-</p>
-
-
 ![Requisitos 1](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/requisitos-essenciais.png?raw=true)
 ![Requisitos 2](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/requistos-nao-essenciais.png?raw=true)
 
