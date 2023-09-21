@@ -12,9 +12,9 @@
 - [Backlog do produto](#Backlog-do-produto)
 - [Autores](#autores)
 
-## Objetivo do Produto
+## Objetivo do Projeto
 
-O produto tem como finalidade fornecer uma plataforma web que permita aos usuários acessar, visualizar e compreender de maneira eficaz todos os processos e artefatos da metodologia ágil Scrum. A interface será projetada para oferecer uma experiência de navegação intuitiva e de fácil acesso.
+O projeto tem como finalidade fornecer uma plataforma web que permita aos usuários acessar, visualizar e compreender de maneira eficaz todos os processos e artefatos da metodologia ágil Scrum. A interface será projetada para oferecer uma experiência de navegação intuitiva e de fácil acesso.
 
 **Status do Projeto:** Em andamento ✍🏻
 
