@@ -5,6 +5,7 @@
 Não iniciado ✍🏻
 
 ## Backlog da Sprint
+
 | ID do item |                 Resumo                 |                            Descrição                             | Story points | Prioridade |     Status      |
 |:----------:|:-------------------------------------:|:---------------------------------------------------------------:|:------------:|:----------:|:---------------:|
 |   DPA-32   | Acesso a Recursos de Referência Confiáveis sobre o Scrum   | Como um usuário, eu quero ter acesso a recursos de referência confiáveis sobre o Scrum para aprofundar meu conhecimento.   |       6      |     0      | Item pendente  |
