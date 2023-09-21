@@ -1,8 +1,8 @@
-# Sprint 1 - Protótipo Navegável
+# Sprint 2 - Implementação do Sistema Básico
 
 ## Revisão da sprint
 
-Em andamento ✍🏻
+Não iniciado ✍🏻
 
 ## Backlog da Sprint
 
@@ -13,3 +13,7 @@ Em andamento ✍🏻
 |   DPA-23   | Lista Organizada de Tópicos Relacionados ao Scrum   | Como um usuário, eu quero uma lista organizada de tópicos relacionados ao Scrum para facilitar a navegação e a descoberta. |       5      |     0      | Item pendente  |
 |   DPA-21   | Integração do Flask para Gerenciar Rotas das Páginas   | Como um usuário, eu quero que o Flask seja integrado ao site para gerenciar as rotas das páginas.  |       5      |     0      | Item pendente  |
 |   DPA-20   | Estrutura Básica das Páginas do Site para o Cliente   | Como um usuário, eu quero uma estrutura básica para as páginas do site.   |       8      |     0      | Item pendente  |
+
+## Burndown Chart
+
+![Burndown Chart](https://placehold.co/320x240)
