@@ -1,9 +1,8 @@
-<h1 align="center"> <b>Sprint 1</b>
-</h1>
+# Sprint 1 - Protótipo Navegável
 
-## Épico: Protótipo navegável
+## Revisão da sprint
 
-## Backlog da sprint
+### Backlog da Sprint
 
 | ID do item |                      Resumo                       |                                                               Descrição                                                                | Story Points | Prioridade |    Status    |
 | :--------: | :-----------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------: | :----------: | :--------: | :----------: |
@@ -14,3 +13,7 @@
 |   DPA-15   |              Navegação entre Páginas              |                           Como um usuário, eu quero clicar em links e botões para navegar entre as páginas.                            |      2       |     50     | Em andamento |
 |   DPA-14   |           Gerar Documentação no GitHub            | Como um membro da equipe, quero criar e organizar a documentação do projeto no GitHub para facilitar o acompanhamento e a colaboração. |      3       |    100     | Concluído |
 |   DPA-13   |           Visualizar páginas principais           |                            Como um usuário, eu quero navegar pelo site e visualizar as páginas principais.                             |      3       |     90     | Em andamento |
+
+## Burndown Chart
+
+![Burndown Chart](https://placehold.co/600x400)https://placehold.co/320x240)
