@@ -43,7 +43,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de esforço ne
 
 ## Backlog do Produto
 
-![Requisitos 1](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/requisitos-essenciais.png?raw=true)
+
 ![Requisitos 2](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/requistos-nao-essenciais.png?raw=true)
 
 ## Autores
