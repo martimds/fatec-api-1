@@ -2,7 +2,7 @@
 
 ## Revisão da sprint
 
-Em andamento ✍🏻
+Não iniciado ✍🏻
 
 ## Backlog da Sprint
 
