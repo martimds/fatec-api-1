@@ -2,6 +2,8 @@
 
 ## Revisão da sprint
 
+Em andamento ✍🏻
+
 ## Backlog da Sprint
 
 | ID do item |                      Resumo                       |                                                               Descrição                                                                | Story Points | Prioridade |    Status    |
