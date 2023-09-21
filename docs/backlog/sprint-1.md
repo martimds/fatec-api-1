@@ -2,7 +2,7 @@
 
 ## Revisão da sprint
 
-### Backlog da Sprint
+## Backlog da Sprint
 
 | ID do item |                      Resumo                       |                                                               Descrição                                                                | Story Points | Prioridade |    Status    |
 | :--------: | :-----------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------: | :----------: | :--------: | :----------: |
@@ -16,4 +16,4 @@
 
 ## Burndown Chart
 
-![Burndown Chart](https://placehold.co/600x400)https://placehold.co/320x240)
+![Burndown Chart](https://placehold.co/320x240)
