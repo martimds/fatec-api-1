@@ -18,4 +18,4 @@ Em andamento ✍🏻
 
 ## Burndown Chart
 
-![Burndown Chart](https://placehold.co/320x240)
+![Burndown Chart](docs/imagens/burndown-chart-sprint-1.png)
