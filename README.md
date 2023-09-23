@@ -34,7 +34,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de esforço ne
 
 ![GIF Protótipo](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/prototipo-navegavel.gif)
 
-[Protótipo navegável](https://www.figma.com/proto/4d6aaqee4TJSP7P4b1MEgR/API?type=design&node-id=529-1418&t=mI3V1SOi7CCkYcmj-1&scaling=contain&page-id=0%3A1&starting-point-node-id=245%3A887&mode=design)
+[**Protótipo navegável**](https://www.figma.com/proto/4d6aaqee4TJSP7P4b1MEgR/API?type=design&node-id=529-1418&t=mI3V1SOi7CCkYcmj-1&scaling=contain&page-id=0%3A1&starting-point-node-id=245%3A887&mode=design)
 
 ## Backlog da sprint
 
