@@ -30,6 +30,9 @@ Este projeto está sendo conduzido utilizando a metodologia ágil Scrum para o g
 
 ## MVP
 
+
+O MVP (Mínimo Produto Viável) é uma representação interativa e funcional das principais funcionalidades e fluxos de usuário que serão implementados na versão inicial do projeto. Este protótipo proporciona uma visão tangível e dinâmica do que os usuários poderão experimentar ao interagir com o site.
+
 ![GIF Protótipo](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/prototipo-navegavel.gif)
 
 [**Protótipo navegável**](https://www.figma.com/proto/4d6aaqee4TJSP7P4b1MEgR/API?type=design&node-id=529-1418&t=mI3V1SOi7CCkYcmj-1&scaling=contain&page-id=0%3A1&starting-point-node-id=245%3A887&mode=design)
@@ -43,8 +46,8 @@ Este projeto está sendo conduzido utilizando a metodologia ágil Scrum para o g
 
 ## Backlog do Produto
 
-![Requisitos 1](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/requisitos-essenciais.jpg?raw=true)
-![Requisitos 2](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/requisitos-nao-essenciais.png?raw=true)
+![Requisitos 1](docs/imagens/requisitos-essenciais.jpg?raw=true)
+![Requisitos 2](docs/imagens/requisitos-nao-essenciais.png?raw=true)
 
 ## Autores
 
