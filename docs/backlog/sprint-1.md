@@ -1,5 +1,7 @@
 # Sprint 1 - Protótipo Navegável
 
+**Conclusão:** 24/09/2023
+
 ## Backlog da Sprint
 
 | ID do item |                      Resumo                       |                                                               Descrição                                                                | Story Points | Prioridade |    Status    |
