@@ -1,9 +1,5 @@
 # Sprint 1 - Protótipo Navegável
 
-## Revisão da sprint
-
-Em andamento ✍🏻
-
 ## Backlog da Sprint
 
 | ID do item |                      Resumo                       |                                                               Descrição                                                                | Story Points | Prioridade |    Status    |
