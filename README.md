@@ -26,9 +26,7 @@ Com uma interface limpa e de fácil navegação, o produto permite que os usuár
 
 ## Metodologia
 
-O framework de Metodologia Ágil utilizado no produto foi o Scrum, um método ágil adaptativo, iterativo, flexível e eficaz. Entre as ferramentas utilizadas no Scrum, uma é a divisão do projeto em Sprints. Para selecionar quais seriam as entregas das nossas Sprints, primeiro definimos nosso MVP, priorizando as tarefas que trariam maior entrega de valor para o cliente. Então, a partir das Tarefas foi construído o Backlog do Produto.
-
-Dessa forma, com as Tarefas já traçadas, definimos a quantidade de esforço necessário para cada Tarefa, sendo dividido, de maneira mais otimizada, entre os Desenvolvedores do time.
+Este projeto está sendo conduzido utilizando a metodologia ágil Scrum para o gerenciamento do desenvolvimento. O Scrum é uma abordagem flexível que promove a colaboração e a entrega incremental de funcionalidades. Por meio dos papéis definidos (Product Owner, Scrum Master e Time de Desenvolvimento) e dos eventos estabelecidos (Sprint Planning, Daily Scrum, Sprint Review e Sprint Retrospective), garantimos uma abordagem iterativa e adaptativa, focada nas necessidades do cliente e na entrega de um produto de alta qualidade.
 
 ## MVP
 
