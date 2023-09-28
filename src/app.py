@@ -16,6 +16,11 @@ def burndown():
 def sprint():
     return render_template('sprint.html')
 
+@app.route('/productowner')
+@app.route('/po')
+def po():
+    return render_template('po.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
