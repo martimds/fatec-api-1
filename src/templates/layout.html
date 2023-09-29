@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="../static/mainstyle.css" />
     <link rel="stylesheet" href="../static/styleguide.css" />
+    {% block style %} {% endblock %}
   </head>
   <body>
     <div class="layout">
@@ -26,7 +27,9 @@
           <div class="div-wrapper"><div class="text">Avaliador</div></div>
         </div>
         <div class="container">
-          <div class="contedos"></div>
+          <div class="contedos">
+            {% block content %} {% endblock %}
+          </div>
         </div>
       </div>
     </div>
