@@ -34,12 +34,13 @@ body {
 .layout .side-menu {
   display: flex;
   flex-direction: column;
-  width: 15%;
+  width: 18%;
   max-height: 720px;
   height: 720px;
   align-items: flex-end;
-  gap: 15px;
+  gap: 5px;
   padding: 20px 12px;
+  flex-shrink: 1;
   top: 0;
   left: 0;
   background-color: #ffffff;
@@ -65,17 +66,13 @@ body {
 
 .layout .div-wrapper {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 10px;
+  flex-direction: row;
   padding: 3px 5px;
-  position: relative;
-  align-self: stretch;
+  gap: 3px;
   width: 100%;
-  flex: 0 0 auto;
 }
 
-.layout .div-wrapper:active, .dropdown-topic:active{
+.layout .div-wrapper:hover, .dropdown-topic:hover{
   background-color: var(--semitransparentbackground);
   border-radius: 20px;
 }
@@ -107,18 +104,6 @@ body {
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
-}
-
-.layout .dropdown-topic {
-  display: flex;
-  width: 211px;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 5px;
-  padding: 3px 5px;
-  position: relative;
-  flex: 0 0 auto;
-  margin-left: -9px;
 }
 
 .layout .text-wrapper-2 {
