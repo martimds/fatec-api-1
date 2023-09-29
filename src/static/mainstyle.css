@@ -72,6 +72,9 @@ body {
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
+}
+
+.layout .div-wrapper:active, .dropdown-topic:active{
   background-color: var(--semitransparentbackground);
   border-radius: 20px;
 }
@@ -115,8 +118,6 @@ body {
   position: relative;
   flex: 0 0 auto;
   margin-left: -9px;
-  background-color: var(--semitransparentbackground);
-  border-radius: 10px;
 }
 
 .layout .text-wrapper-2 {
