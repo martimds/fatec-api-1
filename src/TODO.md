@@ -1,7 +1,7 @@
 # Tarefas
 
 ### Importar HTML
-- [ ] Introdução
+- [x] Introdução
 - [ ] História
 - [ ] Sprint
 - [ ] Eventos Scrum
