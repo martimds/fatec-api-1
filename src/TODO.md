@@ -20,7 +20,7 @@
 
 ## Refatorar CSS
 
-- [ ] Introdução # victor
+- [x] Introdução # victor
 - [ ] História
 - [ ] Sprint
 - [ ] Eventos Scrum
