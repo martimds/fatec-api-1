@@ -1,76 +1,47 @@
 {% extends "layout.html" %} {% block style %}
 <link rel="stylesheet" href="../static/po.css" />
 {% endblock %} {% block content %}
-<div class="contedos">
-  <div class="content-variant">
-    <div class="text-wrapper">Product Owner</div>
-    <p class="div">
-      Responsável por representar os interesses dos stakeholders (clientes,
-      usuários, patrocinadores, etc.) e definir as necessidades e prioridades do
-      produto.
-    </p>
-    <img class="image" src="../static/img/image-8.png" />
-  </div>
-  <div class="frame"><p class="p">COMO SE TORNAR UM BOM PRODUCT OWNER:</p></div>
-  <div class="frame-2">
-    <div class="overlap-group-wrapper">
-      <div class="overlap-group">
-        <div class="text-wrapper-2">VISÃO DE PRODUTO</div>
-        <p class="mantenha-uma-vis-o">
-          Mantenha uma visão clara do produto&nbsp;&nbsp;e alinhe as atividades
-          da equipe com essa visão.
-        </p>
-      </div>
-    </div>
-    <div class="frame-3">
-      <div class="text-wrapper-3">CONHECIMENTO TÉCNICO</div>
-      <p class="text-wrapper-4">
-        Entendimento básico das tecnologias e processos envolvidos no
-        desenvolvimento de software.
-      </p>
-    </div>
-  </div>
-  <div class="frame-4">
-    <div class="frame-5">
-      <div class="text-wrapper-5">PRIORIZAÇÃO EFICAZ</div>
-      <p class="text-wrapper-6">
-        Priorizar o backlog de produtos com base no valor para o cliente e nos
-        objetivos do negócio.
-      </p>
-    </div>
-    <div class="frame-6">
-      <div class="text-wrapper-7">COMPREENSÃO DE NEGÓCIO</div>
-      <p class="text-wrapper-8">
-        Para tomar decisões informadas sobre o produto.
-      </p>
-    </div>
-  </div>
-  <div class="frame-7">
-    <div class="div-wrapper">
-      <div class="overlap-group-2">
-        <div class="text-wrapper-9">SUCESSO DO PRODUTO</div>
-        <p class="text-wrapper-10">
-          Assuma a responsabilidade e esteja disposto a tomar medidas para
-          garantir seu crescimento e relevância.
-        </p>
-      </div>
-    </div>
-    <div class="frame-8">
-      <div class="text-wrapper-11">FEEDBACK DO MERCADO</div>
-      <p class="text-wrapper-12">
-        Esteja atento ao feedback do mercado e às tendências do setor para
-        ajustar a estratégia.
-      </p>
-    </div>
-  </div>
-  <div class="frame-wrapper">
-    <div class="frame-9">
-      <div class="text-wrapper-13">FOCO NO VALOR</div>
-      <p class="text-wrapper-14">
-        Certifique-se de que cada incremento do produto entregue valor tangível
-        aos usuários e clientes.
-      </p>
-    </div>
-  </div>
+
+<div class="título_principal">
+  <h1>Product Backlog</h1>
 </div>
+
+<div class="descrição_1">
+  <h2></h2>
+  <p style="font-size: 150%;"> O Product Backlog é uma lista de requisitos do cliente mantida pelo Product Owner. Pode
+    ser alterada a qualquer momento. Durante o Sprint Planning, a equipe escolhe itens do topo do backlog para trabalhar
+    na sprint, priorizando e planejando sua execução.
+  </p>
+  <ul style="font-size: 150%;">
+    <li><strong>Identificação de Itens do Backlog:</strong>Coleta de ideias, requisitos e demandas do produto de várias
+      fontes,
+      incluindo stakeholders, usuários, equipes de desenvolvimento e feedbacks.</li>
+  </ul>
+  <ul style="font-size: 150%;"> 
+      <li><strong>Priorização:</strong>Priorize os itens do Product Backlog com base em importância e
+      valor, utilizando técnicas como a matriz de valor x esforço para guiar as decisões.</li>
+  </ul>
+  <ul style="font-size: 150%;"> 
+      <li><strong>Detalhamento e Refinamento:</strong> À medida que os itens sobem na lista de prioridades, detalhe e
+      refine-os.
+      Isso inclui dividir tarefas maiores em mais simples e garantir clareza na equipe sobre o que deve ser feito.</li>
+  </ul>
+  <ul style="font-size: 150%;"> 
+      <li><strong>Estimativa:</strong> Priorize e detalhe os itens do backlog. Atribua estimativas de
+      esforço para entender o trabalho envolvido.</li>
+  </ul>
+  <ul style="font-size: 150%;"> 
+      <li><strong>Manutenção Contínua:</strong> O Product Backlog é uma lista dinâmica, sujeita a revisões e
+      atualizações constantes conforme novas informações surgem e as prioridades mudam..</li>
+  </ul>
+  <ul style="font-size: 150%;"> 
+      <li><strong> Comunicação e Colaboração:</strong>Comunique-se regularmente para manter o Product Backlog alinhado com as
+      necessidades do produto, incluindo reuniões de refinamento </li>
+  </ul>
+</div>
+<div class="imagem_1">
+  <img src="{{ url_for('static', filename='img/po.png') }}" alt="história scrum">
+</div>
+
+
 {% endblock %}

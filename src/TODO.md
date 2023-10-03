@@ -7,7 +7,7 @@
 - [ ] Eventos Scrum
 - [ ] Características do Scrum
 - Papéis do Scrum
-- - [ ] Product Owner
+- - [x] Product Owner ### Carvalho
 - - [ ] Scrum Master
 - - [ ] Developer Team
 - Artefatos do Scrum
@@ -16,7 +16,7 @@
 - - [x] Burndown Chart ### Carvalho
 - - [ ] Definition of Ready
 - - [ ] Definition of Done
-- - [ ] Kanban
+- - [x] Kanban ### Carvalho
 
 ## Refatorar CSS
 
@@ -26,13 +26,13 @@
 - [ ] Eventos Scrum
 - [ ] Características do Scrum
 - Papéis do Scrum
-- - [ ] Product Owner
+- - [x] Product Owner ### Carvalho
 - - [ ] Scrum Master
 - - [ ] Developer Team
 - Artefatos do Scrum
-- - [ ] Product Backlog
+- - [x] Product Backlog ### Carvalho
 - - [ ] Sprint Backlog
 - - [ ] Burndown Chart
 - - [ ] Definition of Ready
 - - [ ] Definition of Done
-- - [ ] Kanban
+- - [x] Kanban ### Carvalho
