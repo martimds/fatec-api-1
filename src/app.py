@@ -8,7 +8,7 @@ app = Flask(__name__)
 def intro():
     return render_template('intro.html')
 
-for element in os.listdir(os.getcwd() + "/src/templates"): # Get elements in template directory
+for element in os.listdir(os.getcwd() + "/templates"): # Get elements in template directory
     pagename = str(element).split(".")[0]
     if pagename == "intro":continue
     # Add element to Flask environment

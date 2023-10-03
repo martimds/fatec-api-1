@@ -1,7 +1,7 @@
 # Tarefas
 
 ### Importar HTML
-- [x] Introdução
+- [x] Introdução # victor
 - [ ] História
 - [ ] Sprint
 - [ ] Eventos Scrum
@@ -20,7 +20,7 @@
 
 ## Refatorar CSS
 
-- [ ] Introdução
+- [ ] Introdução # victor
 - [ ] História
 - [ ] Sprint
 - [ ] Eventos Scrum
