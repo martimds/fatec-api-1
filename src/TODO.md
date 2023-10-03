@@ -1,8 +1,8 @@
 # Tarefas
 
 ### Importar ou Fazer do 0 HTML
-- [x] Introdução # victor
-- [ ] História  # victor 
+- [x] Introdução ### VICTOR
+- [x] História  ### VICTOR
 - [ ] Sprint
 - [ ] Eventos Scrum
 - [ ] Características do Scrum
@@ -20,9 +20,9 @@
 
 ## Refatorar CSS
 
-- [x] Introdução # victor
-- [ ] História # victor
-- [ ] Sprint
+- [x] Introdução ### VICTOR
+- [x] História ### VICTOR
+- [ ] Sprint    
 - [ ] Eventos Scrum
 - [ ] Características do Scrum
 - Papéis do Scrum
