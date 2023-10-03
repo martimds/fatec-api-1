@@ -1,6 +1,6 @@
 # Tarefas
 
-### Importar HTML
+### Importar ou Fazer do 0 HTML
 - [x] Introdução # victor
 - [ ] História
 - [ ] Sprint
