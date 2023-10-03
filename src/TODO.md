@@ -2,7 +2,7 @@
 
 ### Importar ou Fazer do 0 HTML
 - [x] Introdução # victor
-- [ ] História
+- [ ] História  # victor 
 - [ ] Sprint
 - [ ] Eventos Scrum
 - [ ] Características do Scrum
@@ -21,7 +21,7 @@
 ## Refatorar CSS
 
 - [x] Introdução # victor
-- [ ] História
+- [ ] História # victor
 - [ ] Sprint
 - [ ] Eventos Scrum
 - [ ] Características do Scrum
