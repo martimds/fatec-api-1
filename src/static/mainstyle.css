@@ -22,21 +22,22 @@ body {
   width: 85%;
 }
 
-.layout .contedos {
+.layout .conteudo {
   margin: 10% auto 0 auto;
+  min-height: 90%;
   padding: 0 10px;
   width: 80%;
-  height: 761px;
   background-color: #ffffff;
   border-radius: 35px;
+  display: flex;
+  flex-direction: column;
 }
 
 .layout .side-menu {
   display: flex;
   flex-direction: column;
   width: 18%;
-  max-height: 720px;
-  height: 720px;
+  height: 100%;
   align-items: flex-end;
   gap: 5px;
   padding: 20px 12px;

@@ -17,7 +17,7 @@ print(element, pagename)
 @app.route("/"+pagename)
 def {pagename}():
     print("{pagename}", element)
-    return render_template("element")''')
+    return render_template("{element}")''')
 
 if __name__ == '__main__':
     app.run(debug=True)
