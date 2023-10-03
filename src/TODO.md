@@ -13,7 +13,7 @@
 - Artefatos do Scrum
 - - [ ] Product Backlog
 - - [ ] Sprint Backlog
-- - [ ] Burndown Chart
+- - [x] Burndown Chart ### Carvalho
 - - [ ] Definition of Ready
 - - [ ] Definition of Done
 - - [ ] Kanban

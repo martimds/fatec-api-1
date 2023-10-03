@@ -1,152 +1,25 @@
-.contedos {
-    position: relative;
-    width: 848px;
-    height: 1322px;
-    background-color: #ffffff;
-    border-radius: 35px;
-  }
-  
-  .contedos .text-wrapper {
-    position: absolute;
-    height: 42px;
-    top: 53px;
-    left: 284px;
-    font-family: "Inter-ExtraBold", Helvetica;
-    font-weight: 800;
-    color: #000000;
-    font-size: 35px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .contedos .content-variant {
-    position: absolute;
-    width: 784px;
-    height: 736px;
-    top: 476px;
-    left: 32px;
-    border-radius: 35px 35px 0px 0px;
-  }
-  
-  .contedos .overlap-group {
-    position: absolute;
-    width: 777px;
-    height: 648px;
-    top: -339px;
-    left: -3px;
-  }
-  
-  .contedos .rectangle {
-    position: absolute;
-    width: 759px;
-    height: 648px;
-    top: 0;
-    left: 18px;
-    background-color: #eaeaea;
-    border-radius: 30px;
-  }
-  
-  .contedos .estabele-a-uma-linha {
-    position: absolute;
-    width: 709px;
-    height: 87px;
-    top: 196px;
-    left: 34px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .contedos .span {
-    font-weight: 700;
-  }
-  
-  .contedos .text-wrapper-2 {
-    font-family: "Inter-Regular", Helvetica;
-  }
-  
-  .contedos .defina-a-escala-de {
-    position: absolute;
-    width: 727px;
-    height: 58px;
-    top: 127px;
-    left: 34px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .contedos .liste-as-tarefas-o {
-    position: absolute;
-    width: 696px;
-    height: 116px;
-    top: 294px;
-    left: 34px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .contedos .inclua-pontos-de {
-    position: absolute;
-    width: 743px;
-    height: 87px;
-    top: 414px;
-    left: 0;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .contedos .identifique-desvios {
-    position: absolute;
-    width: 743px;
-    height: 116px;
-    top: 513px;
-    left: 0;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .contedos .div {
-    position: absolute;
-    width: 683px;
-    height: 79px;
-    top: 33px;
-    left: 65px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 24px;
-    text-align: justify;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .contedos .burndown-chart-and {
-    position: absolute;
-    width: 590px;
-    height: 375px;
-    top: 418px;
-    left: 97px;
-    object-fit: cover;
-  }
-  
+.título_principal {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%; 
+  margin-top: 2.5%;
+}
+
+.descrição_1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color:black; 
+  width: 88%;
+  flex-direction: column;
+  padding: 2.5%; 
+  margin-left: 3.6%;
+  border-radius: 35px;
+  background-color: #dbdbdb;
+  text-align: left;
+  display: block;
+}
+
+.imagem_1 {
+  margin-top: 2.5%;
+  text-align: center;
+}
