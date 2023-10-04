@@ -9,7 +9,6 @@ def intro():
     return render_template('intro.html')
 
 for element in os.listdir(os.getcwd() + "/src/templates"):
-    print(element)
     name = str(element).split(".")[0]
     if name == "intro":continue
     exec(f'''
