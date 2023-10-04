@@ -15,7 +15,7 @@
 - - [x] Sprint Backlog ### Carvalho
 - - [x] Burndown Chart ### Carvalho 
 - - [x] Definition of Ready ### Carvalho
-- - [ ] Definition of Done
+- - [ ] Definition of Done  ### Victor
 - - [x] Kanban ### Carvalho ### Carvalho
 
 ## Refatorar CSS
@@ -34,5 +34,5 @@
 - - [x] Sprint Backlog
 - - [x] Burndown Chart
 - - [x] Definition of Ready
-- - [ ] Definition of Done
+- - [ ] Definition of Done ### Victor
 - - [x] Kanban ### Carvalho
