@@ -8,7 +8,7 @@ app = Flask(__name__)
 def intro():
     return render_template('intro.html')
 
-for element in os.listdir("src/templates"):
+for element in os.listdir(os.getcwd() + "/src/templates"):
     print(element)
     name = str(element).split(".")[0]
     if name == "intro":continue
