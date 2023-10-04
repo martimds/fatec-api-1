@@ -7,9 +7,9 @@
 - [x] Eventos Scrum ### Carvalho
 - [x] Características do Scrum  ### Carvalho
 - Papéis do Scrum
-- - [ ] Product Owner 
-- - [ ] Scrum Master
-- - [ ] Developer Team
+- - [x] Product Owner 
+- - [x] Scrum Master
+- - [x] Developer Team
 - Artefatos do Scrum
 - - [x] Product Backlog ### Carvalho
 - - [x] Sprint Backlog ### Carvalho
@@ -26,9 +26,9 @@
 - [x] Eventos Scrum
 - [x] Características do Scrum
 - Papéis do Scrum
-- - [ ] Product Owner 
-- - [ ] Scrum Master
-- - [ ] Developer Team
+- - [x] Product Owner  ### Carvalho
+- - [x] Scrum Master
+- - [x] Developer Team
 - Artefatos do Scrum
 - - [x] Product Backlog ### Carvalho
 - - [x] Sprint Backlog
