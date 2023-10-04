@@ -4,17 +4,17 @@
 - [x] Introdução ### VICTOR
 - [x] História  ### VICTOR
 - [ ] Sprint
-- [ ] Eventos Scrum
-- [ ] Características do Scrum
+- [x] Eventos Scrum
+- [x] Características do Scrum
 - Papéis do Scrum
-- - [x] Product Owner ### Carvalho
+- - [ ] Product Owner 
 - - [ ] Scrum Master
 - - [ ] Developer Team
 - Artefatos do Scrum
-- - [ ] Product Backlog
-- - [ ] Sprint Backlog
+- - [x] Product Backlog
+- - [x] Sprint Backlog
 - - [x] Burndown Chart ### Carvalho
-- - [ ] Definition of Ready
+- - [x] Definition of Ready
 - - [ ] Definition of Done
 - - [x] Kanban ### Carvalho
 
@@ -23,16 +23,16 @@
 - [x] Introdução ### VICTOR
 - [x] História ### VICTOR
 - [ ] Sprint    
-- [ ] Eventos Scrum
-- [ ] Características do Scrum
+- [x] Eventos Scrum
+- [x] Características do Scrum
 - Papéis do Scrum
-- - [x] Product Owner ### Carvalho
+- - [ ] Product Owner 
 - - [ ] Scrum Master
 - - [ ] Developer Team
 - Artefatos do Scrum
 - - [x] Product Backlog ### Carvalho
-- - [ ] Sprint Backlog
-- - [ ] Burndown Chart
-- - [ ] Definition of Ready
+- - [x] Sprint Backlog
+- - [x] Burndown Chart
+- - [x] Definition of Ready
 - - [ ] Definition of Done
 - - [x] Kanban ### Carvalho
