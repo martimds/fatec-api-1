@@ -8,16 +8,15 @@ app = Flask(__name__)
 def intro():
     return render_template('intro.html')
 
-for element in os.listdir(os.getcwd() + "/templates"): # Get elements in template directory
-    pagename = str(element).split(".")[0]
-    if pagename == "intro":continue
-    # Add element to Flask environment
+for element in os.listdir("src/templates"):
+    print(element)
+    name = str(element).split(".")[0]
+    if name == "intro":continue
     exec(f'''
-print(element, pagename)
-@app.route("/"+pagename)
-def {pagename}():
-    print("{pagename}", element)
-    return render_template("{element}")''')
+@app.route("/{name}")
+def {name}():
+    return render_template("/{element}")
+    ''')
 
 if __name__ == '__main__':
     app.run(debug=True)
