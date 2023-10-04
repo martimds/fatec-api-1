@@ -13,7 +13,3 @@
 |   DPA-15   |              Navegação entre Páginas              |                           Como um usuário, eu quero clicar em links e botões para navegar entre as páginas.                            |      2       |     85     | Concluído |
 |   DPA-14   |           Gerar Documentação no GitHub            | Como um membro da equipe, quero criar e organizar a documentação do projeto no GitHub para facilitar o acompanhamento e a colaboração. |      3       |    100     | Concluído |
 |   DPA-13   |           Visualizar páginas principais           |                            Como um usuário, eu quero navegar pelo site e visualizar as páginas principais.                             |      3       |     90     | Concluído |
-
-## Burndown Chart
-
-![Burndown Chart](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/burndown-chart-sprint-1.png)
