@@ -11,6 +11,7 @@
 
 
 ### Importar ou Fazer do 0 HTML
+- [ ] Menu lateral
 - [x] Introdução ### VICTOR
 - [x] História  ### VICTOR
 - [ ] Sprint
@@ -27,9 +28,10 @@
 - - [x] Definition of Ready ### Carvalho
 - - [ ] Definition of Done  ### Victor
 - - [x] Kanban ### Carvalho ### Carvalho
+- [ ] Avaliador
 
 ## Refatorar CSS
-
+- [ ] Menu lateral
 - [x] Introdução ### VICTOR
 - [x] História ### VICTOR
 - [ ] Sprint    
@@ -46,3 +48,4 @@
 - - [x] Definition of Ready
 - - [ ] Definition of Done ### Victor
 - - [x] Kanban ### Carvalho
+- [ ] Avaliador
