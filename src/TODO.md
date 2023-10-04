@@ -1,5 +1,15 @@
 # Tarefas
 
+### ARRUMAR SIDEBAR
+### PAGE SPRINT
+### PAGE DOD 
+### PAGE AVALIADOR
+### PYTHON NO AVALIADOR
+### DENIFIR AS NOTAS DO AVALIADOR 
+### ARRUMAR FLASK
+### REVISÃO
+
+
 ### Importar ou Fazer do 0 HTML
 - [x] Introdução ### VICTOR
 - [x] História  ### VICTOR
