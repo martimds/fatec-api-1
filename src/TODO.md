@@ -2,7 +2,6 @@
 
 ### ARRUMAR SIDEBAR
 ### PAGE SPRINT
-### PAGE DOD 
 ### PAGE AVALIADOR
 ### PYTHON NO AVALIADOR
 ### DENIFIR AS NOTAS DO AVALIADOR 
@@ -26,7 +25,7 @@
 - - [x] Sprint Backlog ### Carvalho
 - - [x] Burndown Chart ### Carvalho 
 - - [x] Definition of Ready ### Carvalho
-- - [ ] Definition of Done  ### Victor
+- - [x] Definition of Done  ### Victor(verificar depois no flask, pois não está linkado ainda)
 - - [x] Kanban ### Carvalho ### Carvalho
 - [ ] Avaliador
 
@@ -46,6 +45,6 @@
 - - [x] Sprint Backlog
 - - [x] Burndown Chart
 - - [x] Definition of Ready
-- - [ ] Definition of Done ### Victor
+- - [x] Definition of Done ### Victor
 - - [x] Kanban ### Carvalho
 - [ ] Avaliador
