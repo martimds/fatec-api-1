@@ -1,65 +1,85 @@
-{% extends "layout.html" %} {% block style %}
-<link rel="stylesheet" href="../static/papeis.css" />
-{% endblock %} {% block content %}
+{% extends "layout.html" %}{% block content %}
 
 <div class="título_principal">
-  <h1>Product Owner</h1>
+    <h1>Product Owner</h1>
 </div>
 
-<div class="descrição_1" >
-      <p style="font-size: 170%;">Responsável por representar os interesses dos stakeholders (clientes, usuários, patrocinadores, etc.) e definir as necessidades e prioridades do produto.</p>
+<div class="conteudo_interno_branco">
+    <p>
+        Responsável por representar os interesses dos stakeholders (clientes,
+        usuários, patrocinadores, etc.) e definir as necessidades e prioridades
+        do produto.
+    </p>
 </div>
 
 <div class="imagem_1">
-    <img src="{{ url_for('static', filename='img/productowner.png') }}" 
-      alt="Product Owner image">
-  </div>
-
-<div class="descrição_4" >
-    <P style="font-size: 150%;"><strong>COMO SE TORNAR UM BOM PRODUCT OWNER:</strong></p>
+    <img
+        src="{{ url_for('static', filename='img/productowner.png') }}"
+        alt="Product Owner image"
+    />
 </div>
 
-<div class="linha">
-    <div class="descrição_2" >
-        <h2>VISÃO DE PRODUTO</h2>
-        <p style="font-size: 150%;"> Mantenha uma visão clara do produto  e alinhe as atividades da equipe com essa visão.
-        </p>
-    </div>
-    <div class="descrição_2" >
-        <h2>CONHECIMENTO TÉCNICO</h2>
-        <p style="font-size: 150%;"> Entendimento básico das tecnologias e processos envolvidos no desenvolvimento de software.
-        </p>
-    </div>
+<div class="conteudo_interno apresentacao_baloes">
+    <h2>COMO SE TORNAR UM BOM PRODUCT OWNER:</h2>
 </div>
 
-<div class="linha">
-    <div class="descrição_2" >
-        <h2>PRIORIZAÇÃO EFICAZ</h2>
-        <p style="font-size: 150%;"> Priorizar o backlog de produtos com base no valor para o cliente e nos objetivos do negócio.
-        </p>
+<div class="conjunto-baloes">
+    <div class="linha">
+        <div class="conteudo_interno">
+            <h2>VISÃO DE PRODUTO</h2>
+            <p style="font-size: 150%">
+                Mantenha uma visão clara do produto e alinhe as atividades da
+                equipe com essa visão.
+            </p>
+        </div>
+        <div class="conteudo_interno">
+            <h2>CONHECIMENTO TÉCNICO</h2>
+            <p style="font-size: 150%">
+                Entendimento básico das tecnologias e processos envolvidos no
+                desenvolvimento de software.
+            </p>
+        </div>
     </div>
-    <div class="descrição_2" >
-        <h2>COMPREENSÃO DE NEGÓCIO</h2>
-        <p style="font-size: 150%;"> Para tomar decisões informadas sobre o produto.
-        </p>
-    </div>
-</div>
 
-<div class="linha" style="align-items: center;">
-    <div class="descrição_2" >
-        <h2>SUCESSO DO PRODUTO</h2>
-        <p style="font-size: 150%;"> Assuma a responsabilidade e esteja disposto a tomar medidas para garantir seu crescimento e relevância.
-        </p>
+    <div class="linha">
+        <div class="conteudo_interno">
+            <h2>PRIORIZAÇÃO EFICAZ</h2>
+            <p style="font-size: 150%">
+                Priorizar o backlog de produtos com base no valor para o cliente
+                e nos objetivos do negócio.
+            </p>
+        </div>
+        <div class="conteudo_interno">
+            <h2>COMPREENSÃO DE NEGÓCIO</h2>
+            <p style="font-size: 150%">
+                Para tomar decisões informadas sobre o produto.
+            </p>
+        </div>
     </div>
-    <div class="descrição_2" >
-        <h2>FEEDBACK DO MERCADO</h2>
-        <p style="font-size: 150%;"> Esteja atento ao feedback do mercado e às tendências do setor para ajustar a estratégia.
-        </p>
-    </div>
-</div>
 
-<div class="descrição_3" >
-    <h2>FOCO NO VALOR</h2>
-    <p style="font-size: 150%;"> Certifique-se de que cada incremento do produto entregue valor tangível aos usuários e clientes.
-    </p>
+    <div class="linha">
+        <div class="conteudo_interno">
+            <h2>SUCESSO DO PRODUTO</h2>
+            <p style="font-size: 150%">
+                Assuma a responsabilidade e esteja disposto a tomar medidas para
+                garantir seu crescimento e relevância.
+            </p>
+        </div>
+        <div class="conteudo_interno">
+            <h2>FEEDBACK DO MERCADO</h2>
+            <p style="font-size: 150%">
+                Esteja atento ao feedback do mercado e às tendências do setor
+                para ajustar a estratégia.
+            </p>
+        </div>
+    </div>
+
+    <div class="conteudo_interno">
+        <h2>FOCO NO VALOR</h2>
+        <p style="font-size: 150%">
+            Certifique-se de que cada incremento do produto entregue valor
+            tangível aos usuários e clientes.
+        </p>
+    </div>
 </div>
+{% endblock %}

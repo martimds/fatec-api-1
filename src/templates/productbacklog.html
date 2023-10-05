@@ -1,47 +1,54 @@
-{% extends "layout.html" %} {% block style %}
-<link rel="stylesheet" href="../static/po.css" />
-{% endblock %} {% block content %}
+{% extends "layout.html" %}{% block content %}
 
 <div class="título_principal">
-  <h1>Product Backlog</h1>
+    <h1>Product Backlog</h1>
 </div>
 
-<div class="descrição_1">
-  <h2></h2>
-  <p style="font-size: 150%;"> O Product Backlog é uma lista de requisitos do cliente mantida pelo Product Owner. Pode
-    ser alterada a qualquer momento. Durante o Sprint Planning, a equipe escolhe itens do topo do backlog para trabalhar
-    na sprint, priorizando e planejando sua execução.
-  </p>
-  <ul style="font-size: 150%;">
-    <li><strong>Identificação de Itens do Backlog:</strong>Coleta de ideias, requisitos e demandas do produto de várias
-      fontes,
-      incluindo stakeholders, usuários, equipes de desenvolvimento e feedbacks.</li>
-  </ul>
-  <ul style="font-size: 150%;"> 
-      <li><strong>Priorização:</strong>Priorize os itens do Product Backlog com base em importância e
-      valor, utilizando técnicas como a matriz de valor x esforço para guiar as decisões.</li>
-  </ul>
-  <ul style="font-size: 150%;"> 
-      <li><strong>Detalhamento e Refinamento:</strong> À medida que os itens sobem na lista de prioridades, detalhe e
-      refine-os.
-      Isso inclui dividir tarefas maiores em mais simples e garantir clareza na equipe sobre o que deve ser feito.</li>
-  </ul>
-  <ul style="font-size: 150%;"> 
-      <li><strong>Estimativa:</strong> Priorize e detalhe os itens do backlog. Atribua estimativas de
-      esforço para entender o trabalho envolvido.</li>
-  </ul>
-  <ul style="font-size: 150%;"> 
-      <li><strong>Manutenção Contínua:</strong> O Product Backlog é uma lista dinâmica, sujeita a revisões e
-      atualizações constantes conforme novas informações surgem e as prioridades mudam.</li>
-  </ul>
-  <ul style="font-size: 150%;"> 
-      <li><strong> Comunicação e Colaboração:</strong>Comunique-se regularmente para manter o Product Backlog alinhado com as
-      necessidades do produto, incluindo reuniões de refinamento.</li>
-  </ul>
+<div class="conteudo_interno">
+    <p style="font-size: 150%">
+        O Product Backlog é uma lista de requisitos do cliente mantida pelo
+        Product Owner. Pode ser alterada a qualquer momento. Durante o Sprint
+        Planning, a equipe escolhe itens do topo do backlog para trabalhar na
+        sprint, priorizando e planejando sua execução.
+    </p>
+    <ul style="font-size: 150%">
+        <li>
+            <strong>Identificação de Itens do Backlog:</strong>Coleta de ideias,
+            requisitos e demandas do produto de várias fontes, incluindo
+            stakeholders, usuários, equipes de desenvolvimento e feedbacks.
+        </li>
+        <li>
+            <strong>Priorização:</strong>Priorize os itens do Product Backlog
+            com base em importância e valor, utilizando técnicas como a matriz
+            de valor x esforço para guiar as decisões.
+        </li>
+        <li>
+            <strong>Detalhamento e Refinamento:</strong> À medida que os itens
+            sobem na lista de prioridades, detalhe e refine-os. Isso inclui
+            dividir tarefas maiores em mais simples e garantir clareza na equipe
+            sobre o que deve ser feito.
+        </li>
+        <li>
+            <strong>Estimativa:</strong> Priorize e detalhe os itens do backlog.
+            Atribua estimativas de esforço para entender o trabalho envolvido.
+        </li>
+        <li>
+            <strong>Manutenção Contínua:</strong> O Product Backlog é uma lista
+            dinâmica, sujeita a revisões e atualizações constantes conforme
+            novas informações surgem e as prioridades mudam.
+        </li>
+        <li>
+            <strong> Comunicação e Colaboração:</strong>Comunique-se
+            regularmente para manter o Product Backlog alinhado com as
+            necessidades do produto, incluindo reuniões de refinamento.
+        </li>
+    </ul>
 </div>
 <div class="imagem_1">
-  <img src="{{ url_for('static', filename='img/po.png') }}" alt="Product Backlog imagem">
+    <img
+        src="{{ url_for('static', filename='img/po.png') }}"
+        alt="Product Backlog imagem"
+    />
 </div>
-
 
 {% endblock %}

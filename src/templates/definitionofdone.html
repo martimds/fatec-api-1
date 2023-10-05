@@ -1,46 +1,82 @@
-{% extends "layout.html" %} {% block style %}
-<link rel="stylesheet" href="../static/historia.css" />
-{% endblock %} {% block content %}
+{% extends "layout.html" %}{% block content %}
 
 <div class="título_principal">
-  <h1>DEFINITION OF DONE</h1>
+    <h1>Definition of Done</h1>
 </div>
 
-<div class="descrição_1" >
-      <p style="font-size: 150%;"> A "Definition of Done" (DoD) é um conceito fundamental no framework Scrum que estabelece os critérios que um incremento de produto deve atender para ser considerado completo e pronto para ser entregue ao cliente ou liberado em produção. A DoD é uma ferramenta essencial para garantir que a equipe de desenvolvimento entenda o que significa "feito" em um contexto específico de projeto e que todos os itens de backlog atendam a esses critérios antes de serem considerados concluídos. 
-      </p>
-</div>
-
-<div class="descrição_1" >
-  <p style="font-size: 150%;"> A "Definition of Done" (DoD) é um conceito fundamental no framework Scrum que estabelece os critérios que um incremento de produto deve atender para ser considerado completo e pronto para ser entregue ao cliente ou liberado em produção. A DoD é uma ferramenta essencial para garantir que a equipe de desenvolvimento entenda o que significa "feito" em um contexto específico de projeto e que todos os itens de backlog atendam a esses critérios antes de serem considerados concluídos. 
-  </p>
-
-  <div class="descrição_2" >
-    <p style="font-size: 150%;"> 
-      <b>Estes são os passos para uma boa defintion of done:</b>
-      <b>Funcionalidade Totalmente Implementada:</b> 
-      Isso significa que todos os requisitos da User Story ou do item de backlog foram implementados de acordo com as especificações e critérios de aceitação. Todas as funcionalidades previamente acordadas foram desenvolvidas e estão funcionando conforme o esperado.
-      <p></p>
-      <b>Testes Realizados e Passados:</b>
-      Todos os testes planejados foram executados com sucesso. Isso inclui testes unitários, testes de integração, testes de sistema, testes de aceitação e qualquer outro tipo de teste relevante para o produto. O incremento deve passar em todos esses testes sem falhas críticas.
-      <p></p>
-      <b>Código Revisado:</b> 
-      O código fonte passou por revisão por pares (code review) ou por outro processo de revisão estabelecido pela equipe. A revisão garante a qualidade do código, a aderência às diretrizes de codificação e a identificação de possíveis problemas ou melhorias.
-      <p></p>
-      <b>Integração Contínua:</b> 
-      O código foi integrado com sucesso ao repositório principal do projeto (por exemplo, no Git, isso significa um merge sem conflitos). A integração contínua garante que o código esteja sempre atualizado e funcione bem em conjunto com o restante do sistema.
-      <p></p>
-      <b>Documentação Atualizada:</b> 
-      Qualquer documentação relevante, como manuais de usuário, documentação técnica ou notas de versão, foi atualizada para refletir as mudanças feitas no incremento. Isso ajuda na compreensão e na utilização adequada do produto.
-      <p></p>
-      <b>Revisão de Qualidade:</b> 
-      A equipe revisou a qualidade geral do incremento, incluindo a usabilidade, o desempenho e a segurança. Qualquer problema identificado durante a revisão de qualidade deve ser abordado antes que o incremento seja considerado "feito".
-      <p></p>
-      <b>Aprovação pelo Product Owner:</b> 
-      Product Owner ou representante do cliente revisa o incremento e confirma que ele atende aos critérios de aceitação definidos anteriormente. A aprovação do Product Owner é essencial para garantir que o trabalho atenda às necessidades e expectativas do cliente.
-      <p></p>
-      <b>Pronto para Liberação:</b> 
-      O incremento está pronto para ser entregue ao cliente ou liberado em produção, se necessário. Isso significa que todos os obstáculos ou pendências foram resolvidos e que não há impedimentos para a entrega.
+<div class="conteudo_interno">
+    <p>
+        A "Definition of Done" (DoD) é um conceito fundamental no framework
+        Scrum que estabelece os critérios que um incremento de produto deve
+        atender para ser considerado completo e pronto para ser entregue ao
+        cliente ou liberado em produção. A DoD é uma ferramenta essencial para
+        garantir que a equipe de desenvolvimento entenda o que significa "feito"
+        em um contexto específico de projeto e que todos os itens de backlog
+        atendam a esses critérios antes de serem considerados concluídos.
     </p>
 </div>
+<div class="conteudo_interno">
+    <p>
+        <strong>Estes são os passos para uma boa Definition of Done:</strong>
+    </p>
+    <ul>
+        <li>
+            <strong>Funcionalidade Totalmente Implementada:</strong>Isso
+            significa que todos os requisitos da User Story ou do item de
+            backlog foram implementados de acordo com as especificações e
+            critérios de aceitação. Todas as funcionalidades previamente
+            acordadas foram desenvolvidas e estão funcionando conforme o
+            esperado.
+        </li>
+        <li>
+            <strong>Testes Realizados e Passados:</strong>Todos os testes
+            planejados foram executados com sucesso. Isso inclui testes
+            unitários, testes de integração, testes de sistema, testes de
+            aceitação e qualquer outro tipo de teste relevante para o produto. O
+            incremento deve passar em todos esses testes sem falhas críticas.
+        </li>
+        <li>
+            <strong>Código Revisado:</strong>O código fonte passou por revisão
+            por pares (code review) ou por outro processo de revisão
+            estabelecido pela equipe. A revisão garante a qualidade do código, a
+            aderência às diretrizes de codificação e a identificação de
+            possíveis problemas ou melhorias.
+        </li>
+        <li>
+            <strong>Integração Contínua:</strong>O código foi integrado com
+            sucesso ao repositório principal do projeto (por exemplo, no Git,
+            isso significa um merge sem conflitos). A integração contínua
+            garante que o código esteja sempre atualizado e funcione bem em
+            conjunto com o restante do sistema.
+        </li>
+        <li>
+            <strong>Documentação Atualizada:</strong>Qualquer documentação
+            relevante, como manuais de usuário, documentação técnica ou notas de
+            versão, foi atualizada para refletir as mudanças feitas no
+            incremento. Isso ajuda na compreensão e na utilização adequada do
+            produto.
+        </li>
+        <li>
+            <strong>Revisão de Qualidade:</strong>A equipe revisou a qualidade
+            geral do incremento, incluindo a usabilidade, o desempenho e a
+            segurança. Qualquer problema identificado durante a revisão de
+            qualidade deve ser abordado antes que o incremento seja considerado
+            "feito".
+        </li>
+        <li>
+            <strong>Aprovação pelo Product Owner:</strong>O Product Owner ou
+            representante do cliente revisa o incremento e confirma que ele
+            atende aos critérios de aceitação definidos anteriormente. A
+            aprovação do Product Owner é essencial para garantir que o trabalho
+            atenda às necessidades e expectativas do cliente.
+        </li>
+        <li>
+            <strong>Pronto para Liberação:</strong>O incremento está pronto para
+            ser entregue ao cliente ou liberado em produção, se necessário. Isso
+            significa que todos os obstáculos ou pendências foram resolvidos e
+            que não há impedimentos para a entrega.
+        </li>
+    </ul>
+</div>
+
 {% endblock %}

@@ -1,108 +1,121 @@
-{% extends "layout.html" %} {% block style %}
-<link rel="stylesheet" href="../static/eventos.css" />
-{% endblock %} {% block content %}
+{% extends "layout.html" %}{% block content %}
 
 <div class="título_principal">
     <h1>Eventos Scrum</h1>
 </div>
 
-<div class="descrição_1">
-    <h2></h2>
-    <p style="font-size: 150%;"> A metodologia Scrum se baseia em eventos, conhecidos como cerimônias, para facilitar o
-        desenvolvimento iterativo e incremental de um produto. Esses eventos promovem colaboração, transparência e
-        inspeção constante do progresso do projeto. Os principais eventos são:
+<div class="conteudo_interno">
+    <p>
+        A metodologia Scrum se baseia em eventos, conhecidos como cerimônias,
+        para facilitar o desenvolvimento iterativo e incremental de um produto.
+        Esses eventos promovem colaboração, transparência e inspeção constante
+        do progresso do projeto. Os principais eventos são:
     </p>
 </div>
 
-<div class="descrição_2">
-    <ul style="font-size: 150%;">
-        <li><strong>A reunião de Planejamento da Sprint(Sprint Planning Meeting):</strong></li>
-    </ul>
-
-    <ul style="font-size: 150%;">
-        <li><strong>O que é:</strong>A Reunião de Planejamento da Sprint marca o início de um Sprint e geralmente dura
-            até 8 horas para um Sprint de um mês.</li>
-    </ul>
-    <ul style="font-size: 150%;">
-        <li><strong>Propósito:</strong>O objetivo principal é definir o que será construído durante o Sprint,
-            estabelecendo o objetivo da Sprint e selecionando as User Stories ou itens do backlog a serem incluídos no
-            Sprint Backlog.</li>
-    </ul>
-    <ul style="font-size: 150%;">
-        <li><strong>Responsabilidades:</strong>O Product Owner apresenta os itens do backlog prioritários e esclarece os
-            detalhes. A equipe Scrum discute, estimando o esforço necessário para cada item e comprometendo-se a
-            entregá-los durante o Sprint.</li>
+<div class="conteudo_interno">
+    <p>
+        <strong
+            >A reunião de Planejamento da Sprint(Sprint Planning
+            Meeting):</strong
+        >
+    </p>
+    <ul>
+        <li>
+            <strong>O que é:</strong>A Reunião de Planejamento da Sprint marca o
+            início de um Sprint e geralmente dura até 8 horas para um Sprint de
+            um mês.
+        </li>
+        <li>
+            <strong>Propósito:</strong>O objetivo principal é definir o que será
+            construído durante o Sprint, estabelecendo o objetivo da Sprint e
+            selecionando as User Stories ou itens do backlog a serem incluídos
+            no Sprint Backlog.
+        </li>
+        <li>
+            <strong>Responsabilidades:</strong>O Product Owner apresenta os
+            itens do backlog prioritários e esclarece os detalhes. A equipe
+            Scrum discute, estimando o esforço necessário para cada item e
+            comprometendo-se a entregá-los durante o Sprint.
+        </li>
     </ul>
 </div>
 
 <div class="imagem_1">
-    <img src="{{ url_for('static', filename='img/Eventos.png') }}" alt="Eventos imagem">
+    <img
+        src="{{ url_for('static', filename='img/Eventos.png') }}"
+        alt="Eventos imagem"
+    />
 </div>
 
-<div class="descrição_3">
-    <ul style="font-size: 150%;">
-        <li><strong>A Daily Scrum(Scrum Diário):</strong></li>
-
-    </ul>
-    <ul style="font-size: 150%;">
-        <li><strong>O que é:</strong>O Daily Scrum é uma reunião curta, de até 15 minutos, realizada diariamente durante
-            o Sprint.</li>
-    </ul>
-    <ul style="font-size: 150%;">
-        <li><strong>Propósito:</strong>Serve para sincronizar a equipe, identificar impedimentos e garantir que o
-            trabalho esteja progredindo de acordo com o plano.</li>
-    </ul>
-    <ul style="font-size: 150%;">
-        <li><strong>Responsabilidades:</strong>Cada membro da equipe compartilha brevemente o que realizou desde a
-            última reunião, o que planeja fazer até a próxima e se enfrenta algum impedimento. O foco é na colaboração e
-            remoção de obstáculos.</li>
-    </ul>
-</div>
-
-<div class="descrição_2">
-    <ul style="font-size: 150%;">
-        <li><strong>Revisão da Sprint(Sprint Review):</strong></li>
-
-    </ul>
-    <ul style="font-size: 150%;">
-        <li><strong>O que é:</strong>A Revisão da Sprint acontece no final de um Sprint e dura até 4 horas para um
-            Sprint de um mês.</li>
-    </ul>
-    <ul style="font-size: 150%;">
-        <li><strong>Propósito:</strong>É uma reunião para inspecionar o incremento de produto entregue e obter feedback
-            dos stakeholders para ajustar as prioridades do Product Backlog.</li>
-    </ul>
-    <ul style="font-size: 150%;">
-        <li><strong>Responsabilidades:</strong>A equipe Scrum apresenta o incremento, destacando o que foi feito e o que
-            não foi. Os stakeholders fornecem feedback e discutem as próximas prioridades.</li>
+<div class="conteudo_interno">
+    <p><strong>A Daily Scrum (Scrum Diário):</strong></p>
+    <ul>
+        <li>
+            <strong>O que é:</strong>O Daily Scrum é uma reunião curta, de até
+            15 minutos, realizada diariamente durante o Sprint.
+        </li>
+        <li>
+            <strong>Propósito:</strong>Serve para sincronizar a equipe,
+            identificar impedimentos e garantir que o trabalho esteja
+            progredindo de acordo com o plano.
+        </li>
+        <li>
+            <strong>Responsabilidades:</strong>Cada membro da equipe compartilha
+            brevemente o que realizou desde a última reunião, o que planeja
+            fazer até a próxima e se enfrenta algum impedimento. O foco é na
+            colaboração e remoção de obstáculos.
+        </li>
     </ul>
 </div>
 
-<div class="descrição_2">
-    <ul style="font-size: 150%;">
-        <li><strong>Retrospectiva da Sprint(Sprint Retrospective):</strong></li>
-
-    </ul>
-    <ul style="font-size: 150%;">
-        <li><strong>O que é:</strong>A Retrospectiva da Sprint acontece após a Revisão da Sprint e dura até 3 horas para
-            um Sprint de um mês.</li>
-    </ul>
-    <ul style="font-size: 150%;">
-        <li><strong>Propósito:</strong>É uma reunião estruturada para que a equipe Scrum analise o processo e
-            identifique oportunidades de melhoria.</li>
-    </ul>
-    <ul style="font-size: 150%;">
-        <li><strong>Responsabilidades:</strong>A equipe revisa o Sprint, identificando o que funcionou bem e o que pode
-            ser melhorado. Ações são definidas para implementar melhorias no próximo Sprint.</li>
+<div class="conteudo_interno">
+    <ul>
+        <li><strong>Revisão da Sprint (Sprint Review):</strong></li>
+        <li>
+            <strong>O que é:</strong>A Revisão da Sprint acontece no final de um
+            Sprint e dura até 4 horas para um Sprint de um mês.
+        </li>
+        <li>
+            <strong>Propósito:</strong>É uma reunião para inspecionar o
+            incremento de produto entregue e obter feedback dos stakeholders
+            para ajustar as prioridades do Product Backlog.
+        </li>
+        <li>
+            <strong>Responsabilidades:</strong>A equipe Scrum apresenta o
+            incremento, destacando o que foi feito e o que não foi. Os
+            stakeholders fornecem feedback e discutem as próximas prioridades.
+        </li>
     </ul>
 </div>
 
-<div class="descrição_4">
-    <h2></h2>
-    <p style="font-size: 150%;"> Estes eventos são fundamentais para o sucesso do Scrum, pois mantêm a equipe focada,
-        promovem a inspeção contínua do trabalho e permitem a adaptação às mudanças. Eles também facilitam a colaboração
-        e a transparência, garantindo que todos os envolvidos compreendam o progresso do projeto e as prioridades do
-        produto.
+<div class="conteudo_interno">
+    <p><strong>Retrospectiva da Sprint (Sprint Retrospective):</strong></p>
+    <ul>
+        <li>
+            <strong>O que é:</strong>A Retrospectiva da Sprint acontece após a
+            Revisão da Sprint e dura até 3 horas para um Sprint de um mês.
+        </li>
+        <li>
+            <strong>Propósito:</strong>É uma reunião estruturada para que a
+            equipe Scrum analise o processo e identifique oportunidades de
+            melhoria.
+        </li>
+        <li>
+            <strong>Responsabilidades:</strong>A equipe revisa o Sprint,
+            identificando o que funcionou bem e o que pode ser melhorado. Ações
+            são definidas para implementar melhorias no próximo Sprint.
+        </li>
+    </ul>
+</div>
+
+<div class="conteudo_interno">
+    <p>
+        Estes eventos são fundamentais para o sucesso do Scrum, pois mantêm a
+        equipe focada, promovem a inspeção contínua do trabalho e permitem a
+        adaptação às mudanças. Eles também facilitam a colaboração e a
+        transparência, garantindo que todos os envolvidos compreendam o
+        progresso do projeto e as prioridades do produto.
     </p>
 </div>
 {% endblock %}

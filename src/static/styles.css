@@ -1,0 +1,84 @@
+.conteudo h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo_interno {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 4% 2.5%;
+    border-radius: 35px;
+    background-color: #dbdbdb;
+    width: 100%;
+    height: auto;
+}
+
+.apresentacao_baloes {
+    width: fit-content;
+    border: 2px solid;
+}
+.conjunto-baloes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.conjunto-baloes .conteudo_interno {
+    max-width: 50%;
+}
+
+.conteudo_interno_branco {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5% 5%;
+    gap: 6px;
+}
+
+.imagem_1 {
+    text-align: center;
+}
+
+/* papeis */
+.linha {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* sprint */
+.imagem_1_sprint {
+    background-image: url(/src/static/img/Vector.png);
+    margin-top: 2.5%;
+    text-align: center;
+    height: 600px;
+    justify-content: center;
+    background-size: cover;
+}
+
+/* sprint */
+.caixa_1 {
+    color: black;
+    width: 50%;
+    padding: 2.5%;
+    margin-left: 3.6%;
+    border-radius: 35px;
+    background-color: #dbdbdb;
+    text-align: center;
+    display: block;
+    font-size: 100%;
+}
+
+p,
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 150%;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}

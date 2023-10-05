@@ -1,37 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="../static/mainstyle.css" />
-    <link rel="stylesheet" href="../static/styleguide.css" />
-    {% block style %} {% endblock %}
-  </head>
-  <body>
-    <div class="layout">
-      <div class="div">
-        <div class="side-menu">
-          <div class="text-wrapper">Agile Learn</div>
-          <div class="div-wrapper"><div class="text"><a href="intro">Introdução</a></div></div>
-          <div class="div-wrapper"><div class="text"><a href="historia">História</a></div></div>
-          <div class="div-wrapper"><div class="text"><a href="sprint">Sprint</a></div></div>
-          <div class="div-wrapper"><div class="text"><a href="eventos">Eventos Scrum</a></div></div>
-          <div class="div-wrapper"><div class="text-2"><a href="caracteristicas">Características do Scrum</a></div></div>
-          <div class="dropdown-topic div-wrapper">
-            <div class="text-wrapper-2">Papéis do Scrum</div>
-            <img class="arrow-logo" src="../static/img/arrow logo.svg" />
-          </div>
-          <div class="dropdown-topic div-wrapper">
-            <div class="text-wrapper-2">Artefatos do Scrum</div>
-            <img class="arrow-logo" src="../static/img/arrow logo.svg" />
-          </div>
-          <div class="div-wrapper"><div class="text">Avaliador</div></div>
+    <head>
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="../static/mainstyle.css" />
+        <link rel="stylesheet" href="../static/styles.css" />
+    </head>
+
+    <body>
+        <div class="side-menu-container">
+            <div class="side-menu">
+                <h1>Agile Learn</h1>
+                <a href="intro">Introdução</a>
+                <a href="historia">História</a>
+                <a href="sprint">Sprint</a>
+                <a href="eventos">Eventos Scrum</a>
+                <a href="caracteristicas">Características do Scrum</a>
+
+                <div class="dropdown-topic">
+                    <span>Papéis do Scrum</span>
+                    <img
+                        class="arrow-logo"
+                        src="../static/img/arrow logo.svg"
+                    />
+                </div>
+                <div class="subtopicos">
+                    <a href="productowner">Product Owner</a>
+                    <a href="scrummaster">Scrum Master</a>
+                    <a href="devteam">Developer Team</a>
+                </div>
+
+                <div class="dropdown-topic">
+                    Artefatos do Scrum
+                    <img
+                        class="arrow-logo"
+                        src="../static/img/arrow logo.svg"
+                    />
+                </div>
+
+                <div class="subtopicos">
+                    <a href="productbacklog">Product Backlog</a>
+                    <a href="sprintback">Sprint Backlog</a>
+                    <a href="burndown">Burndown Chart</a>
+                    <a href="definitionofready">Definition of Ready</a>
+                    <a href="definitionofdone">Definition of Done</a>
+                    <a href="kanban">Kanban</a>
+                </div>
+
+                <a href="avaliador">Avaliador</a>
+            </div>
         </div>
-        <div class="container">
-          <div class="conteudo">
-            {% block content %} {% endblock %}
-          </div>
+        <div class="conteudo-container">
+            <div class="conteudo">{% block content %} {% endblock %}</div>
         </div>
-      </div>
-    </div>
-  </body>
+    </body>
 </html>

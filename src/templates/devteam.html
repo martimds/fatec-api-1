@@ -1,74 +1,77 @@
-{% extends "layout.html" %} {% block style %}
-<link rel="stylesheet" href="../static/papeis.css" />
-{% endblock %} {% block content %}
+{% extends "layout.html" %}{% block content %}
 
 <div class="título_principal">
-  <h1>Developer Team</h1>
+    <h1>Developer Team</h1>
 </div>
 
-<div class="descrição_1" >
-      <p style="font-size: 170%;">Autogerenciado, entregando incrementos funcionais a cada Sprint, com compromisso, colaboração e adaptabilidade.</p>
-</div>
-
-<div class="imagem_1">
-    <img src="{{ url_for('static', filename='img/devteam.png') }}" 
-      alt="Dev team image">
-  </div>
-
-<div class="descrição_4" >
-    <P style="font-size: 150%;"><strong>COMO SE TORNAR UM BOM DEV TEAM:</strong></p>
-</div>
-
-<div class="linha">
-    <div class="descrição_2" >
-        <h2>COLABORAR EFETIVAMENTE</h2>
-        <p style="font-size: 150%;"> A troca contínua de informações e ideias é essencial para o progresso do projeto.
-        </p>
-    </div>
-    <div class="descrição_2" >
-        <h2>DIVERSIDADE DE HABILIDADES</h2>
-        <p style="font-size: 150%;"> Maior capacidade de enfrentar desafios diversos.
-        </p>
-    </div>
-</div>
-
-<div class="linha">
-    <div class="descrição_2" >
-        <h2>FOCO NO OBJETIVO COMUM</h2>
-        <p style="font-size: 150%;"> O alinhamento de objetivos do projeto ajuda a manter o time coeso e orientado.
-        </p>
-    </div>
-    <div class="descrição_2" >
-        <h2>ADAPTAR-SE ÁS MUDANÇAS</h2>
-        <p style="font-size: 150%;"> Um bom Dev Team é ágil e flexível, pronto para ajustar estratégias.
-        </p>
-    </div>
-</div>
-
-<div class="linha" style="align-items: center;">
-    <div class="descrição_2" >
-        <h2>AUTONOMIA E AUTO-ORGANIZAÇÃO</h2>
-        <p style="font-size: 150%;"> Decisões mais eficazes e seja mais responsivo.
-        </p>
-    </div>
-    <div class="descrição_2" >
-        <h2>FEEDBACK CONSTRUTIVO</h2>
-        <p style="font-size: 150%;"> Uma boa equipe tem um ambiente onde o feedback é valorizado 
-        </p>
-    </div>
-</div>
-
-<div class="descrição_3" >
-    <h2>ALTO NÍVEL DE COMPROMETIMENTO</h2>
-    <p style="font-size: 150%;"> Estar disposto a fazer o necessário para alcançar os objetivos estabelecidos.
+<div class="conteudo_interno_branco">
+    <p>
+        Autogerenciado, entregando incrementos funcionais a cada Sprint, com
+        compromisso, colaboração e adaptabilidade.
     </p>
 </div>
 
+<div class="imagem_1">
+    <img
+        src="{{ url_for('static', filename='img/devteam.png') }}"
+        alt="Dev team image"
+    />
+</div>
 
+<div class="conteudo_interno apresentacao_baloes">
+    <h2>COMO SE TORNAR UM BOM DEV TEAM:</h2>
+</div>
 
+<div class="conjunto-baloes">
+    <div class="linha">
+        <div class="conteudo_interno">
+            <h2>COLABORAR EFETIVAMENTE</h2>
+            <p>
+                A troca contínua de informações e ideias é essencial para o
+                progresso do projeto.
+            </p>
+        </div>
+        <div class="conteudo_interno">
+            <h2>DIVERSIDADE DE HABILIDADES</h2>
+            <p>Maior capacidade de enfrentar desafios diversos.</p>
+        </div>
+    </div>
 
+    <div class="linha">
+        <div class="conteudo_interno">
+            <h2>FOCO NO OBJETIVO COMUM</h2>
+            <p>
+                O alinhamento de objetivos do projeto ajuda a manter o time
+                coeso e orientado.
+            </p>
+        </div>
+        <div class="conteudo_interno">
+            <h2>ADAPTAR-SE ÁS MUDANÇAS</h2>
+            <p>
+                Um bom Dev Team é ágil e flexível, pronto para ajustar
+                estratégias.
+            </p>
+        </div>
+    </div>
 
+    <div class="linha">
+        <div class="conteudo_interno">
+            <h2>AUTONOMIA E AUTO-ORGANIZAÇÃO</h2>
+            <p>Decisões mais eficazes e seja mais responsivo.</p>
+        </div>
+        <div class="conteudo_interno">
+            <h2>FEEDBACK CONSTRUTIVO</h2>
+            <p>Uma boa equipe tem um ambiente onde o feedback é valorizado</p>
+        </div>
+    </div>
 
+    <div class="conteudo_interno">
+        <h2>ALTO NÍVEL DE COMPROMETIMENTO</h2>
+        <p>
+            Estar disposto a fazer o necessário para alcançar os objetivos
+            estabelecidos.
+        </p>
+    </div>
+</div>
 
-    
-
+{% endblock %}
