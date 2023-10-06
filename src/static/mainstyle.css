@@ -3,6 +3,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a, a:hover, a:click, a:visited {
+    border: none;
+    outline:none;
+    text-decoration:none;
+    color:inherit;
+    -webkit-tap-highlight-color: white;
+}
+
 body {
     background-color: #dbdbdb;
     margin: 0;
