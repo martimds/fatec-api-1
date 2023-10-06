@@ -25,8 +25,19 @@
     align-items: center;
 }
 
+.conjunto-baloes-sprint {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
 .conjunto-baloes .conteudo_interno {
     max-width: 50%;
+}
+
+.conjunto-baloes-sprint .conteudo_interno {
+    max-width: 55%;
 }
 
 .conteudo_interno_branco {
@@ -45,6 +56,16 @@
     display: flex;
     justify-content: center;
     gap: 25px;
+}
+
+.linha_direita {
+    display: flex;
+    justify-content: right;
+}
+
+.linha_esquerda {
+    display: flex;
+    justify-content: left;
 }
 
 /* sprint */
