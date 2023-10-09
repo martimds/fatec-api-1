@@ -29,7 +29,7 @@
 -   -   [x] Definition of Ready 
 -   -   [x] Definition of Done 
 -   -   [x] Kanban 
--   [ ] Avaliador
+-   -   [ ] Avaliador
 
 ## Refatorar CSS
 
@@ -50,4 +50,4 @@
 -   -   [x] Definition of Ready
 -   -   [x] Definition of Done 
 -   -   [x] Kanban 
--   [ ] Avaliador
+-   -   [ ] Avaliador

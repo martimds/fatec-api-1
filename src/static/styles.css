@@ -104,3 +104,23 @@ ul {
 h2 {
     margin: 0;
 }
+
+.caixa_avaliador {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 40%;
+
+}
+
+.caixa_avaliador_2{
+    display: flex;
+    background-color:white;
+    width: 5%;
+    margin-left: 80%;
+    color: white;
+    border-radius: 35px;
+    
+}
+
+
