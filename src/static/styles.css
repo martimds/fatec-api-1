@@ -113,14 +113,8 @@ h2 {
 
 }
 
-.caixa_avaliador_2{
-    display: flex;
-    background-color:white;
-    width: 5%;
-    margin-left: 80%;
-    color: white;
-    border-radius: 35px;
-    
-}
-
+.ajuste_1{
+    margin-left: 1.5%;
+    font-size: 100%;
+    }
 
