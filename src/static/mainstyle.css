@@ -3,12 +3,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a, a:hover, a:click, a:visited {
-    border: none;
-    outline:none;
-    text-decoration:none;
-    color:inherit;
-    -webkit-tap-highlight-color: white;
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 body {
@@ -59,23 +56,30 @@ body {
     align-items: center;
     justify-content: right;
     gap: 5px;
+    border-radius: 15px;
 }
 
 .subtopicos a {
     font-size: 80%;
 }
 
+.side-menu a, .dropdown-topic {
+    transition: border-radius 150ms linear;
+    transition: background-color 150ms linear;
+}
+
 .side-menu a:hover,
 .dropdown-topic:hover {
-    background-color: rgba(255,255,255,50%);
-    border-radius: 20px;
+    background-color: rgba(0,0,0,15%);
+    border-radius: 15px;
 }
 
 .subtopicos {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    margin-right: 30px;
+    margin: 0 auto;
+    display: none;
 }
 
 .conteudo-container {
@@ -95,36 +99,37 @@ body {
     align-items: center;
 }
 
-.subtopicos {
-    display: none;
-}
-
-.dropdown-topic:hover .subtopicos {
-    display: flex;
-}
-
 .dropdown-title {
     display: flex;
     width: 100%;
     vertical-align: middle;
-    justify-content: space-evenly;
+    gap: 10px;
+    justify-content: flex-end;
+    text-align: right;
 }
-.dropdown-title > img {
+
+/* Interatividade dos dropdowns */
+
+/* não me pergunte sobre a compatibilidade nem o quanto demorei pra descobrir isso. */
+.dropdown-topic:has(>.topic-checkbox:checked) { 
+    background-color: rgba(0,0,0,15%);
+    border-radius: 15px;
+}
+
+.topic-checkbox {
+    display: none;
+}
+
+.dropdown-title > .arrow-logo {
     transition-duration: 0.2s;
     transition-property: transform;
     transform: rotate(0deg);
 }
-.dropdown-title:hover > img {
+
+.topic-checkbox:checked ~ .dropdown-title > .arrow-logo {
     transform: rotate(180deg);
 }
 
-/* :root {
-    --semitransparentbackground: rgba(0, 0, 0, 0.05);
-    --text-font-family: "Inter-Bold", Helvetica;
-    --text-font-weight: 700;
-    --text-font-size: 20px;
-    --text-letter-spacing: 0px;
-    --text-line-height: normal;
-    --text-font-style: normal;
-    --collection-1-done: rgba(255, 0, 0, 0.25);
-} */
+.topic-checkbox:checked ~ .subtopicos {
+    display: flex;
+}
