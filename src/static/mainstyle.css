@@ -55,6 +55,7 @@ body {
     width: 100%;
     position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: right;
     gap: 5px;
@@ -66,11 +67,11 @@ body {
 
 .side-menu a:hover,
 .dropdown-topic:hover {
-    background-color: var(--semitransparentbackground);
+    background-color: rgba(255,255,255,50%);
     border-radius: 20px;
 }
 
-.side-menu .subtopicos {
+.subtopicos {
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -92,6 +93,29 @@ body {
     flex-direction: column;
     gap: 25px;
     align-items: center;
+}
+
+.subtopicos {
+    display: none;
+}
+
+.dropdown-topic:hover .subtopicos {
+    display: flex;
+}
+
+.dropdown-title {
+    display: flex;
+    width: 100%;
+    vertical-align: middle;
+    justify-content: space-evenly;
+}
+.dropdown-title > img {
+    transition-duration: 0.2s;
+    transition-property: transform;
+    transform: rotate(0deg);
+}
+.dropdown-title:hover > img {
+    transform: rotate(180deg);
 }
 
 /* :root {
