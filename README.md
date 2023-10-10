@@ -27,7 +27,7 @@ Com uma interface limpa e de fácil navegação, o produto permite que os usuár
 
 Este projeto está sendo conduzido utilizando a metodologia ágil Scrum para o gerenciamento do desenvolvimento. O Scrum é uma abordagem flexível que promove a colaboração e a entrega incremental de funcionalidades. Por meio dos papéis definidos (Product Owner, Scrum Master e Time de Desenvolvimento) e dos eventos estabelecidos (Sprint Planning, Daily Scrum, Sprint Review e Sprint Retrospective), garantimos uma abordagem iterativa e adaptativa, focada nas necessidades do cliente e na entrega de um produto de alta qualidade.
 
-## Backlog da sprint
+## Backlog do produto
 
 - [Sprint I](docs/backlog/sprint-1.md)
 - [Sprint II](docs/backlog/sprint-2.md)
