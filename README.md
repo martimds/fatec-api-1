@@ -7,9 +7,8 @@
 
 - [Objetivo do Projeto](#objetivo-do-projeto)
 - [Metodologia](#metodologia)
-- [MVP](#mvp)
 - [Sprints](#Backlog-da-sprint)
-- [Backlog do produto](#Backlog-do-produto)
+- [MVP](#mvp)
 - [Autores](#autores)
 
 ## Objetivo do Projeto
@@ -28,15 +27,6 @@ Com uma interface limpa e de fácil navegação, o produto permite que os usuár
 
 Este projeto está sendo conduzido utilizando a metodologia ágil Scrum para o gerenciamento do desenvolvimento. O Scrum é uma abordagem flexível que promove a colaboração e a entrega incremental de funcionalidades. Por meio dos papéis definidos (Product Owner, Scrum Master e Time de Desenvolvimento) e dos eventos estabelecidos (Sprint Planning, Daily Scrum, Sprint Review e Sprint Retrospective), garantimos uma abordagem iterativa e adaptativa, focada nas necessidades do cliente e na entrega de um produto de alta qualidade.
 
-## MVP
-
-
-O MVP (Mínimo Produto Viável) é uma representação interativa e funcional das principais funcionalidades e fluxos de usuário que serão implementados na versão inicial do projeto. Este protótipo proporciona uma visão tangível e dinâmica do que os usuários poderão experimentar ao interagir com o site.
-
-![GIF Protótipo](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/prototipo-navegavel.gif)
-
-[**Protótipo navegável**](https://www.figma.com/proto/4d6aaqee4TJSP7P4b1MEgR/API?type=design&node-id=529-1418&t=mI3V1SOi7CCkYcmj-1&scaling=contain&page-id=0%3A1&starting-point-node-id=245%3A887&mode=design)
-
 ## Backlog da sprint
 
 - [Sprint I](docs/backlog/sprint-1.md)
@@ -44,10 +34,17 @@ O MVP (Mínimo Produto Viável) é uma representação interativa e funcional da
 - [Sprint III](docs/backlog/sprint-3.md)
 - [Sprint IV](docs/backlog/sprint-4.md)
 
-## Backlog do Produto
+## MVP
 
 ![Requisitos 1](docs/imagens/requisitos-essenciais.jpg?raw=true)
-![Requisitos 2](docs/imagens/requisitos-nao-essenciais.png?raw=true)
+
+### MVP 1ª Entrega
+
+O MVP (Mínimo Produto Viável) da primeira entrega é uma representação interativa e funcional das principais funcionalidades e fluxos de usuário que serão implementados na versão inicial do projeto. Este protótipo proporciona uma visão tangível e dinâmica do que os usuários poderão experimentar ao interagir com o site.
+
+![GIF Protótipo](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/prototipo-navegavel.gif)
+
+[**Protótipo navegável**](https://www.figma.com/proto/4d6aaqee4TJSP7P4b1MEgR/API?type=design&node-id=529-1418&t=mI3V1SOi7CCkYcmj-1&scaling=contain&page-id=0%3A1&starting-point-node-id=245%3A887&mode=design)
 
 ## Autores
 
