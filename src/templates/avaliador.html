@@ -1,141 +1,154 @@
 {% extends "layout.html" %}{% block content %}
 
 <div class="título_principal">
-    <h1>Avaliação de Desempenho</h1>
+  <h1>Avaliação de Desempenho</h1>
 </div>
 
 <div class="conteudo_interno">
-    <h2 style="font-size: 120%" class="ajuste_1"> UTILIZE OS SEGUINTES CRITÉRIOS DE AVALIAÇÃO:</h2>
-    <ol style="font-size: 130%;">
-        <li>Não atende</li>
-        <li>Abaixo das espectativas</li>
-        <li>Atende parcialmente</li>
-        <li>Atende</li>
-        <li>Supera as expectativas</li>
-    </ol>
+  <h2 style="font-size: 120%" class="ajuste_1">
+    UTILIZE OS SEGUINTES CRITÉRIOS DE AVALIAÇÃO:
+  </h2>
+  <ol style="font-size: 130%">
+    <li>Não atende</li>
+    <li>Abaixo das espectativas</li>
+    <li>Atende parcialmente</li>
+    <li>Atende</li>
+    <li>Supera as expectativas</li>
+  </ol>
 </div>
 
 <div class="criterios">
-<h2 >CRITÉRIOS</h2>
-<p>1&emsp;2&emsp;3</p>
-
-
-    
+  <h2>CRITÉRIOS</h2>
+  <p>1&emsp;2&emsp;3</p>
 </div>
 
-<form action="cadastro" method="post">
-    <div class="conteudo_interno2">
-        <div class="pergunta">
-            <h2 class="caixa_avaliador ajuste_1">1 - COMPREENSÃO DO SCRUM</h2>
-            <p class="caixa_avaliador ajuste_1" style="font-size: 120%;">Entendimento dos papéis, eventos e artefatos do
-                Scrum; Aplicação dos conceitos de transparência, inspeção e adaptação.</p>
-        </div>
-        <div class="botao">
-            <input type="radio" name="nota" id="i1" value=1>
-            <input type="radio" name="nota" id="i2" value=2>
-            <input type="radio" name="nota" id="i3" value=3>
-            <input type="radio" name="nota" id="i4" value=4>
-            <input type="radio" name="nota" id="i5" value=5>
-        </div>
+<form action="/processar" method="post">
+  <div class="conteudo_interno2">
+    <div class="pergunta">
+      <h2 class="caixa_avaliador ajuste_1">1 - COMPREENSÃO DO SCRUM</h2>
+      <p class="caixa_avaliador ajuste_1" style="font-size: 120%">
+        Entendimento dos papéis, eventos e artefatos do Scrum; Aplicação dos
+        conceitos de transparência, inspeção e adaptação.
+      </p>
     </div>
-
-    <div class="conteudo_interno2">
-        <div class="pergunta">
-        <h2 class="caixa_avaliador ajuste_1">2 - COLABORAÇÃO EM EQUIPE</h2>
-        <p class="caixa_avaliador ajuste_1" style="font-size: 120%;">Participação ativa nas reuniões diárias;
-            Contribuição para a resolução de impedimentos.</p>
-        </div>
-            <div class="botao">
-                <input type="radio" name="nota1" id="i1" value=1>
-                <input type="radio" name="nota1" id="i2" value=2>
-                <input type="radio" name="nota1" id="i3" value=3>
-                <input type="radio" name="nota1" id="i4" value=4>
-                <input type="radio" name="nota1" id="i5" value=5>
-            </div>
+    <div class="botao">
+      <input type="radio" name="criterio1" value="1" />
+      <input type="radio" name="criterio1" value="2" />
+      <input type="radio" name="criterio1" value="3" />
+      <input type="radio" name="criterio1" value="4" />
+      <input type="radio" name="criterio1" value="5" />
     </div>
+  </div>
 
-    <div class="conteudo_interno2">
-        <div class="pergunta">
-        <h2 class="caixa_avaliador ajuste_1">3 - PLANEJAMENTO E DEFINIÇÃO DAS SPRINTS</h2>
-        <p class="caixa_avaliador ajuste_1" style="font-size: 120%;">Participação construtiva no planejamento da sprint;
-            Definição clara e realista dos objetivos das sprints.</p>
-        </div>     
-            <div class="botao">
-                <input type="radio" name="nota2" id="i1" value=1>
-                <input type="radio" name="nota2" id="i2" value=2>
-                <input type="radio" name="nota2" id="i3" value=3>
-                <input type="radio" name="nota2" id="i4" value=4>
-                <input type="radio" name="nota2" id="i5" value=5>
-            </div>
+  <div class="conteudo_interno2">
+    <div class="pergunta">
+      <h2 class="caixa_avaliador ajuste_1">2 - COLABORAÇÃO EM EQUIPE</h2>
+      <p class="caixa_avaliador ajuste_1" style="font-size: 120%">
+        Participação ativa nas reuniões diárias; Contribuição para a resolução
+        de impedimentos.
+      </p>
     </div>
-
-
-
-    <div class="conteudo_interno2">
-        <div class="pergunta">
-        <h2 class="caixa_avaliador ajuste_1">4 - EXECUÇÃO DAS SPRINTS</h2>
-        <p class="caixa_avaliador ajuste_1" style="font-size: 120%;">Progresso visível em relação aos objetivos da
-            sprint;
-            Flexibilidade para lidar com mudanças durante a sprint.</p>
-        </div>
-        <div class="botao">
-            <input type="radio" name="nota3" id="i1" value=1>
-            <input type="radio" name="nota3" id="i2" value=2>
-            <input type="radio" name="nota3" id="i3" value=3>
-            <input type="radio" name="nota3" id="i4" value=4>
-            <input type="radio" name="nota3" id="i5" value=5>
-        </div>
+    <div class="botao">
+      <input type="radio" name="criterio2" value="1" />
+      <input type="radio" name="criterio2" value="2" />
+      <input type="radio" name="criterio2" value="3" />
+      <input type="radio" name="criterio2" value="4" />
+      <input type="radio" name="criterio2" value="5" />
     </div>
+  </div>
 
-    <div class="conteudo_interno2">
-        <div class="pergunta">
-        <h2 class="caixa_avaliador ajuste_1">5 - ENTREGA DAS SPRINTS</h2>
-        <p class="caixa_avaliador ajuste_1" style="font-size: 120%;">Produtos entregues atendem aos critérios de
-            aceitação; Valor de negócio alcançado com as entregas</p>
-        </div>
-        <div class="botao">
-            <input type="radio" name="nota4" id="i1" value=1>
-            <input type="radio" name="nota4" id="i2" value=2>
-            <input type="radio" name="nota4" id="i3" value=3>
-            <input type="radio" name="nota4" id="i4" value=4>
-            <input type="radio" name="nota4" id="i5" value=5>
-        </div>
+  <div class="conteudo_interno2">
+    <div class="pergunta">
+      <h2 class="caixa_avaliador ajuste_1">
+        3 - PLANEJAMENTO E DEFINIÇÃO DAS SPRINTS
+      </h2>
+      <p class="caixa_avaliador ajuste_1" style="font-size: 120%">
+        Participação construtiva no planejamento da sprint; Definição clara e
+        realista dos objetivos das sprints.
+      </p>
     </div>
+    <div class="botao">
+      <input type="radio" name="criterio3" value="1" />
+      <input type="radio" name="criterio3" value="2" />
+      <input type="radio" name="criterio3" value="3" />
+      <input type="radio" name="criterio3" value="4" />
+      <input type="radio" name="criterio3" value="5" />
+    </div>
+  </div>
 
-    <div class="conteudo_interno2">
-        <div class="pergunta">
-        <h2 class="caixa_avaliador ajuste_1">6 - MELHORIA CONTÍNUA</h2>
-        <p class="caixa_avaliador ajuste_1" style="font-size: 120%;">Produtos entregues atendem aos critérios de
-            aceitação; Valor de negócio alcançado com as entregas</p>
-        </div>
-        <div class="botao">
-            <input type="radio" name="nota5" id="i1" value=1>
-            <input type="radio" name="nota5" id="i2" value=2>
-            <input type="radio" name="nota5" id="i3" value=3>
-            <input type="radio" name="nota5" id="i4" value=4>
-            <input type="radio" name="nota5" id="i5" value=5>
-        </div>
+  <div class="conteudo_interno2">
+    <div class="pergunta">
+      <h2 class="caixa_avaliador ajuste_1">4 - EXECUÇÃO DAS SPRINTS</h2>
+      <p class="caixa_avaliador ajuste_1" style="font-size: 120%">
+        Progresso visível em relação aos objetivos da sprint; Flexibilidade para
+        lidar com mudanças durante a sprint.
+      </p>
     </div>
+    <div class="botao">
+      <input type="radio" name="criterio4" value="1" />
+      <input type="radio" name="criterio4" value="2" />
+      <input type="radio" name="criterio4" value="3" />
+      <input type="radio" name="criterio4" value="4" />
+      <input type="radio" name="criterio4" value="5" />
+    </div>
+  </div>
 
-    <div class="conteudo_interno2">
-        <div class="pergunta">
-        <h2 class="caixa_avaliador ajuste_1">7 - ADOÇÃO DOS PRINCÍPIOS ÁGEIS</h2>
-        <p class="caixa_avaliador ajuste_1" style="font-size: 120%;">Aplicação dos princípios ágeis em todo o processo;
-            Busca pela excelência técnica e qualidade.</p>
-        </div>
-        <div class="botao">
-            <input type="radio" name="nota6" id="i1" value=1>
-            <input type="radio" name="nota6" id="i2" value=2>
-            <input type="radio" name="nota6" id="i3" value=3>
-            <input type="radio" name="nota6" id="i4" value=4>
-            <input type="radio" name="nota6" id="i5" value=5>
-        </div>
+  <div class="conteudo_interno2">
+    <div class="pergunta">
+      <h2 class="caixa_avaliador ajuste_1">5 - ENTREGA DAS SPRINTS</h2>
+      <p class="caixa_avaliador ajuste_1" style="font-size: 120%">
+        Produtos entregues atendem aos critérios de aceitação; Valor de negócio
+        alcançado com as entregas
+      </p>
     </div>
-</form>
-<div class="conteudo_interno2">
+    <div class="botao">
+      <input type="radio" name="criterio5" value="1" />
+      <input type="radio" name="criterio5" value="2" />
+      <input type="radio" name="criterio5" value="3" />
+      <input type="radio" name="criterio5" value="4" />
+      <input type="radio" name="criterio5" value="5" />
+    </div>
+  </div>
+
+  <div class="conteudo_interno2">
+    <div class="pergunta">
+      <h2 class="caixa_avaliador ajuste_1">6 - MELHORIA CONTÍNUA</h2>
+      <p class="caixa_avaliador ajuste_1" style="font-size: 120%">
+        Produtos entregues atendem aos critérios de aceitação; Valor de negócio
+        alcançado com as entregas
+      </p>
+    </div>
+    <div class="botao">
+      <input type="radio" name="criterio6" value="1" />
+      <input type="radio" name="criterio6" value="2" />
+      <input type="radio" name="criterio6" value="3" />
+      <input type="radio" name="criterio6" value="4" />
+      <input type="radio" name="criterio6" value="5" />
+    </div>
+  </div>
+
+  <div class="conteudo_interno2">
+    <div class="pergunta">
+      <h2 class="caixa_avaliador ajuste_1">7 - ADOÇÃO DOS PRINCÍPIOS ÁGEIS</h2>
+      <p class="caixa_avaliador ajuste_1" style="font-size: 120%">
+        Aplicação dos princípios ágeis em todo o processo; Busca pela excelência
+        técnica e qualidade.
+      </p>
+    </div>
+    <div class="botao">
+      <input type="radio" name="criterio7" value="1" />
+      <input type="radio" name="criterio7" value="2" />
+      <input type="radio" name="criterio7" value="3" />
+      <input type="radio" name="criterio7" value="4" />
+      <input type="radio" name="criterio7" value="5" />
+    </div>
+  </div>
+  <div class="conteudo_interno2">
     <div class="submit">
- <input type="submit" name="ENVIAR">
-
-
-</div>
-{% endblock %}
+      <input type="submit" name="ENVIAR" />
+    </div>
+    <input type="text" id="media" name="media" readonly value="{{ media }}">
+        {% endblock %}
+  </div>
+  
+</form>
