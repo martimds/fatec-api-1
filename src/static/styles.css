@@ -31,7 +31,7 @@
     flex-direction: column;
     gap: 20px;
     width: 100%;
-    background-image: url(.//img/Vector.png);
+    background-image: url(./img/vector.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-x: 75%;
@@ -78,7 +78,7 @@
 
 /* sprint */
 .imagem_1_sprint {
-    background-image: url(/src/static/img/Vector.png);
+    background-image: url(./img/vector.png);
     margin-top: 2.5%;
     text-align: center;
     height: 600px;
