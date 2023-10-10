@@ -1,18 +1,15 @@
 # Tarefas
 
-### ARRUMAR SIDEBAR
-
-### PAGE SPRINT
 
 ### PAGE AVALIADOR
 
-### PYTHON NO AVALIADOR
-
-### DENIFIR AS NOTAS DO AVALIADOR
+### PYTHON NO AVALIADOR 
 
 ### REVISÃO NAS PAGES( PRINCIPALMENTE P.O, MASTER E DEV)
 
--   [ ] Menu lateral
+### APRESENTAÇÃO 2
+
+-   [x] Menu lateral
 -   [x] Introdução 
 -   [x] História 
 -   [x] Sprint
@@ -33,7 +30,7 @@
 
 ## Refatorar CSS
 
--   [ ] Menu lateral
+-   [x] Menu lateral
 -   [x] Introdução 
 -   [x] História 
 -   [x] Sprint
