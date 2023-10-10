@@ -31,6 +31,11 @@
     flex-direction: column;
     gap: 20px;
     width: 100%;
+    background-image: url(.//img/Vector.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 75%;
+    background-position-y: center;
 }
 
 .conjunto-baloes .conteudo_interno {
