@@ -5,6 +5,7 @@
 
 .conteudo_interno {
     display: flex;
+
     flex-direction: column;
     gap: 6px;
     padding: 4% 2.5%;
@@ -108,13 +109,44 @@ h2 {
 .caixa_avaliador {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     margin-right: 40%;
-
 }
 
 .ajuste_1{
     margin-left: 1.5%;
     font-size: 100%;
-    }
+    text-align: left;
+    
+}
 
+form {
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+}
+
+.botao {
+    display: flex;
+    vertical-align: center;
+    gap: 5vw;
+    flex-direction:row;
+    margin-right: 3%;
+
+}
+
+.conteudo_interno2 {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding: 4% 2.5%;
+    border-radius: 35px;
+    background-color: #dbdbdb;
+    width: 100%;
+    height: auto;
+    border: 2px solid  rgb(0, 0, 0)
+}
+
+input[type=radio] {
+    transform: scale(1.8);
+}
