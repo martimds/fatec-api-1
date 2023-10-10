@@ -20,7 +20,7 @@ def processar_formulario():
     except werkzeug.exceptions.BadRequestKeyError:
         return render_template('avaliador.html', media="Existem campos em branco.")
 
-for element in os.listdir("templates"):
+for element in os.listdir(os.getcwd() + "/src/templates"):
     name = str(element).split(".")[0]
     if name == "intro":continue
     exec(f'''
