@@ -36,8 +36,8 @@ Este projeto está sendo conduzido utilizando a metodologia ágil Scrum para o g
 
 ## MVP
 
-![Requisitos 1](docs/imagens/requisitos-essenciais.jpg?raw=true)
 
+![MVP Geral](docs/imagens/Apresentação%20Buttlerfly_page-0001.jpg?raw=true)
 ### 1ª Entrega
 
 O MVP (Mínimo Produto Viável) da primeira entrega é uma representação interativa e funcional das principais funcionalidades e fluxos de usuário que serão implementados na versão inicial do projeto. Este protótipo proporciona uma visão tangível e dinâmica do que os usuários poderão experimentar ao interagir com o site.
@@ -56,4 +56,4 @@ O MVP (Mínimo Produto Viável) da primeira entrega é uma representação inter
 | Dev Team      | Gabriel Carvalho Silva       | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Gabriecarvalho)             | <a href="https://www.linkedin.com/in/gabriel-carvalho-30598b292/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 | Dev Team      | Gabriel Vasconcelos Ferreira | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/gabrielvascf)             | <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 | Dev Team      | Guilherme Cleyton Pereira    | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/gui863)             | <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
-| Dev Team      | Lucas Gabriel Dias Pereira   | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Lucaspereira135)             | <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
+
