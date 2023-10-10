@@ -5,7 +5,6 @@
 
 .conteudo_interno {
     display: flex;
-
     flex-direction: column;
     gap: 6px;
     padding: 4% 2.5%;
@@ -13,7 +12,7 @@
     background-color: #dbdbdb;
     width: 100%;
     height: auto;
-    border: 2px solid  rgb(0, 0, 0)
+    
 }
 
 .apresentacao_baloes {
@@ -56,6 +55,8 @@
 
 .imagem_1 {
     text-align: center;
+  
+
 }
 
 /* papeis */
