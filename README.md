@@ -37,7 +37,7 @@ Este projeto está sendo conduzido utilizando a metodologia ágil Scrum para o g
 ## MVP
 
 
-![MVP Geral](docs/imagens/Apresentação%20Buttlerfly_page-0001.jpg?raw=true)
+![MVP Geral](docs/imagens/Apresentação%20Buttlerfly_page-0001.jpg)
 ### 1ª Entrega
 
 O MVP (Mínimo Produto Viável) da primeira entrega é uma representação interativa e funcional das principais funcionalidades e fluxos de usuário que serão implementados na versão inicial do projeto. Este protótipo proporciona uma visão tangível e dinâmica do que os usuários poderão experimentar ao interagir com o site.
