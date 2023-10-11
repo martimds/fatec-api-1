@@ -190,6 +190,7 @@ input[type=submit]{
 
 input[type="text"] {
     font-size: 20px; 
+    width: 25vw;
 }
 
 .criterios{
@@ -212,6 +213,7 @@ input[type="text"] {
     display: flex;
     flex-direction: row;
     gap: 20vw;
+    justify-content: space-evenly;
     padding: 4% 2.5%;
     border-radius: 35px;
     background-color: #dbdbdb;
