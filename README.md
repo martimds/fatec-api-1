@@ -52,9 +52,9 @@ O MVP (Mínimo Produto Viável) da primeira entrega é uma representação inter
 
 O MVP (Mínimo Produto Viável) da primeira entrega é uma representação interativa e funcional das principais funcionalidades e fluxos de usuário que serão implementados na versão inicial do projeto. Este protótipo proporciona uma visão tangível e dinâmica do que os usuários poderão experimentar ao interagir com o site.
 
-![GIF Protótipo](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/gif-segunda-entrega.gif)
+![GIF Sprint 2](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/gif-segunda-entrega.gif)
 
-[**Código Fonte**](https://www.figma.com/proto/4d6aaqee4TJSP7P4b1MEgR/API?type=design&node-id=529-1418&t=mI3V1SOi7CCkYcmj-1&scaling=contain&page-id=0%3A1&starting-point-node-id=245%3A887&mode=design)
+[**Código Fonte**](https://github.com/martimds/fatec-api-1/releases/tag/sprint1)
 
 ## Autores
 
