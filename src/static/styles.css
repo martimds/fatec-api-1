@@ -211,7 +211,7 @@ input[type="text"] {
 .conteudo_interno3 {
     display: flex;
     flex-direction: row;
-    gap: 25vw;
+    gap: 20vw;
     padding: 4% 2.5%;
     border-radius: 35px;
     background-color: #dbdbdb;
