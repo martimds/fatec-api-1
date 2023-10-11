@@ -70,11 +70,6 @@
     justify-content: center;
 }
 
-.imagem_1 img {
-    max-height: 400px;
-    max-width: 100%;
-}
-
 /* papeis */
 .linha {
     display: flex;
@@ -237,3 +232,74 @@ input[type="text"] {
     height: auto;
     border: 2px solid rgb(0, 0, 0);
 }
+
+.size{
+    font-size: 90%;
+}
+
+.imagem_eventos img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 70%;
+    margin-left: 13%;
+}
+
+.imagem_carac img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 70%;
+    margin-left: 13%;
+}
+
+.imagem_po img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 45%;
+    margin-left: 30%;
+}
+.imagem_master img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 80%;
+    margin-left: 13%;
+    margin-top: -6%;
+}
+.imagem_dev img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.imagem_hist img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 70%;
+    margin-left: 13%;
+}
+
+.imagem_backlog img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 70%;
+    margin-left: 13%;
+}
+
+.imagem_burndown img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 60%;
+    margin-left: 18%;
+}
+
+.conteudo_interno_papeis {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 4% 2.5%;
+    border-radius: 35px;
+    background-color: #dbdbdb;
+    width: 80%;
+    height: auto;
+}
+
