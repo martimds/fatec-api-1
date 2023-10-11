@@ -14,6 +14,25 @@
     height: auto;
 }
 
+.conteudo_interno_branco {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5% 5%;
+    gap: 6px;
+}
+
+.conteudo_interno2 {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding: 4% 2.5%;
+    border-radius: 35px;
+    background-color: #dbdbdb;
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(0, 0, 0);
+}
+
 .apresentacao_baloes {
     width: fit-content;
     border: 2px solid;
@@ -45,15 +64,15 @@
     max-width: 55%;
 }
 
-.conteudo_interno_branco {
+.imagem_1 {
     display: flex;
-    flex-direction: column;
-    padding: 2.5% 5%;
-    gap: 6px;
+    width: 100%;
+    justify-content: center;
 }
 
-.imagem_1 {
-    text-align: center;
+.imagem_1 img {
+    max-height: 400px;
+    max-width: 100%;
 }
 
 /* papeis */
@@ -168,18 +187,6 @@ form {
     padding-bottom: 10%;
 }
 
-.conteudo_interno2 {
-    display: flex;
-    flex-direction: row;
-    gap: 6px;
-    padding: 4% 2.5%;
-    border-radius: 35px;
-    background-color: #dbdbdb;
-    width: 100%;
-    height: auto;
-    border: 2px solid rgb(0, 0, 0);
-}
-
 /* .conteudo_interno2 p {
     flex: 10;
 } */
@@ -187,8 +194,8 @@ form {
 input[type="radio"] {
     transform: scale(1.8);
     margin: 0;
-    /* flex: 50; */
 }
+
 input[type="submit"] {
     width: 200px;
     height: 50px;
