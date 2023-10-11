@@ -43,3 +43,5 @@
 -   -   [x] Definition of Done 
 -   -   [x] Kanban 
 -   -   [ ] Avaliador
+
+- [ ] Adicionar imagens de exemplo
