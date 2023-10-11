@@ -45,3 +45,8 @@
 -   -   [ ] Avaliador
 
 - [ ] Adicionar imagens de exemplo
+
+Adiciona exemplos praticos 
+Passo a Passo de ponta a ponta da aplicação Scrum
+Imagens de exemplo.
+Ferramentas Utilizadas ex:Jira,Trello,etc...
