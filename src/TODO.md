@@ -1,8 +1,6 @@
 # Tarefas
 
-### REVISÃO NAS PAGES
-
-### APRESENTAÇÃO 2
+### APRESENTAÇÃO 2 ( GUILHERME )
 
 -   [x] Menu lateral
 -   [x] Introdução 
@@ -21,7 +19,7 @@
 -   -   [x] Definition of Ready 
 -   -   [x] Definition of Done 
 -   -   [x] Kanban 
--   -   [ ] Avaliador
+-   -   [x] Avaliador
 
 ## Refatorar CSS
 
@@ -42,8 +40,10 @@
 -   -   [x] Definition of Ready
 -   -   [x] Definition of Done 
 -   -   [x] Kanban 
--   -   [ ] Avaliador
+-   -   [x] Avaliador
 
+
+## SPRINT 3
 - [ ] Adicionar imagens de exemplo
 
 Adiciona exemplos praticos 
