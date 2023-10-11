@@ -143,11 +143,13 @@
       <input type="radio" name="criterio7" value="5" />
     </div>
   </div>
-  <div class="conteudo_interno2">
+  <div class="conteudo_interno3">
     <div class="submit">
-      <input type="submit" name="ENVIAR" />
+    <input type="submit" name="ENVIAR" />
+      </div>
+    <input type="text" id="media" name="media" readonly value="{{ media }}" style="text-align: center;" />
+    
     </div>
-    <input type="text" id="media" name="media" readonly value="{{ media }}" />
-    {% endblock %}
-  </div>
 </form>
+
+{% endblock %}
