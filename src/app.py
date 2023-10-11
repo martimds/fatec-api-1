@@ -9,18 +9,17 @@ app = Flask(__name__)
 def intro():
     return render_template('intro.html')
 
-@app.route('/processar', methods=['POST'])
-def processar_formulario():
+@app.route('/calcular', methods=['POST'])
+def calcular():
     try:
-        criterios = [request.form[f'criterio{i+1}'] for i in range(7)]
-        criterios = list(map(int, criterios))
-        criterios[-3:] = [c * 2 for c in criterios[-3:]]
-        media_final = round(sum(criterios) / len(criterios),1)
-        return render_template('avaliador.html', media=media_final)
+        criterios = [int(request.form[f'criterio{i}']) for i in range(1, 8)]
+        criterios[0] *= 2
+        criterios[-1] *= 2
+        return render_template('avaliador.html', media=sum(criterios))
     except werkzeug.exceptions.BadRequestKeyError:
         return render_template('avaliador.html', media="Existem campos em branco.")
 
-for element in os.listdir(os.getcwd() + "/src/templates"):
+for element in os.listdir("templates"):
     name = str(element).split(".")[0]
     if name == "intro":continue
     exec(f'''
