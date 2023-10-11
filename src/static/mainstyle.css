@@ -37,7 +37,9 @@ body {
 
 .side-menu h1 {
     justify-content: right;
-    margin: 0;
+    margin-top: 1vh;
+    align-self: flex-end;
+    margin-bottom: 2vh;
     font-family: "Inter-Bold", Helvetica, sans-serif;
     font-weight: 700;
     font-size: 2vw;
