@@ -1,6 +1,6 @@
 # Sprint 2 - Implementação do Sistema Básico
 
-**Conclusão:** 15/10/2023
+![**Conclusão:** 15/10/2023](https://github.com/martimds/fatec-api-1#2%C2%AA-entrega)
 
 ## Backlog da Sprint
 
