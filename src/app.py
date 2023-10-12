@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+from jinja2.exceptions import TemplateNotFound
 import werkzeug.exceptions
 import os
 
@@ -30,14 +31,12 @@ def calcular():
     except werkzeug.exceptions.BadRequestKeyError:
         return render_template('avaliador.html', media="Existem campos em branco")
 
-for element in os.listdir(os.getcwd() + "/src/templates"):
-    name = str(element).split(".")[0]
-    if name == "intro":continue
-    exec(f'''
-@app.route("/{name}")
-def {name}():
-    return render_template("/{element}")
-    ''')
+@app.route("/<filename>")
+def templates(filename):
+    try:
+        return render_template(f"{filename}.html")
+    except TemplateNotFound:
+        return "Página não encontrada", 404
 
 if __name__ == '__main__':
     app.run(debug=True)
