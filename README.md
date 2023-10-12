@@ -50,7 +50,7 @@ O MVP (Mínimo Produto Viável) da primeira entrega é uma representação inter
 
 ### 2ª Entrega
 
-O MVP (Mínimo Produto Viável) da primeira entrega é uma representação interativa e funcional das principais funcionalidades e fluxos de usuário que serão implementados na versão inicial do projeto. Este protótipo proporciona uma visão tangível e dinâmica do que os usuários poderão experimentar ao interagir com o site.
+O MVP da segunda entrega representa um marco significativo na direção da versão final do nosso projeto. Introduzimos a implementação do site utilizando tecnologias como HTML, CSS e Flask que fornecem uma base sólida para a funcionalidade e design do nosso produto.
 
 ![GIF Sprint 2](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/gif-segunda-entrega.gif)
 
