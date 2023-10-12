@@ -53,7 +53,7 @@ O MVP da segunda entrega representa um marco significativo na direção da vers�
 
 ![GIF Sprint 2](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/gif-segunda-entrega.gif)
 
-[**Código Fonte**](https://github.com/martimds/fatec-api-1/releases/tag/sprint1)
+[**Código Fonte**](https://github.com/martimds/fatec-api-1/releases/tag/sprint2)
 
 ## Autores
 
