@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
-import werkzeug.exceptions
-import os
+from jinja2.exceptions import TemplateNotFound
+from werkzeug.exceptions import BadRequestKeyError
 
 app = Flask(__name__)
 
@@ -27,17 +27,15 @@ def calcular():
         elif pontuacao > 9:
             return render_template('avaliador.html', media="Excelente")
         
-    except werkzeug.exceptions.BadRequestKeyError:
+    except BadRequestKeyError:
         return render_template('avaliador.html', media="Existem campos em branco")
 
-for element in os.listdir(os.getcwd() + "/src/templates"):
-    name = str(element).split(".")[0]
-    if name == "intro":continue
-    exec(f'''
-@app.route("/{name}")
-def {name}():
-    return render_template("/{element}")
-    ''')
+@app.route("/<filename>")
+def templates(filename):
+    try:
+        return render_template(f"{filename}.html")
+    except TemplateNotFound:
+        return "Página não encontrada", 404
 
 if __name__ == '__main__':
     app.run(debug=True)
