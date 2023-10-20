@@ -30,7 +30,7 @@ Este projeto está sendo conduzido utilizando a metodologia ágil Scrum para o g
 
 ## Backlog do produto
 
-- [Sprint I](docs/backlog/sprint-1.md)
+- [Sprint I](docs/backlog/Backlog total do produto.md)
 - [Sprint II](docs/backlog/sprint-2.md)
 - [Sprint III](docs/backlog/sprint-3.md)
 - [Sprint IV](docs/backlog/sprint-4.md)
