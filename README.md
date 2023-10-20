@@ -32,7 +32,7 @@ Este projeto está sendo conduzido utilizando a metodologia ágil Scrum para o g
 
 [BACKLOG TOTAL DO PRODUTO](docs/backlog/Backlog-total-do-produto.md)
 
-- [Sprint III](docs/backlog/sprint-3.md)
+
 - [Sprint IV](docs/backlog/sprint-4.md)
 
 ## MVP
