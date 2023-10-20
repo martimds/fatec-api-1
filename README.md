@@ -32,9 +32,6 @@ Este projeto está sendo conduzido utilizando a metodologia ágil Scrum para o g
 
 [BACKLOG TOTAL DO PRODUTO](docs/backlog/Backlog-total-do-produto.md)
 
-
-- [Sprint IV](docs/backlog/sprint-4.md)
-
 ## MVP
 
 ![MVP Geral](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/mvpgeral.jpg?raw=true)
