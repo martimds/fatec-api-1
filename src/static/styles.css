@@ -306,10 +306,8 @@ input[type="text"] {
 /* exemplos práticos Papéis (PO, MASTER, DEV.T) */
 .lista-itens li {
     margin-bottom: 10px;
-    list-style: square;
-}
-.lista-itens li strong {
-    font-weight: bold;
+    list-style: outside;
+
 }
 
 
