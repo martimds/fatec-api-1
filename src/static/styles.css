@@ -303,11 +303,19 @@ input[type="text"] {
     height: auto;
 }
 
-/* exemplos práticos */
-.lista-itens li {
+
+
+
+/* Estilo CSS para reduzir o tamanho do texto */
+.lista-itens ol li {
+    margin-top: 10px;
     margin-bottom: 10px;
     list-style: outside;
+    font-size: 20px;
+}
 
+.lista-itens h3 {
+    font-size: 20px; /* Tamanho da fonte do título reduzido para 18 pixels */
 }
 
 
