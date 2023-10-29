@@ -299,23 +299,41 @@ input[type="text"] {
     padding: 4% 2.5%;
     border-radius: 35px;
     background-color: #dbdbdb;
-    width: 80%;
+    width: 85%;
     height: auto;
 }
-
 
 
 
 /* Estilo CSS para reduzir o tamanho do texto */
 .lista-itens ol li {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     list-style: outside;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .lista-itens h3 {
-    font-size: 20px; /* Tamanho da fonte do título reduzido para 18 pixels */
+    font-size: 30px; 
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tabela_backlog {
+    display: table;
+    width: 100%;
+}
+
+.linha_backlog {
+    display: table-row;
+}
+
+.coluna_backlog {
+    display: table-cell;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
 
