@@ -38,17 +38,8 @@ Não iniciado ✍🏻
 
 | ID do item |                 Resumo                 |                            Descrição                             | Story points | Prioridade |     Status      |
 |:----------:|:-------------------------------------:|:---------------------------------------------------------------:|:------------:|:----------:|:---------------:|
-|   DPA-   | Visualizar informações detalhadas sobre o Scrum    | Como um usuário, eu quero visualizar informações detalhadas sobre o Scrum para aprender mais sobre essa
-metodologia ágil.   |       0      |     100      | Item pendente  |
-|   DPA-   | Exemplos práticos sobre o Scrum   | Como um usuário, eu quero exemplos práticos de como o Scrum é aplicado
-em projetos do mundo real.            |       0      |     95      | Item pendente  |
-|   DPA-   | Exemplos Práticos de Aplicação do Scrum em Projetos do Mundo Real   | Como um usuário, eu quero exemplos práticos de como o Scrum é aplicado em projetos do mundo real.                      |       7      |     0      | Item pendente  |
-|   DPA-   | Criação de um Glossário de Termos e Conceitos do Scrum para o Cliente   | Como um usuário, eu quero
-compreender o trabalho de um Product Owner.                              |       4      |     0      | Item pendente  |
-|   DPA-   | Criação de um Glossário de Termos e Conceitos do Scrum para o Cliente   | Como um usuário, eu quero um glossário que explique os termos e conceitos-chave do Scrum.                              |       4      |     0      | Item pendente  |
-|   DPA-   | Criação de um Glossário de Termos e Conceitos do Scrum para o Cliente   | Como um usuário, eu quero um glossário que explique os termos e conceitos-chave do Scrum.                              |       4      |     0      | Item pendente  |
-|   DPA-   | Criação de um Glossário de Termos e Conceitos do Scrum para o Cliente   | Como um usuário, eu quero um glossário que explique os termos e conceitos-chave do Scrum.                              |       4      |     0      | Item pendente  |
-|   DPA-   | Criação de um Glossário de Termos e Conceitos do Scrum para o Cliente   | Como um usuário, eu quero um glossário que explique os termos e conceitos-chave do Scrum.                              |       4      |     0      | Item pendente  |
+|   DPA-   | Visualizar informações detalhadas sobre o Scrum    | Como um usuário, eu quero visualizar informações detalhadas sobre o Scrum para aprender mais sobre essan metodologia ágil.   |       0      |     100      | Item pendente  |
+
 
 
 ## Burndown Chart
