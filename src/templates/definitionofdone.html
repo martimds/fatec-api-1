@@ -6,7 +6,7 @@
 
 <div class="conteudo_interno size">
     <p>
-        A "Definition of Done" (DoD) é um conceito fundamental no framework
+        A "<abbr title="Definição de Pronto">Definition of Done</abbr>" (DoD) é um conceito fundamental no framework
         Scrum que estabelece os critérios que um incremento de produto deve
         atender para ser considerado completo e pronto para ser entregue ao
         cliente ou liberado em produção. A DoD é uma ferramenta essencial para
@@ -16,83 +16,89 @@
     </p>
 </div>
 <div class="conteudo_interno size">
-    <p>
-        <strong>Estes são os passos para uma boa Definition of Done:</strong>
+    <p class="center">
+        <strong>Geralmente, a DoD inclui e checa os seguintes aspectos:</strong>
     </p>
-    <p></p>
-    <p></p>
+    <hr>
     <ul>
         <li>
-            <strong>Funcionalidade Totalmente Implementada:</strong> Isso
-            significa que todos os requisitos da User Story ou do item de
-            backlog foram implementados de acordo com as especificações e
-            critérios de aceitação. Todas as funcionalidades previamente
-            acordadas foram desenvolvidas e estão funcionando conforme o
-            esperado.
+            <strong>Funcionalidade:</strong> A funcionalidade implementada deve estar completa e funcionando conforme as
+            especificações.
+            <br>Por exemplo, se a equipe estiver construindo um sistema de registro de usuários, a funcionalidade estará
+            pronta quando os usuários puderem se registrar, receber confirmações do registro e fazer login com sucesso.
         </li>
-        <p></p>
-        <p></p>
+        <hr>
         <li>
-            <strong>Testes Realizados e Passados:</strong> Todos os testes
-            planejados foram executados com sucesso. Isso inclui testes
-            unitários, testes de integração, testes de sistema, testes de
-            aceitação e qualquer outro tipo de teste relevante para o produto. O
-            incremento deve passar em todos esses testes sem falhas críticas.
+            <strong>Testes:</strong> Todas as funcionalidades devem ser testadas e passar nos testes de qualidade
+            estabelecidos para a tarefa. Isso pode incluir <em>unit tests</em>, testes de integração, aceitação do
+            usuário, e outros aspectos definidos pelo time.
         </li>
-        <p></p>
-        <p></p>
+        <hr>
         <li>
-            <strong>Código Revisado:</strong> O código fonte passou por revisão
-            por pares (code review) ou por outro processo de revisão
-            estabelecido pela equipe. A revisão garante a qualidade do código, a
-            aderência às diretrizes de codificação e a identificação de
-            possíveis problemas ou melhorias.
+            <strong>Design:</strong> A tarefa deve seguir as diretrizes de design estabelecidas, como a aparência,
+            usabilidade e consistência visual.
         </li>
-        <p></p>
-        <p></p>
+        <hr>
         <li>
-            <strong>Integração Contínua:</strong> O código foi integrado com
-            sucesso ao repositório principal do projeto (por exemplo, no Git,
-            isso significa um merge sem conflitos). A integração contínua
-            garante que o código esteja sempre atualizado e funcione bem em
-            conjunto com o restante do sistema.
-        </li>
-        <p></p>
-        <p></p>
-        <li>
-            <strong>Documentação Atualizada:</strong> Qualquer documentação
+            <strong>Documentação:</strong> Qualquer documentação
             relevante, como manuais de usuário, documentação técnica ou notas de
             versão, foi atualizada para refletir as mudanças feitas no
             incremento. Isso ajuda na compreensão e na utilização adequada do
             produto.
+            <!-- não sei se é necessário incluir esse. -->
         </li>
-        <p></p>
-        <p></p>
+        <hr>
         <li>
-            <strong>Revisão de Qualidade:</strong> A equipe revisou a qualidade
-            geral do incremento, incluindo a usabilidade, o desempenho e a
-            segurança. Qualquer problema identificado durante a revisão de
-            qualidade deve ser abordado antes que o incremento seja considerado
-            "feito".
+            <strong>Desempenho:</strong> A tarefa deve desempenhar de forma conforme os requisitos estabelecidos. <br>
+            Por exemplo, um sistema de registro de usuários deve responder de maneira rápida e eficiente sob carga.
         </li>
-        <p></p>
-        <p></p>
+        <hr>
         <li>
-            <strong>Aprovação pelo Product Owner:</strong> O Product Owner ou
-            representante do cliente revisa o incremento e confirma que ele
-            atende aos critérios de aceitação definidos anteriormente. A
-            aprovação do Product Owner é essencial para garantir que o trabalho
-            atenda às necessidades e expectativas do cliente.
-        </li>
-        <p></p>
-        <p></p>
-        <li>
-            <strong>Pronto para Liberação:</strong> O incremento está pronto para
-            ser entregue ao cliente ou liberado em produção, se necessário. Isso
-            significa que todos os obstáculos ou pendências foram resolvidos e
-            que não há impedimentos para a entrega.
+            <strong>Revisão de código:</strong> O código-fonte deve ser revisado pela equipe e preferencialmente, ter um
+            formato e utilizar convenções consistentes com outros códigos ou normas já presentes.
         </li>
     </ul>
+</div>
+<div class="conteudo_interno size">
+    <p class="center">
+        <b>Exemplos:</b>
+        <hr>
+    <ul>
+        <li>Para uma <em>User Story</em> de um sistema de gerenciamento de tarefas, sua definição de pronto pode incluir
+            critérios como: <ol>
+                <li>A <em>User Story</em> foi implementada.</li>
+                <li>Passou nos testes de unidade.</li>
+                <li>Testes de aceitação do usuário foram realizados.</li>
+                <li>A documentação foi atualizada.</li>
+            </ol>
+        </li>
+        <hr>
+        <li>
+            Para uma sprint em um projeto, a DoD pode incluir os seguintes critérios:
+            <ol>
+                <li>Todas as <em>User Stories</em> foram realizadas.</li>
+                <li>Todas as <em>User Stories</em> foram implementadas.</li>
+                <li>Todas as <em>User Stories</em> foram revisadas.</li>
+                <li>Todas as <em>User Stories</em> foram documentadas.</li>
+            </ol>
+        </li>
+        <hr>
+        <li>Para o lançamento de um novo site, a DoD pode incluir:
+            <ol>
+                <li>Todas as páginas foram criadas com base no design aprovado.</li>
+                <li>Todos os links estão funcionando.</li>
+                <li>O site foi testado em diferentes navegadores e dispositivos.</li>
+                <li>A documentação de suporte está pronta.</li>
+            </ol>
+        </li>
+    </ul>
+    </p>
+</div>
+<div class="conteudo_interno size">
+    <p>Somente quando todos os critérios acima são cumpridos, uma tarefa deve ser considerada finalizada, e seu valor
+        incrementado ao Backlog. Caso uma tarefa não cumpra com os requisitos, portanto não sendo considerada
+        finalizada, seu valor <b>não</b> deve ser incrementado ao Backlog e a mesma não deve ser apresentada ao cliente
+        ou ser inclusa na Sprint Review.</p>
 </div>
 
 {% endblock %}
