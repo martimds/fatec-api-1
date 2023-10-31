@@ -106,7 +106,8 @@ body {
 .dropdown-title {
     display: flex;
     width: 100%;
-    vertical-align: middle;
+    /* vertical-align: middle; */
+    align-items: center;
     gap: 10px;
     justify-content: flex-end;
     text-align: right;
