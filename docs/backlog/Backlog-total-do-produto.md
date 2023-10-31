@@ -32,13 +32,36 @@
 
 ## Revisão da sprint
 
-Não iniciado ✍🏻
+Em andamento ✍🏻
 
 ## Backlog da Sprint
 
 | ID do item |                 Resumo                 |                            Descrição                             | Story points | Prioridade |     Status      |
 |:----------:|:-------------------------------------:|:---------------------------------------------------------------:|:------------:|:----------:|:---------------:|
 |   DPA-   | Visualizar informações detalhadas sobre o Scrum    | Como um usuário, eu quero visualizar informações detalhadas sobre o Scrum para aprender mais sobre essan metodologia ágil.   |       0      |     100      | Item pendente  |
+|   DPA-   | Visualizar exemplos práticos do Scrum    | Como um usuário, eu quero exemplos práticos de como o Scrum é aplicado em projetos do mundo real.   |       0      |     95      | Item pendente  |
+|   DPA-   | Exemplos práticos P.O.    | Como um usuário, eu quero
+compreender o trabalho de um Product Owner.   |       0      |     90      | Concluído  |
+|   DPA-   | Exemplos práticos ScrumMaster    | Como um usuário, eu quero compreender o trabalho de um ScrumMaster.   |       0      |     85      | Item pendente  |
+|   DPA-   | Exemplos práticos DevTeam   | Como um usuário, eu quero compreender o trabalho de um Developer Team.   |       0      |     80      | Item pendente  |
+|   DPA-   | Exemplos práticos de um Backlog   | Como um usuário, eu quero ser capaz
+de criar, organizar e priorizar um Backlog.   |       0      |     75      | Concluído  |
+|   DPA-   | Exemplos práticos DoR e DoD   | Como um usuário, eu quero visualizar exemplos práticos de DoR e DoD.   |       0      |     70      | Item pendente  |
+|   DPA-   | Exemplos práticos Planning Poker   | Como um usuário, eu quero receber orientações passo a passo sobre como conduzir uma sessão de Planning Poker.   |       0      |     65      | Item pendente  |
+|   DPA-   | Exemplos práticos Kanban   | Como um usuário, eu quero aprender e aplicar o Kanban em situações reais.   |       0      |     60      | Item pendente  |
+|   DPA-   | Exemplos práticos Burndown Chart   | Como um usuário, eu quero poder
+interpretar o Burndown Chart para poder tomar decisões baseadas em
+dados concretos.   |       0      |     55      | Item pendente  |
+|   DPA-   | Exemplos práticos Cerimônias Scrum   | Como um usuário, eu quero
+compreender a execução das cerimônias scrum com exemplos práticos.   |       0      |     50      | Item pendente  |
+|   DPA-   | Exemplos práticos Sprint   | Como um usuário, eu quero
+compreender o conceito de Sprint com exemplos práticos.   |       0      |     45      | Item pendente  |
+|   DPA-   | Referências confiáveis   | Como um usuário, eu quero ter acesso
+a recursos de referências confiáveis sobre o Scrum para aprofundar meu
+conhecimento.   |       0      |     40      | Item pendente  |
+|   DPA-   | Referências confiáveis   | Como um usuário, eu quero um
+glossário que explique os termos e conceitos-chave do Scrum.   |       0      |     35      | Item pendente  |
+
 
 
 
