@@ -15,6 +15,9 @@ body {
     justify-content: space-between;
 }
 
+abbr {
+    text-decoration: underline;
+}
  
 /* Para deixar a barra horizontal invisível. */
 /* hr {
