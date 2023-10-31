@@ -70,7 +70,7 @@ Em andamento ✍🏻
 
 | ID do item |                 Resumo                 |                            Descrição                             | Story points | Prioridade |     Status      |
 |:----------:|:-------------------------------------:|:---------------------------------------------------------------:|:------------:|:----------:|:---------------:|
-|   DPA- 39  | Visualizar informações detalhadas sobre o Scrum    | Como um usuário, eu quero visualizar informações detalhadas sobre o Scrum para aprender mais sobre essan metodologia ágil.   |       8      |     100      | Item pendente  |
+|   DPA- 39  | Visualizar informações detalhadas sobre o Scrum    | Como um usuário, eu quero visualizar informações detalhadas sobre o Scrum para aprender mais sobre essa metodologia ágil.   |       8      |     100      | Item pendente  |
 |   DPA- 40  | Visualizar exemplos práticos do Scrum    | Como um usuário, eu quero exemplos práticos de como o Scrum é aplicado em projetos do mundo real.   |       10      |     95      | Item pendente  |
 |   DPA- 42  | Exemplos práticos P.O.    | Como um usuário, eu quero compreender o trabalho de um Product Owner.   |       3      |     90      | Concluído  |
 |   DPA- 43  | Exemplos práticos ScrumMaster    | Como um usuário, eu quero compreender o trabalho de um ScrumMaster.   |       3      |     85      | Item pendente  |
@@ -79,20 +79,16 @@ Em andamento ✍🏻
 |   DPA- 46  | Exemplos práticos DoR e DoD   | Como um usuário, eu quero visualizar exemplos práticos de DoR e DoD.   |       6      |     70      | Item pendente  |
 |   DPA- 47  | Exemplos práticos Planning Poker   | Como um usuário, eu quero receber orientações passo a passo sobre como conduzir uma sessão de Planning Poker.   |       2      |     65      | Item pendente  |
 |   DPA- 48  | Exemplos práticos Kanban   | Como um usuário, eu quero aprender e aplicar o Kanban em situações reais.   |       4      |     60      | Item pendente  |
-|   DPA- 49  | Exemplos práticos Burndown Chart   | Como um usuário, eu quero poder interpretar o Burndown Chart para poder tomar decisões baseadas em
-dados concretos.   |       2      |     55      | Item pendente  |
+|   DPA- 49  | Exemplos práticos Burndown Chart   | Como um usuário, eu quero poder interpretar o Burndown Chart para poder tomar decisões baseadas em dados concretos.   |       2      |     55      | Item pendente  |
 |   DPA- 50  | Exemplos práticos Cerimônias Scrum   | Como um usuário, eu quero compreender a execução das cerimônias scrum com exemplos práticos.   |       6      |     50      | Item pendente  |
 |   DPA- 51  | Exemplos práticos Sprint   | Como um usuário, eu quero compreender o conceito de Sprint com exemplos práticos.   |       7      |     45      | Item pendente  |
-|   DPA- 52  | Referências confiáveis   | Como um usuário, eu quero ter acesso a recursos de referências confiáveis sobre o Scrum para aprofundar meu
-conhecimento.   |       6      |     40      | Item pendente  |
+|   DPA- 52  | Referências confiáveis   | Como um usuário, eu quero ter acesso a recursos de referências confiáveis sobre o Scrum para aprofundar meu conhecimento.   |       6      |     40      | Item pendente  |
 |   DPA- 41  | Referências confiáveis   | Como um usuário, eu quero um glossário que explique os termos e conceitos-chave do Scrum.   |       3      |     35      | Item pendente  |
 
 
 
 
-## Burndown Chart
 
-![Burndown Chart](https://placehold.co/320x240)
 
 
 # Sprint 4 - Refinamento do produto
@@ -108,9 +104,7 @@ Não iniciado ✍🏻
 |   DPA-28   | Design Atraente e Intuitivo das Páginas para Facilitar a Compreensão   | Como um usuário, eu quero que as páginas tenham um design atraente e intuitivo para facilitar a leitura e a compreensão.   |       4      |     0      | Item pendente  |
 |   DPA-26   | Formatação de Texto para Conteúdo Legível e Organizado   | Como um usuário, eu quero um site com formatação nos textos (negrito, itálico, listas, etc.) para visualizar um conteúdo legível e organizado. |       4      |     0      | Item pendente  |
 
-## Burndown Chart
 
-![Burndown Chart](https://placehold.co/320x240)
 
 
 ## MVP
