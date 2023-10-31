@@ -15,6 +15,15 @@ body {
     justify-content: space-between;
 }
 
+abbr {
+    text-decoration: underline;
+}
+ 
+/* Para deixar a barra horizontal invisível. */
+/* hr {
+    visibility: hidden;
+} */
+
 .side-menu-container {
     width: 18%;
     min-width: fit-content;
@@ -106,7 +115,8 @@ body {
 .dropdown-title {
     display: flex;
     width: 100%;
-    vertical-align: middle;
+    /* vertical-align: middle; */
+    align-items: center;
     gap: 10px;
     justify-content: flex-end;
     text-align: right;
