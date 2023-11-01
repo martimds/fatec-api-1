@@ -76,7 +76,7 @@ Em andamento ✍🏻
 |   DPA- 43  | Exemplos práticos ScrumMaster    | Como um usuário, eu quero compreender o trabalho de um ScrumMaster.   |       3      |     85      | Item pendente  |
 |   DPA- 44  | Exemplos práticos DevTeam   | Como um usuário, eu quero compreender o trabalho de um Developer Team.   |       3      |     80      | Item pendente  |
 |   DPA- 45  | Exemplos práticos de um Backlog   | Como um usuário, eu quero ser capaz de criar organizar e priorizar um Backlog.   |       7      |     75      | Concluído  |
-|   DPA- 46  | Exemplos práticos DoR e DoD   | Como um usuário, eu quero visualizar exemplos práticos de DoR e DoD.   |       6      |     70      | Item pendente  |
+|   DPA- 46  | Exemplos práticos DoR e DoD   | Como um usuário, eu quero visualizar exemplos práticos de DoR e DoD.   |       6      |     70      | Concluído  |
 |   DPA- 47  | Exemplos práticos Planning Poker   | Como um usuário, eu quero receber orientações passo a passo sobre como conduzir uma sessão de Planning Poker.   |       2      |     65      | Item pendente  |
 |   DPA- 48  | Exemplos práticos Kanban   | Como um usuário, eu quero aprender e aplicar o Kanban em situações reais.   |       4      |     60      | Item pendente  |
 |   DPA- 49  | Exemplos práticos Burndown Chart   | Como um usuário, eu quero poder interpretar o Burndown Chart para poder tomar decisões baseadas em dados concretos.   |       2      |     55      | Item pendente  |
