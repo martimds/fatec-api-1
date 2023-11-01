@@ -61,31 +61,44 @@
 <!-- Passo 2 - Criando um Backlog -->
 <div class="lista-itens conteudo_interno">
     <ol>
-        <h3>Criando um Backlog:</h3>
+        <h3> Criando um Backlog:</h3>
+        
         <hr>
+        <div class="botao_principal">
+    
+        </div>
             <h3>Crie uma tabela com os seguintes itens:</h3>
         <li><strong>Epic:</strong> Aqui será onde você irá definir um objetivo principal da Sprint (MVP).</li>
+        <hr>
         <li><strong>User Story:</strong> Liste todas as funcionalidades que você deseja para o seu site e organize as User Stories por ordem de importância.
             <br><strong>Exemplo:</strong> Como um usuário, eu quero poder criar uma nova tarefa para que eu possa organizar meu trabalho diário de forma eficaz.</li>
+            <hr>
         <li><strong>Sprint:</strong> Coloque o número da sprint relacionada.</li>
-        <li><strong>Prioridade:</strong> Defina as prioridades utilizando números de 0 a 100.</li>
-        <strong>Exemplos:</strong>
-        
+        <a href="sprint"><button class="botao">MAIS INFORMAÇÕES</button></a>
+        <hr>
+        <li><strong>Prioridade:</strong> Ultilize o Planning Poker para definir o Story Point de cada tarefa do Backlog. Depois de ter definido os Story Points, numere todas as prioridades de cada tarefa utilizando números de 0 a 100 com base nos Story Points.
+            <a href="planningpoker"><button class="botao">MAIS INFORMAÇÕES</button></a>
+            <br><strong>Lembre-se:</strong> Utilize números de 0 a 100 em ordem decrescente de 5 em 5.
+            <br>
+            <strong style="font-size: 25px;" >Exemplos:</strong>
+        </li>        
             <ul>
-                <li><strong>Tarefa 1:</strong> Corrigir bug crítico no sistema (Prioridade: 90).</li>
-                <li><strong>Tarefa 2:</strong> Implementar nova funcionalidade solicitada pelo cliente (Prioridade: 85).</li>
-                <li><strong>Tarefa 3:</strong> Melhorar a interface do usuário para aumentar a usabilidade (Prioridade: 70).</li>
+                <li><strong>Tarefa 1:</strong> Corrigir bug crítico no sistema <br>( Story Point: 10 e Prioridade: 100).</li>
+                <li><strong>Tarefa 2:</strong> Implementar nova funcionalidade solicitada pelo cliente ( Story Point: 7 e Prioridade: 95).</li>
+                <li><strong>Tarefa 3:</strong> Melhorar a interface do usuário para aumentar a usabilidade ( Story Point: 5 e Prioridade: 90).</li>
             </ul>
-      
+      <hr>
         <li><strong>Ferramentas:</strong> Coloque as ferramentas utilizadas que serão usadas para realizar uma tarefa específica.
             <br><strong>Exemplo:</strong> Utilizar o Jira para criar um quadro Kanban, movendo as tarefas concluídas para a coluna "Concluído" e mantendo as tarefas em andamento na coluna "Em Progresso".</li>  
     </ol>
     <!-- tabela exemplo backlog -->
+    <strong style="font-size: 25px;text-align: center;">Exemplo Tabela Backlog</strong>
 <div class="tabela_backlog">
     <div class="linha_backlog">
-        <div class="coluna_backlog">Epic</div>
-        <div class="coluna_backlog">User Story</div>
+        <div class="coluna_backlog">MVP</div>
+        <div class="coluna_backlog">UserStory</div>
         <div class="coluna_backlog">Sprint</div>
+        <div class="coluna_backlog">StoryPoint</div>
         <div class="coluna_backlog">Prioridade</div>
         <div class="coluna_backlog">Ferramentas</div>
     </div>
@@ -93,6 +106,7 @@
         <div class="coluna_backlog">Protótipo do site</div>
         <div class="coluna_backlog">Como um usuário, eu quero...</div>
         <div class="coluna_backlog">1</div>
+        <div class="coluna_backlog">8</div>
         <div class="coluna_backlog">100</div>
         <div class="coluna_backlog">HTML/CSS</div>
     </div>

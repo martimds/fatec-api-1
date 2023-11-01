@@ -354,3 +354,29 @@ body {
     padding: 2% 1.5%;
     height: 100%;
 }
+
+/* BOTA DE INFORMATIVO */
+    .botao {
+        background-color: cadetblue; 
+        border: none; 
+        color: white; 
+        padding: 11px 32px; 
+        font-size: 12px; 
+        margin: 10px 2px; 
+        cursor: pointer; 
+        border-radius: 7px; 
+        transition-duration: 0.4s;
+        justify-content: right; 
+    }
+
+    .botao:hover {
+        background-color: white; /* Altera a cor de fundo para branco ao passar o mouse */
+        color: black; /* Altera a cor do texto para preto ao passar o mouse */
+        border: 2px solid #4CAF50; /* Adiciona uma borda verde ao passar o mouse */
+    }
+
+
+    .centralizar {
+        display: flex;
+    }
+
