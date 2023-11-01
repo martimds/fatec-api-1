@@ -349,3 +349,8 @@ body {
 .conjunto-baloes h2 {
     font-size: 200%;
 }
+
+.linha > div {
+    padding: 2% 1.5%;
+    height: 100%;
+}
