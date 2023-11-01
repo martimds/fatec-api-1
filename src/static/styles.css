@@ -35,7 +35,10 @@
 
 .apresentacao_baloes {
     width: fit-content;
-    border: 2px solid;
+    font-size: 150%;
+    /* border: 2px solid; */
+    padding: 2% 1.5%;
+    background-color: #FFFFFF;
 }
 .conjunto-baloes {
     display: flex;
@@ -337,4 +340,12 @@ body {
 /* DoD */
 .center {
     text-align: center;
+}
+
+/* scrum master */
+.conjunto-baloes > div {
+    text-align: center;
+}
+.conjunto-baloes h2 {
+    font-size: 200%;
 }
