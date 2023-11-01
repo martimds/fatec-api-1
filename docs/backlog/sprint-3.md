@@ -22,4 +22,4 @@ Em andamento ✍🏻
 |   DPA- 41  | Referências confiáveis   | Como um usuário, eu quero um glossário que explique os termos e conceitos-chave do Scrum.   |       3      |     45      | Item pendente  |
 |   DPA- 47  | Exemplos práticos Planning Poker   | Como um usuário, eu quero receber orientações passo a passo sobre como conduzir uma sessão de Planning Poker.   |       2      |     40      | Item pendente  |
 |   DPA- 49  | Exemplos práticos Burndown Chart   | Como um usuário, eu quero poder interpretar o Burndown Chart para poder tomar decisões baseadas em dados concretos.   |       2      |     35      | Item pendente  |
-|   DPA- 52  | Referências confiáveis   | Como um usuário, eu quero ter acesso a recursos de referências confiáveis sobre o Scrum para aprofundar meu conhecimento.   |       6      |     40      | Item pendente  |
+
