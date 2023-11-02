@@ -1,103 +1,238 @@
 {% extends "layout.html" %}{% block content %}
 
 <div class="título_principal">
-    <h1>Scrum Master</h1>
+  <h1>Scrum Master</h1>
 </div>
 
 <div class="conteudo_interno_papeis size">
-    <p style>
-        Remove obstáculos e garante a aplicação correta do Scrum para atingir
-        metas da sprint. É um "líder-servo".
-    </p>
+  <p style>
+    Remove obstáculos e garante a aplicação correta do Scrum para atingir metas
+    da sprint. É um "líder-servo".
+  </p>
 </div>
 
 <div class="imagem_master">
-    <img
-        src="{{ url_for('static', filename='img/scrummaster.png') }}"
-        alt="Scrum Master image"
-    />
+  <img
+    src="{{ url_for('static', filename='img/scrummaster.png') }}"
+    alt="Scrum Master image"
+  />
 </div>
 
 <div class="conteudo_interno">
-    <h2 style="text-align: center; font-size: 175%; margin-bottom: 2%;">Guia: Papel do Scrum Master</h2>
-    <p>O Scrum Master é responsável por garantir que o Scrum seja entendido e aplicado pela equipe, para garantir que o time adere à teoria, práticas e regras do Scrum.</p>
-    <p>O Scrum Master serve cada papel da equipe de uma forma específica para aderir aos seus objetivos:</p>
-    <h2>Para o Product Owner, o Scrum Master:</h2>
-    <ul>
-        <li>Ajuda a encontrar técnicas de gerenciamento eficazes para o Backlog</li>
-        <li>Ajuda a estabelecer o planejamento empírico do produto para um ambiente complexo</li>
-        <li>Facilita a colaboração dos stakeholders</li>
-    </ul>
-    <h2>Para o Developer Team, o Scrum Master:</h2>
-    <ul>
-        <li>Treina o time em autogerenciamento e interdisciplinalidade;</li>
-        <li>Ensina e lidera o time na criação de produtos de alto valor</li>
-        <li>Remove impedimentos para progresso</li>
-        <li>Facilita os eventos Scrum conforme exigidos ou necessários</li>
-    </ul>
+  <h2 style="text-align: center; font-size: 175%; margin-bottom: 2%">
+    Introdução
+  </h2>
+  <p>
+    O Scrum Master é responsável por garantir que o Scrum seja entendido e
+    aplicado pela equipe, para garantir que o time adere à teoria, práticas e
+    regras do Scrum.
+  </p>
+  <p>
+    O Scrum Master serve cada papel da equipe de uma forma específica para
+    aderir aos seus objetivos:
+  </p>
+  <h2>Para o Product Owner, o Scrum Master:</h2>
+  <ul>
+    <li>Ajuda a encontrar técnicas de gerenciamento eficazes para o Backlog</li>
+    <li>
+      Ajuda a estabelecer o planejamento empírico do produto para um ambiente
+      complexo
+    </li>
+    <li>Facilita a colaboração dos stakeholders</li>
+  </ul>
+  <h2>Para o Developer Team, o Scrum Master:</h2>
+  <ul>
+    <li>Treina o time em autogerenciamento e interdisciplinalidade;</li>
+    <li>Ensina e lidera o time na criação de produtos de alto valor</li>
+    <li>Remove impedimentos para progresso</li>
+    <li>Facilita os eventos Scrum conforme exigidos ou necessários</li>
+  </ul>
 </div>
 
 <div class="conteudo_interno apresentacao_baloes">
-    <h2 style="font-size: 110%;">COMO SE TORNAR UM BOM SCRUM MASTER:</h2>
+  <h2 style="font-size: 110%">COMO SE TORNAR UM BOM SCRUM MASTER:</h2>
 </div>
 
 <div class="conjunto-baloes size">
-    <div class="linha">
-        <div class="conteudo_interno size">
-            <h2>DOMINAR O SCRUM</h2>
-            <p style="font-size: 150%">
-                Tenha um profundo entendimento do framework Scrum, suas práticas
-                e princípios.
-            </p>
-        </div>
-        <div class="conteudo_interno size">
-            <h2>COMUNICAÇÃO E EMPATIA</h2>
-            <p style="font-size: 150%">
-                Comunique-se de forma clara e empática com a equipe.
-            </p>
-        </div>
-    </div>
-
-    <div class="linha">
-        <div class="conteudo_interno size">
-            <h2>FACILITAÇÃO EFICAZ</h2>
-            <p style="font-size: 150%">
-                Habilidades de facilitação são cruciais para liderar reuniões e
-                manter a equipe focada e produtiva.
-            </p>
-        </div>
-        <div class="conteudo_interno size">
-            <h2>PROMOVER AUTONOMIA</h2>
-            <p style="font-size: 150%">
-                Ajude a equipe a se tornar autossuficiente, incentivando a
-                autorregulação e a melhoria contínua.
-            </p>
-        </div>
-    </div>
-
-    <div class="linha" style="align-items: center">
-        <div class="conteudo_interno size">
-            <h2>TRANSPARÊNCIA</h2>
-            <p style="font-size: 150%">
-                Estimule a transparência em todas as atividades, incluindo
-                métricas de desempenho e impedimentos.
-            </p>
-        </div>
-        <div class="conteudo_interno size">
-            <h2>LIDERANÇA SERVIDORA</h2>
-            <p style="font-size: 150%">
-                Adote uma mentalidade de liderança servidora, colocando as
-                necessidades da equipe acima das suas.
-            </p>
-        </div>
-    </div>
-
+  <div class="linha">
     <div class="conteudo_interno size">
-        <h2>APRENDER E ADAPTAR</h2>
-        <p style="font-size: 150%">
-            Esteja disposto a aprender com as experiências da equipe e a
-            adaptar-se às necessidades em constante mudança do projeto.
-        </p>
+      <h2>DOMINAR O SCRUM</h2>
+      <p style="font-size: 150%">
+        Tenha um profundo entendimento do framework Scrum, suas práticas e
+        princípios.
+      </p>
     </div>
+    <div class="conteudo_interno size">
+      <h2>COMUNICAÇÃO E EMPATIA</h2>
+      <p style="font-size: 150%">
+        Comunique-se de forma clara e empática com a equipe.
+      </p>
+    </div>
+  </div>
+
+  <div class="linha">
+    <div class="conteudo_interno size">
+      <h2>FACILITAÇÃO EFICAZ</h2>
+      <p style="font-size: 150%">
+        Habilidades de facilitação são cruciais para liderar reuniões e manter a
+        equipe focada e produtiva.
+      </p>
+    </div>
+    <div class="conteudo_interno size">
+      <h2>PROMOVER AUTONOMIA</h2>
+      <p style="font-size: 150%">
+        Ajude a equipe a se tornar autossuficiente, incentivando a
+        autorregulação e a melhoria contínua.
+      </p>
+    </div>
+  </div>
+
+  <div class="linha" style="align-items: center">
+    <div class="conteudo_interno size">
+      <h2>TRANSPARÊNCIA</h2>
+      <p style="font-size: 150%">
+        Estimule a transparência em todas as atividades, incluindo métricas de
+        desempenho e impedimentos.
+      </p>
+    </div>
+    <div class="conteudo_interno size">
+      <h2>LIDERANÇA SERVIDORA</h2>
+      <p style="font-size: 150%">
+        Adote uma mentalidade de liderança servidora, colocando as necessidades
+        da equipe acima das suas.
+      </p>
+    </div>
+  </div>
+
+  <div class="conteudo_interno size">
+    <h2>APRENDER E ADAPTAR</h2>
+    <p style="font-size: 150%">
+      Esteja disposto a aprender com as experiências da equipe e a adaptar-se às
+      necessidades em constante mudança do projeto.
+    </p>
+  </div>
+</div>
+
+<hr />
+
+<h2>Guia: Papel do Scrum Master</h2>
+<div class="lista-itens">
+  <ol>
+    <h3 style="margin-right: auto">
+      Passo 1: Entender os Fundamentos do Scrum
+    </h3>
+    <li>
+      <strong>Familiarize-se com os três papéis principais:</strong>
+      Familiarize-se com os três papéis principais:
+    </li>
+    <li>
+      <strong>Compreenda os eventos-chave:</strong> Sprint, Sprint Planning,
+      Daily Scrum, Sprint Review e Sprint Retrospective.
+    </li>
+    <li>
+      <strong>Entenda os artefatos fundamentais:</strong> Product Backlog,
+      Sprint Backlog e Incremento do Produto.
+    </li>
+  </ol>
+</div>
+<div class="lista-itens">
+  <ol>
+    <h3 style="margin-right: auto">
+      Passo 2 - Adquirir Habilidades de Comunicação e Facilitação
+    </h3>
+    <li>
+      Pratique a escuta ativa para entender as necessidades e preocupações da
+      equipe.
+    </li>
+    <li>
+      Aprenda a comunicar-se de forma clara, evitando jargões ou linguagem
+      técnica excessiva.
+    </li>
+    <li>
+      Desenvolva habilidades de fazer perguntas abertas e poderosas para
+      estimular a reflexão e a participação.
+    </li>
+    <li>
+      Desenvolva habilidades de fazer perguntas abertas e poderosas para
+      estimular a reflexão e a participação.
+    </li>
+  </ol>
+</div>
+<div class="lista-itens">
+  <ol>
+    <h3 style="margin-right: auto">Passo 3 - Conhecer a Equipe</h3>
+    <li>
+      Realize conversas individuais com os membros da equipe para conhecer seus
+      objetivos, desafios e expectativas.
+    </li>
+    <li>
+      Compreenda as habilidades e competências de cada membro para melhor alocar
+      tarefas e responsabilidades.
+    </li>
+    <li>
+      Identifique eventuais conflitos ou tensões na equipe e esteja preparado
+      para ajudar a resolvê-los.
+    </li>
+  </ol>
+</div>
+<div class="lista-itens">
+  <ol>
+    <h3 style="margin-right: auto">
+      Passo 4 - Estabelecer um Ambiente de Confiança
+    </h3>
+    <li>
+      Promova um ambiente aberto e inclusivo onde os membros da equipe se sintam
+      à vontade para compartilhar suas opiniões.
+    </li>
+    <li>
+      Mantenha a confidencialidade e respeite a privacidade dos membros da
+      equipe. Encoraje a honestidade e a transparência nas interações da equipe.
+    </li>
+    <li>Encoraje a honestidade e a transparência nas interações da equipe.</li>
+  </ol>
+</div>
+<div class="lista-itens">
+  <ol>
+    <h3 style="margin-right: auto">Passo 5 - Facilitar as Reuniões do Scrum</h3>
+    <li>
+      Prepare a equipe para cada reunião, garantindo que todos compreendam os
+      objetivos e a agenda.
+    </li>
+    <li>
+      Mantenha as reuniões no tempo e no escopo previstos, mantendo o foco nos
+      objetivos definidos.
+    </li>
+    <li>
+      Estimule a participação ativa de todos os membros, garantindo que cada um
+      tenha a oportunidade de contribuir.
+    </li>
+  </ol>
+</div>
+<div class="lista-itens">
+  <ol>
+    <h3 style="margin-right: auto">Passo 6 - Remover Obstáculos</h3>
+    <li>
+      Esteja atento a possíveis impedimentos ou obstáculos que possam prejudicar
+      o progresso da equipe.
+    </li>
+    <li>
+      Ajude a identificar soluções ou encaminhe os obstáculos para as partes
+      responsáveis pela resolução.
+    </li>
+    <li>
+      Garanta que a equipe tenha os recursos e suporte necessários para cumprir
+      seus compromissos.
+    </li>
+  </ol>
+</div>
+<div class="lista-itens">
+  <ol>
+    <h3 style="margin-right: auto">Passo 7 - Manter a Documentação Adequada</h3>
+    <li>
+      Certifique-se de que os artefatos do Scrum (Product Backlog, Sprint
+      Backlog, Incremento do Produto) estejam sempre atualizados e acessíveis à
+      equipe.
+    </li>
+  </ol>
 </div>
 {% endblock %}
