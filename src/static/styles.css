@@ -12,6 +12,7 @@
     background-color: #dbdbdb;
     width: 100%;
     height: auto;
+    justify-content: center;
 }
 
 .conteudo_interno_branco {
@@ -352,7 +353,6 @@ body {
 
 .linha > div {
     padding: 2% 1.5%;
-    height: 100%;
 }
 
 /* BOTA DE INFORMATIVO */
