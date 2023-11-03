@@ -1,52 +1,64 @@
 {% extends "layout.html" %}{% block content %}
 
 <div class="título_principal">
-    <h1>Burndown Chart</h1>
+  <h1>Burndown Chart</h1>
 </div>
 
 <div class="conteudo_interno size">
-    <p>
-        É um gráfico que mostra o progresso de uma equipe ao longo do tempo,
-        representando a quantidade de trabalho restante em um projeto ou sprint.
-    </p>
-    <p></p>
-    <p></p>
-    <ul>
-        <li>
-            <strong>Defina a escala de tempo:</strong> Escolha a unidade de tempo
-            (dias ou semanas) para representar o progresso do Sprint.
-        </li>
-<hr>
-        <li>
-            <strong>Estabeleça uma linha de base:</strong> Determine o ponto de
-            partida, geralmente a quantidade total de trabalho planejado no
-            primeiro dia do Sprint.
-        </li>
-<hr>
-        <li>
-            <strong>Liste as tarefas:</strong> O Burndown Chart lista tarefas no
-            eixo vertical (trabalho) e deve ser atualizado diariamente com o
-            trabalho restante à medida que as tarefas são concluídas.
-        </li>
-<hr>
-        <li>
-            <strong>Inclua pontos de controle:</strong> Adicione marcos ou
-            linhas de referência que representam os objetivos diários de
-            progresso.
-        </li>
-<hr>
-        <li>
-            <strong>Identifique desvios e compartilhe:</strong> O Burndown Chart
-            monitora o progresso da equipe, detecta desvios e compartilha
-            informações para transparência e melhorias contínuas.
-        </li>
-    </ul>
+  <p>
+    É um gráfico que mostra o progresso de uma equipe ao longo do tempo,
+    representando a quantidade de trabalho restante em um projeto ou sprint.
+  </p>
+  <p></p>
+  <p></p>
+  <ul>
+    <li>
+      <strong>Defina a escala de tempo:</strong> Escolha a unidade de tempo
+      (dias ou semanas) para representar o progresso do Sprint.
+    </li>
+    <hr />
+    <li>
+      <strong>Estabeleça uma linha de base:</strong> Determine o ponto de
+      partida, geralmente a quantidade total de trabalho planejado no primeiro
+      dia do Sprint.
+    </li>
+    <hr />
+    <li>
+      <strong>Liste as tarefas:</strong> O Burndown Chart lista tarefas no eixo
+      vertical (trabalho) e deve ser atualizado diariamente com o trabalho
+      restante à medida que as tarefas são concluídas.
+    </li>
+    <hr />
+    <li>
+      <strong>Inclua pontos de controle:</strong> Adicione marcos ou linhas de
+      referência que representam os objetivos diários de progresso.
+    </li>
+    <hr />
+    <li>
+      <strong>Identifique desvios e compartilhe:</strong> O Burndown Chart
+      monitora o progresso da equipe, detecta desvios e compartilha informações
+      para transparência e melhorias contínuas.
+    </li>
+    <hr />
+    <li>
+      <strong>Como fazer a leitura do gráfico:</strong> A linha vertical representa
+      os valores dos pesos das tarefas x  linha horizontal que representa o tempo para realização as tarefas
+      (tempo total da sprint).
+      A linha diagonal vermelha é o tempo ideal de produção x tempo.
+      A linha azul mede o desempenho de produção x tempo. Quando a linha azul esta
+      abaixo da diagonal significa que o projeto esta adiantado. Caso esteja acima da
+      diagonal o projeto esta atrasado referente a produtividade ideal.
+
+    
+    
+    </li>
+  </ul>
 </div>
 <div class="imagem_burndown">
-    <img
-        src="{{ url_for('static', filename='img/burndown.png') }}"
-        alt="Burndown Chart"
-    />
+  <img
+    src="{{ url_for('static', filename='img/burndown.png') }}"
+    alt="Burndown Chart"
+  />
 </div>
 
 {% endblock %}
