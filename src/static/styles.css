@@ -184,10 +184,6 @@ form {
     padding-bottom: 10%;
 }
 
-/* .conteudo_interno2 p {
-    flex: 10;
-} */
-
 input[type="radio"] {
     transform: scale(1.8);
     margin: 0;
@@ -378,3 +374,10 @@ body {
         display: flex;
     }
 
+    .link_sprint {
+        text-decoration: underline;
+    }
+
+    .link_sprint:hover {
+        color: #4CAF50;
+    }
