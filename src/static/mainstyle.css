@@ -42,7 +42,16 @@ abbr {
     position: fixed;
     min-width: fit-content;
     min-height: 75%;
+    max-height: 100%;
+    overflow-y: auto;
+    /* remover barras de scroll */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+.side-menu::-webkit-scrollbar {
+    display: none;
+}
+
 
 .side-menu h1 {
     justify-content: right;
@@ -135,8 +144,7 @@ abbr {
 }
 
 .dropdown-title > .arrow-logo {
-    height: 2vh;
-    width: 2vh;
+    height: 3vh;
     transition-duration: 0.2s;
     transition-property: transform;
     transform: rotate(0deg);
