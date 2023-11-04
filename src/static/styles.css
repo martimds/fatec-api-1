@@ -286,8 +286,8 @@ input[type="text"] {
 .imagem_burndown img{
     max-height: 400px;
     max-width: 100%;
-    width: 60%;
-    margin-left: 18%;
+    width: 100%;
+    margin-left: 1%;
 }
 
 .conteudo_interno_papeis {
