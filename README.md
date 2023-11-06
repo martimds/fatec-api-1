@@ -64,8 +64,6 @@ Este projeto está sendo conduzido utilizando a metodologia ágil Scrum para o g
 
 # Sprint 3 - Aprofundamento de Conteúdo
 
-## Revisão da sprint
-
 [**Conclusão:** 05/11/2023](https://github.com/martimds/fatec-api-1#3%C2%AA-entrega)
 
 ## Backlog da Sprint
