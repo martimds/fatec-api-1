@@ -22,6 +22,7 @@
     gap: 6px;
 }
 
+ /* PAGE AVALIADOR */
 .conteudo_interno2 {
     display: flex;
     flex-direction: row;
@@ -34,10 +35,10 @@
     border: 2px solid rgb(0, 0, 0);
 }
 
+
 .apresentacao_baloes {
     width: fit-content;
-    font-size: 150%;
-    /* border: 2px solid; */
+    font-size: 120%;
     padding: 2% 1.5%;
     background-color: #FFFFFF;
 }
@@ -183,10 +184,6 @@ form {
     padding-bottom: 10%;
 }
 
-/* .conteudo_interno2 p {
-    flex: 10;
-} */
-
 input[type="radio"] {
     transform: scale(1.8);
     margin: 0;
@@ -289,8 +286,8 @@ input[type="text"] {
 .imagem_burndown img{
     max-height: 400px;
     max-width: 100%;
-    width: 60%;
-    margin-left: 18%;
+    width: 100%;
+    margin-left: 1%;
 }
 
 .conteudo_interno_papeis {
@@ -343,20 +340,20 @@ body {
     text-align: center;
 }
 
-/* scrum master */
+/* balões 2.0 dos papéis  */
 .conjunto-baloes > div {
     text-align: center;
 }
 .conjunto-baloes h2 {
-    font-size: 200%;
+    font-size: 140%;
 }
 
 .linha > div {
     padding: 2% 1.5%;
 }
 
-/* BOTA DE INFORMATIVO */
-    .botao {
+/* BOTÃO INFORMATIVO */
+    .botao_informativo {
         background-color: cadetblue; 
         border: none; 
         color: white; 
@@ -368,15 +365,22 @@ body {
         transition-duration: 0.4s;
         justify-content: right; 
     }
-
-    .botao:hover {
-        background-color: white; /* Altera a cor de fundo para branco ao passar o mouse */
-        color: black; /* Altera a cor do texto para preto ao passar o mouse */
-        border: 2px solid #4CAF50; /* Adiciona uma borda verde ao passar o mouse */
+    .botao_informativo:hover {
+        background-color: white; 
+        color: black;
+        border: 2px solid #4CAF50;
     }
-
-
     .centralizar {
         display: flex;
     }
 
+    .link_sprint {
+        text-decoration: underline;
+    }
+
+    .link_sprint:hover {
+        color: #4CAF50;
+    }
+
+    
+      
