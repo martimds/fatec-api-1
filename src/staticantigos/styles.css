@@ -1,0 +1,386 @@
+.conteudo h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo_interno {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 4% 2.5%;
+    border-radius: 35px;
+    background-color: #dbdbdb;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.conteudo_interno_branco {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5% 5%;
+    gap: 6px;
+}
+
+ /* PAGE AVALIADOR */
+.conteudo_interno2 {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding: 4% 2.5%;
+    border-radius: 35px;
+    background-color: #dbdbdb;
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+.apresentacao_baloes {
+    width: fit-content;
+    font-size: 120%;
+    padding: 2% 1.5%;
+    background-color: #FFFFFF;
+}
+.conjunto-baloes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.conjunto-baloes-sprint {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    background-image: url(./img/vector.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 75%;
+    background-position-y: center;
+}
+
+.conjunto-baloes .conteudo_interno {
+    max-width: 50%;
+}
+
+.conjunto-baloes-sprint .conteudo_interno {
+    max-width: 55%;
+}
+
+.imagem_1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/* papeis */
+.linha {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.linha_direita {
+    display: flex;
+    justify-content: right;
+}
+
+.linha_esquerda {
+    display: flex;
+    justify-content: left;
+}
+
+/* sprint */
+.imagem_1_sprint {
+    background-image: url(./img/vector.png);
+    margin-top: 2.5%;
+    text-align: center;
+    height: 600px;
+    justify-content: center;
+    background-size: cover;
+}
+
+/* sprint */
+.caixa_1 {
+    color: black;
+    width: 50%;
+    padding: 2.5%;
+    margin-left: 3.6%;
+    border-radius: 35px;
+    background-color: #dbdbdb;
+    text-align: center;
+    display: block;
+    font-size: 100%;
+}
+p,
+ul {
+    flex-direction: column;
+    font-size: 150%;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.caixa_avaliador {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-right: 40%;
+}
+
+.ajuste_1 {
+    margin: 0 auto;
+    font-size: 100%;
+    text-align: left;
+}
+
+.pergunta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2.5%;
+}
+.info > ol {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 3%;
+    gap: calc(5vw + 23.4px);
+}
+.info > ol > li {
+    width: 23.4;
+}
+
+form {
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+}
+
+.botao {
+    display: flex;
+    vertical-align: center;
+    gap: 5vw;
+    flex-direction: row;
+    margin-right: 3%;
+}
+
+.espaco_botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    padding-bottom: 10%;
+}
+
+input[type="radio"] {
+    transform: scale(1.8);
+    margin: 0;
+}
+
+input[type="submit"] {
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-left: 25%;
+}
+
+input[type="text"] {
+    font-size: 20px;
+    width: 25vw;
+}
+
+.criterios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.criterios > h2 {
+    margin-left: 8%;
+}
+
+.criterios > p {
+    margin-right: 6%;
+}
+
+.conteudo_interno3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20vw;
+    justify-content: space-evenly;
+    padding: 4% 2.5%;
+    border-radius: 35px;
+    background-color: #dbdbdb;
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.size{
+    font-size: 90%;
+}
+
+.imagem_eventos img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 70%;
+    margin-left: 13%;
+}
+
+.imagem_carac img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 70%;
+    margin-left: 13%;
+}
+
+.imagem_po img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 45%;
+    margin-left: 30%;
+}
+.imagem_master img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 80%;
+    margin-left: 13%;
+    margin-top: -6%;
+}
+.imagem_dev img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.imagem_hist img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 70%;
+    margin-left: 13%;
+}
+
+.imagem_backlog img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 70%;
+    margin-left: 13%;
+}
+
+.imagem_burndown img{
+    max-height: 400px;
+    max-width: 100%;
+    width: 100%;
+    margin-left: 1%;
+}
+
+.conteudo_interno_papeis {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 4% 2.5%;
+    border-radius: 35px;
+    background-color: #dbdbdb;
+    width: 85%;
+    height: auto;
+}
+
+
+
+/* Estilo CSS para reduzir o tamanho do texto */
+.lista-itens ol li {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    list-style: outside;
+    font-size: 25px;
+}
+
+.lista-itens h3 {
+    font-size: 30px; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tabela_backlog {
+    display: table;
+    width: 100%;
+}
+
+.linha_backlog {
+    display: table-row;
+}
+
+.coluna_backlog {
+    display: table-cell;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+/* DoD */
+.center {
+    text-align: center;
+}
+
+/* balões 2.0 dos papéis  */
+.conjunto-baloes > div {
+    text-align: center;
+}
+.conjunto-baloes h2 {
+    font-size: 140%;
+}
+
+.linha > div {
+    padding: 2% 1.5%;
+}
+
+/* BOTÃO INFORMATIVO */
+    .botao_informativo {
+        background-color: cadetblue; 
+        border: none; 
+        color: white; 
+        padding: 11px 32px; 
+        font-size: 12px; 
+        margin: 10px 2px; 
+        cursor: pointer; 
+        border-radius: 7px; 
+        transition-duration: 0.4s;
+        justify-content: right; 
+    }
+    .botao_informativo:hover {
+        background-color: white; 
+        color: black;
+        border: 2px solid #4CAF50;
+    }
+    .centralizar {
+        display: flex;
+    }
+
+    .link_sprint {
+        text-decoration: underline;
+    }
+
+    .link_sprint:hover {
+        color: #4CAF50;
+    }
+
+    
+      

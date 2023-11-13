@@ -1,0 +1,228 @@
+{% extends "layout.html" %}{% block content %}
+
+<div class="título_principal">
+    <h1>Product Owner</h1>
+</div> 
+
+<div class="imagem_po">
+    
+    <img
+        src="{{ url_for('static', filename='img/productowner.png') }}"
+        alt="Product Owner image2"/>
+</div>
+
+<div class="conteudo_interno size">
+    <h2 style="text-align: center; font-size: 175%; margin-bottom: 2%">
+      Introdução 
+    </h2>
+    <p>
+      O Product Owner, ou dono do produto, desempenha um papel fundamental na maximização do valor do produto e do Time de Desenvolvimento. Como representante dos stakeholders, o Product Owner trabalha em estreita colaboração com o time de desenvolvimento para garantir a entrega contínua de valor ao cliente.
+    </p>
+    <hr>
+    <p>
+        <strong>Responsabilidades do Product Owner:</strong>
+      <ul>
+        
+        <li>Criar e gerenciar o Backlog do Produto.</li>
+        
+        <li>Comunicar claramente as necessidades e expectativas dos stakeholders ao time de desenvolvimento;</li>
+        
+        <li>Colaborar ativamente com o time de desenvolvimento durante o Sprint.</li>
+        
+        <li>Garantir que o Time de Desenvolvimento compreenda completamente o Backlog.
+        </li>
+      </ul>
+    </p>
+    <hr>
+    <p>
+      Para assegurar o sucesso do Product Owner, é essencial que toda a organização respeite suas decisões. É proibido qualquer interferência nas prioridades estabelecidas pelo Product Owner, e o Time de Desenvolvimento não deve agir com base em instruções de outras pessoas.
+    </p>
+  </div>
+  
+
+<div class="conteudo_interno apresentacao_baloes">
+    <h2 style="font-size: 110%;">COMO SE TORNAR UM BOM PRODUCT OWNER:</h2>
+</div>
+
+<div class="conjunto-baloes size">
+    <div class="linha">
+        <div class="conteudo_interno size">
+            <h2 >VISÃO DE PRODUTO</h2>
+            <p>
+                Mantenha uma visão clara do produto e alinhe as atividades da
+                equipe com essa visão.
+            </p>
+        </div>
+        <div class="conteudo_interno size">
+            <h2>CONHECIMENTO TÉCNICO</h2>
+            <p style="font-size: 150%">
+                Entendimento básico das tecnologias e processos envolvidos no
+                desenvolvimento de software.
+            </p>
+        </div>
+    </div>
+
+    <div class="linha">
+        <div class="conteudo_interno size">
+            <h2>PRIORIZAÇÃO EFICAZ</h2>
+            <p style="font-size: 150%">
+                Priorizar o backlog de produtos com base no valor para o cliente
+                e nos objetivos do negócio.
+            </p>
+        </div>
+        <div class="conteudo_interno size">
+            <h2>COMPREENSÃO DE NEGÓCIO</h2>
+            <p style="font-size: 150%">
+                Para tomar decisões informadas sobre o produto.
+            </p>
+        </div>
+    </div>
+
+    <div class="linha">
+        <div class="conteudo_interno size">
+            <h2>SUCESSO DO PRODUTO</h2>
+            <p style="font-size: 150%">
+                Assuma a responsabilidade e esteja disposto a tomar medidas para
+                garantir seu crescimento e relevância.
+            </p>
+        </div>
+        <div class="conteudo_interno size">
+            <h2>FEEDBACK DO MERCADO</h2>
+            <p style="font-size: 150%">
+                Esteja atento ao feedback do mercado e às tendências do setor
+                para ajustar a estratégia.
+            </p>
+        </div>
+    </div>
+
+    <div class="conteudo_interno size">
+        <h2>FOCO NO VALOR</h2>
+        <p style="font-size: 150%">
+            Certifique-se de que cada incremento do produto entregue valor
+            tangível aos usuários e clientes.
+        </p>
+    </div>
+</div>
+
+<hr>
+
+<!-- Exemplos práticos PO -->
+<h2>Guia: Papel do Product Owner (P.O.)</h2>
+
+<!-- Passo 1 - Defina os objetivos -->
+<div class="lista-itens conteudo_interno ">
+    <ol>
+        <h3>Passo 1 - Defina os objetivos:</h3>
+        
+        <li><strong>Realizar Pesquisa de Mercado:</strong> Analisar o mercado para identificar necessidades dos clientes, concorrentes e oportunidades.
+            <br><strong>Exemplo:</strong> Realizar uma pesquisa de mercado para identificar tendências atuais no mercado de aplicativos de gerenciamento de tarefas e analisar as preferências dos usuários em relação a funcionalidades específicas.</li>
+            <hr>
+        <li><strong>Estabelecer Metas Claras:</strong> Definir metas específicas, mensuráveis, alcançáveis, relevantes e temporais para o produto.
+            <br><strong>Exemplo:</strong> Definir como meta alcançar uma taxa de retenção de usuários de pelo menos 70% após o primeiro mês de uso do aplicativo.</li>
+            <hr>
+        <li><strong>Colaborar com Stakeholders:</strong> Envolver stakeholders para entender suas expectativas e requisitos em relação ao produto.
+            <br><strong>Exemplo:</strong> Organizar uma sessão de brainstorming com os principais stakeholders, incluindo membros da equipe de desenvolvimento, designers e usuários finais, para entender as expectativas de cada grupo em relação ao produto.</li>
+    </ol>
+</div>
+
+<!-- Passo 2 - Criando um Backlog -->
+<div class="lista-itens conteudo_interno">
+    <ol>
+        <h3>Passo 2 - Criando um Backlog:</h3>
+        
+        
+        <div class="botao_principal">
+    <a href="productbacklog"><button class="botao_informativo"> MAIS INFORMAÇÕES</button></a>
+        </div>
+            <h3>Crie uma tabela com os seguintes itens:</h3>
+        <li><strong>Epic:</strong> Aqui será onde você irá definir um objetivo principal da Sprint (MVP).</li>
+        <hr>
+        <li><strong>User Story:</strong> Liste todas as funcionalidades que você deseja para o seu site e organize as User Stories por ordem de importância.
+            <br><strong>Exemplo:</strong> Como um usuário, eu quero poder criar uma nova tarefa para que eu possa organizar meu trabalho diário de forma eficaz.</li>
+            <hr>
+        <li><strong>Sprint:</strong> Coloque o número da sprint relacionada.</li>
+        <a href="sprint"><button class="botao_informativo">MAIS INFORMAÇÕES</button></a>
+        <hr>
+        <li><strong>Prioridade:</strong> Ultilize o Planning Poker para definir o Story Point de cada tarefa do Backlog. Depois de ter definido os Story Points, numere todas as prioridades de cada tarefa utilizando números de 0 a 100 com base nos Story Points.
+            <hr style="border-color: transparent;">
+            <a href="planningpoker"><button class="botao_informativo">MAIS INFORMAÇÕES</button></a>
+            <br><strong>Lembre-se:</strong> Utilize números de 0 a 100 em ordem decrescente de 5 em 5.
+            <br>
+            <strong style="font-size: 25px;" >Exemplos:</strong>
+        </li>        
+            <ul>
+                <li><strong>Tarefa 1:</strong> Corrigir bug crítico no sistema <br>( Story Point: 10 e Prioridade: 100).</li>
+                <li><strong>Tarefa 2:</strong> Implementar nova funcionalidade solicitada pelo cliente ( Story Point: 7 e Prioridade: 95).</li>
+                <li><strong>Tarefa 3:</strong> Melhorar a interface do usuário para aumentar a usabilidade ( Story Point: 5 e Prioridade: 90).</li>
+            </ul>
+      <hr>
+        <li><strong>Ferramentas:</strong> Coloque as ferramentas utilizadas que serão usadas para realizar uma tarefa específica.
+            <br><strong>Exemplo:</strong> Utilizar o Jira para criar um quadro Kanban, movendo as tarefas concluídas para a coluna "Concluído" e mantendo as tarefas em andamento na coluna "Em Progresso".</li>  
+    </ol>
+    <!-- tabela exemplo backlog -->
+    <strong style="font-size: 25px;text-align: center;">Exemplo Tabela Backlog</strong>
+<div class="tabela_backlog">
+    <div class="linha_backlog">
+        <div class="coluna_backlog">MVP</div>
+        <div class="coluna_backlog">UserStory</div>
+        <div class="coluna_backlog">Sprint</div>
+        <div class="coluna_backlog">StoryPoint</div>
+        <div class="coluna_backlog">Prioridade</div>
+        <div class="coluna_backlog">Ferramentas</div>
+    </div>
+    <div class="linha_backlog">
+        <div class="coluna_backlog">Protótipo do site</div>
+        <div class="coluna_backlog">Como um usuário, eu quero...</div>
+        <div class="coluna_backlog">1</div>
+        <div class="coluna_backlog">8</div>
+        <div class="coluna_backlog">100</div>
+        <div class="coluna_backlog">HTML/CSS</div>
+    </div>
+</div>
+</div>
+
+
+<!-- Passo 3 - Organize e distribua as tarefas -->
+<div class="lista-itens conteudo_interno">
+    <ol>
+        <h3>Passo 3 - Organize e distribua as tarefas:</h3>
+        
+        <li><strong>Planning Poker:</strong> Utilize a ferramenta Planning Poker para definir os Story Points que serão usados para avaliar o esforço e o tempo que serão empregados em cada tarefa.
+            <hr style="border-color: transparent;">
+            <a href="planningpoker"><button class="botao_informativo">MAIS INFORMAÇÕES</button></a>
+            <br><strong>Exemplo:</strong> Realizar uma sessão de Planning Poker para estimar as User Stories do Epic 1, envolvendo todos os membros da equipe de desenvolvimento e atribuindo Story Points a cada tarefa.</li>
+            <hr>
+        <li><strong>Story Point:</strong> Será utilizado para definir o peso e o esforço de cada tarefa.
+            <br><strong>Exemplo:</strong> Atribuir 5 Story Points para a User Story 1 do Epic 1, indicando que é uma tarefa de complexidade moderada.</li>
+            <hr>
+        <li><strong>Jira ou Trello:</strong> Faça o uso dessas ferramentas para organizar o Backlog e distribuir as tarefas de forma eficaz entre o time.
+            <br><strong>Exemplo:</strong> Utilizar o Trello para criar um quadro Kanban, movendo as tarefas para as colunas "A Fazer", "Em Andamento" e "Concluído" à medida que são trabalhadas e concluídas.</li>
+    </ol>
+</div>
+
+<!-- Passo 4 - Acompanhe o Progresso e Realize Feedback -->
+<div class="lista-itens conteudo_interno">
+    <ol>
+        <h3>Passo 4 - Acompanhe o Progresso e Realize Feedback:</h3>
+        
+        <li><strong>Reuniões Diárias:</strong> Realize reuniões diárias com a equipe para acompanhar o progresso, identificar obstáculos e garantir a colaboração.
+            <br><strong>Exemplo:</strong> Realizar reuniões diárias curtas (stand-ups) via videoconferência, onde cada membro da equipe compartilha o que fez ontem, o que fará hoje e se enfrentou algum obstáculo.</li>
+            <hr>
+        <li><strong>Revisão das Sprints:</strong> Após cada sprint, revise o trabalho concluído e obtenha feedback dos stakeholders para ajustar os próximos passos.
+            <br><strong>Exemplo:</strong> Após a conclusão de uma sprint, organizar uma reunião de revisão com os stakeholders para apresentar as funcionalidades desenvolvidas, coletar feedback e discutir ajustes necessários.</li>
+    </ol>
+</div>
+
+<!-- Passo 5 - Ajuste Contínuo e Melhoria -->
+<div class="lista-itens conteudo_interno">
+    <ol>
+        <h3>Passo 5 - Ajuste Contínuo e Melhoria:</h3>
+        
+        <li><strong>Retrospectivas:</strong> Realize retrospectivas após cada sprint para identificar o que funcionou bem e o que pode ser melhorado.
+            <br><strong>Exemplo:</strong> Conduzir uma retrospectiva após cada sprint, utilizando a técnica "Start, Stop, Continue" para identificar práticas que devem ser iniciadas, interrompidas ou mantidas na próxima sprint.</li>
+            <hr>
+        <li><strong>Interação:</strong> Com base no feedback e nos resultados, ajuste os objetivos, as prioridades e as tarefas para as próximas sprints.
+            <br><strong>Exemplo:</strong> Com base no feedback dos usuários, priorizar a implementação de novas funcionalidades solicitadas e ajustar o backlog, garantindo que o produto esteja sempre alinhado com as expectativas dos usuários.</li>
+    </ol>
+</div>
+{% endblock %}

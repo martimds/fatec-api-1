@@ -1,0 +1,40 @@
+{% extends "layout.html" %}{% block content %}
+
+<div class="título_principal">
+    <h1>Características do Scrum</h1>
+</div>
+
+<div class="conteudo_interno size">
+    <ul>
+        <li>
+            <strong>Papéis Claros:</strong> Scrum Master, Dono do Produto e
+            Membros da Equipe, cada um com responsabilidades claramente
+            definidas.
+        </li>
+<hr>
+        <li>
+            <strong>Trabalho Transparente:</strong> O progresso do trabalho é
+            visível para todos os membros da equipe e partes interessadas.
+        </li>
+<hr>
+        <li>
+            <strong>Adaptação Contínua:</strong> O Scrum valoriza a inspeção e
+            adaptação contínuas, permitindo que a equipe melhore seus processos
+            e resultados ao longo do tempo.
+        </li>
+<hr>
+        <li>
+            <strong>Autonomia da Equipe:</strong> Decisões sobre como realizar o
+            trabalho, o que promove a responsabilidade e a motivação.
+        </li>
+    </ul>
+</div>
+
+<div class="imagem_carac">
+    <img
+        src="{{ url_for('static', filename='img/caracteristicas.png') }}"
+        alt="Características do Scrum"
+    />
+</div>
+
+{% endblock %}
