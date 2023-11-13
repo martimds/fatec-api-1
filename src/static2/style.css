@@ -1,0 +1,16 @@
+.container_navbar_principal{
+    height: 80px;
+}
+
+.container_navbar{
+    height: 30px;
+    font-size: 17px;
+}
+
+.container_card{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
