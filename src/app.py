@@ -6,9 +6,9 @@ app = Flask(__name__)
 
 
 @app.route("/")
-@app.route("/intro")
-def intro():
-    return render_template("intro.html")
+@app.route("/home")
+def home():
+    return render_template("home.html")
 
 
 @app.route("/calcular", methods=["POST"])
