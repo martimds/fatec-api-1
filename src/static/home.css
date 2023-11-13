@@ -1,3 +1,4 @@
+/* Navbar */
 .container_navbar_principal{
     height: 80px;
 }
@@ -7,10 +8,66 @@
     font-size: 17px;
 }
 
+/* Card */
 .container_card{
     display: flex;
     justify-content: space-between;
-    margin-right: 1%;
-    margin-left: 1%;
     margin-top: 1%;
+    margin-left: 1%;
+    width: 98%;
+    font-size: 80%;
+}
+
+/* Imagem */
+.container_imagem{
+    position: relative;
+}
+.container_txt_home{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;   
+    left: 18%;
+    transform: translate(-50%, -50%)
+}
+.container_txt2_home{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 90%;   
+    left: 16%;
+    transform: translate(-50%, -50%)
+}
+.container_txt3_home{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 52%;   
+    left: 71%;
+    transform: translate(-50%, -50%)
+}
+/* Introdução */
+.texto_home_1{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+.container_rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333652;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+   
+
+}
+
+.container_rodape p{
+    margin-top: 2%;
 }
