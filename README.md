@@ -1,5 +1,5 @@
 
-![logo_readme](https://github.com/martimds/fatec-api-1/assets/142838760/cd933f0f-f0aa-49e8-98d3-3c723f427abb)
+![Untitled](https://github.com/martimds/fatec-api-1/assets/142838760/cb9bf48c-dee2-4477-bd61-523cf107d59d)
 
 # Agile Learn
 
