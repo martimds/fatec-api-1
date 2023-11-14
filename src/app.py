@@ -11,7 +11,7 @@ def home():
     return render_template("home.html")
 
 
-@app.route("/calcular", methods=["POST"])
+@app.route("/calcular", methods=["POST"])  # type: ignore
 def calcular():
     try:
         criterios = [int(request.form[f"criterio{i}"]) for i in range(1, 8)]
