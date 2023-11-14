@@ -1,3 +1,5 @@
+![logo_github](https://github.com/martimds/fatec-api-1/assets/142838760/e256a08e-defa-40c8-afeb-9b7870cbb67d)
+
 # Agile Learn
 
 <p align="center">
