@@ -1,5 +1,4 @@
 
-![Untitled](https://github.com/martimds/fatec-api-1/assets/142838760/cb9bf48c-dee2-4477-bd61-523cf107d59d)
 
 # Agile Learn
 
