@@ -1,10 +1,7 @@
 /* Navbar GERAL*/
-.container_navbar_principal{
-    height: 90px;
-}
+
 
 .container_navbar{
-    height: 50px;
     font-size: 17px;
 }
 
@@ -20,7 +17,6 @@
 
 /* Imagem */
 .container_imagem{
-    margin-top: 2%;
     position: relative;
 }
 .container_txt_home{
@@ -50,12 +46,19 @@
     left: 85%;
     transform: translate(-50%, -50%)
 }
+
+.txt4 {
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+
+
 /* Introdução */
 .texto_home_1{
-    display: flex;
-    width: 70%;
-    margin: 0 auto;
     font-size: 17px;
+    padding: 2%
 }
 
 .container_rodape{
@@ -73,6 +76,8 @@
 .container_rodape p{
     margin-top: 1.5%;
 }
+
+
 
 
 
