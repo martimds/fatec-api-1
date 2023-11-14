@@ -18,10 +18,11 @@
 /* Imagem */
 .container_imagem{
     position: relative;
+    display: inline-block;
 }
 .container_txt_home{
     color: white;
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: bold;
     position: absolute;
     top:25%;   
@@ -31,7 +32,7 @@
 }
 .container_txt2_home{
     color: white;
-    font-size: 18px;
+    font-size: 1.125em;
     position: absolute;
     top: 60%;   
     left: 17.8%;
@@ -39,7 +40,7 @@
 }
 .container_txt3_home{
     color: white;
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: bold;
     position: absolute;
     top: 52%;   
@@ -90,21 +91,20 @@
 }
 .container_txt_po{
     color: black;
-    font-size: 40px;
-    font-weight: bold;
-    position: absolute;
-    top:25%;   
-    left: 15.5%;
-    transform: translate(-50%, -50%)
+    font-size: 2.5vw;
+    font-weight: bold; 
 }
 .container_txt2_po{
     color: black;
-    font-size: 18px;
+    font-size: 1.1vw;
+    margin-top: 4vh;
+    width: 45vw;
+}
+
+.txtimagem{
     position: absolute;
-    top: 50%;   
-    left: 28%;
-    transform: translate(-50%, -50%);
-    width: 650px;
+    top: 20%;
+    left: 9vw;
 }
 
 .texto_po_1{
