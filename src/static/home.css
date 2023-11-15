@@ -1,6 +1,12 @@
+.alinhamento_texto{
+    display: flex;
+    text-align: start;
+}
+
+
 /* Navbar */
 .container_navbar{
-    font-size: 17px;
+    font-size: 2.2vh;
 }
 
 /* Card */
@@ -10,7 +16,7 @@
     margin-top: 1%;
     margin-left: 1%;
     width: 98%;
-    font-size: 80%;
+    font-size: 2.2vh;
 }
 
 /* Página HOME */
@@ -22,7 +28,7 @@
 }
 .container_txt_home{
     color: white;
-    font-size: 2.9vw;
+    font-size: 5.2vh;
     font-weight: bold;
     position: absolute;
     top:40%;   
@@ -31,7 +37,7 @@
 }
 .container_txt2_home{
     color: white;
-    font-size: 1.2vw;
+    font-size: 2.2vh;
     position: absolute;
     top: 76%;   
     left: 24%;
@@ -44,10 +50,14 @@
     margin-bottom: 2%;
 }
 
+.txt4 h5{
+   font-size: 3.3vh;
+}
+
 
 /* Introdução */
 .texto_home_1{
-    font-size: 17px;
+    font-size: 2.2vh;
     padding: 2%
 }
 
@@ -59,7 +69,7 @@
     align-items: center;
     background-color: #333652;
     color: white;
-    font-size: 15px;
+    font-size: 2.2vh;
     font-weight: 200;
 
 }
@@ -70,72 +80,62 @@
 
 
 /* CSS PAGE papéis and artefatos */
+
 /* Imagem */
-.container_imagem{
+/* ----------------------- */
+
+.container_img {
+    text-align: center;
+}
+
+.img-container {
     position: relative;
-}
-
-.container_txt_po{
-    color: black;
-    font-size: 2.9vw;
-    font-weight: bold;
-    position: absolute;
-    top:30%;   
-    left: 20%;
-    transform: translate(-50%, -50%);
-}
-.container_txt2_po{
-    color: black;
-    font-size: 17px;
-    position: absolute;
-    top: 55%;   
-    left: 31%;
-    width:42%;
-    transform: translate(-50%, -50%)
-}
-
-
-/* .container_txt_po{
-    color: black;
-    font-size: 2.5vw;
-    font-weight: bold; 
-}
-.container_txt2_po{
-    color: black;
-    font-size: 1.1vw;
-    margin-top: 4vh;
-    width: 45vw;
-}
-
-.txtimagem{
-    position: absolute;
-    top: 20%;
-    left: 9vw;
-} */
-
-/* .texto_po_1{
-    display: flex;
-    width: 70%;
+    max-width: 100%;
     margin: 0 auto;
-    font-size: 17px;
 }
 
-.texto_po_2{
-    display: flex;
-    flex-direction: column;
-} */
-
-h5{
-    font-size: 21px;
+.img-container img {
+    max-width: 100%;
+    height: auto;
 }
 
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: start;
+}
+
+.text-overlay h1 {
+    color: #333;
+    font-size: 4.5vh;
+    margin-bottom: 10px;
+}
+
+.text-overlay p {
+    color: black;
+    line-height: 1.5;
+    width: 73%;
+    font-size: 2.2vh;
+}
+
+
+/* --------------------------- */
 .container_card_po {
     display: flex;
     justify-content: space-between;
     margin-bottom: 2%;
     margin-left: 15%;
     margin-right: 15%;
+    font-size: 2.2vh;
 }
+
+.container_card_po h5 {
+    font-size: 3.4vh;
+}
+
 
 .container_guia_po {
     width: 75%;
@@ -172,7 +172,8 @@ h5{
     }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1130px) {
+    .text-overlay,
     .container_txt_po,
     .container_txt2_po {
         display: none; 
