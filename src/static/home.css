@@ -138,7 +138,7 @@ h5{
 }
 
 .container_guia_po {
-    width: 530px;
+    width: 75%;
 }
 
 .tabela_backlog {
@@ -178,4 +178,3 @@ h5{
         display: none; 
     }
 }
-
