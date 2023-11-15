@@ -1,200 +1,246 @@
-{% extends "layout.html" %}{% block content %}
-{% block css %} <!-- Colocar o CSS específico da página dentro desse bloco --> {% endblock %} 
+{% extends "layout.html" %}{% block content %} {% block css %}
+<!-- Colocar o CSS específico da página dentro desse bloco -->
+<link rel="stylesheet" href="../static/home.css" />
+{% endblock %}
+
+<!-- Gambiarra; arrumar e apagar depois -->
+<div class="mb-5">-</div>
+<div class="mt-5"></div>
+
 <h1>Avaliação de Desempenho</h1>
 
-<form action="/calcular" method="post">
-    <div class="txt4">
-        <h5 style="margin-top: 2%">1. COMPREENSÃO DO SCRUM</h5>
-        <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
-            <p>Entendimento dos papéis, eventos e artefatos do scrum; aplicação dos conceitos de transparência, inspeção e adaptação</p>
+<div class="txt4">
+    <h5 style="margin-top: 2%">1. COMPREENSÃO DO SCRUM</h5>
+    <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
+        <p>Entendimento dos papéis, eventos e artefatos do scrum; aplicação dos conceitos de transparência, inspeção e adaptação</p>
 
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio1" id="criterio1-1" value="1" />
-                <label class="form-check-label" for="criterio1-1"> Não atende </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio1" id="criterio1-2" value="2" />
-                <label class="form-check-label" for="criterio1-2"> Abaixo das espectativas </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio1" id="criterio1-3" value="1" />
-                <label class="form-check-label" for="criterio1-3"> Atende parcialmente </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio1" id="criterio1-4" value="2" />
-                <label class="form-check-label" for="criterio1-4"> Atende </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio1" id="criterio1-5" value="1" />
-                <label class="form-check-label" for="criterio1-5"> Supera as expectativas </label>
-            </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio1" id="criterio1-1" value="1" />
+            <label class="form-check-label" for="criterio1-1"> Não atende </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio1" id="criterio1-2" value="2" />
+            <label class="form-check-label" for="criterio1-2"> Abaixo das espectativas </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio1" id="criterio1-3" value="3" />
+            <label class="form-check-label" for="criterio1-3"> Atende parcialmente </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio1" id="criterio1-4" value="4" />
+            <label class="form-check-label" for="criterio1-4"> Atende </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio1" id="criterio1-5" value="5" />
+            <label class="form-check-label" for="criterio1-5"> Supera as expectativas </label>
         </div>
     </div>
-    <div class="txt4">
-        <h5 style="margin-top: 2%">2. COLABORAÇÃO EM EQUIPE</h5>
-        <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
-            <p>Participação ativa nas reuniões diárias; contribuição para a resolução de impedimentos</p>
+</div>
+<div class="txt4">
+    <h5 style="margin-top: 2%">2. COLABORAÇÃO EM EQUIPE</h5>
+    <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
+        <p>Participação ativa nas reuniões diárias; contribuição para a resolução de impedimentos</p>
 
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio2" id="criterio2-1" value="1" />
-                <label class="form-check-label" for="criterio2-1"> Não atende </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio2" id="criterio2-2" value="2" />
-                <label class="form-check-label" for="criterio2-2"> Abaixo das espectativas </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio2" id="criterio2-3" value="1" />
-                <label class="form-check-label" for="criterio2-3"> Atende parcialmente </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio2" id="criterio2-4" value="2" />
-                <label class="form-check-label" for="criterio2-4"> Atende </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio2" id="criterio2-5" value="1" />
-                <label class="form-check-label" for="criterio2-5"> Supera as expectativas </label>
-            </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio2" id="criterio2-1" value="1" />
+            <label class="form-check-label" for="criterio2-1"> Não atende </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio2" id="criterio2-2" value="2" />
+            <label class="form-check-label" for="criterio2-2"> Abaixo das espectativas </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio2" id="criterio2-3" value="3" />
+            <label class="form-check-label" for="criterio2-3"> Atende parcialmente </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio2" id="criterio2-4" value="4" />
+            <label class="form-check-label" for="criterio2-4"> Atende </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio2" id="criterio2-5" value="5" />
+            <label class="form-check-label" for="criterio2-5"> Supera as expectativas </label>
         </div>
     </div>
+</div>
 
-    <!-- aula no 405 -->
+<!-- aula no 405 -->
 
-    <div class="txt4">
-        <h5 style="margin-top: 2%">3. PLANEJAMENTO E DEFINIÇÃO DAS SPRINTS</h5>
-        <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
-            <p>Participação construtiva no planejamento da sprint; definição clara e realista dos objetivos das sprints</p>
+<div class="txt4">
+    <h5 style="margin-top: 2%">3. PLANEJAMENTO E DEFINIÇÃO DAS SPRINTS</h5>
+    <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
+        <p>Participação construtiva no planejamento da sprint; definição clara e realista dos objetivos das sprints</p>
 
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio3" id="criterio3-1" value="1" />
-                <label class="form-check-label" for="criterio3-1"> Não atende </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio3" id="criterio3-2" value="2" />
-                <label class="form-check-label" for="criterio3-2"> Abaixo das espectativas </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio3" id="criterio3-3" value="1" />
-                <label class="form-check-label" for="criterio3-3"> Atende parcialmente </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio3" id="criterio3-4" value="2" />
-                <label class="form-check-label" for="criterio3-4"> Atende </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio3" id="criterio3-5" value="1" />
-                <label class="form-check-label" for="criterio3-5"> Supera as expectativas </label>
-            </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio3" id="criterio3-1" value="1" />
+            <label class="form-check-label" for="criterio3-1"> Não atende </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio3" id="criterio3-2" value="2" />
+            <label class="form-check-label" for="criterio3-2"> Abaixo das espectativas </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio3" id="criterio3-3" value="3" />
+            <label class="form-check-label" for="criterio3-3"> Atende parcialmente </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio3" id="criterio3-4" value="4" />
+            <label class="form-check-label" for="criterio3-4"> Atende </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio3" id="criterio3-5" value="5" />
+            <label class="form-check-label" for="criterio3-5"> Supera as expectativas </label>
         </div>
     </div>
-    <div class="txt4">
-        <h5 style="margin-top: 2%">4. EXECUÇÃO DAS SPRINTS</h5>
-        <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
-            <p>Progresso visível em relação aos objetivos da sprint; flexibilidade para lidar com mudanças durante a sprint</p>
+</div>
+<div class="txt4">
+    <h5 style="margin-top: 2%">4. EXECUÇÃO DAS SPRINTS</h5>
+    <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
+        <p>Progresso visível em relação aos objetivos da sprint; flexibilidade para lidar com mudanças durante a sprint</p>
 
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio4" id="criterio4-1" value="1" />
-                <label class="form-check-label" for="criterio4-1"> Não atende </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio4" id="criterio4-2" value="2" />
-                <label class="form-check-label" for="criterio4-2"> Abaixo das espectativas </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio4" id="criterio4-3" value="1" />
-                <label class="form-check-label" for="criterio4-3"> Atende parcialmente </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio4" id="criterio4-4" value="2" />
-                <label class="form-check-label" for="criterio4-4"> Atende </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio4" id="criterio4-5" value="1" />
-                <label class="form-check-label" for="criterio4-5"> Supera as expectativas </label>
-            </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio4" id="criterio4-1" value="1" />
+            <label class="form-check-label" for="criterio4-1"> Não atende </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio4" id="criterio4-2" value="2" />
+            <label class="form-check-label" for="criterio4-2"> Abaixo das espectativas </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio4" id="criterio4-3" value="3" />
+            <label class="form-check-label" for="criterio4-3"> Atende parcialmente </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio4" id="criterio4-4" value="4" />
+            <label class="form-check-label" for="criterio4-4"> Atende </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio4" id="criterio4-5" value="5" />
+            <label class="form-check-label" for="criterio4-5"> Supera as expectativas </label>
         </div>
     </div>
-    <div class="txt4">
-        <h5 style="margin-top: 2%">5. ENTREGA DAS SPRINTS</h5>
-        <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
-            <p>Produtos entregues atendem aos critérios de aceitação; valor de negócio alcançado com as entregas</p>
+</div>
+<div class="txt4">
+    <h5 style="margin-top: 2%">5. ENTREGA DAS SPRINTS</h5>
+    <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
+        <p>Produtos entregues atendem aos critérios de aceitação; valor de negócio alcançado com as entregas</p>
 
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio5" id="criterio5-1" value="1" />
-                <label class="form-check-label" for="criterio5-1"> Não atende </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio5" id="criterio5-2" value="2" />
-                <label class="form-check-label" for="criterio5-2"> Abaixo das espectativas </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio5" id="criterio5-3" value="1" />
-                <label class="form-check-label" for="criterio5-3"> Atende parcialmente </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio5" id="criterio5-4" value="2" />
-                <label class="form-check-label" for="criterio5-4"> Atende </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio5" id="criterio5-5" value="1" />
-                <label class="form-check-label" for="criterio5-5"> Supera as expectativas </label>
-            </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio5" id="criterio5-1" value="1" />
+            <label class="form-check-label" for="criterio5-1"> Não atende </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio5" id="criterio5-2" value="2" />
+            <label class="form-check-label" for="criterio5-2"> Abaixo das espectativas </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio5" id="criterio5-3" value="3" />
+            <label class="form-check-label" for="criterio5-3"> Atende parcialmente </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio5" id="criterio5-4" value="4" />
+            <label class="form-check-label" for="criterio5-4"> Atende </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio5" id="criterio5-5" value="5" />
+            <label class="form-check-label" for="criterio5-5"> Supera as expectativas </label>
         </div>
     </div>
-    <div class="txt4">
-        <h5 style="margin-top: 2%">6. MELHORIA CONTÍNUA</h5>
-        <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
-            <p>Produtos entregues atendem aos critérios de aceitação; valor de negócio alcançado com as entregas</p>
+</div>
+<div class="txt4">
+    <h5 style="margin-top: 2%">6. MELHORIA CONTÍNUA</h5>
+    <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
+        <p>Produtos entregues atendem aos critérios de aceitação; valor de negócio alcançado com as entregas</p>
 
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio6" id="criterio6-1" value="1" />
-                <label class="form-check-label" for="criterio6-1"> Não atende </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio6" id="criterio6-2" value="2" />
-                <label class="form-check-label" for="criterio6-2"> Abaixo das espectativas </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio6" id="criterio6-3" value="1" />
-                <label class="form-check-label" for="criterio6-3"> Atende parcialmente </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio6" id="criterio6-4" value="2" />
-                <label class="form-check-label" for="criterio6-4"> Atende </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio6" id="criterio6-5" value="1" />
-                <label class="form-check-label" for="criterio6-5"> Supera as expectativas </label>
-            </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio6" id="criterio6-1" value="1" />
+            <label class="form-check-label" for="criterio6-1"> Não atende </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio6" id="criterio6-2" value="2" />
+            <label class="form-check-label" for="criterio6-2"> Abaixo das espectativas </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio6" id="criterio6-3" value="3" />
+            <label class="form-check-label" for="criterio6-3"> Atende parcialmente </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio6" id="criterio6-4" value="4" />
+            <label class="form-check-label" for="criterio6-4"> Atende </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio6" id="criterio6-5" value="5" />
+            <label class="form-check-label" for="criterio6-5"> Supera as expectativas </label>
         </div>
     </div>
-    <div class="txt4">
-        <h5 style="margin-top: 2%">7. ADOÇÃO DOS PRINCÍPIOS ÁGEIS</h5>
-        <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
-            <p>Aplicação dos princípios ágeis em todo o processo; busca pela excelência técnica e qualidade</p>
+</div>
+<div class="txt4">
+    <h5 style="margin-top: 2%">7. ADOÇÃO DOS PRINCÍPIOS ÁGEIS</h5>
+    <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
+        <p>Aplicação dos princípios ágeis em todo o processo; busca pela excelência técnica e qualidade</p>
 
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio7" id="criterio7-1" value="1" />
-                <label class="form-check-label" for="criterio7-1"> Não atende </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio7" id="criterio7-2" value="2" />
-                <label class="form-check-label" for="criterio7-2"> Abaixo das espectativas </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio7" id="criterio7-3" value="1" />
-                <label class="form-check-label" for="criterio7-3"> Atende parcialmente </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio7" id="criterio7-4" value="2" />
-                <label class="form-check-label" for="criterio7-4"> Atende </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="criterio7" id="criterio7-5" value="1" />
-                <label class="form-check-label" for="criterio7-5"> Supera as expectativas </label>
-            </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio7" id="criterio7-1" value="1" />
+            <label class="form-check-label" for="criterio7-1"> Não atende </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio7" id="criterio7-2" value="2" />
+            <label class="form-check-label" for="criterio7-2"> Abaixo das espectativas </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio7" id="criterio7-3" value="3" />
+            <label class="form-check-label" for="criterio7-3"> Atende parcialmente </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio7" id="criterio7-4" value="4" />
+            <label class="form-check-label" for="criterio7-4"> Atende </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="criterio7" id="criterio7-5" value="5" />
+            <label class="form-check-label" for="criterio7-5"> Supera as expectativas </label>
         </div>
     </div>
-</form>
+</div>
+<div class="txt4 d-flex align-items-center texto_home_1">
+    <button onclick="calcularSoma()" class="btn btn-outline-dark">Calcular Soma</button>
+    <p id="resultado" class="align-items-center" style="margin: 0 0 0 5%">A soma é:</p>
+</div>
+
+<script>
+    // Arrumar JS
+    function pontuacaoCategoria(pontuacao) {
+        if (pontuacao <= 3) {
+            return "Muito ruim";
+        } else if (3 < pontuacao <= 6) {
+            return "Ruim";
+        } else if (6 < pontuacao <= 7) {
+            return "Aceitável";
+        } else if (7 < pontuacao <= 9) {
+            return "Bom";
+        } else if (pontuacao > 9) {
+            return "Excelente";
+        }
+    }
+    function calcularSoma() {
+        try {
+            var criterios = [];
+            for (var i = 1; i <= 7; i++) {
+                var elemento = document.getElementsByName("criterio" + i)[0];
+                var valor = parseInt(elemento.value);
+                criterios.push(valor);
+            }
+
+            criterios[0] *= 2;
+            criterios[criterios.length - 1] *= 2;
+
+            var pontuacao = criterios.reduce((acc, val) => acc + val);
+            // var pontuacao = criterios.reduce((acc, val) => acc + val) / 4.5;
+
+            document.getElementById("resultado").innerText = "A soma é: " + pontuacao;
+        } catch (error) {
+            document.getElementById("resultado").innerText = "Erro: " + error;
+        }
+    }
+</script>
 
 {% endblock %}
