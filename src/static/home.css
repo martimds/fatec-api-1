@@ -113,7 +113,7 @@
     left: 9vw;
 } */
 
-.texto_po_1{
+/* .texto_po_1{
     display: flex;
     width: 70%;
     margin: 0 auto;
@@ -123,16 +123,16 @@
 .texto_po_2{
     display: flex;
     flex-direction: column;
-}
+} */
 
-.texto_po_2 h5{
+h5{
     font-size: 21px;
 }
 
 .container_card_po {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -141,7 +141,27 @@
     width: 530px;
 }
 
+.tabela_backlog {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 
+}
+
+.linha_backlog {
+    display: flex;
+    align-items: center;
+}
+
+.coluna_backlog {
+    flex: 1; 
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+
+
+/* --------   MEDIA  ---------- */
 
 @media screen and (max-width: 800px) {
     .container_txt_home,
