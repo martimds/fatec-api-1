@@ -1,6 +1,4 @@
-/* Navbar GERAL*/
-
-
+/* Navbar */
 .container_navbar{
     font-size: 17px;
 }
@@ -15,6 +13,8 @@
     font-size: 80%;
 }
 
+/* Página HOME */
+
 /* Imagem */
 .container_imagem{
     position: relative;
@@ -22,32 +22,21 @@
 }
 .container_txt_home{
     color: white;
-    font-size: 2.5em;
+    font-size: 2.9vw;
     font-weight: bold;
     position: absolute;
-    top:25%;   
-    left: 28%;
+    top:40%;   
+    left: 35%;
     transform: translate(-50%, -50%);
-    width: 650px;
 }
 .container_txt2_home{
     color: white;
-    font-size: 1.125em;
+    font-size: 1.2vw;
     position: absolute;
-    top: 60%;   
-    left: 17.8%;
+    top: 76%;   
+    left: 24%;
     transform: translate(-50%, -50%)
 }
-.container_txt3_home{
-    color: white;
-    font-size: 2.5em;
-    font-weight: bold;
-    position: absolute;
-    top: 52%;   
-    left: 85%;
-    transform: translate(-50%, -50%)
-}
-
 .txt4 {
     align-items: center;
     margin-left: 15%;
@@ -62,6 +51,8 @@
     padding: 2%
 }
 
+
+ /* Rodapé */
 .container_rodape{
     display: flex;
     justify-content: center;
@@ -70,7 +61,6 @@
     color: white;
     font-size: 15px;
     font-weight: 200;
-   
 
 }
 
@@ -79,17 +69,33 @@
 }
 
 
-
-
-
-
-/* CSS PAGE PAPÉIS( PRECISA ISOLAR ELE NO PAPÉIS.CSS) */
+/* CSS PAGE papéis and artefatos */
 /* Imagem */
 .container_imagem{
-    margin-top: 2%;
     position: relative;
 }
+
 .container_txt_po{
+    color: black;
+    font-size: 2.9vw;
+    font-weight: bold;
+    position: absolute;
+    top:30%;   
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.container_txt2_po{
+    color: black;
+    font-size: 17px;
+    position: absolute;
+    top: 55%;   
+    left: 31%;
+    width:42%;
+    transform: translate(-50%, -50%)
+}
+
+
+/* .container_txt_po{
     color: black;
     font-size: 2.5vw;
     font-weight: bold; 
@@ -105,7 +111,7 @@
     position: absolute;
     top: 20%;
     left: 9vw;
-}
+} */
 
 .texto_po_1{
     display: flex;
@@ -133,5 +139,23 @@
 
 .container_guia_po {
     width: 530px;
-    
 }
+
+
+
+@media screen and (max-width: 800px) {
+    .container_txt_home,
+    .container_txt2_home,
+    .container_txt_po,
+    .container_txt2_po {
+        display: none; 
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .container_txt_po,
+    .container_txt2_po {
+        display: none; 
+    }
+}
+
