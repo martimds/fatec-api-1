@@ -1,0 +1,231 @@
+{% extends "layout.html" %}{% block css %}
+<!-- Colocar o CSS específico da página dentro desse bloco -->
+<link rel="stylesheet" href="../static/po.css">
+{% endblock %}{% block content %}
+<!-- Imagem po -->
+<div class="container_img">
+  <div class="img-container">
+      <img src="../static/img/po_1.png" class="img-fluid" alt="Metodologia Ágil" />
+      <div class="text-overlay">
+          <h1>Developer Team</h1>
+          <p>O Time de Desenvolvimento é a espinha dorsal do projeto, responsável por transformar conceitos em produtos tangíveis e inovadores. Cada membro desse time desempenha um papel crucial na realização das metas e na entrega contínua de valor aos clientes.</p>
+      </div>
+  </div>
+</div>
+  
+
+
+
+
+<!-- Introdução PO -->
+<div class="txt4" style="margin-top: 2%">
+  <h5>Responsabilidades do Time de Desenvolvimento:</h5>
+  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+    <ul>
+      <li>Colaborar na definição e implementação das funcionalidades do produto;</li>
+      <li>
+        Trabalhar de forma interdisciplinar e autogerenciada para alcançar os objetivos do Sprint;
+      </li>
+      <li>
+        Manter altos padrões de qualidade em todas as entregas ao cliente.
+      </li>
+      <li>
+        Participar ativamente em reuniões e eventos Scrum para promover a transparência e a colaboração no time.
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="card text-bg-dark" style="
+  display: flex; width:70%; margin: 0 auto; align-items: flex-start;
+  background-position: left top;
+  background-origin: border-box;
+  gap: 1rem;
+  padding: 0.5rem;
+  ">
+  <img src="../static/img/po_2.png" class="card-img-overlay" style="position:absolute; width: 100%; height: 100%; z-index: 0; padding: 0;" alt="">
+  <div class="container_guia_po" style="padding: 2%; z-index: 1">
+    <h5 style="font-size: 3.3vh;" class="card-title">Guia: Papel do Developer Team</h5>
+    <div class="mx-start p-2">
+      <p style="font-size: 2.6vh;" class="card-text">
+        Este guia oferece para você o passo-a-passo essencial de como funciona
+        o trabalho de um membro do Developer Team.
+      </p>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fs-5" id="exampleModalLabel">
+            Guia: Papel do Developer Team
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Passo 1 -->
+        <div class="modal-body">
+          <ol style="list-style: none">
+            <li>
+              <h5>Passo 1 - Composição do Time de Desenvolvimento:</h5>
+              <p>
+                <strong>Diversidade de Profissionais:</strong> O Development Team reúne uma variedade de perfis profissionais para promover criatividade. <br />
+              </p>
+              <p>
+                <strong>Responsabilidade na entrega:</strong> O Time cria incrementos potencialmente entregáveis, estimando tamanhos de itens e alinhando-se com
+                metas da iteração.
+              </p>
+            </li>
+          </ol>
+          <hr />
+          <!-- Passo 2 -->
+          <div>
+            <ol>
+              <h5>Passo 2 - Auto-Organização e Autogerenciamento:</h5>
+              <p>
+                <strong>Autonomia na transformação:</strong> Autonomia na Transformação:</strong> O Time é auto-organizado para transformar o Product Backlog em incrementos.
+              </p>
+              <p>
+                <strong>Autogerenciamento:</strong> São responsáveis pelo microgerenciamento e pelo sucesso coletivo da iteração. 
+              </p>
+            </ol>
+          </div>
+          <hr />
+
+          <!-- Passo 3 -->
+          <div>
+            <ol>
+              <h5>Passo 3 - Tamanho adequado do Time de Desenvolvimento:</h5>
+              <p>
+                <strong>Equilíbrio Necessário:</strong> O Time deve manter um equilíbrio entre agilidade e produtividade. <br /><strong>Exemplo:</strong> Realizar uma
+                sessão de Planning Poker para estimar as User Stories do
+                Epic 1, envolvendo todos os membros da equipe de
+                desenvolvimento e atribuindo Story Points a cada tarefa.
+              </p>
+              <p>
+                <strong>Story Point:</strong> Será utilizado para definir o
+                peso e o esforço de cada tarefa. <br /><strong>Exemplo:</strong>
+                Atribuir 5 Story Points para a User Story 1 do Epic 1,
+                indicando que é uma tarefa de complexidade moderada.
+              </p>
+              <p>
+                <strong>Jira ou Trello:</strong> Faça o uso dessas
+                ferramentas para organizar o Backlog e distribuir as tarefas
+                de forma eficaz entre o time. <br /><strong>Exemplo:</strong>
+                Utilizar o Trello para criar um quadro Kanban, movendo as
+                tarefas para as colunas "A Fazer", "Em Andamento" e
+                "Concluído" à medida que são trabalhadas e concluídas.
+              </p>
+            </ol>
+          </div>
+          <hr />
+
+          <div>
+            <ol>
+              <h5>Passo 4 - Acompanhe o Progresso e Realize Feedback:</h5>
+
+              <p>
+                <strong>Reuniões Diárias:</strong> Realize reuniões diárias
+                com a equipe para acompanhar o progresso, identificar
+                obstáculos e garantir a colaboração. <br /><strong>Exemplo:</strong>
+                Realizar reuniões diárias curtas (stand-ups) via
+                videoconferência, onde cada membro da equipe compartilha o
+                que fez ontem, o que fará hoje e se enfrentou algum
+                obstáculo.
+              </p>
+              <p>
+                <strong>Revisão das Sprints:</strong> Após cada sprint,
+                revise o trabalho concluído e obtenha feedback dos
+                stakeholders para ajustar os próximos passos. <br /><strong>Exemplo:</strong>
+                Após a conclusão de uma sprint, organizar uma reunião de
+                revisão com os stakeholders para apresentar as
+                funcionalidades desenvolvidas, coletar feedback e discutir
+                ajustes necessários.
+              </p>
+            </ol>
+          </div>
+
+          <hr />
+
+          <div>
+            <ol>
+              <h5>Passo 5 - Ajuste Contínuo e Melhoria:</h5>
+              <p>
+                <strong>Retrospectivas:</strong> Realize retrospectivas após
+                cada sprint para identificar o que funcionou bem e o que
+                pode ser melhorado. <br /><strong>Exemplo:</strong> Conduzir
+                uma retrospectiva após cada sprint, utilizando a técnica
+                "Start, Stop, Continue" para identificar práticas que devem
+                ser iniciadas, interrompidas ou mantidas na próxima sprint.
+              </p>
+              <p>
+                <strong>Interação:</strong> Com base no feedback e nos
+                resultados, ajuste os objetivos, as prioridades e as tarefas
+                para as próximas sprints. <br /><strong>Exemplo:</strong>
+                Com base no feedback dos usuários, priorizar a implementação
+                de novas funcionalidades solicitadas e ajustar o backlog,
+                garantindo que o produto esteja sempre alinhado com as
+                expectativas dos usuários.
+              </p>
+            </ol>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Fechar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button style="z-index: 1; margin-left: 1rem; margin-bottom: 0.5rem;" type="button" class="btn btn-primary" data-bs-toggle="modal"
+    data-bs-target="#exampleModal">
+    Clique aqui
+  </button>
+</div>
+
+<div class="txt4" style="margin-top: 2%">
+  <h5>Como se tornar um bom desenvolvedor:</h5>
+  <div class="texto_po_2 shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+    <h5>Colaborar efetivamente</h5>
+    <p>
+      A troca contínua de informações e ideias é essencial para o progresso do projeto.
+    </p>
+
+    <h5>Diversidade de habilidades</h5>
+    <p>
+      Maior capacidade de enfrentar desafios diversos.
+    </p>
+
+    <h5>Foco no objetivo comum</h5>
+    <p>
+      O alinhamento de objetivos do projeto ajuda a manter o time coeso e orientado.
+    </p>
+
+    <h5>Adaptar-se às mudanças</h5>
+    <p>
+      Um bom Dev Team é ágil e flexível, pronto para ajustar estratégias.
+    </p>
+
+    <h5>Autonomia e auto-organização</h5>
+    <p>
+      Decisões mais eficazes e seja mais responsivo.
+    </p>
+
+    <h5>Feedback construtivo</h5>
+    <p>
+      Uma boa equipe tem um ambiente onde o feedback é valorizado.
+    </p>
+
+    <h5>Comprometimento</h5>
+    <p>
+      Estar disposto a fazer o necessário para alcançar os objetivos estabelecidos.
+    </p>
+  </div>
+</div>
+
+
+
+{% endblock %}
