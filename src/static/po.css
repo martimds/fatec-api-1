@@ -106,28 +106,6 @@
     text-align: center;
 }
 
-
-
-
-/* --------- Rodapé ------------------ */
-.container_rodape{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #333652;
-    color: white;
-    font-size: 2.2vh;
-    font-weight: 200;
-
-}
-
-.container_rodape p{
-    margin-top: 1.5%;
-}
-
-
-
-
 /* --------   MEDIA  ---------- */
 
 @media screen and (max-width: 1130px) {
