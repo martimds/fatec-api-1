@@ -1,3 +1,4 @@
+
 .txt4 {
     align-items: center;
     margin-left: 15%;
@@ -6,7 +7,7 @@
 }
 
 .txt4 h5{
-   font-size: 3.3vh;
+   font-size: 2.8vh;
 }
 
 .texto_home_1{
@@ -69,6 +70,8 @@
     width: 75%;
 }
 
+
+/* ------- CSS específico DA PAGE PO ---------   */
 .tabela_backlog {
     display: flex;
     flex-direction: column;
@@ -103,21 +106,32 @@
     text-align: center;
 }
 
-/* --------   MEDIA  ---------- */
 
-@media screen and (max-width: 800px) {
-    .container_txt_home,
-    .container_txt2_home,
-    .container_txt_po,
-    .container_txt2_po {
-        display: none; 
-    }
+
+
+/* --------- Rodapé ------------------ */
+.container_rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333652;
+    color: white;
+    font-size: 2.2vh;
+    font-weight: 200;
+
 }
 
+.container_rodape p{
+    margin-top: 1.5%;
+}
+
+
+
+
+/* --------   MEDIA  ---------- */
+
 @media screen and (max-width: 1130px) {
-    .text-overlay,
-    .container_txt_po,
-    .container_txt2_po {
+    .text-overlay {
         display: none; 
     }
 }
