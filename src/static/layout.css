@@ -18,3 +18,19 @@
     width: 98%;
     font-size: 2.2vh;
 }
+
+ /* Rodapé */
+ .container_rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333652;
+    color: white;
+    font-size: 2.2vh;
+    font-weight: 200;
+
+}
+
+.container_rodape p{
+    margin-top: 1.5%;
+}
