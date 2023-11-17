@@ -99,14 +99,15 @@ Este projeto está sendo conduzido utilizando a metodologia ágil Scrum para o g
 
 ## Revisão da sprint
 
-Não iniciado ✍🏻
+Em andamento ✍🏻
 
 ## Backlog da Sprint
 
 | ID do item |               Resumo               |                            Descrição                             | Story points | Prioridade |     Status      |
 |:----------:|:---------------------------------:|:---------------------------------------------------------------:|:------------:|:----------:|:---------------:|
-|   DPA-28   | Design Atraente e Intuitivo das Páginas para Facilitar a Compreensão   | Como um usuário, eu quero que as páginas tenham um design atraente e intuitivo para facilitar a leitura e a compreensão.   |       4      |     0      | Item pendente  |
-|   DPA-26   | Formatação de Texto para Conteúdo Legível e Organizado   | Como um usuário, eu quero um site com formatação nos textos (negrito, itálico, listas, etc.) para visualizar um conteúdo legível e organizado. |       4      |     0      | Item pendente  |
+|   DPA-x   | Design Atraente e Intuitivo das Páginas para Facilitar a Compreensão   | Como um usuário, eu quero que as páginas tenham um design atraente e intuitivo para facilitar a leitura e a compreensão.   |       4      |     100      | Item pendente  |
+|   DPA-x   | Questionário relacionado ao Scrum   | Como usuário, desejo testar meu conhecimento sobre o Scrum por meio de questionários. |       4      |     95      | Item pendente  |
+|   DPA-x   | Formatação de Texto para Conteúdo Legível e Organizado   | Como um usuário, eu quero um site com formatação nos textos (negrito, itálico, listas, etc.) para visualizar um conteúdo legível e organizado. |       4      |     90      | Item pendente  |
 
 
 
