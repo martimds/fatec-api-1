@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="../static/mainstyle.css" />
+        <link rel="stylesheet" href="../static/styles.css" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        
+        <div class="side-menu-container">
+            <div class="side-menu">
+                <h1>Agile Learn</h1>
+                <a href="intro">Introdução</a>
+                <a href="historia">História</a>
+                <a href="sprint">Sprint</a>
+                <a href="eventos">Eventos Scrum</a>
+                <a href="caracteristicas">Características do Scrum</a>
+
+                <div class="dropdown-topic">
+                    <input type="checkbox" class="topic-checkbox" id="papeis-checkbox" />
+                    <label for="papeis-checkbox" class="dropdown-title">
+                        Papéis do Scrum
+                        <img class="arrow-logo" src="../static/img/arrow_logo.svg" />
+                    </label>
+                    <div class="subtopicos">
+                        <a href="productowner">Product Owner</a>
+                        <a href="scrummaster">Scrum Master</a>
+                        <a href="devteam">Developer Team</a>
+                    </div>
+                </div>
+
+                <div class="dropdown-topic">
+                    <input type="checkbox" class="topic-checkbox" id="artefatos-checkbox" />
+                    <label for="artefatos-checkbox" class="dropdown-title">
+                        Artefatos do Scrum
+                        <img class="arrow-logo" src="../static/img/arrow_logo.svg" />
+                    </label>
+                    <div class="subtopicos">
+                        <a href="productbacklog">Product Backlog</a>
+                        <a href="sprintback">Sprint Backlog</a>
+                        <a href="burndown">Burndown Chart</a>
+                        <a href="definitionofready">Definition of Ready</a>
+                        <a href="definitionofdone">Definition of Done</a>
+                        <a href="kanban">Kanban</a>
+                        <a href="planningpoker">Planning Poker</a>
+                    </div>
+                </div>
+                <a href="avaliador">Avaliador</a>
+                <a href="glossario">Glossário</a>
+                <a href="aprofundamento">Aprofundamento</a>
+
+            </div>
+            
+        </div>
+        
+        <div class="conteudo-container">
+            <div class="conteudo">{% block content %} {% endblock %}</div>
+        </div>
+        
+    </body>
+</html>

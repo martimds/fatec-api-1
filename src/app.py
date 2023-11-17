@@ -6,12 +6,12 @@ app = Flask(__name__)
 
 
 @app.route("/")
-@app.route("/intro")
-def intro():
-    return render_template("intro.html")
+@app.route("/home")
+def home():
+    return render_template("home.html")
 
 
-@app.route("/calcular", methods=["POST"])
+@app.route("/calcular", methods=["POST"])  # type: ignore
 def calcular():
     try:
         criterios = [int(request.form[f"criterio{i}"]) for i in range(1, 8)]

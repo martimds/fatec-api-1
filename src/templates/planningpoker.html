@@ -1,79 +1,211 @@
-{% extends "layout.html" %}{% block content %}
-
-<div class="título_principal">
-    <h1>Planning Poker</h1>
+{% extends "layout.html" %}{% block css %}
+<!-- Colocar o CSS específico da página dentro desse bloco -->
+<link rel="stylesheet" href="../static/po.css">
+{% endblock %}{% block content %}
+<!-- Imagem po -->
+<div class="container_img">
+  <div class="img-container">
+      <img src="../static/img/po_1.png" class="img-fluid" alt="Metodologia Ágil" />
+      <div class="text-overlay">
+          <h1>Planning Poker</h1>
+          <p>O Planning Poker é uma técnica amplamente utilizada na metodologia ágil, especialmente no contexto de desenvolvimento de software, para estimar o
+            esforço necessário para implementar as User Stories, usando "Story Points" como unidade de medida relativa. Esta abordagem ajuda a equipe a estimar o
+            trabalho de forma colaborativa, considerando diferentes perspectivas e evitando a influência individual.      </div>
+  </div>
 </div>
+  
 
-<div class="conteudo_interno size">
-    <p>
-        O Planning Poker é uma técnica amplamente utilizada na metodologia ágil, especialmente no contexto de desenvolvimento de software, para estimar o
-        esforço necessário para implementar as User Stories, usando "Story Points" como unidade de medida relativa. Esta abordagem ajuda a equipe a estimar o
-        trabalho de forma colaborativa, considerando diferentes perspectivas e evitando a influência individual.
-    </p>
-    <p>
+
+
+
+<!-- Introdução PO -->
+<div class="txt4" style="margin-top: 2%">
+  <h5>Funcionalidade do Planning Poker:</h5>
+  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+     <p>
         O Planning Poker funciona porque incorpora a opinião de diversos especialistas da equipe, promovendo discussões que levam a estimativas mais precisas. A
         utilização da sequência de Fibonacci ajuda a refletir a incerteza associada ao tamanho das histórias, criando intervalos que facilitam o planejamento.
     </p>
+        
+   
+  </div>
 </div>
+<div class="card text-bg-dark" style="
+  display: flex; width:70%; margin: 0 auto; align-items: flex-start;
+  background-position: left top;
+  background-origin: border-box;
+  gap: 1rem;
+  padding: 0.5rem;
+  ">
+  <img src="../static/img/po_2.png" class="card-img-overlay" style="position:absolute; width: 100%; height: 100%; z-index: 0; padding: 0;" alt="">
+  <div class="container_guia_po" style="padding: 2%; z-index: 1">
+    <h5 style="font-size: 3.3vh;" class="card-title">Guia: Exemplo Planning Poker</h5>
+    <div class="mx-start p-2">
+      <p style="font-size: 2.6vh;" class="card-text">
+        Este guia oferece para você o passo-a-passo essencial de como funciona o artefato Planning poker.
+      </p>
+    </div>
+  </div>
 
-<div class="imagem_dev">
-    <img src="{{ url_for('static', filename='img/planningpoker.png') }}" alt="Planning Poker" />
-</div>
-
-<h2>Guia: Exemplo Planning Poker</h2>
-<div class="conteudo_interno size">
-    <h2>Como conduzir uma sessão de Planning Poker</h2>
-    <div class="lista-itens">
-        <ol>
-            <h3 style="margin-right: auto">Passo 1: Preparação</h3>
-            <li>Reúna os membros da equipe envolvidos no projeto, incluindo o Product Owner, Scrum Master e o Development Team.</li>
+  <!-- Modal -->
+  <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fs-5" id="exampleModalLabel">
+            Guia: Exemplo Planning Poker
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Passo 1 -->
+        <div class="modal-body">
+          <ol style="list-style: none">
+            <li>
+              <h5>Passo 1 - Preparação:</h5>
+              <ul>
+                <li>Reúna os membros da equipe envolvidos no projeto, incluindo o Product Owner, Scrum Master e o Development Team.</li>
             <li>
                 Certifique-se de que a equipe tenha um baralho de cartas do Planning Poker contendo valores como 0, 1, 2, 3, 5, 8, 13, 20, 40 e 100 (com base na
                 sequência de Fibonacci).
             </li>
-        </ol>
-        <ol>
-            <h3 style="margin-right: auto">Passo 2: Descrição da User Story</h3>
-            <li>O Product Owner apresenta a User Story que precisa ser estimada.</li>
-            <li>
+              </ul>
+          </ol>
+          <hr />
+          <!-- Passo 2 -->
+
+          <div>
+            <ol>
+              <h5>Passo 2 - Descrição da User Story:</h5>
+              <ul>
+                <li>O Product Owner apresenta a User Story que precisa ser estimada.
+                </li>
+                <li>
                 A equipe tem a oportunidade de fazer perguntas e esclarecer qualquer dúvida sobre a história para garantir que todos compreendam os requisitos.
-            </li>
-        </ol>
-        <ol>
-            <h3 style="margin-right: auto">Passo 3: Votação</h3>
-            <li>
-                Cada membro da equipe escolhe uma carta que representa sua estimativa para a User Story, com base no número de Story Points que eles acreditam
-                que ela vale. Os membros fazem isso secretamente, mantendo suas escolhas ocultas dos outros.
-            </li>
-        </ol>
-        <ol>
-            <h3 style="margin-right: auto">Passo 4: Revelação</h3>
-            <li>
-                Quando todos os membros da equipe tiverem feito suas estimativas, eles revelam suas cartas simultaneamente. Isso garante que nenhuma influência
-                externa afete as estimativas individuais.
-            </li>
-            <li>É comum que as estimativas sejam diferentes, o que é perfeitamente normal.</li>
-        </ol>
-        <ol>
-            <h3 style="margin-right: auto">Passo 5: Discussão</h3>
-            <li>
-                Os membros com as estimativas mais altas e mais baixas explicam por que escolheram esses valores. Essa discussão permite que a equipe compreenda
-                as perspectivas de todos e ajuda a chegar a um consenso.
-            </li>
-            <li>A equipe tem a oportunidade de debater e esclarecer qualquer desacordo em relação às estimativas.</li>
-            <li>Após a discussão, todos os membros da equipe fazem outra rodada de votação, usando as cartas novamente.</li>
-        </ol>
-        <ol>
-            <h3 style="margin-right: auto">Passo 6: Consenso</h3>
-            <li>Repita o processo de revelação e discussão até que a equipe alcance um consenso sobre o número de Story Points atribuídos à User Story.</li>
-            <li>Isso pode levar algumas rodadas, mas o objetivo é chegar a um acordo que reflita a compreensão coletiva do esforço necessário</li>
-        </ol>
-        <ol>
-            <h3 style="margin-right: auto">Passo 7: Registro</h3>
-            <li>Anote a estimativa final acordada para a User Story.</li>
-            <li>Esse número de Story Points será usado para planejar sprints futuros e alocar recursos de acordo.</li>
-        </ol>
+                </li>
+              </ul>
+            </ol>
+          </div>
+          <hr />
+
+          <!-- Passo 3 -->
+          <div>
+            <ol>
+              <h5>Passo 3 - Votação:</h5>
+              <ul>
+                <li>Cada membro da equipe escolhe uma carta que representa sua estimativa para a User Story, com base no número de Story Points que eles acreditam
+                    que ela vale. Os membros fazem isso secretamente, mantendo suas escolhas ocultas dos outros.
+                </li>
+              </ul>
+            </ol>
+          </div>
+          <hr />
+
+          <!--passo 4 -->
+          <div>
+            <ol>
+              <h5>Passo 4 - Revelação:</h5>
+              <ul>
+                <li>Quando todos os membros da equipe tiverem feito suas estimativas, eles revelam suas cartas simultaneamente. Isso garante que nenhuma influência
+                    externa afete as estimativas individuais.
+                </li>
+                <li>É comum que as estimativas sejam diferentes, o que é perfeitamente normal.
+                </li>
+              </ul>
+            </ol>
+          </div>
+          <hr />
+
+          <!-- passo 5 -->  
+          <div>
+            <ol>
+              <h5>Passo 5 - Discussão:</h5>
+              <ul>
+                <li>Os membros com as estimativas mais altas e mais baixas explicam por que escolheram esses valores. Essa discussão permite que a equipe compreenda
+                    as perspectivas de todos e ajuda a chegar a um consenso.
+                </li>
+                <li>A equipe tem a oportunidade de debater e esclarecer qualquer desacordo em relação às estimativas.
+                </li>
+                <li>Após a discussão, todos os membros da equipe fazem outra rodada de votação, usando as cartas novamente.
+                </li>
+              </ul>
+            </ol>
+          </div>
+          <hr />
+
+          <!-- passo 6 -->
+          <div>
+            <ol>
+              <h5>Passo 6 - Consenso:</h5>
+              <ul>
+                <li>Repita o processo de revelação e discussão até que a equipe alcance um consenso sobre o número de Story Points atribuídos à User Story.
+
+                </li>
+                <li>Isso pode levar algumas rodadas, mas o objetivo é chegar a um acordo que reflita a compreensão coletiva do esforço necessário.
+                </li>
+                
+              </ul>
+            </ol>
+          </div>
+          <hr />
+
+          <!-- passo 7 -->
+          <div>
+            <ol>
+              <h5>Passo 7 - Registro:</h5>
+              <ul>
+                <li>Anote a estimativa final acordada para a User Story.
+                </li>
+                <li>Esse número de Story Points será usado para planejar sprints futuros e alocar recursos de acordo.
+                </li>
+              </ul>
+            </ol>
+          </div>
+          <hr />
+
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Fechar
+          </button>
+        </div>
+      </div>
     </div>
+  </div>
+  <button style="z-index: 1; margin-left: 1rem; margin-bottom: 0.5rem;" type="button" class="btn btn-primary" data-bs-toggle="modal"
+    data-bs-target="#exampleModal">
+    Clique aqui
+  </button>
 </div>
+
+<div class="txt4" style="margin-top: 2%">
+  <h5>Benefícios do planning poker:</h5>
+  <div class="texto_po_2 shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+    <h5>Agilidade</h5>
+    <p>
+        É mais rápida que abordagens tradicionais de estimativa, mantendo um bom resultado.
+    </p>
+
+    <h5>Analysis paralysis</h5>
+    <p>
+        Auxilia a prevenir discussões em “loop infinito”
+    </p>
+
+    <h5>Validação</h5>
+    <p>
+        Previne também que apenas uma pessoa faça as estimativas para o restante do time.
+    </p>
+
+    <h5>Fortalecimento</h5>
+    <p>
+        Cria engajamento e senso de pertencimento ao time por estar tendo discussões abertas e todos trazendo suas próprias estimativas.
+    </p>
+
+   
+  </div>
+</div>
+
+
 
 {% endblock %}
