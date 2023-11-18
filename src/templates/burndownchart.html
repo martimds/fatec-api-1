@@ -18,11 +18,12 @@
   
 
 <div class="txt4" style="margin-top: 2%">
-  <h5>Funcionalidade do Planning Poker:</h5>
+  <h5>Funcionalidade do Burndown chart:</h5>
   <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
      <p>
-        O Planning Poker funciona porque incorpora a opinião de diversos especialistas da equipe, promovendo discussões que levam a estimativas mais precisas. A
-        utilização da sequência de Fibonacci ajuda a refletir a incerteza associada ao tamanho das histórias, criando intervalos que facilitam o planejamento.
+        No gráfico de burndown, traçamos o volume estimado do trabalho que precisa ser feito em relação ao 
+        tempo necessário para concluir este trabalho. O objetivo é mostrar uma distribuição precisa do tempo 
+        e facilitar o planejamento.
     </p>
         
    
@@ -37,10 +38,10 @@
   ">
   <img src="../static/img/po_2.png" class="card-img-overlay" style="position:absolute; width: 100%; height: 100%; z-index: 0; padding: 0;" alt="">
   <div class="container_guia_po" style="padding: 2%; z-index: 1">
-    <h5 style="font-size: 3.3vh;" class="card-title">Guia: Exemplo Planning Poker</h5>
+    <h5 style="font-size: 3.3vh;" class="card-title">Guia: Exemplo Burndown chart</h5>
     <div class="mx-start p-2">
       <p style="font-size: 2.6vh;" class="card-text">
-        Este guia oferece para você o passo-a-passo essencial de como funciona o artefato Planning poker.
+        Este guia oferece para você o passo-a-passo essencial de como estruturar o Burndown chart.
       </p>
     </div>
   </div>
@@ -53,7 +54,7 @@ aria-hidden="true">
   <div class="modal-content">
     <div class="modal-header">
       <h5 class="modal-title fs-5" id="exampleModalLabel">
-        Guia: Exemplo do planning poker
+        Guia: Exemplo do Burndown chart
       </h5>
       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
     </div>
@@ -63,35 +64,28 @@ aria-hidden="true">
         <li>
         
           <p>
-            <strong> Preparação da reunião:</strong> Reúna os membros da equipe envolvidos no projeto, incluindo o Product Owner, Scrum Master e o 
-            Development Team. Certifique-se de que a equipe tenha um baralho de cartas do Planning Poker contendo valores como
-             0, 1, 2, 3, 5, 8, 13, 20, 40 e 100 (com base nase quência de Fibonacci).
+            <strong>Defina a escala de tempo:</strong> Escolha a unidade de tempo
+            (dias ou semanas) para representar o progresso do Sprint.
           </p>
           <p>
-            <strong> Descrição da User Story:</strong> O Product Owner apresenta a User Story que precisa ser estimada.
-            A equipe tem a oportunidade de fazer perguntas e esclarecer qualquer dúvida sobre a 
-            história para garantir que todos compreendam os requisitos. 
+            <strong>Estabeleça uma linha de base:</strong> Determine o ponto de
+            partida, geralmente a quantidade total de trabalho planejado no primeiro
+            dia do Sprint.</p>
     </li>
           </p>
           <p>
-            <strong>Votação estimada:</strong> Cada membro da equipe escolhe uma carta que representa sua estimativa para a User Story, 
-            com base no número de Story Points que eles acreditam
-            que ela vale. Os membros fazem isso secretamente, mantendo suas escolhas ocultas dos outros.
+            <strong>Liste as tarefas:</strong> O Burndown Chart lista tarefas no eixo
+            vertical (trabalho) e deve ser atualizado diariamente com o trabalho
+            restante à medida que as tarefas são concluídas.
           </p>
-          <p><strong>Revelação do valor:</strong> Quando todos os membros da equipe tiverem feito suas estimativas, eles revelam suas cartas 
-            simultaneamente. Isso garante que nenhuma influência
-            externa afete as estimativas individuais. É comum que as estimativas sejam diferentes, 
-            o que é perfeitamente normal.</p>
-          <p><strong>Discussão da estimativa:</strong> OOs membros com as estimativas mais altas e mais baixas explicam por que escolheram esses valores.
-              Essa discussão permite que a equipe compreenda as perspectivas de todos e ajuda a chegar a um 
-              consenso. A equipe tem a oportunidade de debater e esclarecer qualquer desacordo em relação às 
-              estimativas. Após a discussão, todos os membros da equipe fazem outra rodada de votação, usando 
-              as cartas novamente.</p>
-          <p><strong>Consenso de valores:</strong> Repita o processo de revelação e discussão até que a equipe alcance um consenso sobre o número 
-            de Story Points atribuídos à User Story.Isso pode levar algumas rodadas, mas o objetivo é 
-            chegar a um acordo que reflita a compreensão coletiva do esforço necessário.</p>
-            <p><strong>Registro de valores:</strong> Anote a estimativa final acordada para a User Story.Esse número de Story Points será usado para 
-              planejar sprints futuros e alocar recursos de acordo.</p>  
+          <p><strong>Inclua pontos de controle:</strong> Adicione marcos ou linhas de
+            referência que representam os objetivos diários de progresso.</p>
+
+          <p><strong>Identifique desvios e compartilhe:</strong> O Burndown Chart
+            monitora o progresso da equipe, detecta desvios e compartilha informações
+            para transparência e melhorias contínuas.</p>
+          <p><strong>Dica:</strong> Utilizando o Jira( gerenciador de processos) e atualizando todos os dias, 
+            o gráfico burndown chart é gerado automaticamente.</p>
         </li>
       </ol>
     </div>
@@ -112,17 +106,19 @@ aria-hidden="true">
 </div>
 
 <div class="txt4" style="margin-top: 2%">
-  <h5>Benefícios do planning poker:</h5>
+  <h5>Leitura do gráfico Burndown chart:</h5>
   <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
     <ul>
 
-    <li><strong>Agilidade:</strong> É mais rápida que abordagens tradicionais de estimativa, mantendo um bom resultado.</li>
+    <li><strong>Descrição:</strong> A linha vertical representa
+        os valores dos pesos das tarefas x e a linha horizontal representa o tempo para a realização das tarefas
+        (tempo total da sprint). Atualizado a produção diariamente, ele fornece visualizações rápidas para referência.
+        A linha diagonal vermelha é o tempo ideal de produção x tempo.
+        A linha azul mede o desempenho de produção x tempo. Quando a linha azul está
+        abaixo da diagonal significa que o projeto esta adiantado. Caso esteja acima da
+        diagonal o projeto esta atrasado referente a produtividade ideal.</li>
 
-    <li><strong>Analysis paralysis:</strong> Auxilia a prevenir discussões em “loop infinito”</li> 
-
-    <li><strong>Validação:</strong> Previne também que apenas uma pessoa faça as estimativas para o restante do time.</li>
-
-    <li><strong>Fortalecimento:</strong> Cria engajamento e senso de pertencimento ao time por estar tendo discussões abertas e todos trazendo suas próprias estimativas.</li>
+    
 
     </ul>  
   </div>
