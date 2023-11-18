@@ -265,7 +265,7 @@
 
 <div class="txt4" style="margin-top: 2%">
   <h5>Como se tornar um bom Product Owner:</h5>
-  <div class="texto_po_2 shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1" >
     <h5>Visão do produto</h5>
     <p>
       Mantenha uma visão clara do produto e alinhe as atividades da equipe com
@@ -311,27 +311,33 @@
 </div>
 
 
-<div class="txt4 mb-5">
-  <h1>Questionário</h1>
+<div class="perguntas txt4 texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
+  <h5>Verificação de conhecimento</h5>
   <form id="quizForm">
       <div class="pergunta" id="pergunta1">
-          <h5>Pergunta 1: Blablabla?</h5>
+          <p>1. A definição que mais 
+            se encaixa no papel do Product Owner é:
+          </p>
           <div class="form-check">
               <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1">
-              <label class="form-check-label" for="opcao1_1">Opcao a</label>
+              <label class="form-check-label" for="opcao1_1">Está no centro do desenvolvimento do produto e pode ser considerado a pessoa responsável por definir todas as características do produto.</label>
           </div>
           <div class="form-check">
               <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2">
-              <label class="form-check-label" for="opcao1_2">Opcao b</label>
+              <label class="form-check-label" for="opcao1_2">Atua principalmente no desenvolvimento do Back-end do projeto e suas variações.</label>
           </div>
           <div class="form-check">
               <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3">
-              <label class="form-check-label" for="opcao1_3">Opcao c</label>
+              <label class="form-check-label" for="opcao1_3">Contribui com sua liderança, sem usar adequadamente as ferramentas da metodologia Scrum.</label>
           </div>
           <div class="form-check">
               <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4">
-              <label class="form-check-label" for="opcao1_4">Opcao d</label>
+              <label class="form-check-label" for="opcao1_4">Mestre do Scrum que frequentemente desempenha parte ou todas as seguintes funções.</label>
           </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5">
+            <label class="form-check-label" for="opcao1_5">São facilitadores do Scrum, uma estrutura ágil e leve com foco em iterações de tempo definido chamadas sprints.</label>
+        </div>
       </div>
 
       <div class="pergunta" id="pergunta2" style="display: none;">
@@ -339,7 +345,7 @@
           <div class="form-check">
               <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1">
               <label class="form-check-label" for="opcao2_1">Opcao 1</label>
-          </div>
+          </div >
           <div class="form-check">
               <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2">
               <label class="form-check-label" for="opcao2_2">Opcao 2</label>
@@ -396,7 +402,7 @@
         if (resposta && resposta.value === respostasCorretas[perguntaAtual - 1]) {
             perguntaElement.style.border = '2px solid green';
         } else {
-            perguntaElement.style.border = '2px solid red';
+            perguntaElement.style.background = '2px solid red';
         }
   }
 </script>

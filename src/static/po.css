@@ -111,3 +111,8 @@
     display: none;
   }
 }
+
+
+.perguntas p{
+  font-weight: 500;
+}
