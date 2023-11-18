@@ -1,0 +1,133 @@
+{% extends "layout.html" %}{% block css %}
+<!-- Colocar o CSS específico da página dentro desse bloco -->
+<link rel="stylesheet" href="../static/po.css">
+{% endblock %}{% block content %}
+<!-- Imagem po -->
+<div class="container_img">
+  <div class="img-container">
+      <img src="../static/img/poker_1.png" class="img-fluid" alt="Metodologia Ágil" />
+      <div class="text-overlay">
+          <h1 style="color: white;">Burndown chart</h1>
+          <p style="color: white;">Frequentemente usado no scrum, um gráfico de burndown é um gráfico exibido 
+            publicamente mostrando o trabalho restante. Atualizado todos os dias, 
+            ele fornece visualizações rápidas para referência,
+            mostrando uma comparação entre o real e o previsto.      
+          </div>
+  </div>
+</div>
+  
+
+<div class="txt4" style="margin-top: 2%">
+  <h5>Funcionalidade do Planning Poker:</h5>
+  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+     <p>
+        O Planning Poker funciona porque incorpora a opinião de diversos especialistas da equipe, promovendo discussões que levam a estimativas mais precisas. A
+        utilização da sequência de Fibonacci ajuda a refletir a incerteza associada ao tamanho das histórias, criando intervalos que facilitam o planejamento.
+    </p>
+        
+   
+  </div>
+</div>
+<div class="card text-bg-dark" style="
+  display: flex; width:70%; margin: 0 auto; align-items: flex-start;
+  background-position: left top;
+  background-origin: border-box;
+  gap: 1rem;
+  padding: 0.5rem;
+  ">
+  <img src="../static/img/po_2.png" class="card-img-overlay" style="position:absolute; width: 100%; height: 100%; z-index: 0; padding: 0;" alt="">
+  <div class="container_guia_po" style="padding: 2%; z-index: 1">
+    <h5 style="font-size: 3.3vh;" class="card-title">Guia: Exemplo Planning Poker</h5>
+    <div class="mx-start p-2">
+      <p style="font-size: 2.6vh;" class="card-text">
+        Este guia oferece para você o passo-a-passo essencial de como funciona o artefato Planning poker.
+      </p>
+    </div>
+  </div>
+
+  <!-- Modal -->
+<!-- Modal -->
+<div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title fs-5" id="exampleModalLabel">
+        Guia: Exemplo do planning poker
+      </h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <!-- Passo 1 -->
+    <div class="modal-body">
+      <ol style="list-style: none">
+        <li>
+        
+          <p>
+            <strong> Preparação da reunião:</strong> Reúna os membros da equipe envolvidos no projeto, incluindo o Product Owner, Scrum Master e o 
+            Development Team. Certifique-se de que a equipe tenha um baralho de cartas do Planning Poker contendo valores como
+             0, 1, 2, 3, 5, 8, 13, 20, 40 e 100 (com base nase quência de Fibonacci).
+          </p>
+          <p>
+            <strong> Descrição da User Story:</strong> O Product Owner apresenta a User Story que precisa ser estimada.
+            A equipe tem a oportunidade de fazer perguntas e esclarecer qualquer dúvida sobre a 
+            história para garantir que todos compreendam os requisitos. 
+    </li>
+          </p>
+          <p>
+            <strong>Votação estimada:</strong> Cada membro da equipe escolhe uma carta que representa sua estimativa para a User Story, 
+            com base no número de Story Points que eles acreditam
+            que ela vale. Os membros fazem isso secretamente, mantendo suas escolhas ocultas dos outros.
+          </p>
+          <p><strong>Revelação do valor:</strong> Quando todos os membros da equipe tiverem feito suas estimativas, eles revelam suas cartas 
+            simultaneamente. Isso garante que nenhuma influência
+            externa afete as estimativas individuais. É comum que as estimativas sejam diferentes, 
+            o que é perfeitamente normal.</p>
+          <p><strong>Discussão da estimativa:</strong> OOs membros com as estimativas mais altas e mais baixas explicam por que escolheram esses valores.
+              Essa discussão permite que a equipe compreenda as perspectivas de todos e ajuda a chegar a um 
+              consenso. A equipe tem a oportunidade de debater e esclarecer qualquer desacordo em relação às 
+              estimativas. Após a discussão, todos os membros da equipe fazem outra rodada de votação, usando 
+              as cartas novamente.</p>
+          <p><strong>Consenso de valores:</strong> Repita o processo de revelação e discussão até que a equipe alcance um consenso sobre o número 
+            de Story Points atribuídos à User Story.Isso pode levar algumas rodadas, mas o objetivo é 
+            chegar a um acordo que reflita a compreensão coletiva do esforço necessário.</p>
+            <p><strong>Registro de valores:</strong> Anote a estimativa final acordada para a User Story.Esse número de Story Points será usado para 
+              planejar sprints futuros e alocar recursos de acordo.</p>  
+        </li>
+      </ol>
+    </div>
+
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Fechar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button style="z-index: 1; margin-left: 1rem; margin-bottom: 0.5rem;" type="button" class="btn btn-primary" data-bs-toggle="modal"
+    data-bs-target="#exampleModal">
+    Clique aqui
+  </button>
+</div>
+
+<div class="txt4" style="margin-top: 2%">
+  <h5>Benefícios do planning poker:</h5>
+  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+    <ul>
+
+    <li><strong>Agilidade:</strong> É mais rápida que abordagens tradicionais de estimativa, mantendo um bom resultado.</li>
+
+    <li><strong>Analysis paralysis:</strong> Auxilia a prevenir discussões em “loop infinito”</li> 
+
+    <li><strong>Validação:</strong> Previne também que apenas uma pessoa faça as estimativas para o restante do time.</li>
+
+    <li><strong>Fortalecimento:</strong> Cria engajamento e senso de pertencimento ao time por estar tendo discussões abertas e todos trazendo suas próprias estimativas.</li>
+
+    </ul>  
+  </div>
+</div>
+
+
+
+{% endblock %}
