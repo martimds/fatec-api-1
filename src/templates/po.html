@@ -311,5 +311,45 @@
 </div>
 
 
+<div id="pergunta-container">
+  <h2 id="pergunta"></h2>
+  <ul id="alternativas-list">
+      <li><button onclick="checkAnswer('A')">A</button></li>
+      <li><button onclick="checkAnswer('B')">B</button></li>
+      <li><button onclick="checkAnswer('C')">C</button></li>
+      <li><button onclick="checkAnswer('D')">D</button></li>
+  </ul>
+</div>
+
+<script>
+  const pergunta = "Teste?";
+  const alternativas = {
+      A: "Opcao teste 1",
+      B: "Opcao teste 2",
+      C: "Opcao teste 3",
+      D: "Opcao teste 4"
+  };
+  const respostaCorreta = "D";
+
+  document.getElementById("pergunta").innerText = pergunta;
+
+  const alternativasList = document.getElementById("alternativas-list");
+  const alternativasButtons = alternativasList.getElementsByTagName("button");
+
+  for (let i = 0; i < alternativasButtons.length; i++) {
+      const alternativa = alternativasButtons[i];
+      const alternativaKey = Object.keys(alternativas)[i];
+      alternativa.innerText = alternativaKey + ". " + alternativas[alternativaKey];
+  }
+
+  function checkAnswer(altClicked) {
+      if (altClicked === respostaCorreta) {
+          alert("Resposta correta!");
+      } else {
+          alert("Resposta incorreta. Tente novamente.");
+      }
+  }
+</script>
+
 
 {% endblock %}
