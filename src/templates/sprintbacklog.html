@@ -1,0 +1,138 @@
+{% extends "layout.html" %}{% block css %}
+<link rel="stylesheet" href="../static/po.css">
+{% endblock %}
+{% block content %}
+
+<div class="container_img">
+  <div class="img-container">
+    <img src="../static/img/kanban_1.png" class="img-fluid" alt="Kanban" />
+    <div class="text-overlay">
+      <h1 style="color: white;">Sprint Backlog</h1>
+      <p style="color: white;"> É uma lista de tarefas concretas selecionadas do Product Backlog para a
+        próxima sprint. Ele representa o trabalho planejado pelo Development
+        Team exclusivamente para a sprint atual.</p>
+    </div>
+  </div>
+</div>
+
+<div class="txt4" style="margin-top: 2%">
+  <h5>Oque é uma Sprint:</h5>
+  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+    <p>
+      Sprint no Scrum é um período de trabalho intensivo e focado, geralmente
+      com duração de 2 a 4 semanas, no qual a equipe de desenvolvimento
+      trabalha para criar incrementos de um produto. É uma abordagem iterativa
+      e colaborativa que permite à equipe responder rapidamente às mudanças e
+      entregar valor de forma constante aos clientes e partes interessadas. A
+      Sprint é uma das principais características do Scrum e ajuda a promover
+      a transparência, a colaboração e a entrega de produtos de alta
+      qualidade.
+    </p>
+
+
+  </div>
+</div>
+
+<div class="txt4" style="margin-top: 2%">
+
+</div>
+
+
+<div class="card text-bg-dark" style="
+  display: flex; width:70%; margin: 0 auto; align-items: flex-start;
+  background-position: left top;
+  background-origin: border-box;
+  gap: 1rem;
+  padding: 0.5rem;
+  ">
+  <img src="../static/img/po_2.png" class="card-img-overlay"
+    style="position:absolute; width: 100%; height: 100%; z-index: 0; padding: 0;" alt="">
+  <div class="container_guia_po" style="padding: 2%; z-index: 1">
+    <h5 class="card-title" style="font-size: 3.3vh;">Guia: Exemplo de uma Sprint Backlog</h5>
+    <div class="mx-start p-2">
+      <p class="card-text" style="font-size: 2.6vh;">
+        Este guia oferece para você o passo-a-passo essencial de como funciona
+        o artefato Product Backlog.
+      </p>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fs-5" id="exampleModalLabel">
+            Guia: Exemplo de uma Sprint Backlog
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Passo 1 -->
+        <div class="modal-body">
+          <ol style="list-style: none">
+            <li>
+
+              <p>
+                <strong> Planejamento do Sprint:</strong> Realize uma reunião de
+                planejamento do Sprint para definir os objetivos e metas do Sprint.
+              </p>
+              <p>
+                <strong>Seleção de Histórias de Usuário:</strong> Escolha as
+                histórias de usuário que serão trabalhadas durante o Sprint.
+              </p>
+              <p>
+                <strong>Estimativas e Priorização:</strong> A equipe estima o
+                esforço de cada história, prioriza as tarefas e, com base nisso, faz
+                um compromisso sobre o que será realizado no Sprint.
+            </li>
+            </p>
+            <p><strong>Registro no Sprint Backlog:</strong> Documente as tarefas,
+              estimativas e priorizações em um Sprint Backlog visível para a
+              equipe.</p>
+            <p><strong>Acompanhamento e Revisão:</strong> Acompanhe o progresso
+              durante o Sprint, ajustando o Sprint Backlog conforme necessário, e
+              revise-o na conclusão do Sprint para avaliação e melhoria contínua.</p>
+
+            </li>
+          </ol>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Fechar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button style="z-index: 1; margin-left: 1rem; margin-bottom: 0.5rem;" type="button" class="btn btn-primary"
+    data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Clique aqui
+  </button>
+</div>
+</div>
+
+<div class="txt4" style="margin-top: 2%">
+  <h5>Dicas para um bom Sprint Backlog:</h5>
+  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+    <ul>
+      <li><strong>Colabore com a Equipe de Desenvolvimento:</strong> Envolver a equipe de desenvolvimento na elaboração
+        do Sprint Backlog ajuda a garantir que todos tenham uma compreensão compartilhada das tarefas e compromissos.
+      </li>
+      <li>
+        <strong> Divida Tarefas em Itens Menores:</strong> Quebre as histórias de usuário em tarefas menores e mais
+        gerenciáveis. Isso facilita o acompanhamento do progresso e permite uma melhor estimativa do esforço necessário.
+      </li>
+      <li><strong> Defina Critérios de Conclusão (Definition of Done):</strong> Para cada tarefa, estabeleça critérios
+        claros que determinem quando uma tarefa está completa. Isso evita ambiguidades e assegura que o trabalho atenda
+        aos padrões de qualidade.</li>
+      <li><strong> Promova a Transparência:</strong> Garanta que o Sprint Backlog seja transparente e compreensível para
+        todos os membros da equipe. A transparência promove a colaboração e a responsabilidade compartilhada.</li>
+      <li> <strong> Aprenda com Retrospectivas: </strong> Após cada sprint, conduza retrospectivas para avaliar o
+        desempenho da equipe e identificar oportunidades de melhoria no processo de planejamento.</li>
+    </ul>
+  </div>
+</div>
+
+{% endblock %}
