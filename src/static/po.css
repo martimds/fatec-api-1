@@ -117,7 +117,7 @@
 #alternativas-list li {
   margin-bottom: 10px;
 }
-button {
+.altBotao {
   width: 100%;
   padding: 10px;
 }
