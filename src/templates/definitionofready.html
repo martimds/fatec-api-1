@@ -1,0 +1,148 @@
+{% extends "layout.html" %}{% block css %}
+<link rel="stylesheet" href="../static/po.css">
+{% endblock %}
+{% block content %}
+
+<div class="container_img">
+    <div class="img-container">
+        <img src="../static/img/kanban_1.png" class="img-fluid" alt="Kanban" />
+        <div class="text-overlay">
+            <h1 style="color: white;">Definition of Ready</h1>
+            <p style="color: white;"> A Definition of Ready(DoR) é um conceito dentro do framework Scrum
+                que descreve as condições que um item de backlog (normalmente, uma User
+                Story) deve atender antes de ser considerado pronto para ser incluído em
+                um Sprint e desenvolvido pela equipe de Scrum. A DoR é uma ferramenta
+                valiosa para garantir que o trabalho planejado para um Sprint seja
+                claro, compreensível e suficientemente detalhado para que a equipe possa
+                começar a trabalhar nele sem interrupções ou incertezas significativas.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="txt4" style="margin-top: 2%">
+  
+</div>
+
+
+<div class="card text-bg-dark" style="
+  display: flex; width:70%; margin: 0 auto; align-items: flex-start;
+  background-position: left top;
+  background-origin: border-box;
+  gap: 1rem;
+  padding: 0.5rem;
+  ">
+    <img src="../static/img/po_2.png" class="card-img-overlay"
+        style="position:absolute; width: 100%; height: 100%; z-index: 0; padding: 0;" alt="">
+    <div class="container_guia_po" style="padding: 2%; z-index: 1">
+        <h5 class="card-title" style="font-size: 3.3vh;">Guia: Passos para uma boa Definition of Ready</h5>
+        <div class="mx-start p-2">
+            <p class="card-text" style="font-size: 2.6vh;">
+                Este guia oferece para você o passo-a-passo essencial de como funciona
+                o artefato Product Backlog.
+            </p>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fs-5" id="exampleModalLabel">
+                        Guia: Passos para uma boa Definition of Ready
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- Passo 1 -->
+                <div class="modal-body">
+                    <ol style="list-style: none">
+                        <li>
+
+                            <p>
+                                <strong> Descrição clara da User Story:</strong> A DoR deve incluir
+                                uma descrição clara e concisa da User Story que seja compreensível
+                                por todos os membros da equipe e partes interessadas. Deve responder
+                                às perguntas básicas: O que precisa ser feito? Por que é importante?
+                            </p>
+                            <p>
+                                <strong>Critérios de aceitação:</strong> Esses critérios descrevem
+                                condições específicas que a User Story deve atender para ser
+                                considerada concluída. Eles são usados para determinar se a User
+                                Story atende aos requisitos do cliente e às expectativas do Product
+                                Owner
+                            </p>
+                            <p>
+                                <strong>Estimativa de tamanho e esforço:</strong> A equipe de
+                                desenvolvimento deve fornecer uma estimativa aproximada do tamanho e
+                                do esforço necessários para completar a User Story. Isso ajuda a
+                                equipe a planejar o Sprint e alocar o trabalho de maneira adequada.
+                        </li>
+                        </p>
+                        <p><strong>Dependências e pré-requisitos:</strong> Se a User Story tiver
+                            dependências de outras User Stories ou requisitos, essas
+                            dependências devem ser identificadas na DoR. Isso permite que a
+                            equipe e o Product Owner entendam quais atividades podem precisar
+                            ser realizadas antes que a User Story em questão possa ser iniciada.</p>
+
+                        <p><strong>Definição de pronto para teste:</strong> A DoR pode incluir
+                            critérios que indiquem quando a User Story estará pronta para ser
+                            testada. Isso ajuda a garantir que o trabalho seja desenvolvido de
+                            maneira apropriada para testes e validações posteriores.</p>
+
+                        <p><strong>Aceitação pelo Product Owner: </strong> Antes que uma User
+                            Story seja considerada pronta, o Product Owner deve revisá-la e
+                            concordar que ela atende aos critérios definidos na DoR. A aceitação
+                            do Product Owner é essencial para garantir que o trabalho realizado
+                            esteja alinhado com as expectativas do cliente e com os objetivos do
+                            produto.</p>
+
+                        <p><strong>Apoio da equipe: </strong> A equipe de desenvolvimento
+                            também deve concordar que a User Story está pronta para ser
+                            trabalhada. Isso envolve a análise da equipe para garantir que todos
+                            os recursos necessários estão disponíveis e que a User Story é
+                            suficientemente compreendida.</p>
+
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button style="z-index: 1; margin-left: 1rem; margin-bottom: 0.5rem;" type="button" class="btn btn-primary"
+        data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Clique aqui
+    </button>
+</div>
+</div>
+<div class="txt4" style="margin-top: 2%">
+    <h5>Dicas para um boa Definition of Ready:</h5>
+    <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+        <ul>
+            <li><strong>Envolver a Equipe:</strong> Inclua membros da equipe na definição dos critérios da DoR. Isso
+                garante que todos compreendam e concordem com os requisitos de prontidão.
+            </li>
+            <li>
+                <strong> Revisão Regular:</strong> Revise e atualize a DoR regularmente, especialmente em
+                retrospectivas. As necessidades e processos da equipe podem evoluir, e a DoR deve refletir essas
+                mudanças.
+            </li>
+            <li><strong> Especificidade:</strong> Seja específico ao descrever os critérios. Quanto mais claro e específico, melhor será o entendimento e a aplicação da DoR.</li>
+            <li><strong>Validação com Exemplos:</strong> Inclua exemplos práticos de tarefas que atendem aos critérios da DoR. Isso ajuda a ilustrar os requisitos de forma mais tangível.
+            </li>
+            <li> <strong> Feedback Contínuo: </strong> Solicite feedback regular da equipe sobre a eficácia da DoR. Esteja aberto a ajustes para melhorar continuamente o processo.</li>
+        </ul>
+    </div>
+</div>
+
+
+{% endblock %}
