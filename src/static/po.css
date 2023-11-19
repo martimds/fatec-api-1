@@ -102,7 +102,16 @@
   text-align: center;
 }
 
+.certo, .errado {
+  border-radius: 8px;
+}
+.certo {
+  background-color: rgba(0,255,0,0.5);
+}
 
+.errado {
+  background-color: rgba(255,0,0,0.5);
+}
 
 /* --------   MEDIA  ---------- */
 
