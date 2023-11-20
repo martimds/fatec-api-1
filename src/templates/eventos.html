@@ -1,0 +1,187 @@
+{% extends "layout.html" %}{% block css %}
+<link rel="stylesheet" href="../static/po.css">
+{% endblock %}
+{% block content %}
+
+<div class="container_img">
+    <div class="img-container">
+        <img src="../static/img/dor_1.png" class="img-fluid" alt="DefinitionOfReady" />
+        <div class="text-overlay">
+            <h1>Eventos Scrum</h1>
+            <p> A metodologia Scrum se baseia em eventos, conhecidos como cerimônias,
+                para facilitar o desenvolvimento iterativo e incremental de um produto.
+                Esses eventos promovem colaboração, transparência e inspeção constante
+                do progresso do projeto.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="txt4" style="margin-top: 3.5%">
+
+</div>
+
+
+<div class="card text-bg-dark" style="
+  display: flex; width:70%; margin: 0 auto; align-items: flex-start;
+  background-position: left top;
+  background-origin: border-box;
+  gap: 1rem;
+  padding: 0.5rem;
+  ">
+    <img src="../static/img/po_2.png" class="card-img-overlay"
+        style="position:absolute; width: 100%; height: 100%; z-index: 0; padding: 0;" alt="">
+    <div class="container_guia_po" style="padding: 2%; z-index: 1">
+        <h5 class="card-title" style="font-size: 3.3vh;">Guia: Execução de cerimônias Scrum</h5>
+        <div class="mx-start p-2">
+            <p class="card-text" style="font-size: 2.6vh;">
+                Este guia oferece para você o passo-a-passo essencial de como funciona
+                o artefato Eventos Scrum.
+            </p>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fs-5" id="exampleModalLabel">
+                        Guia: Passos para uma boa Definition of Ready
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- Passo 1 -->
+                <div class="modal-body">
+                    <ol style="list-style: none">
+                        <p>
+                            <strong>A reunião de Planejamento (Sprint Planning
+                                Meeting):</strong>
+                        </p>
+                        <p></p>
+                        <p></p>
+                        <ul>
+                            <li>
+                                <strong>O que é:</strong> A Reunião de Planejamento da Sprint marca o
+                                início de um Sprint e geralmente dura até 8 horas para um Sprint de
+                                um mês.
+                            </li>
+
+                            <li>
+                                <strong>Propósito:</strong> O objetivo principal é definir o que será
+                                construído durante o Sprint, estabelecendo o objetivo da Sprint e
+                                selecionando as User Stories ou itens do backlog a serem incluídos
+                                no Sprint Backlog.
+                            </li>
+
+                            <li>
+                                <strong>Responsabilidades:</strong> O Product Owner apresenta os
+                                itens do backlog prioritários e esclarece os detalhes. A equipe
+                                Scrum discute, estimando o esforço necessário para cada item e
+                                comprometendo-se a entregá-los durante o Sprint.
+                            </li>
+                        </ul>
+                        </li>
+                        <hr>
+                        <p><strong>A Daily Scrum (Scrum Diário):</strong></p>
+                        <ul>
+                            <li>
+                                <strong>O que é:</strong> O Daily Scrum é uma reunião curta, de até
+                                15 minutos, realizada diariamente durante o Sprint.
+                            </li>
+
+                            <li>
+                                <strong>Propósito:</strong> Serve para sincronizar a equipe,
+                                identificar impedimentos e garantir que o trabalho esteja
+                                progredindo de acordo com o plano.
+                            </li>
+
+                            <li>
+                                <strong>Responsabilidades:</strong> Cada membro da equipe compartilha
+                                brevemente o que realizou desde a última reunião, o que planeja
+                                fazer até a próxima e se enfrenta algum impedimento. O foco é na
+                                colaboração e remoção de obstáculos.
+                            </li>
+                        </ul>
+                        <hr>
+                        <p><strong>Revisão da Sprint (Sprint Review):</strong></p>
+                        <ul>
+                            <li>
+                                <p></p>
+                                <p></p>
+                                <strong>O que é:</strong> A Revisão da Sprint acontece no final de um
+                                Sprint e dura até 4 horas para um Sprint de um mês.
+                            </li>
+
+                            <li>
+                                <strong>Propósito:</strong> É uma reunião para inspecionar o
+                                incremento de produto entregue e obter feedback dos stakeholders
+                                para ajustar as prioridades do Product Backlog.
+                            </li>
+
+                            <li>
+                                <strong>Responsabilidades:</strong> A equipe Scrum apresenta o
+                                incremento, destacando o que foi feito e o que não foi. Os
+                                stakeholders fornecem feedback e discutem as próximas prioridades.
+                            </li>
+                        </ul>
+                        <hr>
+                        <p><strong>Retrospectiva da Sprint (Sprint Retrospective):</strong></p>
+                        <ul>
+                            <li>
+                                <strong>O que é:</strong> A Retrospectiva da Sprint acontece após a
+                                Revisão da Sprint e dura até 3 horas para um Sprint de um mês.
+                            </li>
+                           
+                            <li>
+                                <strong>Propósito:</strong> É uma reunião estruturada para que a
+                                equipe Scrum analise o processo e identifique oportunidades de
+                                melhoria.
+                            </li>
+                            
+                            <li>
+                                <strong>Responsabilidades:</strong> A equipe revisa o Sprint,
+                                identificando o que funcionou bem e o que pode ser melhorado. Ações
+                                são definidas para implementar melhorias no próximo Sprint.
+                            </li>
+                        </ul>
+                    </ol>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button style="z-index: 1; margin-left: 1rem; margin-bottom: 0.5rem;" type="button" class="btn btn-primary"
+        data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Clique aqui
+    </button>
+</div>
+</div>
+
+
+<div class="txt4" style="margin-top: 3.5%">
+    <h5>Porquê realizar esses eventos?</h5>
+    <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+       <p>
+        Estes eventos são fundamentais para o sucesso do Scrum, pois mantêm a
+        equipe focada, promovem a inspeção contínua do trabalho e permitem a
+        adaptação às mudanças. Eles também facilitam a colaboração e a
+        transparência, garantindo que todos os envolvidos compreendam o
+        progresso do projeto e as prioridades do produto.
+      </p>
+          
+     
+    </div>
+  </div>
+
+
+{% endblock %}
