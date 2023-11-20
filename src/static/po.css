@@ -6,7 +6,15 @@
 }
 
 .txt4 h5 {
-  font-size: 3.4vh;
+  font-size: 4.2vh;
+}
+
+.txt4 h6 {
+  font-size: 3vh;
+}
+
+.txt4 li{
+  font-size: ;
 }
 
 .texto_home_1 {
@@ -42,6 +50,7 @@
   color: #333;
   font-size: 5.3vh;
   margin-bottom: 10px;
+  
 }
 
 .text-overlay p {
@@ -49,6 +58,7 @@
   line-height: 1.5;
   width: 73%;
   font-size: 2.2vh;
+  font-weight: 300;
 }
 
 .container_card_po {
@@ -102,7 +112,16 @@
   text-align: center;
 }
 
+.certo, .errado {
+  border-radius: 8px;
+}
+.certo {
+  background-color: rgba(0,255,0,0.5);
+}
 
+.errado {
+  background-color: rgba(255,0,0,0.5);
+}
 
 /* --------   MEDIA  ---------- */
 
@@ -111,3 +130,9 @@
     display: none;
   }
 }
+
+
+.perguntas p{
+  font-weight: 500;
+}
+
