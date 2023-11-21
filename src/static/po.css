@@ -46,6 +46,15 @@
   text-align: start;
 }
 
+.text-overlay2 {
+  position: absolute;
+  top: 50%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: start;
+}
+
 .text-overlay h1 {
   color: #333;
   font-size: 5.3vh;
