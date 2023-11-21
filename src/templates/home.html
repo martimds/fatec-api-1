@@ -2,6 +2,7 @@
 {% block css %} 
 <!-- Colocar o CSS específico da página dentro desse bloco --> 
 <link rel="stylesheet" href="../static/po.css">
+
 {% endblock %} 
 {% block content %}
 <!-- Imagem home -->
@@ -15,13 +16,75 @@
             A Metodologia Ágil permite entregas contínuas, promovendo ajustes rápidos e direcionados às necessidades do cliente. 
         </p>
         
-        <p class="fw-light fs-6" style="color: white;" >Transforme desafios em conquistas ágeis.</p>
+        
     </div>
     </div>
 </div>
 
-<!-- Card home 1 -->
-<div class="container_card row-gap-3 gap-3">
+<div class="container_card_po">
+<h1 style="margin-top: 3.5%;" class="fs-3 text-center" >Descubra mais:</h1>
+    <div class="container_card row-gap-3 gap-2">
+        <div class="shadow p-3 card mb-3 flex-grow-1">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../static/img/home_3.png" class="img-fluid rounded-start" alt="Avaliador" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Avaliador</h5>
+                        <p class="card-text">Faça agora mesmo sua avaliação de desempenho na Metodologia Ágil.</p>
+                        <p><a class="link-opacity-60 link-underline-light" href="avaliador">Usar o avaliador</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+        <div class="shadow p-3 card mb-3 flex-grow-1">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../static/img/home_4.png" class="img-fluid rounded-start" alt="Papéis do scrum" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Papéis do scrum</h5>
+                        <p class="card-text"> Descubra as responsabilidades dos três principais papéis do Scrum.</p>
+                        <p><a class="link-opacity-60 link-underline-light" href="po">Conhecer os papéis do scrum</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="shadow p-3 card mb-3 flex-grow-1">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../static/img/home_4.png" class="img-fluid rounded-start" alt="Papéis do Scrum" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Artefatos do scrum</h5>
+                        <p class="card-text">Compreenda como funciona os elementos fundamentais do Scrum.</p>
+                        <p><a class="link-opacity-60 link-underline-light" href="productbacklog">Descubra os artefatos do scrum</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- <div class="txt4  texto_ok">
+    <h5 class="text-center" style="margin-top: 3.5%;">Nosso objetivo</h5>
+
+    <div class="texto_home_1">
+        <p>
+            O objetivo principal deste site é trazer aos leitores conhecimentos específicos sobre a metodologia Ágil Scrum. 
+           <p></p>O foco será trazer uma base teórica para fundamentar o conhecimento dos assuntos abordados, complementada com um guia de aplicação de cada função, dicas de uso e experiências.
+                Além disso serão trazidos um avaliador de desempenho das aptidões da metodologia.
+           
+        </p>
+    </div>
+</div> -->
+
+
+<!-- <div class="container_card row-gap-3 gap-3">
     <div class="card mb-3 flex-grow-1">
         <div class="row g-0">
             <div class="col-md-4">
@@ -36,7 +99,7 @@
             </div>
         </div>
     </div>
-    <!-- Card home 2 -->
+  
     <div class="card mb-3 flex-grow-1">
         <div class="row g-0">
             <div class="col-md-4">
@@ -50,9 +113,9 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Card home 3 -->
-    <div class="card mb-3 flex-grow-1">
+    </div> -->
+
+    <!-- <div class="card mb-3 flex-grow-1">
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="../static/img/home_4.png" class="img-fluid rounded-start" alt="Papéis do Scrum" />
@@ -66,27 +129,92 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
-<!-- Introdução -->
-<div class="txt4">
-    <h5 style="margin-top: 2%">Objetivo principal</h5>
-
-    <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
+<div class="container_img" >
+    <div class="img-container">
+    <img src="../static/img/home_1.1.png" class="img-fluid" alt="Metodologia Ágil" />
+    <!-- texto -->
+    <div class="text-overlay2">
+        <h1 style="margin-bottom: 3%; margin-top: 1%;">Benefícios:</h1>
         <p>
-            O objetivo principal deste site é trazer aos leitores conhecimentos específicos sobre a metodologia Ágil Scrum. 
-            <p></p>Primeiro, apresentar todo o conteúdo
-            necessário para compreender abordagens, metodologias, frameworks, técnicas e ferramentas ágeis existente atualmente no mercado de trabalho e que
-            contribuem diretamente para o gerenciamento de projetos e o desenvolvimento/construção de produtos simples e/ou complexos. 
-            <p></p>O foco será trazer uma
-            base teórica para fundamentar o conhecimento dos assuntos abordados, complementada com um guia de aplicação de cada função, dicas de uso e
-            experiências. Além disso serão trazidos um avaliador de desempenho das aptidões da metodologia.
-        </p>
+            <strong style="font-weight: bold;">Adaptação a Mudanças:</strong> A metodologia ágil valoriza a flexibilidade, permitindo ajustes contínuos durante o desenvolvimento do projeto.</p>
+        <p>
+            <strong style="font-weight: bold;">Entrega Incremental:</strong> Ela se baseia na entrega de partes funcionais do produto em intervalos curtos.
+        </p>   
+        <p>
+            <strong style="font-weight: bold;">Maior Colaboração:</strong> Equipes ágeis geralmente trabalham de forma colaborativa, promovendo a comunicação.
+        </p> 
+        <p>
+            <strong style="font-weight: bold;">Melhoria Contínua:</strong> A metodologia ágil incentiva a reflexão e a adaptação.As equipes têm a chance de identificar e corrigir problemas.
+        </p> 
+        <p>
+            <strong style="font-weight: bold;">Maior Satisfação do Cliente:</strong> Com a entrega de valor em ciclos curtos e a capacidade de ajustar o produto conforme o feedback do cliente.
+        </p> 
+        <p>
+            <strong style="font-weight: bold;">Eficiência e Produtividade:</strong> A metodologia ágil pode aumentar a eficiência e a produtividade geral.
+        </p> 
+
+    </div>
+    </div>
+
+    
+    
+
+</div>
+<h1 style="margin-top: 3.5%;" class="fs-3 text-center" >Descubra mais:</h1>
+    <div class="container_card row-gap-3 gap-3">
+        <div class="card mb-3 flex-grow-1">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../static/img/home_3.png" class="img-fluid rounded-start" alt="Avaliador" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Avaliador</h5>
+                        <p class="card-text">Faça agora mesmo sua avaliação de desempenho na Metodologia Ágil.</p>
+                        <p><a class="link-opacity-60 link-underline-light" href="avaliador">Usar o avaliador</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+        <div class="card mb-3 flex-grow-1">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../static/img/home_4.png" class="img-fluid rounded-start" alt="Papéis do scrum" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Papéis do scrum</h5>
+                        <p class="card-text"> Descubra as responsabilidades dos três principais papéis do Scrum.</p>
+                        <p><a class="link-opacity-60 link-underline-light" href="po">Conhecer os papéis do scrum</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="card mb-3 flex-grow-1">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../static/img/home_4.png" class="img-fluid rounded-start" alt="Papéis do Scrum" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Artefatos do scrum</h5>
+                        <p class="card-text">Compreenda como funciona os elementos fundamentais do Scrum.</p>
+                        <p><a class="link-opacity-60 link-underline-light" href="productbacklog">Descubra os artefatos do scrum</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
+
+
 <div class="txt4">
-    <h5>O que é o scrum?</h5>
+    <h5 class="fs-3 text-center">O que é o scrum?</h5>
     <div class="  shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
         <p>
             Scrum é um framework ágil utilizado principalmente no desenvolvimento de software, mas também aplicável em outros contextos, que se baseia em princípios de flexibilidade, adaptação e colaboração. Ele organiza o trabalho em ciclos chamados de "sprints", que geralmente duram de duas a quatro semanas, nos quais as equipes se comprometem a entregar incrementos de um produto ou projeto.
