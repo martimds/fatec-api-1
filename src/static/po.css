@@ -124,6 +124,14 @@ margin-top: 3%;
   font-weight: 300;
 }
 
+.text-overlay3 li {
+  margin: 0 0;
+  padding: 0 0;
+  color: black;
+  font-size: 2.2vh;
+  font-weight: 300;
+}
+
 
 /* ------- texto 4  -------- */
 .text-overlay4 {
@@ -131,7 +139,7 @@ margin-top: 3%;
   justify-content: start;
   flex-direction: column;
   margin: 0px 0px;
-  top: 10%;
+  top: 15%;
   position: absolute;
   text-align: start;
   padding: 0px 0px;
@@ -154,23 +162,56 @@ margin-top: 3%;
   font-weight: 300;
 }
 
+/*  ----------- texto 5 (pages) --------- */
+.text-overlay5 {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  margin: 0px 0px;
+  top: 30%;
+  position: absolute;
+  text-align: start;
+  max-width: 75%;
+  padding: 0px 0px;
+}
+
+
+.text-overlay5 h1 {
+  color: #333;
+  font-size: 5.3vh;
+  
+}
+
+.text-overlay5 p{
+  margin: 0 0;
+  padding: 0 0;
+  color: black;
+  width: 75%;
+  font-size: 2.2vh;
+  font-weight: 300;
+}
 
 
 
 
 
+/* ------- GUIA --------*/
 
-.container_po{
+.guia{
+  margin-top: 3%;
+}
+
+
+/* .container_po{
   display: flex;
   flex-direction: row;
   font-size: 2.2vh;
  text-align: start;
-  gap: 2%;
-  margin-top: 2%;
+  margin-top: 3%;
   margin-left: 5%;
 
 
-}
+} */
 
 .texto_da_home{
   margin-top: 3%;
@@ -184,7 +225,7 @@ margin-top: 3%;
 
 
 
-/* ------- CSS específico DA PAGE PO ---------   */
+/* ------- CSS específico DA PAGE PO E Productbacklog ---------   */
 .tabela_backlog {
   display: flex;
   flex-direction: column;
@@ -220,7 +261,7 @@ margin-top: 3%;
 
 
 
-/* --------   MEDIA  ----------
+ /* --------   QUIZ  ---------- */
 
 .certo, .errado {
   border-radius: 8px;
@@ -235,6 +276,9 @@ margin-top: 3%;
 
 
 
+/* --------   MEDIA  ---------- */
+
+
 @media screen and (max-width: 1130px) {
   .text-overlay {
     display: none;
@@ -242,7 +286,5 @@ margin-top: 3%;
 }
 
 
-.perguntas p{
-  font-weight: 500;
-}
+
 

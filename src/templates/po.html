@@ -2,54 +2,75 @@
 <!-- Colocar o CSS específico da página dentro desse bloco -->
 <link rel="stylesheet" href="../static/po.css">
 {% endblock %}{% block content %}
-<!-- Imagem po -->
-<div class="container_img">
-  <div class="img-container">
-    <img src="../static/img/po_1.png" class="img-fluid" alt="Metodologia Ágil" />
-    <div class="text-overlay">
-      <h1>Product Owner</h1>
-      <p>O Product Owner, ou dono do produto, desempenha um papel fundamental na maximização do valor do produto e do
-        Time de Desenvolvimento. Como representante dos stakeholders, o Product Owner trabalha em estreita colaboração
-        com o time de desenvolvimento para garantir a entrega contínua de valor ao cliente.</p>
+
+
+<!--------------- Imagem home 1---------------->
+<div class="container_fluid">
+  <div class="row">
+    <div style="background-color: #DAEFFF" class="col p-0"></div>
+
+    <div class="col-10 p-0">
+      <div class="img-container">
+        <img
+          src="../static/img/po_1.png"
+          class="img-fluid"
+          alt="Metodologia Ágil"
+        />
+        <div class="text-overlay5">
+          <h1>Product Owner</h1>
+          <p>O Product Owner, ou dono do produto, desempenha um papel fundamental na maximização do valor do produto e do
+            Time de Desenvolvimento. Como representante dos stakeholders, o Product Owner trabalha em estreita colaboração
+            com o time de desenvolvimento para garantir a entrega contínua de valor ao cliente.</p>
+        </div>
+      </div>
+    </div>
+    <div style="background-color: #DAEFFF" class="col p-0"></div>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="col p-0"></div>
+
+  <div class="col-10 p-0">
+    <div  style="margin-top: 3%" class="text-overlay3 ">
+      <h5>Responsabilidades do Product Owner:</h5 >
+     <div >
+        <li>Criar e gerenciar o Backlog do Produto.</li>
+        <li>
+          Comunicar claramente as necessidades e expectativas dos stakeholders ao
+          time de desenvolvimento;
+        </li>
+        <li>
+          Colaborar ativamente com o time de desenvolvimento durante o Sprint.
+        </li>
+  
+        <li>
+          Garantir que o Time de Desenvolvimento compreenda completamente o
+          Backlog.
+        </li>
+     </div>
     </div>
   </div>
+  
+  <div class="col p-0"></div>
 </div>
 
 
 
 
 
-<!-- Introdução PO -->
-<div class="txt4" style="margin-top: 3.5%">
-  <h5>Responsabilidades do Product Owner:</h5>
-  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
-    <ul>
-      <li>Criar e gerenciar o Backlog do Produto.</li>
-      <li>
-        Comunicar claramente as necessidades e expectativas dos stakeholders ao
-        time de desenvolvimento;
-      </li>
-      <li>
-        Colaborar ativamente com o time de desenvolvimento durante o Sprint.
-      </li>
-
-      <li>
-        Garantir que o Time de Desenvolvimento compreenda completamente o
-        Backlog.
-      </li>
-    </ul>
-  </div>
-</div>
+<div class="row">
+ <div class="col p-0"></div> 
+ <div class="col-10 p-0">
 <div class="card text-bg-dark" style="
-  display: flex; width:70%; margin: 0 auto; align-items: flex-start;
-  background-position: left top;
-  background-origin: border-box;
-  gap: 1rem;
-  padding: 0.5rem;
+  display: flex; margin: 0 auto; align-items: flex-start;
+  padding: 1%; margin-top: 3%; max-width: 50%; 
   ">
   <img src="../static/img/po_2.png" class="card-img-overlay"
-    style="position:absolute; width: 100%; height: 100%; z-index: 0; padding: 0;" alt="">
-  <div class="container_guia_po" style="padding: 2%; z-index: 1">
+    style="position:absolute; height: 100%;" alt="">
+  <div style="padding: 2%; z-index: 1">
     <h5 style="font-size: 3.3vh;" class="card-title">Guia: Papel do Product Owner</h5>
     <div class="mx-start p-2">
       <p style="font-size: 2.6vh;" class="card-text">
@@ -265,10 +286,22 @@
     Clique aqui
   </button>
 </div>
+ </div>
+ <div class="col p-0"></div>
 
-<div class="txt4" style="margin-top: 3.5%">
+
+
+
+
+
+
+
+<div class="row">
+  <div  class="col p-0"></div>
+  <div class="col-10 p-0">
+<div class="text-overlay3" style="margin-top: 3%;" >
   <h5>Como se tornar um bom Product Owner:</h5>
-  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+  <div class=" mb-5  rounded ">
     <h6>Visão do produto</h6>
     <p>
       Mantenha uma visão clara do produto e alinhe as atividades da equipe com
@@ -312,13 +345,21 @@
     </p>
   </div>
 </div>
+</div>
+<div class="col p-0"></div>
+</div>
 
 
 
-<div class="txt4">
+
+
+<div class="row">
+  <div  class="col p-0"></div>
+  <div class="col-10 p-0">
+<div class="text-overlay3">
   <h5>Quiz: Product Owner</h5>
   <form action="" id="quizForm">
-  <div style="margin-top: 3.5%;" class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
+  <div class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
     <div class="pergunta" id="pergunta1">
       <h6>1. Qual é o papel do Product Owner (PO) em um time ágil?
       </h6>
@@ -466,6 +507,9 @@
 
     </form>
   </div>
+</div>
+</div>
+<div  class="col p-0"></div>
 </div>
 
 <script src="../static/quiz.js"></script>
