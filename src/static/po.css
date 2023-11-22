@@ -197,21 +197,17 @@ margin-top: 3%;
   display: flex;
   flex-direction: column;
   margin: 0px 0px;
-  top: 10%;
-  position: absolute;
+  margin-top: 3%;
   padding: 0px 0px;
   text-align: center;
   justify-content: center;
-  top: 10%; /* Ajusta a posição vertical para o meio */
-  left: 50%; /* Ajusta a posição horizontal para o meio */
-  transform: translate(-50%, -50%);
-
 }
 
 
 .text-overlay6 h5 {
   color: #333;
-  font-size: 4vh;
+  font-size: 3.5vh;
+  margin-bottom: 2%;
   
 }
 
@@ -220,27 +216,32 @@ margin-top: 3%;
   flex-direction: column;
   margin: 0px 0px;
   top: 20%;
-  position: absolute;
   padding: 0px 0px;
   text-align: start;
   max-width: 40%;
   font-size: 2.2vh;
-  margin-top: 3%;
+  margin-top: 1%;
 }
 
 .text-overlay6_1_2 {
   display: flex;
   flex-direction: column;
   margin: 0px 0px;
-  top: 20%;
-  left: 60%;
-  position: absolute;
   padding: 0px 0px;
   text-align: start;
   max-width: 40%;
   font-size: 2.2vh;
-  margin-top: 3%;
+  margin-top: 1%;
+  max-width: 40%;
+  align-self: flex-end;
+  margin-bottom: 3%;
+  
 
+}
+
+.flex_texto{
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -259,27 +260,6 @@ margin-top: 3%;
   margin-top: 3%;
 }
 
-
-/* .container_po{
-  display: flex;
-  flex-direction: row;
-  font-size: 2.2vh;
- text-align: start;
-  margin-top: 3%;
-  margin-left: 5%;
-
-
-} */
-
-.texto_da_home{
-  margin-top: 3%;
-  margin-left: 8.2%;
-  display: flex;
-  justify-content: start;
-  flex-direction: column;
-  text-align: start;
-  max-width: 75%;
-} 
 
 
 
@@ -364,10 +344,3 @@ margin-top: 3%;
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .text-overlay6_1,
-  .text-overlay6_1_2,
-  .text-overlay6  {
-    display: none;
-  }
-}
