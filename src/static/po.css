@@ -154,6 +154,8 @@
   text-align: center;
 }
 
+/* --------   MEDIA  ---------- */
+
 .certo, .errado {
   border-radius: 8px;
 }
@@ -165,7 +167,7 @@
   background-color: rgba(255,0,0,0.5);
 }
 
-/* --------   MEDIA  ---------- */
+
 
 @media screen and (max-width: 1130px) {
   .text-overlay {
