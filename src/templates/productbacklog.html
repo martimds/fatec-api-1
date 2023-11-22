@@ -164,6 +164,107 @@ aria-hidden="true">
   </div>
 </div>
 
+<div class="txt4">
+  <h5>Quiz: Product Owner</h5>
+  <form action="" id="quizForm">
+  <div style="margin-top: 3.5%;" class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
+    <div class="pergunta" id="pergunta1">
+      <h6>1. Qual é o papel do Product Owner (PO) em um time ágil?
+      </h6>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1">
+        <label class="form-check-label" for="opcao1_1"> a) Definir o layout e o design da interface do usuário.</label>
+      </div>
+      <div class="form-check" correct>
+        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2">
+        <label class="form-check-label" for="opcao1_2">b) Priorizar o backlog do produto e representar as necessidades
+          dos stakeholders.</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3">
+        <label class="form-check-label" for="opcao1_3">c) Lidar com as tarefas técnicas e a programação do
+          produto.</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4">
+        <label class="form-check-label" for="opcao1_4">d) Monitorar o progresso do projeto e relatar os bugs ao time de
+          desenvolvimento.</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5">
+        <label class="form-check-label" for="opcao1_5">e) Gerenciar exclusivamente o orçamento do projeto.</label>
+      </div>
+    </div>
 
+    <div class="pergunta" id="pergunta2" style="display: none;">
+      <h6>2. Qual é o papel do Product Owner (PO) durante as reuniões de planejamento de Sprint?</h6>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1">
+        <label class="form-check-label" for="opcao2_1">a) Conduzir todas as discussões e decisões sem a participação do
+          time.</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2">
+        <label class="form-check-label" for="opcao2_2">b) Apenas observar as discussões do time sem contribuir.</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3">
+        <label class="form-check-label" for="opcao2_3">c) Focar exclusivamente na elaboração de relatórios de
+          status.</label>
+      </div>
+      <div class="form-check" correct>
+        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4">
+        <label class="form-check-label" for="opcao2_4">d) Definir as metas da Sprint e esclarecer as histórias de
+          usuário.</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5">
+        <label class="form-check-label" for="opcao2_5">e) Nenhuma das alternativas anteriores.</label>
+      </div>
+    </div>
+
+    <div class="pergunta" id="pergunta3" style="display: none;">
+      <h6>3. Como o Product Owner (PO) contribui para o desenvolvimento do produto?</h6>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1">
+        <label class="form-check-label" for="opcao3_1">a) Estabelecendo prazos rígidos para o time de
+          desenvolvimento.</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2">
+        <label class="form-check-label" for="opcao3_2">b) Desenvolvendo todas as funcionalidades do produto.</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3">
+        <label class="form-check-label" for="opcao3_3">c) Alocando recursos e financiamento para o projeto.</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4">
+        <label class="form-check-label" for="opcao3_4">d) Realizando testes de qualidade do produto final.</label>
+      </div>
+      <div class="form-check" correct>
+        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5">
+        <label class="form-check-label" for="opcao3_5">e) Atuando como intermediário entre o time de desenvolvimento e
+          os stakeholders.</label>
+      </div>
+    </div>
+
+    <!-- Adicionar mais perguntas seguindo o modelo acima -->
+
+    <div class="d-flex justify-content-between align-items-center">
+      <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2 ">Verificar</button>
+      <div class="ml-auto">
+        <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2 " onclick="mudarPergunta(-1)"
+          style="display: none;">Anterior</button>
+        <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark  mt-2 "
+          onclick="mudarPergunta(1)">Próxima</button>
+      </div>
+    </div>
+
+    </form>
+  </div>
+</div>
+
+<script src="../static/quiz.js"></script>
 
 {% endblock %}

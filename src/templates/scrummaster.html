@@ -2,7 +2,7 @@
 <!-- Colocar o CSS específico da página dentro desse bloco -->
 <link rel="stylesheet" href="../static/po.css">
 {% endblock %}
-{% block content %} 
+{% block content %}
 <!-- Imagem po -->
 <div class="container_img">
   <div class="img-container">
@@ -33,9 +33,9 @@
       </li>
       <li>Facilita a colaboração dos stakeholders</li>
     </ul>
-  </ul>
-</div>
-<div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+    </ul>
+  </div>
+  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
     <h6>Para o Developer Team, o Scrum Master:</h6>
     <ul>
       <li>Treina o time em autogerenciamento e interdisciplinalidade;</li>
@@ -211,7 +211,7 @@
     <h6>Dominar o Scrum</h6>
     <p>
       Tenha um profundo entendimento do framework Scrum, suas práticas e
-        princípios.
+      princípios.
     </p>
 
     <h6>Comunicação e empatia</h6>
@@ -222,25 +222,25 @@
     <h6>Facilitação eficaz</h6>
     <p>
       Habilidades de facilitação são cruciais para liderar reuniões e manter a
-        equipe focada e produtiva.
+      equipe focada e produtiva.
     </p>
 
     <h6>Promover autonomia</h6>
     <p>
       Ajude a equipe a se tornar autossuficiente, incentivando a
-        autorregulação e a melhoria contínua.
+      autorregulação e a melhoria contínua.
     </p>
 
     <h6>Transparência</h6>
     <p>
       Estimule a transparência em todas as atividades, incluindo métricas de
-        desempenho e impedimentos.
+      desempenho e impedimentos.
     </p>
 
     <h6>Liderança servidora</h6>
     <p>
       Adote uma mentalidade de liderança servidora, colocando as necessidades
-        da equipe acima das suas.
+      da equipe acima das suas.
     </p>
 
     <h6>Aprender e adaptar</h6>
@@ -250,5 +250,165 @@
     </p>
   </div>
 </div>
+
+<div class="txt4">
+  <h5>Quiz: Scrum Master</h5>
+  <form action="" id="quizForm">
+    <div style="margin-top: 3.5%;" class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
+      <div class="pergunta" id="pergunta1">
+        <h6>1. Dentre os papéis do scrum, a definição que mais se encaixa no papel do Master é:
+        </h6>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1">
+          <label class="form-check-label" for="opcao1_1"> a) Ter o compromisso com os valores e práticas do Scrum e
+            maner a flexibilidade e a abertura para oportunidades de melhorar o fluxo de trabalho da equipe.</label>
+        </div>
+        <div class="form-check" correct>
+          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2">
+          <label class="form-check-label" for="opcao1_2">b) Atua principalmente no desenvolvimento do back enddo projeto
+            e suas variações.</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3">
+          <label class="form-check-label" for="opcao1_3">c) Contribui com sua lidença, sem usar adequadamente as
+            ferramentas da metodologia Scrum.</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4">
+          <label class="form-check-label" for="opcao1_4">d) Os mestres do scrum não são os facilitadores do scrum, a
+            estrutura ágil e leve com foco em iterações com intervalos de tempo chamadas sprints.</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5">
+          <label class="form-check-label" for="opcao1_5">e) Gerenciar exclusivamente o orçamento do projeto.</label>
+        </div>
+      </div>
+
+      <div class="pergunta" id="pergunta2" style="display: none;">
+        <h6>2. Qual é o papel do Product Owner (PO) durante as reuniões de planejamento de Sprint?</h6>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1">
+          <label class="form-check-label" for="opcao2_1">a) Conduzir todas as discussões e decisões sem a participação
+            do
+            time.</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2">
+          <label class="form-check-label" for="opcao2_2">b) Apenas observar as discussões do time sem
+            contribuir.</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3">
+          <label class="form-check-label" for="opcao2_3">c) Focar exclusivamente na elaboração de relatórios de
+            status.</label>
+        </div>
+        <div class="form-check" correct>
+          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4">
+          <label class="form-check-label" for="opcao2_4">d) Definir as metas da Sprint e esclarecer as histórias de
+            usuário.</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5">
+          <label class="form-check-label" for="opcao2_5">e) Nenhuma das alternativas anteriores.</label>
+        </div>
+      </div>
+
+      <div class="pergunta" id="pergunta3" style="display: none;">
+        <h6>3. Como o Product Owner (PO) contribui para o desenvolvimento do produto?</h6>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1">
+          <label class="form-check-label" for="opcao3_1">a) Estabelecendo prazos rígidos para o time de
+            desenvolvimento.</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2">
+          <label class="form-check-label" for="opcao3_2">b) Desenvolvendo todas as funcionalidades do produto.</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3">
+          <label class="form-check-label" for="opcao3_3">c) Alocando recursos e financiamento para o projeto.</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4">
+          <label class="form-check-label" for="opcao3_4">d) Realizando testes de qualidade do produto final.</label>
+        </div>
+        <div class="form-check" correct>
+          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5">
+          <label class="form-check-label" for="opcao3_5">e) Atuando como intermediário entre o time de desenvolvimento e
+            os stakeholders.</label>
+        </div>
+      </div>
+
+      <div class="pergunta" id="pergunta4" style="display: none;">
+        <h6>4. Qual é a principal função do Product Owner (PO) em relação ao backlog do produto?</h6>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta4" id="opcao4_1" value="opcao1">
+          <label class="form-check-label" for="opcao4_1">a) Atualizar o backlog com todos os requisitos
+            técnicos.</label>
+        </div>
+        <div class="form-check" correct>
+          <input class="form-check-input" type="radio" name="resposta4" id="opcao4_2" value="opcao2">
+          <label class="form-check-label" for="opcao4_2">b) Priorizar o backlog com base no valor do negócio e nas
+            necessidades dos stakeholders.</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta4" id="opcao4_3" value="opcao3">
+          <label class="form-check-label" for="opcao4_3">c) Garantir que o backlog contenha apenas itens de baixa
+            prioridade.</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta4" id="opcao4_4" value="opcao4">
+          <label class="form-check-label" for="opcao4_4">d) Documentar somente as histórias de usuário sem detalhar as
+            tarefas.</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta4" id="opcao4_5" value="opcao5">
+          <label class="form-check-label" for="opcao4_5">e)Delegar a responsabilidade do backlog para o time de
+            desenvolvimento.</label>
+        </div>
+      </div>
+
+      <div class="pergunta" id="pergunta5" style="display: none;">
+        <h6>5. Quem é responsável por atualizar e priorizar continuamente o backlog do produto?</h6>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta5" id="opcao5_1" value="opcao1">
+          <label class="form-check-label" for="opcao5_1">a) Apenas o Product Owner.</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta5" id="opcao5_2" value="opcao2">
+          <label class="form-check-label" for="opcao5_2">b) O Scrum Master.</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta5" id="opcao5_3" value="opcao3">
+          <label class="form-check-label" for="opcao5_3">c) Somente o time de desenvolvimento.</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="resposta5" id="opcao5_4" value="opcao4">
+          <label class="form-check-label" for="opcao5_4">d) Todos os stakeholders.</label>
+        </div>
+        <div class="form-check" correct>
+          <input class="form-check-input" type="radio" name="resposta5" id="opcao5_5" value="opcao5">
+          <label class="form-check-label" for="opcao5_5">e) O Product Owner em colaboração com o time de desenvolvimento
+            e
+            stakeholders.</label>
+        </div>
+      </div>
+      <!-- Adicionar mais perguntas seguindo o modelo acima -->
+
+      <div class="d-flex justify-content-between align-items-center">
+        <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2 ">Verificar</button>
+        <div class="ml-auto">
+          <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2 " onclick="mudarPergunta(-1)"
+            style="display: none;">Anterior</button>
+          <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark  mt-2 "
+            onclick="mudarPergunta(1)">Próxima</button>
+        </div>
+      </div>
+
+  </form>
+</div>
+</div>
+
+<script src="../static/quiz.js"></script>
 
 {% endblock %}
