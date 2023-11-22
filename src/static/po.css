@@ -30,13 +30,21 @@
 }
 
 
-
+ /* ------- imagem ------- */
 .img-container {
   position: relative;
 }
 
+  /* -------- card ------- */
+.container_flex{
+display: flex;
+flex-direction: row;
+gap: 2%;
+margin-top: 2%;
+}
 
 
+/* texto 1  */
 .text-overlay {
   display: flex;
   justify-content: start;
@@ -49,21 +57,16 @@
   padding: 0px 0px;
 }
 
-
-
 .text-overlay h1{
   font-size: 5.3vh;
 
 }
-
-
 
 .text-overlay h1 {
   color: #333;
   font-size: 5.3vh;
   
 }
-
 
 .text-overlay p {
   margin: 0 0;
@@ -74,16 +77,37 @@
   font-weight: 300;
 }
 
-.text-overlay2{
-  position: absolute;
-  top: 50%;
-  margin-left: 65%;
-  transform: translate(-50%, -50%);
-  text-align: start;
 
-  font-weight: 300;
+
+/* texto 2 */
+.text-overlay2{
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  margin: 0px 0px;
+  top: 5%;
+  right:0%;
+  position: absolute;
+  text-align: end;
+  max-width: 75%;
+  padding: 0px 0px;
 
 }
+
+.text-overlay2 h1 {
+  color: #333;
+  font-size: 5.3vh;
+}
+
+.text-overlay2 p {
+  color: #333;
+  font-size: 2vh;
+  font-weight: 300;
+}
+
+
+
+
 
 
 
