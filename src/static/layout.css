@@ -20,13 +20,13 @@ body {
 
   
 
- /* Rodapé */
+ /* ------Rodapé --------*/
  .container_rodape{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333652;
-    color: white;
+    background-color: #ffffff;
+    color: black;
     font-size: 2.2vh;
     font-weight: 200;
 
