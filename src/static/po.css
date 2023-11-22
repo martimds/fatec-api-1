@@ -40,11 +40,11 @@
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-margin-top: 2%;
+margin-top: 3%;
 }
 
 
-/* texto 1  */
+/* ------- texto 1  -------- */
 .text-overlay {
   display: flex;
   justify-content: start;
@@ -57,10 +57,6 @@ margin-top: 2%;
   padding: 0px 0px;
 }
 
-.text-overlay h1{
-  font-size: 5.3vh;
-
-}
 
 .text-overlay h1 {
   color: #333;
@@ -79,29 +75,82 @@ margin-top: 2%;
 
 
 
-/* texto 2 */
+/* ------- texto 2 -------- */
 .text-overlay2{
   display: flex;
-  justify-content: end;
   flex-direction: column;
   margin: 0px 0px;
-  top: 5%;
+  top: 0%;
   right:0%;
   position: absolute;
-  text-align: end;
-  max-width: 75%;
+  text-align: start ;
+  max-width: 50%;
   padding: 0px 0px;
-
+  
 }
 
 .text-overlay2 h1 {
+  margin-top: 3%;
   color: #333;
-  font-size: 5.3vh;
+  font-size: 4vh;
+  margin-bottom: 5%;
 }
 
 .text-overlay2 p {
   color: #333;
-  font-size: 2vh;
+  font-size: 2.2vh;
+  font-weight: 300;
+}
+
+/* ------- texto 3  -------- */
+.text-overlay3 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px;
+  text-align: start;
+  padding: 0px 0px;
+}
+
+.text-overlay3 h1{
+  font-size: 4vh;
+
+}
+
+.text-overlay3 p {
+  margin: 0 0;
+  padding: 0 0;
+  color: black;
+  font-size: 2.2vh;
+  font-weight: 300;
+}
+
+
+/* ------- texto 4  -------- */
+.text-overlay4 {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  margin: 0px 0px;
+  top: 10%;
+  position: absolute;
+  text-align: start;
+  padding: 0px 0px;
+  max-width: 55%;
+}
+
+
+.text-overlay4 h1 {
+  color:white;
+  font-size: 4vh;
+  
+}
+
+.text-overlay4 p {
+  margin: 0 0;
+  padding: 0 0;
+  color: white;
+  width: 75%;
+  font-size: 2.2vh;
   font-weight: 300;
 }
 
@@ -131,13 +180,11 @@ margin-top: 2%;
   flex-direction: column;
   text-align: start;
   max-width: 75%;
-  
-  
 } 
 
 
 
-/* ------- CSS específico DA PAGE PO ---------  
+/* ------- CSS específico DA PAGE PO ---------   */
 .tabela_backlog {
   display: flex;
   flex-direction: column;
@@ -171,7 +218,9 @@ margin-top: 2%;
   text-align: center;
 }
 
-/* --------   MEDIA  ---------- */
+
+
+/* --------   MEDIA  ----------
 
 .certo, .errado {
   border-radius: 8px;
