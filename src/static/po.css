@@ -39,7 +39,7 @@
 .container_flex{
 display: flex;
 flex-direction: row;
-gap: 2%;
+justify-content: space-between;
 margin-top: 2%;
 }
 
