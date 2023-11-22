@@ -13,8 +13,15 @@
   font-size: 3vh;
 }
 
-.txt4 li{
-  font-size: ;
+.txt4_1{
+  display: flex;
+  justify-content: start;
+  text-align: start;
+  flex-direction: column;
+  width: 82%;
+  margin-left: 8%;
+  padding: 2%;
+  
 }
 
 .texto_home_1 {
@@ -38,12 +45,15 @@
 }
 
 .text-overlay {
+  margin: 0px 0px;
   position: absolute;
   top: 50%;
   left: 39%;
   transform: translate(-50%, -50%);
-  padding: 20px;
   text-align: start;
+  max-width: 75%;
+  padding: 0px 0px;
+  
 }
 
 
@@ -57,62 +67,53 @@
 .text-overlay h1 {
   color: #333;
   font-size: 5.3vh;
-  margin-bottom: 10px;
   
 }
 
 
 .text-overlay p {
+  margin: 0 0;
+  padding: 0 0;
   color: black;
-  line-height: 1.5;
-  width: 73%;
-  font-size: 2.2vh;
-  font-weight: 300;
-}
-
-.text-overlay2 {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 10%;
-  left: 40%;
-  text-align: start;
-}
-
-.text-overlay2 h1{
-  color: #333;
-  font-size: 5.3vh;
-  width: 100%;
-}
-
-
-.text-overlay2 p{
-  color: #333;
-  font-size: 5.3vh;
-  width: 80%;
-  font-weight: 300;
-  font-size: 2.5vh;
-}
-
-
-
-.container_card_po {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2%;
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 2.2vh;
-  max-width: 90%;
-
-}
-
-
-.container_guia_po {
   width: 75%;
+  font-size: 2.2vh;
+  font-weight: 300;
 }
 
-/* ------- CSS específico DA PAGE PO ---------   */
+.text-overlay2{
+  position: absolute;
+  top: 50%;
+  margin-left: 65%;
+  transform: translate(-50%, -50%);
+  text-align: start;
+
+  font-weight: 300;
+
+}
+
+
+
+.container_po{
+  font-size: 2.2vh;
+ text-align: start;
+  max-width: 82%;
+}
+
+.texto_da_home{
+  margin-top: 3%;
+  margin-left: 8.2%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  text-align: start;
+  max-width: 75%;
+  
+  
+} 
+
+
+
+/* ------- CSS específico DA PAGE PO ---------  
 .tabela_backlog {
   display: flex;
   flex-direction: column;
@@ -171,7 +172,3 @@
 }
 
 
-texto_ok{
-  padding: 0;
-  margin: 0;
-}
