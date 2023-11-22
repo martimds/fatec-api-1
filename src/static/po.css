@@ -29,32 +29,26 @@
   padding: 2%;
 }
 
-.container_img {
-  text-align: center;
-}
+
 
 .img-container {
   position: relative;
-  max-width: 100%;
-  margin: 0 auto;
 }
 
-.img-container img {
-  max-width: 100%;
-  height: auto;
-}
+
 
 .text-overlay {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
   margin: 0px 0px;
+  top: 40%;
   position: absolute;
-  top: 50%;
-  left: 39%;
-  transform: translate(-50%, -50%);
   text-align: start;
   max-width: 75%;
   padding: 0px 0px;
-  
 }
+
 
 
 .text-overlay h1{
@@ -101,7 +95,6 @@
   gap: 2%;
   margin-top: 2%;
   margin-left: 5%;
- 
 
 
 }
