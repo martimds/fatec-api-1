@@ -192,6 +192,64 @@ margin-top: 3%;
 }
 
 
+/* -------- */
+.text-overlay6 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px;
+  top: 10%;
+  position: absolute;
+  padding: 0px 0px;
+  text-align: center;
+  justify-content: center;
+  top: 10%; /* Ajusta a posição vertical para o meio */
+  left: 50%; /* Ajusta a posição horizontal para o meio */
+  transform: translate(-50%, -50%);
+
+}
+
+
+.text-overlay6 h5 {
+  color: #333;
+  font-size: 4vh;
+  
+}
+
+.text-overlay6_1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px;
+  top: 20%;
+  position: absolute;
+  padding: 0px 0px;
+  text-align: start;
+  max-width: 40%;
+  font-size: 2.2vh;
+  margin-top: 3%;
+}
+
+.text-overlay6_1_2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px;
+  top: 20%;
+  left: 60%;
+  position: absolute;
+  padding: 0px 0px;
+  text-align: start;
+  max-width: 40%;
+  font-size: 2.2vh;
+  margin-top: 3%;
+
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -279,7 +337,7 @@ margin-top: 3%;
 /* --------   MEDIA  ---------- */
 
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 900px) {
   .text-overlay {
     display: none;
   }
@@ -287,4 +345,29 @@ margin-top: 3%;
 
 
 
+@media screen and (max-width: 1100px) {
+  .text-overlay2  {
+    display: none;
+  }
+}
 
+@media screen and (max-width: 1200px) {
+  .text-overlay4  {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .text-overlay5  {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .text-overlay6_1,
+  .text-overlay6_1_2,
+  .text-overlay6  {
+    display: none;
+  }
+}
