@@ -3,46 +3,77 @@
 <link rel="stylesheet" href="../static/po.css">
 {% endblock %}{% block content %}
 <!-- Imagem po -->
-<div class="container_img">
-  <div class="img-container">
-      <img src="../static/img/poker_1.png" class="img-fluid" alt="Metodologia Ágil" />
-      <div class="text-overlay">
+
+
+<div class="container_fluid">
+  <div class="row">
+    <div style="background-color: #627BE9" class="col p-0"></div>
+
+    <div class="col-10 p-0">
+      <div class="img-container">
+        <img
+          src="../static/img/poker_1.png"
+          class="img-fluid"
+          alt="Metodologia Ágil"
+        />
+        <div class="text-overlay5">
           <h1 style="color: white;">Planning Poker</h1>
           <p style="color: white;">O Planning Poker é uma técnica amplamente utilizada na metodologia ágil, especialmente no contexto de desenvolvimento de software, para estimar o
             esforço necessário para implementar as User Stories, usando "Story Points" como unidade de medida relativa. Esta abordagem ajuda a equipe a estimar o
             trabalho de forma colaborativa, considerando diferentes perspectivas e evitando a influência individual.      
           </div>
-  </div>
-</div>
-  
+        </div>
+      </div>
+      <div style="background-color: #627BE9" class="col p-0"></div>
+      </div>
+      </div>
 
-<div class="txt4" style="margin-top: 3.5%">
+
+
+
+
+
+      <div class="row">
+        <div class="col p-0"></div>
+      
+        <div class="col-10 p-0">
+          <div  style="margin-top: 3%" class="text-overlay3 ">
   <h5>Funcionalidade do Planning Poker:</h5>
-  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+  
      <p>
         O Planning Poker funciona porque incorpora a opinião de diversos especialistas da equipe, promovendo discussões que levam a estimativas mais precisas. A
         utilização da sequência de Fibonacci ajuda a refletir a incerteza associada ao tamanho das histórias, criando intervalos que facilitam o planejamento.
-    </p>
-        
-   
-  </div>
-</div>
-<div class="card text-bg-dark" style="
-  display: flex; width:70%; margin: 0 auto; align-items: flex-start;
-  background-position: left top;
-  background-origin: border-box;
-  gap: 1rem;
-  padding: 0.5rem;
-  ">
-  <img src="../static/img/po_2.png" class="card-img-overlay" style="position:absolute; width: 100%; height: 100%; z-index: 0; padding: 0;" alt="">
-  <div class="container_guia_po" style="padding: 2%; z-index: 1">
-    <h5 style="font-size: 3.3vh;" class="card-title">Guia: Exemplo Planning Poker</h5>
-    <div class="mx-start p-2">
-      <p style="font-size: 2.6vh;" class="card-text">
-        Este guia oferece para você o passo-a-passo essencial de como funciona o artefato Planning poker.
       </p>
+    
     </div>
-  </div>
+   
+    </div>
+
+    <div class="col p-0"></div>
+      </div>
+    
+
+
+
+
+
+
+
+
+      <div class="row">
+        <div class="col p-0"></div> 
+        <div class="col-10 p-0">
+       
+         <div style="background-color: #24445c; color: white;" class="card w-50 mb-5 mt-5">
+           <div class="card-body">
+            <h5 class="card-title">Guia: Planning Poker</h5>
+            <p  class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona o artefato Planning Poker.</p>
+            <button type="button" class="btn btn-primary"
+            data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Clique aqui
+          </button>
+        </div>
+      </div>
 
   <!-- Modal -->
 <!-- Modal -->
@@ -93,41 +124,26 @@ aria-hidden="true">
               planejar sprints futuros e alocar recursos de acordo.</p>  
         </li>
       </ol>
-    </div>
-
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-            Fechar
-          </button>
-        </div>
+    
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Fechar
+        </button>
       </div>
     </div>
   </div>
-  <button style="z-index: 1; margin-left: 1rem; margin-bottom: 0.5rem;" type="button" class="btn btn-primary" data-bs-toggle="modal"
-    data-bs-target="#exampleModal">
-    Clique aqui
-  </button>
+</div>
 </div>
 
-<div class="txt4" style="margin-top: 3.5%">
-  <h5>Benefícios do planning poker:</h5>
-  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
-    <ul>
-
-    <li><strong>Agilidade:</strong> É mais rápida que abordagens tradicionais de estimativa, mantendo um bom resultado.</li>
-
-    <li><strong>Analysis paralysis:</strong> Auxilia a prevenir discussões em “loop infinito”</li> 
-
-    <li><strong>Validação:</strong> Previne também que apenas uma pessoa faça as estimativas para o restante do time.</li>
-
-    <li><strong>Fortalecimento:</strong> Cria engajamento e senso de pertencimento ao time por estar tendo discussões abertas e todos trazendo suas próprias estimativas.</li>
-
-    </ul>  
-  </div>
+</div>
+<div class="col p-0"></div>
 </div>
 
-<div class="txt4">
+
+<div class="row">
+  <div  class="col p-0"></div>
+  <div class="col-10 p-0">
+<div class="text-overlay3">
   <h5>Quiz: Product Owner</h5>
   <form action="" id="quizForm">
   <div style="margin-top: 3.5%;" class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
@@ -221,13 +237,50 @@ aria-hidden="true">
           style="display: none;">Anterior</button>
         <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark  mt-2 "
           onclick="mudarPergunta(1)">Próxima</button>
+        </div>
       </div>
-    </div>
-
+  
     </form>
   </div>
+  </div>
+  </div>
+  <div  class="col p-0"></div>
+  </div>
+  <script src="../static/quiz.js"></script>
+  
+
+
+
+
+
+<!--------------- Imagem home 1---------------->
+<div class="container_fluid">
+  <div class="row">
+    <div style="background-color: #627BE9" class="col p-0" ></div>
+
+    <div class="col-10 p-0" style="background-color: #627BE9;"> 
+      
+        <div   class="text-start text-overlay6 mb-5 mt-5">
+  <h5 style="color: white;" >Benefícios do planning poker:</h5>
+    <ul style="color: white;">
+
+    <li><strong>Agilidade:</strong> É mais rápida que abordagens tradicionais de estimativa, mantendo um bom resultado.</li>
+
+    <li><strong>Analysis paralysis:</strong> Auxilia a prevenir discussões em “loop infinito”</li> 
+
+    <li><strong>Validação:</strong> Previne também que apenas uma pessoa faça as estimativas para o restante do time.</li>
+
+    <li><strong>Fortalecimento:</strong> Cria engajamento e senso de pertencimento ao time por estar tendo discussões abertas e todos trazendo suas próprias estimativas.</li>
+
+  </ul>  
+ 
+
+
 </div>
 
-<script src="../static/quiz.js"></script>
+</div>
+<div style="background-color: #627BE9" class="col p-0"></div>
+</div>
+</div>
 
 {% endblock %}
