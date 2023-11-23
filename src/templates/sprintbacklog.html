@@ -3,21 +3,40 @@
 {% endblock %}
 {% block content %}
 
-<div class="container_img">
-  <div class="img-container">
-    <img src="../static/img/sprint_1.png" class="img-fluid" alt="Sprint" />
-    <div class="text-overlay">
+<div class="container_fluid">
+  <div class="row">
+    <div style="background-color: #BDDCDC" class="col p-0"></div>
+
+    <div class="col-10 p-0">
+      <div class="img-container">
+        <img
+          src="../static/img/sprint_1.png"
+          class="img-fluid"
+          alt="Metodologia Ágil"
+        />
+        <div class="text-overlay5">
       <h1>Sprint Backlog</h1>
       <p> É uma lista de tarefas concretas selecionadas do Product Backlog para a
         próxima sprint. Ele representa o trabalho planejado pelo Development
         Team exclusivamente para a sprint atual.</p>
+      </div>
     </div>
-  </div>
+ 
+    </div>
+    <div style="background-color: #BDDCDC" class="col p-0"></div>
+    </div>
 </div>
 
-<div class="txt4" style="margin-top: 3.5%">
+
+
+
+<div class="row">
+  <div class="col p-0"></div>
+
+  <div class="col-10 p-0">
+    <div  style="margin-top: 3%" class="text-overlay3 ">
   <h5>O que é uma Sprint:</h5>
-  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+  
     <p>
       Sprint no Scrum é um período de trabalho intensivo e focado, geralmente
       com duração de 2 a 4 semanas, no qual a equipe de desenvolvimento
@@ -28,34 +47,28 @@
       a transparência, a colaboração e a entrega de produtos de alta
       qualidade.
     </p>
+    
+  </div>
+  
+  </div>
+  <div class="col p-0"></div>
+  </div>
+  
 
-
+<div class="row">
+  <div class="col p-0"></div> 
+  <div class="col-10 p-0">
+ 
+   <div style="background-color: #24445c; color: white;" class="card w-50 mb-5 mt-5">
+     <div class="card-body">
+      <h5 class="card-title">Guia: Sprint</h5>
+      <p  class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona uma Sprint.</p>
+      <button type="button" class="btn btn-primary"
+      data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Clique aqui
+    </button>
   </div>
 </div>
-
-<div class="txt4" style="margin-top: 3.5%">
-
-</div>
-
-
-<div class="card text-bg-dark" style="
-  display: flex; width:70%; margin: 0 auto; align-items: flex-start;
-  background-position: left top;
-  background-origin: border-box;
-  gap: 1rem;
-  padding: 0.5rem;
-  ">
-  <img src="../static/img/po_2.png" class="card-img-overlay"
-    style="position:absolute; width: 100%; height: 100%; z-index: 0; padding: 0;" alt="">
-  <div class="container_guia_po" style="padding: 2%; z-index: 1">
-    <h5 class="card-title" style="font-size: 3.3vh;">Guia: Exemplo de uma Sprint Backlog</h5>
-    <div class="mx-start p-2">
-      <p class="card-text" style="font-size: 2.6vh;">
-        Este guia oferece para você o passo-a-passo essencial de como funciona
-        o artefato Sprint Backlog.
-      </p>
-    </div>
-  </div>
 
   <!-- Modal -->
   <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -94,51 +107,33 @@
               durante o Sprint, ajustando o Sprint Backlog conforme necessário, e
               revise-o na conclusão do Sprint para avaliação e melhoria contínua.</p>
 
+          
             </li>
           </ol>
-        </div>
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-            Fechar
-          </button>
-        </div>
-      </div>
+    
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+        Fechar
+      </button>
     </div>
   </div>
-  <button style="z-index: 1; margin-left: 1rem; margin-bottom: 0.5rem;" type="button" class="btn btn-primary"
-    data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Clique aqui
-  </button>
+</div>
 </div>
 </div>
 
-<div class="txt4" style="margin-top: 3.5%">
-  <h5>Dicas para um bom Sprint Backlog:</h5>
-  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
-    <ul>
-      <li><strong>Colabore com a Equipe de Desenvolvimento:</strong> Envolver a equipe de desenvolvimento na elaboração
-        do Sprint Backlog ajuda a garantir que todos tenham uma compreensão compartilhada das tarefas e compromissos.
-      </li>
-      <li>
-        <strong> Divida Tarefas em Itens Menores:</strong> Quebre as histórias de usuário em tarefas menores e mais
-        gerenciáveis. Isso facilita o acompanhamento do progresso e permite uma melhor estimativa do esforço necessário.
-      </li>
-      <li><strong> Defina Critérios de Conclusão (Definition of Done):</strong> Para cada tarefa, estabeleça critérios
-        claros que determinem quando uma tarefa está completa. Isso evita ambiguidades e assegura que o trabalho atenda
-        aos padrões de qualidade.</li>
-      <li><strong> Promova a Transparência:</strong> Garanta que o Sprint Backlog seja transparente e compreensível para
-        todos os membros da equipe. A transparência promove a colaboração e a responsabilidade compartilhada.</li>
-      <li> <strong> Aprenda com Retrospectivas: </strong> Após cada sprint, conduza retrospectivas para avaliar o
-        desempenho da equipe e identificar oportunidades de melhoria no processo de planejamento.</li>
-    </ul>
-  </div>
+</div>
+<div class="col p-0"></div>
 </div>
 
-<div class="txt4">
+
+
+<div class="row">
+  <div  class="col p-0"></div>
+  <div class="col-10 p-0">
+<div class="text-overlay3">
   <h5>Quiz: Product Owner</h5>
   <form action="" id="quizForm">
-  <div style="margin-top: 3.5%;" class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
+  <div  class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
     <div class="pergunta" id="pergunta1">
       <h6>1. Qual é o papel do Product Owner (PO) em um time ágil?
       </h6>
@@ -228,14 +223,66 @@
         <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2 " onclick="mudarPergunta(-1)"
           style="display: none;">Anterior</button>
         <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark  mt-2 "
-          onclick="mudarPergunta(1)">Próxima</button>
+          onclick="mudarPergunta(1)">Próxima</</button>
+        </div>
       </div>
-    </div>
-
+  
     </form>
   </div>
+  </div>
+  </div>
+  <div  class="col p-0"></div>
+  </div>
+  <script src="../static/quiz.js"></script>
+
+
+
+
+
+
+<!--------------- Imagem home 1---------------->
+<div class="container_fluid">
+  <div class="row">
+    <div style="background-color: #EFF0F0" class="col p-0" ></div>
+
+    <div class="col-10 p-0" style="background-color: #EFF0F0;"> 
+      
+        <div  class="text-start text-overlay6 mb-5 mt-5">
+  <h5>Dicas para um bom Sprint Backlog:</h5>
+  
+    <ul>
+      <li><strong>Colabore com a Equipe de Desenvolvimento:</strong> Envolver a equipe de desenvolvimento na elaboração
+        do Sprint Backlog ajuda a garantir que todos tenham uma compreensão compartilhada das tarefas e compromissos.
+      </li>
+      <li>
+        <strong> Divida Tarefas em Itens Menores:</strong> Quebre as histórias de usuário em tarefas menores e mais
+        gerenciáveis. Isso facilita o acompanhamento do progresso e permite uma melhor estimativa do esforço necessário.
+      </li>
+      <li><strong> Defina Critérios de Conclusão (Definition of Done):</strong> Para cada tarefa, estabeleça critérios
+        claros que determinem quando uma tarefa está completa. Isso evita ambiguidades e assegura que o trabalho atenda
+        aos padrões de qualidade.</li>
+      <li><strong> Promova a Transparência:</strong> Garanta que o Sprint Backlog seja transparente e compreensível para
+        todos os membros da equipe. A transparência promove a colaboração e a responsabilidade compartilhada.</li>
+      <li> <strong> Aprenda com Retrospectivas: </strong> Após cada sprint, conduza retrospectivas para avaliar o
+        desempenho da equipe e identificar oportunidades de melhoria no processo de planejamento.</li>
+      </ul>  
+ 
+
+            
+    
+
 </div>
 
-<script src="../static/quiz.js"></script>
+</div>
+<div style="background-color: #EFF0F0" class="col p-0"></div>
+</div>
+</div>
+
+
+
+
+
+
+  
 
 {% endblock %}
