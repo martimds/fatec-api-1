@@ -3,59 +3,74 @@
 {% endblock %}
 {% block content %}
 
-<div class="container_img">
-    <div class="img-container">
-        <img src="../static/img/dor_1.png" class="img-fluid" alt="DefinitionOfReady" />
-        <div class="text-overlay">
+
+<div class="container_fluid">
+  <div class="row">
+    <div style="background-color: #DEC3C3" class="col p-0"></div>
+
+    <div class="col-10 p-0">
+      <div class="img-container">
+        <img
+          src="../static/img/dor_1.png"
+          class="img-fluid"
+          alt="Metodologia Ágil"
+        />
+        <div class="text-overlay5">
             <h1>Definition of Ready</h1>
             <p> A Definition of Ready(DoR) é um conceito dentro do framework Scrum
                 que descreve as condições que um item de backlog (normalmente, uma User
                 Story) deve atender antes de ser considerado pronto para ser incluído em
-                um Sprint e desenvolvido pela equipe de Scrum. A DoR é uma ferramenta
-                valiosa para garantir que o trabalho planejado para um Sprint seja
-                claro, compreensível e suficientemente detalhado para que a equipe possa
-                começar a trabalhar nele sem interrupções ou incertezas significativas.</p>
-        </div>
-    </div>
+                um Sprint e desenvolvido pela equipe de Scrum.</p>
+              </div>
+            </div>
+         
+            </div>
+            <div style="background-color: #DEC3C3" class="col p-0"></div>
+            </div>
 </div>
 
-<div class="txt4" style="margin-top: 3.5%">
+
+
+
+
+
+<div class="row">
+  <div class="col p-0"></div>
+
+  <div class="col-10 p-0">
+    <div  style="margin-top: 3%" class="text-overlay3 ">
     <h5>Funcionalidade do Definition of Ready:</h5>
-    <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
         <p>
             O Definition of Ready(DoR) desempenha um papel crucial na garantia de que as histórias ou tarefas adicionais
             ao backlog do sprint estão prontas para serem trabalhadas,isso resulta em entregas mais consistentes e de
             alta qualidade promovendo assim um execução eficiente e eficaz do
             trabalho pela equipe Scrum.
         </p>
-    </div>
+    
+</div>
+
+</div>
+<div class="col p-0"></div>
 </div>
 
 
 
-<div class="txt4" style="margin-top: 3.5%">
 
+
+<div class="row">
+  <div class="col p-0"></div> 
+  <div class="col-10 p-0">
+ 
+   <div style="background-color: #24445c; color: white;" class="card w-50 mb-5 mt-5">
+     <div class="card-body">
+      <h5 class="card-title">Guia: Definition of Ready</h5>
+      <p  class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona a Definition of Ready.</p>
+      <button type="button" class="btn btn-primary"
+      data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Clique aqui
+    </button>
+  </div>
 </div>
-
-
-<div class="card text-bg-dark" style="
-  display: flex; width:70%; margin: 0 auto; align-items: flex-start;
-  background-position: left top;
-  background-origin: border-box;
-  gap: 1rem;
-  padding: 0.5rem;
-  ">
-    <img src="../static/img/po_2.png" class="card-img-overlay"
-        style="position:absolute; width: 100%; height: 100%; z-index: 0; padding: 0;" alt="">
-    <div class="container_guia_po" style="padding: 2%; z-index: 1">
-        <h5 class="card-title" style="font-size: 3.3vh;">Guia: Passos para uma boa Definition of Ready</h5>
-        <div class="mx-start p-2">
-            <p class="card-text" style="font-size: 2.6vh;">
-                Este guia oferece para você o passo-a-passo essencial de como funciona
-                o artefato Definition of Ready.
-            </p>
-        </div>
-    </div>
 
     <!-- Modal -->
     <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -119,25 +134,154 @@
 
                         </li>
                     </ol>
-                </div>
+                
 
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                        Fechar
-                    </button>
-                </div>
+        
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  Fechar
+                </button>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <button style="z-index: 1; margin-left: 1rem; margin-bottom: 0.5rem;" type="button" class="btn btn-primary"
-        data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Clique aqui
-    </button>
-</div>
-</div>
-<div class="txt4" style="margin-top: 3.5%">
+      </div>
+      
+       </div>
+       <div class="col p-0"></div>
+      </div>
+      
+
+      <div class="row">
+        <div  class="col p-0"></div>
+        <div class="col-10 p-0">
+      <div class="text-overlay3">
+          <h5>Quiz: Product Owner</h5>
+          <form action="" id="quizForm">
+          <div  class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
+            <div class="pergunta" id="pergunta1">
+              <h6>1. Qual é o papel do Product Owner (PO) em um time ágil?
+              </h6>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1">
+                <label class="form-check-label" for="opcao1_1"> a) Definir o layout e o design da interface do usuário.</label>
+              </div>
+              <div class="form-check" correct>
+                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2">
+                <label class="form-check-label" for="opcao1_2">b) Priorizar o backlog do produto e representar as necessidades
+                  dos stakeholders.</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3">
+                <label class="form-check-label" for="opcao1_3">c) Lidar com as tarefas técnicas e a programação do
+                  produto.</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4">
+                <label class="form-check-label" for="opcao1_4">d) Monitorar o progresso do projeto e relatar os bugs ao time de
+                  desenvolvimento.</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5">
+                <label class="form-check-label" for="opcao1_5">e) Gerenciar exclusivamente o orçamento do projeto.</label>
+              </div>
+            </div>
+        
+            <div class="pergunta" id="pergunta2" style="display: none;">
+              <h6>2. Qual é o papel do Product Owner (PO) durante as reuniões de planejamento de Sprint?</h6>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1">
+                <label class="form-check-label" for="opcao2_1">a) Conduzir todas as discussões e decisões sem a participação do
+                  time.</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2">
+                <label class="form-check-label" for="opcao2_2">b) Apenas observar as discussões do time sem contribuir.</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3">
+                <label class="form-check-label" for="opcao2_3">c) Focar exclusivamente na elaboração de relatórios de
+                  status.</label>
+              </div>
+              <div class="form-check" correct>
+                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4">
+                <label class="form-check-label" for="opcao2_4">d) Definir as metas da Sprint e esclarecer as histórias de
+                  usuário.</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5">
+                <label class="form-check-label" for="opcao2_5">e) Nenhuma das alternativas anteriores.</label>
+              </div>
+            </div>
+        
+            <div class="pergunta" id="pergunta3" style="display: none;">
+              <h6>3. Como o Product Owner (PO) contribui para o desenvolvimento do produto?</h6>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1">
+                <label class="form-check-label" for="opcao3_1">a) Estabelecendo prazos rígidos para o time de
+                  desenvolvimento.</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2">
+                <label class="form-check-label" for="opcao3_2">b) Desenvolvendo todas as funcionalidades do produto.</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3">
+                <label class="form-check-label" for="opcao3_3">c) Alocando recursos e financiamento para o projeto.</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4">
+                <label class="form-check-label" for="opcao3_4">d) Realizando testes de qualidade do produto final.</label>
+              </div>
+              <div class="form-check" correct>
+                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5">
+                <label class="form-check-label" for="opcao3_5">e) Atuando como intermediário entre o time de desenvolvimento e
+                  os stakeholders.</label>
+              </div>
+            </div>
+        
+            <!-- Adicionar mais perguntas seguindo o modelo acima -->
+        
+            <div class="d-flex justify-content-between align-items-center">
+              <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2 ">Verificar</button>
+              <div class="ml-auto">
+                <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2 " onclick="mudarPergunta(-1)"
+                  style="display: none;">Anterior</button>
+                <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark  mt-2 "
+                  onclick="mudarPergunta(1)">Próxima</button>
+              </div>
+            </div>
+        
+          </form>
+        </div>
+        </div>
+        </div>
+        <div  class="col p-0"></div>
+        </div>
+        <script src="../static/quiz.js"></script>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------- Imagem home 1---------------->
+<div class="container_fluid">
+  <div class="row">
+    <div style="background-color: #DEC3C3" class="col p-0" ></div>
+
+    <div class="col-10 p-0" style="background-color: #DEC3C3;"> 
+      
+        <div  class="text-start text-overlay6 mb-5 mt-5">
     <h5>Dicas para um boa Definition of Ready:</h5>
-    <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+    
         <ul>
             <li><strong>Envolver a Equipe:</strong> Inclua membros da equipe na definição dos critérios da DoR. Isso
                 garante que todos compreendam e concordem com os requisitos de prontidão.
@@ -154,111 +298,18 @@
             </li>
             <li> <strong> Feedback Contínuo: </strong> Solicite feedback regular da equipe sobre a eficácia da DoR.
                 Esteja aberto a ajustes para melhorar continuamente o processo.</li>
-        </ul>
-    </div>
+              </ul>  
+ 
+
+            
+                </div>
+         
+            </div>
+            <div style="background-color: #DEC3C3" class="col p-0"></div>
+            </div>
 </div>
 
-<div class="txt4">
-    <h5>Quiz: Product Owner</h5>
-    <form action="" id="quizForm">
-    <div style="margin-top: 3.5%;" class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
-      <div class="pergunta" id="pergunta1">
-        <h6>1. Qual é o papel do Product Owner (PO) em um time ágil?
-        </h6>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1">
-          <label class="form-check-label" for="opcao1_1"> a) Definir o layout e o design da interface do usuário.</label>
-        </div>
-        <div class="form-check" correct>
-          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2">
-          <label class="form-check-label" for="opcao1_2">b) Priorizar o backlog do produto e representar as necessidades
-            dos stakeholders.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3">
-          <label class="form-check-label" for="opcao1_3">c) Lidar com as tarefas técnicas e a programação do
-            produto.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4">
-          <label class="form-check-label" for="opcao1_4">d) Monitorar o progresso do projeto e relatar os bugs ao time de
-            desenvolvimento.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5">
-          <label class="form-check-label" for="opcao1_5">e) Gerenciar exclusivamente o orçamento do projeto.</label>
-        </div>
-      </div>
-  
-      <div class="pergunta" id="pergunta2" style="display: none;">
-        <h6>2. Qual é o papel do Product Owner (PO) durante as reuniões de planejamento de Sprint?</h6>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1">
-          <label class="form-check-label" for="opcao2_1">a) Conduzir todas as discussões e decisões sem a participação do
-            time.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2">
-          <label class="form-check-label" for="opcao2_2">b) Apenas observar as discussões do time sem contribuir.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3">
-          <label class="form-check-label" for="opcao2_3">c) Focar exclusivamente na elaboração de relatórios de
-            status.</label>
-        </div>
-        <div class="form-check" correct>
-          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4">
-          <label class="form-check-label" for="opcao2_4">d) Definir as metas da Sprint e esclarecer as histórias de
-            usuário.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5">
-          <label class="form-check-label" for="opcao2_5">e) Nenhuma das alternativas anteriores.</label>
-        </div>
-      </div>
-  
-      <div class="pergunta" id="pergunta3" style="display: none;">
-        <h6>3. Como o Product Owner (PO) contribui para o desenvolvimento do produto?</h6>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1">
-          <label class="form-check-label" for="opcao3_1">a) Estabelecendo prazos rígidos para o time de
-            desenvolvimento.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2">
-          <label class="form-check-label" for="opcao3_2">b) Desenvolvendo todas as funcionalidades do produto.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3">
-          <label class="form-check-label" for="opcao3_3">c) Alocando recursos e financiamento para o projeto.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4">
-          <label class="form-check-label" for="opcao3_4">d) Realizando testes de qualidade do produto final.</label>
-        </div>
-        <div class="form-check" correct>
-          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5">
-          <label class="form-check-label" for="opcao3_5">e) Atuando como intermediário entre o time de desenvolvimento e
-            os stakeholders.</label>
-        </div>
-      </div>
-  
-      <!-- Adicionar mais perguntas seguindo o modelo acima -->
-  
-      <div class="d-flex justify-content-between align-items-center">
-        <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2 ">Verificar</button>
-        <div class="ml-auto">
-          <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2 " onclick="mudarPergunta(-1)"
-            style="display: none;">Anterior</button>
-          <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark  mt-2 "
-            onclick="mudarPergunta(1)">Próxima</button>
-        </div>
-      </div>
-  
-      </form>
-    </div>
-  </div>
-  
-  <script src="../static/quiz.js"></script>
+
+
 
 {% endblock %}
