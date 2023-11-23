@@ -2,52 +2,79 @@
 <!-- Colocar o CSS específico da página dentro desse bloco -->
 <link rel="stylesheet" href="../static/po.css">
 {% endblock %}{% block content %}
-<!-- Imagem po -->
-<div class="container_img">
-  <div class="img-container">
-      <img src="../static/img/burndown_1.png" class="img-fluid" alt="Burndown" />
-      <div class="text-overlay">
+
+
+
+
+
+<div class="container_fluid">
+  <div class="row">
+    <div style="background-color: #FAFAFA" class="col p-0"></div>
+
+    <div class="col-10 p-0">
+      <div class="img-container">
+        <img
+          src="../static/img/burndown_1.png"
+          class="img-fluid"
+          alt="Metodologia Ágil"
+        />
+        <div class="text-overlay5">
           <h1 >Burndown chart</h1>
           <p >Frequentemente usado no scrum, um gráfico de burndown é um gráfico exibido 
             publicamente mostrando o trabalho restante. Atualizado todos os dias, 
             ele fornece visualizações rápidas para referência,
             mostrando uma comparação entre o real e o previsto.      
           </div>
-  </div>
-</div>
-  
+        </div>
+      </div>
+      <div style="background-color: #FAFAFA" class="col p-0"></div>
+      </div>
+      </div>
+      
 
-<div class="txt4" style="margin-top: 3.5%">
+
+
+      <div class="row">
+        <div class="col p-0"></div>
+      
+        <div class="col-10 p-0">
+          <div  style="margin-top: 3%" class="text-overlay3 ">
   <h5>Funcionalidade do Burndown chart:</h5>
-  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
      <p>
         No gráfico de burndown, traçamos o volume estimado do trabalho que precisa ser feito em relação ao 
         tempo necessário para concluir este trabalho. O objetivo é mostrar uma distribuição precisa do tempo 
         e facilitar o planejamento.
     </p>
-        
-   
+
   </div>
-</div>
-<div class="card text-bg-dark" style="
-  display: flex; width:70%; margin: 0 auto; align-items: flex-start;
-  background-position: left top;
-  background-origin: border-box;
-  gap: 1rem;
-  padding: 0.5rem;
-  ">
-  <img src="../static/img/po_2.png" class="card-img-overlay" style="position:absolute; width: 100%; height: 100%; z-index: 0; padding: 0;" alt="">
-  <div class="container_guia_po" style="padding: 2%; z-index: 1">
-    <h5 style="font-size: 3.3vh;" class="card-title">Guia: Exemplo Burndown chart</h5>
-    <div class="mx-start p-2">
-      <p style="font-size: 2.6vh;" class="card-text">
-        Este guia oferece para você o passo-a-passo essencial de como estruturar o Burndown chart.
-      </p>
-    </div>
   </div>
 
-  <!-- Modal -->
-<!-- Modal -->
+   <div class="col p-0"></div>
+      </div>
+
+
+
+
+
+
+
+
+      <div class="row">
+        <div class="col p-0"></div> 
+        <div class="col-10 p-0">
+       
+         <div style="background-color: #24445c; color: white;" class="card w-50 mb-5 mt-5">
+           <div class="card-body">
+            <h5 class="card-title">Guia: Burndown Chart</h5>
+            <p  class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como estruturar o Burndown chart.</p>
+            <button type="button" class="btn btn-primary"
+            data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Clique aqui
+          </button>
+        </div>
+      </div>
+
+
 <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
 aria-hidden="true">
 <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
@@ -88,43 +115,30 @@ aria-hidden="true">
             o gráfico burndown chart é gerado automaticamente.</p>
         </li>
       </ol>
-    </div>
+    
 
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-            Fechar
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <button style="z-index: 1; margin-left: 1rem; margin-bottom: 0.5rem;" type="button" class="btn btn-primary" data-bs-toggle="modal"
-    data-bs-target="#exampleModal">
-    Clique aqui
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+    Fechar
   </button>
 </div>
 
-<div class="txt4" style="margin-top: 3.5%">
-  <h5>Leitura do gráfico Burndown Chart:</h5>
-  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
-    <ul>
 
-    <li><strong>Descrição:</strong> A linha vertical representa
-        os valores dos pesos das tarefas x e a linha horizontal representa o tempo para a realização das tarefas
-        (tempo total da sprint). Atualizado a produção diariamente, ele fornece visualizações rápidas para referência.
-        A linha diagonal vermelha é o tempo ideal de produção x tempo.
-        A linha azul mede o desempenho de produção x tempo. Quando a linha azul está
-        abaixo da diagonal significa que o projeto esta adiantado. Caso esteja acima da
-        diagonal o projeto esta atrasado referente a produtividade ideal.</li>
-
-    
-
-    </ul>  
-  </div>
+</div>
+</div>
+</div>
 </div>
 
-<div class="txt4">
+</div>
+<div class="col p-0"></div>
+</div>
+
+
+
+<div class="row">
+  <div  class="col p-0"></div>
+  <div class="col-10 p-0">
+<div class="text-overlay3">
   <h5>Quiz: Product Owner</h5>
   <form action="" id="quizForm">
   <div style="margin-top: 3.5%;" class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
@@ -221,10 +235,54 @@ aria-hidden="true">
       </div>
     </div>
 
-    </form>
-  </div>
+  </form>
+</div>
+</div>
+</div>
+<div  class="col p-0"></div>
+</div>
+<script src="../static/quiz.js"></script>
+
+
+
+
+
+
+
+<!--------------- Imagem home 1---------------->
+<div class="container_fluid">
+  <div class="row">
+    <div style="background-color: #FAFAFA" class="col p-0" ></div>
+
+    <div class="col-10 p-0" style="background-color:#FAFAFA;"> 
+      
+        <div class="text-start text-overlay6 mb-5 mt-5">
+  <h5>Leitura do gráfico Burndown Chart:</h5>
+  
+    <ul>
+
+    <li><strong>Descrição:</strong> A linha vertical representa
+        os valores dos pesos das tarefas x e a linha horizontal representa o tempo para a realização das tarefas
+        (tempo total da sprint). Atualizado a produção diariamente, ele fornece visualizações rápidas para referência.
+        A linha diagonal vermelha é o tempo ideal de produção x tempo.
+        A linha azul mede o desempenho de produção x tempo. Quando a linha azul está
+        abaixo da diagonal significa que o projeto esta adiantado. Caso esteja acima da
+        diagonal o projeto esta atrasado referente a produtividade ideal.</li>
+
+    
+
+    </ul>  
+ 
+
+</div>
+</div>
+<div style="background-color:#FAFAFA" class="col p-0"></div>
+</div>
 </div>
 
-<script src="../static/quiz.js"></script>
+
+
+
+
 
 {% endblock %}
