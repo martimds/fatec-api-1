@@ -3,11 +3,17 @@
 <link rel="stylesheet" href="../static/po.css">
 {% endblock %}
 {% block content %}
+
 <!-- Imagem po -->
-<div class="container_img">
+<div class="container_fluid">
+  <div class="row">
+    <div style="background-color: #BDDCDC" class="col p-0"></div>
+
+      <div class="col-10 p-0">   
+
   <div class="img-container">
     <img src="../static/img/master_1.png" class="img-fluid" alt="Metodologia Ágil" />
-    <div class="text-overlay">
+    <div class="text-overlay5">
       <h1>Scrum Master</h1>
       <p>O Scrum Master é responsável por garantir que o Scrum seja entendido e
         aplicado pela equipe, para garantir que o time adere à teoria, práticas e
@@ -15,15 +21,18 @@
     </div>
   </div>
 </div>
+<div style="background-color: #BDDCDC" class="col p-0"></div>
+  </div>
+</div>
 
 
 
+<div class="row">
+  <div class="col p-0"></div>
 
-
-<!-- Introdução PO -->
-<div class="txt4" style="margin-top: 3.5%">
+<div class="col-10 p-0" style="margin-top: 3.5%">
+  <div class="text-overlay3">
   <h5>Responsabilidades do Scrum Master:</h5>
-  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
     <h6>Para o Product Owner, o Scrum Master:</h6>
     <ul>
       <li>Ajuda a encontrar técnicas de gerenciamento eficazes para o Backlog</li>
@@ -35,7 +44,8 @@
     </ul>
     </ul>
   </div>
-  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+  
+  <div class="text-overlay3">
     <h6>Para o Developer Team, o Scrum Master:</h6>
     <ul>
       <li>Treina o time em autogerenciamento e interdisciplinalidade;</li>
@@ -45,24 +55,29 @@
     </ul>
   </div>
 </div>
-<div class="card text-bg-dark" style="
-  display: flex; width:70%; margin: 0 auto; align-items: flex-start;
-  background-position: left top;
-  background-origin: border-box;
-  gap: 1rem;
-  padding: 0.5rem;
-  ">
-  <img src="../static/img/po_2.png" class="card-img-overlay"
-    style="position:absolute; width: 100%; height: 100%; z-index: 0; padding: 0;" alt="">
-  <div class="container_guia_po" style="padding: 2%; z-index: 1">
-    <h5 class="card-title" style="font-size: 3.3vh;">Guia: Papel do Scrum Master</h5>
-    <div class="mx-start p-2">
-      <p class="card-text" style="font-size: 2.6vh;">
-        Este guia oferece para você o passo-a-passo essencial de como funciona
-        o trabalho de um Scrum Master.
-      </p>
-    </div>
-  </div>
+<div class="col p-0"></div>
+</div>
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col p-0"></div> 
+
+  <div class="col-10 p-0">
+   <div style="background-color: #24445c; color: white;" class="card w-50 mb-5 mt-5">
+     <div class="card-body">
+       <h5 class="card-title">Guia: Papel do Scrum Master</h5>
+       <p  class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona o trabalho de um Scrum Master.</p>
+       <button type="button" class="btn btn-primary"
+     data-bs-toggle="modal" data-bs-target="#exampleModal">
+     Clique aqui
+   </button>
+     </div>
+   </div>
 
   <!-- Modal -->
   <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -199,62 +214,21 @@
       </div>
     </div>
   </div>
-  <button style="z-index: 1; margin-left: 1rem; margin-bottom: 0.5rem;" type="button" class="btn btn-primary"
-    data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Clique aqui
-  </button>
+
 </div>
+<div class="col p-0"></div>
+ </div>
 
-<div class="txt4" style="margin-top: 3.5%">
-  <h5>Como se tornar um bom Scrum Master:</h5>
-  <div class="texto_po_2 shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
-    <h6>Dominar o Scrum</h6>
-    <p>
-      Tenha um profundo entendimento do framework Scrum, suas práticas e
-      princípios.
-    </p>
 
-    <h6>Comunicação e empatia</h6>
-    <p>
-      Comunique-se de forma clara e empática com a equipe.
-    </p>
 
-    <h6>Facilitação eficaz</h6>
-    <p>
-      Habilidades de facilitação são cruciais para liderar reuniões e manter a
-      equipe focada e produtiva.
-    </p>
 
-    <h6>Promover autonomia</h6>
-    <p>
-      Ajude a equipe a se tornar autossuficiente, incentivando a
-      autorregulação e a melhoria contínua.
-    </p>
-
-    <h6>Transparência</h6>
-    <p>
-      Estimule a transparência em todas as atividades, incluindo métricas de
-      desempenho e impedimentos.
-    </p>
-
-    <h6>Liderança servidora</h6>
-    <p>
-      Adote uma mentalidade de liderança servidora, colocando as necessidades
-      da equipe acima das suas.
-    </p>
-
-    <h6>Aprender e adaptar</h6>
-    <p>
-      Esteja disposto a aprender com as experiências da equipe e a adaptar-se às
-      necessidades em constante mudança do projeto.
-    </p>
-  </div>
-</div>
-
-<div class="txt4">
+ <div class="row">
+  <div  class="col p-0"></div>
+  <div class="col-10 p-0">
+<div class="text-overlay3">
   <h5>Quiz: Scrum Master</h5>
   <form action="" id="quizForm">
-    <div style="margin-top: 3.5%;" class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
+    <div  class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
       <div class="pergunta" id="pergunta1">
         <h6>1. Dentre os papéis do scrum, a definição que mais se encaixa no papel do Master é:
         </h6>
@@ -398,10 +372,81 @@
         </div>
       </div>
 
-  </form>
+    </form>
+  </div>
+</div>
+</div>
+<div  class="col p-0"></div>
+</div>
+<script src="../static/quiz.js"></script>
+
+
+
+
+
+
+
+
+
+
+ <div class="container_fluid">
+  <div class="row">
+    <div style="background-color: #BDDCDC" class="col p-0" ></div>
+
+    <div class="col-10 p-0" style="background-color: #BDDCDC;"> 
+      
+        <div class="text-overlay6 mb-5 mt-5">
+  <h5>Como se tornar um bom Scrum Master:</h5>
+        </div>
+
+        <div class="flex_texto">
+          <div class=" text-overlay6_1"> 
+    <h6>Dominar o Scrum</h6>
+    <p>
+      Tenha um profundo entendimento do framework Scrum, suas práticas e
+      princípios.
+    </p>
+
+    <h6>Comunicação e empatia</h6>
+    <p>
+      Comunique-se de forma clara e empática com a equipe.
+    </p>
+
+    <h6>Facilitação eficaz</h6>
+    <p>
+      Habilidades de facilitação são cruciais para liderar reuniões e manter a
+      equipe focada e produtiva.
+    </p>
+          </div>
+
+          <div class="text-overlay6_1_2"> 
+    <h6>Promover autonomia</h6>
+    <p>
+      Ajude a equipe a se tornar autossuficiente, incentivando a
+      autorregulação e a melhoria contínua.
+    </p>
+
+    <h6>Transparência</h6>
+    <p>
+      Estimule a transparência em todas as atividades, incluindo métricas de
+      desempenho e impedimentos.
+    </p>
+
+    <h6>Liderança servidora</h6>
+    <p>
+      Adote uma mentalidade de liderança servidora, colocando as necessidades
+      da equipe acima das suas.
+    </p>
+
+    
+  </div>
 </div>
 </div>
 
-<script src="../static/quiz.js"></script>
+<div style="background-color: #BDDCDC" class="col p-0"></div>
+</div>
+</div>
+
+
 
 {% endblock %}

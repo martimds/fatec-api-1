@@ -4,26 +4,39 @@
 
 
 {% endblock %}{% block content %}
-<!-- Imagem po -->
 
-<div class="container_img">
-  <div class="img-container">
-      <img src="../static/img/devteam_1.png" class="img-fluid" alt="Metodologia Ágil" />
-      <div class="text-overlay">
+
+<!--------------- Imagem home 1---------------->
+<div class="container_fluid">
+  <div class="row">
+    <div style="background-color: #FEF4B1" class="col p-0"></div>
+
+    <div class="col-10 p-0">
+      <div class="img-container">
+        <img
+          src="../static/img/team_1.png"
+          class="img-fluid"
+          alt="Metodologia Ágil"
+        />
+        <div class="text-overlay5">
           <h1>Developer Team</h1>
           <p>O Time de Desenvolvimento é a espinha dorsal do projeto, responsável por transformar conceitos em produtos tangíveis e inovadores. Cada membro desse time desempenha um papel crucial na realização das metas e na entrega contínua de valor aos clientes.</p>
       </div>
   </div>
 </div>
-  
+<div style="background-color:#FEF4B1" class="col p-0"></div>
+</div>
+</div>
 
 
 
 
-<!-- Introdução PO -->
-<div class="txt4" style="margin-top: 3.5%">
+<div class="row">
+  <div class="col p-0"></div>
+
+  <div class="col-10 p-0">
+    <div  style="margin-top: 3%" class="text-overlay3 ">
   <h5>Responsabilidades do Time de Desenvolvimento:</h5>
-  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
     <ul>
       <li>Colaborar na definição e implementação das funcionalidades do produto;</li>
       <li>
@@ -38,6 +51,14 @@
     </ul>
   </div>
 </div>
+<div class="col p-0"></div>
+</div>
+
+
+
+
+
+<!-- 
 <div class="card text-bg-dark" style="
   display: flex; width:70%; margin: 0 auto; align-items: flex-start;
   background-position: left top;
@@ -54,7 +75,22 @@
         o trabalho de um membro do Developer Team.
       </p>
     </div>
-  </div>
+  </div> -->
+
+  <div class="row">
+    <div class="col p-0"></div> 
+    <div class="col-10 p-0">
+   
+     <div style="background-color: #24445c; color: white;" class="card w-50 mb-5 mt-5">
+       <div class="card-body">
+         <h5 class="card-title">Guia: Papel do Time de Desenvolvimento</h5>
+         <p  class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona o trabalho de um Time de Desenvolvimento.</p>
+         <button type="button" class="btn btn-primary"
+       data-bs-toggle="modal" data-bs-target="#exampleModal">
+       Clique aqui
+     </button>
+       </div>
+     </div>
 
   <!-- Modal -->
   <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -142,56 +178,36 @@
       </div>
     </div>
   </div>
-  <button style="z-index: 1; margin-left: 1rem; margin-bottom: 0.5rem;" type="button" class="btn btn-primary" data-bs-toggle="modal"
-    data-bs-target="#exampleModal">
-    Clique aqui
-  </button>
+ 
+
 </div>
+<div class="col p-0"></div>
+ </div>
+ 
 
-<div class="txt4" style="margin-top: 3.5%">
-  <h5>Como se tornar um bom Desenvolvedor:</h5>
-  <div class="texto_po_2 shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
-    <h6>Colaborar efetivamente</h6>
-    <p>
-      A troca contínua de informações e ideias é essencial para o progresso do projeto.
-    </p>
 
-    <h6>Diversidade de habilidades</h6>
-    <p>
-      Maior capacidade de enfrentar desafios diversos.
-    </p>
 
-    <h6>Foco no objetivo comum</h6>
-    <p>
-      O alinhamento de objetivos do projeto ajuda a manter o time coeso e orientado.
-    </p>
 
-    <h6>Adaptar-se às mudanças</h6>
-    <p>
-      Um bom Dev Team é ágil e flexível, pronto para ajustar estratégias.
-    </p>
 
-    <h6>Autonomia e auto-organização</h6>
-    <p>
-      Decisões mais eficazes e seja mais responsivo.
-    </p>
 
-    <h6>Feedback construtivo</h6>
-    <p>
-      Uma boa equipe tem um ambiente onde o feedback é valorizado.
-    </p>
 
-    <h6>Comprometimento</h6>
-    <p>
-      Estar disposto a fazer o necessário para alcançar os objetivos estabelecidos.
-    </p>
-  </div>
-</div>
 
-<div class="txt4">
+
+
+
+
+
+
+
+
+
+ <div class="row">
+  <div  class="col p-0"></div>
+  <div class="col-10 p-0">
+<div class="text-overlay3">
   <h5>Quiz: Developer Team</h5>
   <form action="" id="quizForm">
-  <div style="margin-top: 3.5%;" class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
+  <div  class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
     <div class="pergunta" id="pergunta1">
       <h6>1. Qual é o papel do Product Owner (PO) em um time ágil?
       </h6>
@@ -334,13 +350,68 @@
           style="display: none;">Anterior</button>
         <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark  mt-2 "
           onclick="mudarPergunta(1)">Próxima</button>
+        </div>
       </div>
+  
+      </form>
     </div>
-
-    </form>
   </div>
+  </div>
+  <div  class="col p-0"></div>
+  </div>
+  <script src="../static/quiz.js"></script>
+
+
+
+
+<!--------------- Imagem home 1---------------->
+<div class="container_fluid">
+  <div class="row">
+    <div style="background-color: #FEF4B1" class="col p-0" ></div>
+
+    <div class="col-10 p-0" style="background-color: #FEF4B1;"> 
+      
+        <div class="text-overlay6 mb-5 mt-5">
+  <h5>Como se tornar um bom Desenvolvedor:</h5>
+        </div>
+        <div class="flex_texto">
+          <div class=" text-overlay6_1">
+    <h6>Colaborar efetivamente</h6>
+    <p>
+      A troca contínua de informações e ideias é essencial para o progresso do projeto.
+    </p>
+
+    <h6>Diversidade de habilidades</h6>
+    <p>
+      Maior capacidade de enfrentar desafios diversos.
+    </p>
+
+    <h6>Foco no objetivo comum</h6>
+    <p>
+      O alinhamento de objetivos do projeto ajuda a manter o time coeso e orientado.
+    </p>
+          </div>
+
+    <div class="text-overlay6_1_2"> 
+    <h6>Adaptar-se às mudanças</h6>
+    <p>
+      Um bom Dev Team é ágil e flexível, pronto para ajustar estratégias.
+    </p>
+        
+    <h6>Autonomia e auto-organização</h6>
+    <p>
+      Decisões mais eficazes e seja mais responsivo.
+    </p>
+
+    <h6>Feedback construtivo</h6>
+    <p>
+      Uma boa equipe tem um ambiente onde o feedback é valorizado.
+    </p>
+    </div>
+    </div>
+        </div>
+
+<div style="background-color: #FEF4B1" class="col p-0"></div>
 </div>
-
-<script src="../static/quiz.js"></script>
-
+</div>
 {% endblock %}
