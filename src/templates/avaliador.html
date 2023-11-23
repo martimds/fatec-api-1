@@ -3,25 +3,28 @@
 <link rel="stylesheet" href="../static/po.css" />
 {% endblock %}
 
+<div class="container_fluid">
+    <div class="row">
+        <div style="background-color: #efefef" class="col"></div>
 
-
-<div class="img-container">
-    <img src="../static/img/avaliador_1.png" class="img-fluid" alt="Metodologia Ágil" />
-    <!-- texto -->
-    <div class="text-overlay">
-        <h1 style="color: black;"> Avaliação de Desempenho</h1>
-        <p style="color: black;"> Avaliar seu desempenho no Scrum é fundamental para melhorar suas entregas e influência
-            no desempenho coletivo.
-        </p>
+        <div class="col-10 p-0">
+            <div class="img-container">
+                <img src="../static/img/avaliador_1.png" class="img-fluid" alt="Metodologia Ágil" />
+                <div class="text-overlay">
+                    <h1>Avaliação de Desempenho</h1>
+                    <p class="fs-6">Avaliar seu desempenho no Scrum é fundamental para melhorar suas entregas e influência no desempenho coletivo.</p>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #efefef" class="col"></div>
     </div>
 </div>
 
 <form id="avaliador" action="post">
     <div class="txt4">
-        <h5 style="margin-top: 3.5%">1. Compreensão do scrum </h5>
+        <h5 style="margin-top: 3.5%">1. Compreensão do scrum</h5>
         <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
-            <p>Entendimento dos papéis, eventos e artefatos do scrum; aplicação dos conceitos de transparência, inspeção
-                e adaptação</p>
+            <p>Entendimento dos papéis, eventos e artefatos do scrum; aplicação dos conceitos de transparência, inspeção e adaptação</p>
 
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="criterio1" id="criterio1-1" value="1" />
@@ -46,7 +49,7 @@
         </div>
     </div>
     <div class="txt4">
-        <h5 style="margin-top: 2%">2. Colaboração em equipe </h5>
+        <h5 style="margin-top: 2%">2. Colaboração em equipe</h5>
         <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
             <p>Participação ativa nas reuniões diárias; contribuição para a resolução de impedimentos</p>
 
@@ -76,10 +79,9 @@
     <!-- aula no 405 -->
 
     <div class="txt4">
-        <h5 style="margin-top: 2%">3. Planejamento e definição das sprints </h5>
+        <h5 style="margin-top: 2%">3. Planejamento e definição das sprints</h5>
         <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
-            <p>Participação construtiva no planejamento da sprint; definição clara e realista dos objetivos das sprints
-            </p>
+            <p>Participação construtiva no planejamento da sprint; definição clara e realista dos objetivos das sprints</p>
 
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="criterio3" id="criterio3-1" value="1" />
@@ -104,10 +106,9 @@
         </div>
     </div>
     <div class="txt4">
-        <h5 style="margin-top: 2%">4. Execução das sprints </h5>
+        <h5 style="margin-top: 2%">4. Execução das sprints</h5>
         <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
-            <p>Progresso visível em relação aos objetivos da sprint; flexibilidade para lidar com mudanças durante a
-                sprint</p>
+            <p>Progresso visível em relação aos objetivos da sprint; flexibilidade para lidar com mudanças durante a sprint</p>
 
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="criterio4" id="criterio4-1" value="1" />
@@ -132,7 +133,7 @@
         </div>
     </div>
     <div class="txt4">
-        <h5 style="margin-top: 2%">5. Entrega das sprints </h5>
+        <h5 style="margin-top: 2%">5. Entrega das sprints</h5>
         <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
             <p>Produtos entregues atendem aos critérios de aceitação; valor de negócio alcançado com as entregas</p>
 
@@ -159,7 +160,7 @@
         </div>
     </div>
     <div class="txt4">
-        <h5 style="margin-top: 2%">6. Melhoria contínua </h5>
+        <h5 style="margin-top: 2%">6. Melhoria contínua</h5>
         <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
             <p>Produtos entregues atendem aos critérios de aceitação; valor de negócio alcançado com as entregas</p>
 
@@ -186,7 +187,7 @@
         </div>
     </div>
     <div class="txt4">
-        <h5 style="margin-top: 2%">7. Adoção dos princípios ágeis </h5>
+        <h5 style="margin-top: 2%">7. Adoção dos princípios ágeis</h5>
         <div class="shadow-sm mb-5 bg-body-tertiary rounded texto_home_1">
             <p>Aplicação dos princípios ágeis em todo o processo; busca pela excelência técnica e qualidade</p>
 
@@ -213,31 +214,29 @@
         </div>
     </div>
     <div class="txt4 d-flex align-items-center texto_home_1">
-        <button type="submit" class="btn btn-outline-dark">Calcular Soma</button>
-        <p id="resultado" class="align-items-center" style="margin: 0 0 0 5%">A soma é:</p>
+        <button type="submit" class="btn btn-outline-dark">Calcular</button>
+        <p id="resultado" class="align-items-center" style="margin: 0 0 0 5%">Resultado:</p>
     </div>
 </form>
 
 <script>
-    // Arrumar JS
-    const form = document.querySelector("form")
-    form.addEventListener("submit", e => {
+    const form = document.querySelector("form");
+    form.addEventListener("submit", (e) => {
         e.preventDefault();
-        let criterios = []
+        let criterios = [];
         for (let i = 1; i <= 7; i++) {
-            let valor = document.forms.avaliador["criterio" + String(i)]
-            console.log(valor.value)
-            criterios.push(parseInt(valor.value))
+            let valor = document.forms.avaliador["criterio" + String(i)];
+            console.log(valor.value);
+            criterios.push(parseInt(valor.value));
         }
-        criterios[0] *= 2
-        criterios[6] *= 2
-        var pontuacao = criterios.reduce((acc, val) => (acc != null && acc || 0) + val);
-        let r = pontuacaoCategoria(pontuacao / 45 * 10)
-        document.querySelector("#resultado").innerText = "A soma é: " + r
-
-    })
+        criterios[0] *= 2;
+        criterios[6] *= 2;
+        var pontuacao = criterios.reduce((acc, val) => ((acc != null && acc) || 0) + val);
+        let r = pontuacaoCategoria((pontuacao / 45) * 10);
+        document.querySelector("#resultado").innerText = "Resultado: " + r;
+    });
     function pontuacaoCategoria(pontuacao) {
-        console.log(pontuacao)
+        console.log(pontuacao);
         if (pontuacao <= 3) {
             return "Muito ruim";
         } else if (pontuacao <= 6) {
@@ -248,26 +247,6 @@
             return "Bom";
         } else if (pontuacao > 9) {
             return "Excelente";
-        }
-    }
-    function calcularSoma() {
-        try {
-            var criterios = [];
-            for (var i = 1; i <= 7; i++) {
-                var elemento = document.getElementsByName("criterio" + i)[0];
-                var valor = parseInt(elemento.value);
-            }
-
-            criterios[0] *= 2;
-            criterios[criterios.length - 1] *= 2;
-
-            var pontuacao = criterios.reduce((acc, val) => acc + val);
-            // var pontuacao = criterios.reduce((acc, val) => acc + val) / 4.5;
-            console.table(criterios)
-            console.log(document.forms.avaliador.value)
-            document.getElementById("resultado").innerText = "A soma é: " + pontuacao;
-        } catch (error) {
-            document.getElementById("resultado").innerText = "Erro: " + error;
         }
     }
 </script>
