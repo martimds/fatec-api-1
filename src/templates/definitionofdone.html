@@ -3,58 +3,70 @@
 {% endblock %}
 {% block content %}
 
-<div class="container_img">
-    <div class="img-container">
-        <img src="../static/img/dod_1.png" class="img-fluid" alt="DefinitionOfReady" />
-        <div class="text-overlay">
+
+<div class="container_fluid">
+  <div class="row">
+    <div style="background-color: #CBDDD1" class="col p-0"></div>
+
+    <div class="col-10 p-0">
+      <div class="img-container">
+        <img
+          src="../static/img/dod_1.png"
+          class="img-fluid"
+          alt="Metodologia Ágil"
+        />
+        <div class="text-overlay5">
             <h1>Definition of Done</h1>
-            <p> é um conceito fundamental no framework
+            <p> É um conceito fundamental no framework
                 Scrum que estabelece os critérios que um incremento de produto deve
                 atender para ser considerado completo e pronto para ser entregue ao
-                cliente ou liberado em produção. A DoD é uma ferramenta essencial para
-                garantir que a equipe de desenvolvimento entenda o que significa "feito"
-                em um contexto específico de projeto e que todos os itens de backlog
-                atendam a esses critérios antes de serem considerados concluídos.</p>
-        </div>
-    </div>
+                cliente ou liberado em produção.</p>
+              </div>
+            </div>
+         
+            </div>
+            <div style="background-color: #CBDDD1" class="col p-0"></div>
+            </div>
 </div>
 
 
 
-<div class="txt4" style="margin-top: 3.5%">
+
+
+
+
+<div class="row">
+  <div class="col p-0"></div>
+
+  <div class="col-10 p-0">
+    <div  style="margin-top: 3%" class="text-overlay3 ">
     <h5>Funcionalidade do Definition of Done:</h5>
-    <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
+    
         <p>
             O Definition of Done(DoD) é crucial para garantir a consistência,qualidade e transparência no
             desenvolvimento de software ágil,ele deixa os critérios de conclusão claros e evita interpretações ambíguas sobre quando o trabalho esta realmente finalizado, contribuindo para a entrega eficaz e confiável de incrementos de produto.
         </p>
+      </div>
+
     </div>
-</div>
-
-<div class="txt4" style="margin-top: 3.5%">
-
-</div>
-
-
-<div class="card text-bg-dark" style="
-  display: flex; width:70%; margin: 0 auto; align-items: flex-start;
-  background-position: left top;
-  background-origin: border-box;
-  gap: 1rem;
-  padding: 0.5rem;
-  ">
-    <img src="../static/img/po_2.png" class="card-img-overlay"
-        style="position:absolute; width: 100%; height: 100%; z-index: 0; padding: 0;" alt="">
-    <div class="container_guia_po" style="padding: 2%; z-index: 1">
-        <h5 class="card-title" style="font-size: 3.3vh;">Guia: Exemplos de uma DoD</h5>
-        <div class="mx-start p-2">
-            <p class="card-text" style="font-size: 2.6vh;">
-                Este guia oferece para você o passo-a-passo essencial de como funciona
-                o artefato Definition of Done.
-            </p>
-        </div>
+    <div class="col p-0"></div>
     </div>
 
+
+    <div class="row">
+      <div class="col p-0"></div> 
+      <div class="col-10 p-0">
+     
+       <div style="background-color: #24445c; color: white;" class="card w-50 mb-5 mt-5">
+         <div class="card-body">
+          <h5 class="card-title">Guia: Definition of Done</h5>
+          <p  class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona a Definition of Done.</p>
+          <button type="button" class="btn btn-primary"
+          data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Clique aqui
+        </button>
+      </div>
+    </div>
     <!-- Modal -->
     <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -106,57 +118,31 @@
                             apresentada ao cliente
                             ou ser inclusa na Sprint Review.</p>
                     </ol>
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                        Fechar
-                    </button>
-                </div>
+                
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  Fechar
+                </button>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <button style="z-index: 1; margin-left: 1rem; margin-bottom: 0.5rem;" type="button" class="btn btn-primary"
-        data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Clique aqui
-    </button>
-</div>
-</div>
+      </div>
+      
+       </div>
+       <div class="col p-0"></div>
+      </div>
+      
 
-<div class="txt4" style="margin-top: 3.5%">
-    <h5>Uma boa a DoD inclui e checa os seguintes aspectos:</h5>
-    <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
-        <ul>
-            <li><strong>Funcionalidade:</strong> A funcionalidade implementada deve estar completa e funcionando
-                conforme as
-                especificações.
-                <br>Por exemplo, se a equipe estiver construindo um sistema de registro de usuários, a funcionalidade
-                estará
-                pronta quando os usuários puderem se registrar, receber confirmações do registro e fazer login com
-                sucesso.
-            </li>
-            <li>
-                <strong> Testes:</strong> Todas as funcionalidades devem ser testadas e passar nos testes de qualidade
-                estabelecidos para a tarefa. Isso pode incluir <em>unit tests</em>, testes de integração, aceitação do
-                usuário, e outros aspectos definidos pelo time.
-            </li>
-            <li><strong>Design:</strong> A tarefa deve seguir as diretrizes de design estabelecidas, como a aparência,
-                usabilidade e consistência visual.</li>
-            <li><strong>Desempenho:</strong> A tarefa deve desempenhar de forma conforme os requisitos estabelecidos.
-                <br>
-                Por exemplo, um sistema de registro de usuários deve responder de maneira rápida e eficiente sob carga.
-            </li>
-            <li> <strong> Revisão de código:</strong> O código-fonte deve ser revisado pela equipe e preferencialmente,
-                ter um
-                formato e utilizar convenções consistentes com outros códigos ou normas já presentes.</li>
-        </ul>
-    </div>
-</div>
 
-<div class="txt4">
+
+<div class="row">
+  <div  class="col p-0"></div>
+  <div class="col-10 p-0">
+<div class="text-overlay3">
     <h5>Quiz: Product Owner</h5>
     <form action="" id="quizForm">
-    <div style="margin-top: 3.5%;" class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
+    <div class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
       <div class="pergunta" id="pergunta1">
         <h6>1. Qual é o papel do Product Owner (PO) em um time ágil?
         </h6>
@@ -247,13 +233,68 @@
             style="display: none;">Anterior</button>
           <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark  mt-2 "
             onclick="mudarPergunta(1)">Próxima</button>
+          </div>
         </div>
-      </div>
-  
+    
       </form>
     </div>
-  </div>
-  
-  <script src="../static/quiz.js"></script>
+    </div>
+    </div>
+    <div  class="col p-0"></div>
+    </div>
+    <script src="../static/quiz.js"></script>
+    
+
+
+
+<!--------------- Imagem home 1---------------->
+<div class="container_fluid">
+  <div class="row">
+    <div style="background-color: #EFF0F0" class="col p-0" ></div>
+
+    <div class="col-10 p-0" style="background-color: #EFF0F0;"> 
+      
+        <div  class="text-start text-overlay6 mb-5 mt-5">
+    <h5>Uma boa a DoD inclui os seguintes aspectos:</h5>
+    
+        <ul>
+            <li><strong>Funcionalidade:</strong> A funcionalidade implementada deve estar completa e funcionando
+                conforme as
+                especificações.
+                <br>Por exemplo, se a equipe estiver construindo um sistema de registro de usuários, a funcionalidade
+                estará
+                pronta quando os usuários puderem se registrar, receber confirmações do registro e fazer login com
+                sucesso.
+            </li>
+            <li>
+                <strong> Testes:</strong> Todas as funcionalidades devem ser testadas e passar nos testes de qualidade
+                estabelecidos para a tarefa. Isso pode incluir <em>unit tests</em>, testes de integração, aceitação do
+                usuário, e outros aspectos definidos pelo time.
+            </li>
+            <li><strong>Design:</strong> A tarefa deve seguir as diretrizes de design estabelecidas, como a aparência,
+                usabilidade e consistência visual.</li>
+            <li><strong>Desempenho:</strong> A tarefa deve desempenhar de forma conforme os requisitos estabelecidos.
+                <br>
+                Por exemplo, um sistema de registro de usuários deve responder de maneira rápida e eficiente sob carga.
+            </li>
+            <li> <strong> Revisão de código:</strong> O código-fonte deve ser revisado pela equipe e preferencialmente,
+                ter um
+                formato e utilizar convenções consistentes com outros códigos ou normas já presentes.</li>
+        </ul>
+      
+         
+    </div>
+ 
+    </div>
+    <div style="background-color: #EFF0F0" class="col p-0"></div>
+</div>
+</div>
+
+
+
+
+
+
+
 
 {% endblock %}
