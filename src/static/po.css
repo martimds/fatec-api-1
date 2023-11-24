@@ -323,3 +323,8 @@ font-size: 90%;
   }
 }
 
+@media screen and (max-width: 1100px) {
+  .img_media  {
+    display: none;
+  }
+}
