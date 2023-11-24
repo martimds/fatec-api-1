@@ -1,33 +1,5 @@
-.txt4 {
-  align-items: center;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-bottom: 2%;
-}
 
-.txt4 h5 {
-  font-size: 4.2vh;
-}
 
-.txt4 h6 {
-  font-size: 3vh;
-}
-
-.txt4_1{
-  display: flex;
-  justify-content: start;
-  text-align: start;
-  flex-direction: column;
-  width: 82%;
-  margin-left: 8%;
-  padding: 2%;
-  
-}
-
-.texto_home_1 {
-  font-size: 2.2vh;
-  padding: 2%;
-}
 
 
  /* ------- imagem ------- */
@@ -41,6 +13,8 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 margin-top: 3%;
+font-weight: 300;
+font-size: 90%;
 }
 
 
@@ -95,6 +69,10 @@ margin-top: 3%;
   font-size: 4vh;
   margin-bottom: 5%;
 }
+.flex_1{
+  display: flex;
+}
+
 
 .text-overlay2 p {
   color: #333;
@@ -109,6 +87,7 @@ margin-top: 3%;
   margin: 0px 0px;
   text-align: start;
   padding: 0px 0px;
+  max-width: 100%;
 }
 
 .text-overlay3 h5{
@@ -140,11 +119,11 @@ margin-top: 3%;
   justify-content: start;
   flex-direction: column;
   margin: 0px 0px;
-  top: 15%;
+  top: 22%;
   position: absolute;
   text-align: start;
   padding: 0px 0px;
-  max-width: 55%;
+  max-width: 50%;
 }
 
 
@@ -158,7 +137,6 @@ margin-top: 3%;
   margin: 0 0;
   padding: 0 0;
   color: white;
-  width: 75%;
   font-size: 2.2vh;
   font-weight: 300;
 }
@@ -332,7 +310,7 @@ margin-top: 3%;
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1030px) {
   .text-overlay4  {
     display: none;
   }
