@@ -1,280 +1,221 @@
 {% extends "layout.html" %}{% block css %}
 <!-- Colocar o CSS específico da página dentro desse bloco -->
-<link rel="stylesheet" href="../static/po.css">
+<link rel="stylesheet" href="../static/po.css" />
 {% endblock %}{% block content %}
 
+<div class="container-fluid">
+    <div class="row">
+        <div style="background-color: #fafafa" class="col p-0"></div>
 
-
-
-
-<div class="container_fluid">
-  <div class="row">
-    <div style="background-color: #FAFAFA" class="col p-0"></div>
-
-    <div class="col-10 p-0">
-      <div class="img-container">
-        <img
-          src="../static/img/burndown_1.png"
-          class="img-fluid"
-          alt="Metodologia Ágil"
-        />
-        <div class="text-overlay5">
-          <h1 >Burndown chart</h1>
-          <p >Frequentemente usado no scrum, um gráfico de burndown é um gráfico exibido 
-            publicamente mostrando o trabalho restante. Atualizado todos os dias, 
-            ele fornece visualizações rápidas para referência,
-            mostrando uma comparação entre o real e o previsto.      
-          </div>
+        <div class="col-10 p-0">
+            <div class="img-container">
+                <img src="../static/img/burndown_1.png" class="img-fluid" alt="Metodologia Ágil" />
+                <div class="text-overlay5">
+                    <h1>Burndown chart</h1>
+                    <p>
+                        Frequentemente usado no scrum, um gráfico de burndown é um gráfico exibido publicamente mostrando o trabalho restante. Atualizado todos
+                        os dias, ele fornece visualizações rápidas para referência, mostrando uma comparação entre o real e o previsto.
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-      <div style="background-color: #FAFAFA" class="col p-0"></div>
-      </div>
-      </div>
-      
+        <div style="background-color: #fafafa" class="col p-0"></div>
+    </div>
 
-
-
-      <div class="row">
+    <div class="row">
         <div class="col p-0"></div>
-      
+
         <div class="col-10 p-0">
-          <div  style="margin-top: 3%" class="text-overlay3 ">
-  <h5>Funcionalidade do Burndown chart:</h5>
-     <p>
-        No gráfico de burndown, traçamos o volume estimado do trabalho que precisa ser feito em relação ao 
-        tempo necessário para concluir este trabalho. O objetivo é mostrar uma distribuição precisa do tempo 
-        e facilitar o planejamento.
-    </p>
-
-  </div>
-  </div>
-
-   <div class="col p-0"></div>
-      </div>
-
-
-
-
-
-
-
-
-      <div class="row">
-        <div class="col p-0"></div> 
-        <div class="col-10 p-0">
-       
-         <div style="background-color: #24445c; color: white;" class="card w-50 mb-5 mt-5">
-           <div class="card-body">
-            <h5 class="card-title">Guia: Burndown Chart</h5>
-            <p  class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como estruturar o Burndown chart.</p>
-            <button type="button" class="btn btn-primary"
-            data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Clique aqui
-          </button>
+            <div style="margin-top: 3%" class="text-overlay3">
+                <h5>Funcionalidade do Burndown chart:</h5>
+                <p>
+                    No gráfico de burndown, traçamos o volume estimado do trabalho que precisa ser feito em relação ao tempo necessário para concluir este
+                    trabalho. O objetivo é mostrar uma distribuição precisa do tempo e facilitar o planejamento.
+                </p>
+            </div>
         </div>
-      </div>
 
-
-<div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-aria-hidden="true">
-<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h5 class="modal-title fs-5" id="exampleModalLabel">
-        Guia: Exemplo do Burndown chart
-      </h5>
-      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div>
-    <!-- Passo 1 -->
-    <div class="modal-body">
-      <ol style="list-style: none">
-        <li>
-        
-          <p>
-            <strong>Defina a escala de tempo:</strong> Escolha a unidade de tempo
-            (dias ou semanas) para representar o progresso do Sprint.
-          </p>
-          <p>
-            <strong>Estabeleça uma linha de base:</strong> Determine o ponto de
-            partida, geralmente a quantidade total de trabalho planejado no primeiro
-            dia do Sprint.</p>
-    </li>
-          </p>
-          <p>
-            <strong>Liste as tarefas:</strong> O Burndown Chart lista tarefas no eixo
-            vertical (trabalho) e deve ser atualizado diariamente com o trabalho
-            restante à medida que as tarefas são concluídas.
-          </p>
-          <p><strong>Inclua pontos de controle:</strong> Adicione marcos ou linhas de
-            referência que representam os objetivos diários de progresso.</p>
-
-          <p><strong>Identifique desvios e compartilhe:</strong> O Burndown Chart
-            monitora o progresso da equipe, detecta desvios e compartilha informações
-            para transparência e melhorias contínuas.</p>
-          <p><strong>Dica:</strong> Utilizando o Jira( gerenciador de processos) e atualizando todos os dias, 
-            o gráfico burndown chart é gerado automaticamente.</p>
-        </li>
-      </ol>
-    
-
-<div class="modal-footer">
-  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-    Fechar
-  </button>
-</div>
-
-
-</div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="col p-0"></div>
-</div>
-
-
-
-<div class="row">
-  <div  class="col p-0"></div>
-  <div class="col-10 p-0">
-<div class="text-overlay3">
-  <h5>Quiz: Burndown Chart</h5>
-  <form action="" id="quizForm">
-  <div class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
-    <div class="pergunta" id="pergunta1">
-      <h6>1. Por que é importante determinar uma linha de base no Burndown Chart?
-      </h6>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1">
-        <label class="form-check-label" for="opcao1_1"> a) Para listar as tarefas no eixo vertical.</label>
-      </div>
-      <div class="form-check" >
-        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2">
-        <label class="form-check-label" for="opcao1_2">b) Para representar os objetivos diários de progresso.</label>
-      </div>
-      <div class="form-check" correct>
-        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3">
-        <label class="form-check-label" for="opcao1_3">c) Para facilitar o planejamento do Sprint.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4">
-        <label class="form-check-label" for="opcao1_4">d) Para identificar desvios no progresso.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5">
-        <label class="form-check-label" for="opcao1_5">e) Para atualizar o gráfico automaticamente.</label>
-      </div>
+        <div class="col p-0"></div>
     </div>
 
-    <div class="pergunta" id="pergunta2" style="display: none;">
-      <h6>2. Qual é o propósito dos pontos de controle no Burndown Chart?</h6>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1">
-        <label class="form-check-label" for="opcao2_1">a) Determinar o ponto de partida.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2">
-        <label class="form-check-label" for="opcao2_2">b) Listar as tarefas diariamente.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3">
-        <label class="form-check-label" for="opcao2_3">c)  Representar a quantidade total de trabalho.</label>
-      </div>
-      <div class="form-check" correct>
-        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4">
-        <label class="form-check-label" for="opcao2_4">d) Atuar como objetivos diários de progresso.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5">
-        <label class="form-check-label" for="opcao2_5">e) Monitorar o progresso da equipe.</label>
-      </div>
+    <div class="row">
+        <div class="col p-0"></div>
+        <div class="col-10 p-0">
+            <div style="background-color: #24445c; color: white" class="card w-50 mb-5 mt-5">
+                <div class="card-body">
+                    <h5 class="card-title">Guia: Burndown Chart</h5>
+                    <p class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como estruturar o Burndown chart.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Clique aqui</button>
+                </div>
+            </div>
+
+            <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fs-5" id="exampleModalLabel">Guia: Exemplo do Burndown chart</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <!-- Passo 1 -->
+                        <div class="modal-body">
+                            <ol style="list-style: none">
+                                <li>
+                                    <p>
+                                        <strong>Defina a escala de tempo:</strong> Escolha a unidade de tempo (dias ou semanas) para representar o progresso do
+                                        Sprint.
+                                    </p>
+                                    <p>
+                                        <strong>Estabeleça uma linha de base:</strong> Determine o ponto de partida, geralmente a quantidade total de trabalho
+                                        planejado no primeiro dia do Sprint.
+                                    </p>
+                                    <p>
+                                        <strong>Liste as tarefas:</strong> O Burndown Chart lista tarefas no eixo vertical (trabalho) e deve ser atualizado
+                                        diariamente com o trabalho restante à medida que as tarefas são concluídas.
+                                    </p>
+                                    <p>
+                                        <strong>Inclua pontos de controle:</strong> Adicione marcos ou linhas de referência que representam os objetivos diários
+                                        de progresso.
+                                    </p>
+
+                                    <p>
+                                        <strong>Identifique desvios e compartilhe:</strong> O Burndown Chart monitora o progresso da equipe, detecta desvios e
+                                        compartilha informações para transparência e melhorias contínuas.
+                                    </p>
+                                    <p>
+                                        <strong>Dica:</strong> Utilizando o Jira( gerenciador de processos) e atualizando todos os dias, o gráfico burndown
+                                        chart é gerado automaticamente.
+                                    </p>
+                                </li>
+                            </ol>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col p-0"></div>
     </div>
 
-    <div class="pergunta" id="pergunta3" style="display: none;">
-      <h6>3. Por que o Burndown Chart é útil na identificação de desvios e para compartilhar informações?</h6>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1">
-        <label class="form-check-label" for="opcao3_1">a) Para gerar automaticamente o gráfico.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2">
-        <label class="form-check-label" for="opcao3_2">b)  Para representar a distribuição precisa do tempo.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3">
-        <label class="form-check-label" for="opcao3_3">c) Para facilitar o planejamento.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4">
-        <label class="form-check-label" for="opcao3_4">d) Para listar as tarefas.</label>
-      </div>
-      <div class="form-check" correct>
-        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5">
-        <label class="form-check-label" for="opcao3_5">e) Para monitorar o progresso da equipe.</label>
-      </div>
+    <div class="row">
+        <div class="col p-0"></div>
+        <div class="col-10 p-0">
+            <div class="text-overlay3">
+                <h5>Quiz: Burndown Chart</h5>
+                <form action="" id="quizForm">
+                    <div class="perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded">
+                        <div class="pergunta" id="pergunta1">
+                            <h6>1. Por que é importante determinar uma linha de base no Burndown Chart?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao1_1"> a) Para listar as tarefas no eixo vertical.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao1_2">b) Para representar os objetivos diários de progresso.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao1_3">c) Para facilitar o planejamento do Sprint.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao1_4">d) Para identificar desvios no progresso.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao1_5">e) Para atualizar o gráfico automaticamente.</label>
+                            </div>
+                        </div>
+
+                        <div class="pergunta" id="pergunta2" style="display: none">
+                            <h6>2. Qual é o propósito dos pontos de controle no Burndown Chart?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao2_1">a) Determinar o ponto de partida.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao2_2">b) Listar as tarefas diariamente.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao2_3">c) Representar a quantidade total de trabalho.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao2_4">d) Atuar como objetivos diários de progresso.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao2_5">e) Monitorar o progresso da equipe.</label>
+                            </div>
+                        </div>
+
+                        <div class="pergunta" id="pergunta3" style="display: none">
+                            <h6>3. Por que o Burndown Chart é útil na identificação de desvios e para compartilhar informações?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao3_1">a) Para gerar automaticamente o gráfico.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao3_2">b) Para representar a distribuição precisa do tempo.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao3_3">c) Para facilitar o planejamento.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao3_4">d) Para listar as tarefas.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao3_5">e) Para monitorar o progresso da equipe.</label>
+                            </div>
+                        </div>
+
+                        <!-- Adicionar mais perguntas seguindo o modelo acima -->
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2">Verificar</button>
+                            <div class="ml-auto">
+                                <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2" onclick="mudarPergunta(-1)" style="display: none">
+                                    Anterior
+                                </button>
+                                <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark mt-2" onclick="mudarPergunta(1)">Próxima</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col p-0"></div>
+        <script src="../static/quiz.js"></script>
     </div>
 
-    <!-- Adicionar mais perguntas seguindo o modelo acima -->
+    <!--------------- Imagem home 1---------------->
 
-    <div class="d-flex justify-content-between align-items-center">
-      <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2 ">Verificar</button>
-      <div class="ml-auto">
-        <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2 " onclick="mudarPergunta(-1)"
-          style="display: none;">Anterior</button>
-        <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark  mt-2 "
-          onclick="mudarPergunta(1)">Próxima</button>
-      </div>
+    <div class="row">
+        <div style="background-color: #eff0f0" class="col p-0"></div>
+
+        <div class="col-10 p-0" style="background-color: #eff0f0">
+            <div class="text-start text-overlay6 mb-5 mt-5">
+                <h5>Leitura do gráfico Burndown Chart:</h5>
+                <ul>
+                    <li>
+                        <strong>Descrição:</strong> A linha vertical representa os valores dos pesos das tarefas x e a linha horizontal representa o tempo para
+                        a realização das tarefas (tempo total da sprint). Atualizado a produção diariamente, ele fornece visualizações rápidas para referência.
+                        A linha diagonal vermelha é o tempo ideal de produção x tempo. A linha azul mede o desempenho de produção x tempo. Quando a linha azul
+                        está abaixo da diagonal significa que o projeto esta adiantado. Caso esteja acima da diagonal o projeto esta atrasado referente a
+                        produtividade ideal.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="background-color: #eff0f0" class="col p-0"></div>
     </div>
-
-  </form>
 </div>
-</div>
-</div>
-<div  class="col p-0"></div>
-</div>
-<script src="../static/quiz.js"></script>
-
-
-
-
-
-
-
-<!--------------- Imagem home 1---------------->
-<div class="container_fluid">
-  <div class="row">
-    <div style="background-color: #EFF0F0" class="col p-0" ></div>
-
-    <div class="col-10 p-0" style="background-color:#EFF0F0;"> 
-      
-        <div class="text-start text-overlay6 mb-5 mt-5">
-  <h5>Leitura do gráfico Burndown Chart:</h5>
-  
-    <ul>
-
-    <li><strong>Descrição:</strong> A linha vertical representa
-        os valores dos pesos das tarefas x e a linha horizontal representa o tempo para a realização das tarefas
-        (tempo total da sprint). Atualizado a produção diariamente, ele fornece visualizações rápidas para referência.
-        A linha diagonal vermelha é o tempo ideal de produção x tempo.
-        A linha azul mede o desempenho de produção x tempo. Quando a linha azul está
-        abaixo da diagonal significa que o projeto esta adiantado. Caso esteja acima da
-        diagonal o projeto esta atrasado referente a produtividade ideal.</li>
-
-    
-
-    </ul>  
- 
-
-</div>
-</div>
-<div style="background-color:#EFF0F0" class="col p-0"></div>
-</div>
-</div>
-
-
-
-
-
-
 {% endblock %}

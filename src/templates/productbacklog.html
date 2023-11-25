@@ -1,329 +1,273 @@
 {% extends "layout.html" %}{% block css %}
 <!-- Colocar o CSS específico da página dentro desse bloco -->
-<link rel="stylesheet" href="../static/po.css">
+<link rel="stylesheet" href="../static/po.css" />
 {% endblock %}{% block content %}
 
+<div class="container-fluid">
+    <div class="row">
+        <div style="background-color: #515d92" class="col p-0"></div>
 
-
-
-<div class="container_fluid">
-  <div class="row">
-    <div style="background-color: #515D92" class="col p-0"></div>
-
-    <div class="col-10 p-0">
-      <div class="img-container">
-        <img
-          src="../static/img/backlog_1.png"
-          class="img-fluid"
-          alt="Metodologia Ágil"
-        />
-        <div class="text-overlay5">
-          <h1 style="color: white;">Product Backlog</h1>
-          <p style="color: white;">O Product Backlog é uma lista de requisitos do cliente mantida pelo
-            Product Owner. Pode ser alterada a qualquer momento. Durante o Sprint
-            Planning, a equipe escolhe itens do topo do backlog para trabalhar na
-            sprint, priorizando e planejando sua execução.      
-          </div>
-  </div>
-</div>
-<div style="background-color: #515D92" class="col p-0"></div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col p-0"></div>
-
-  <div class="col-10 p-0">
-    <div  style="margin-top: 3%" class="text-overlay3 ">
-  <h5>Funcionalidade do Product backlog:</h5>
-     <p>
-        O Product backlog é uma lista de tarefas que tem um determinado prazo para ser entregue. Simples assim. É possível acompanhar de perto o andamento de cada projeto, fazendo com que o trabalho seja organizado por etapas, como um fluxograma de processo. Com uma divisão categorizada entre: Corrigindo, Testando, Documentando e Entregue.
-        Nada passa despercebido pelo gestor que utiliza esta estratégia a seu favor.
-        Ele é, entretanto, diferente do modelo tradicional de gestão de projetos, em que é preciso fechar o escopo para, 
-        só então, começar a executar.
-    </p>
-</div>
-</div>
-
-<div class="col p-0"></div>
-</div>
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col p-0"></div> 
-  <div class="col-10 p-0">
- 
-   <div style="background-color: #24445c; color: white;" class="card w-50 mb-5 mt-5">
-     <div class="card-body">
-      <h5 class="card-title">Guia: Product Backlog</h5>
-      <p  class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona o artefato Product Backlog.</p>
-      <button type="button" class="btn btn-primary"
-      data-bs-toggle="modal" data-bs-target="#exampleModal">
-      Clique aqui
-    </button>
-  </div>
-</div>
-
-<div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-aria-hidden="true">
-<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h5 class="modal-title fs-5" id="exampleModalLabel">
-        Guia: Exemplo de um Backlog
-      </h5>
-      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div>
-    <!-- Passo 1 -->
-    <div class="modal-body">
-      <ol style="list-style: none">
-        <li>
-        
-          <p><h3>Crie uma tabela com os seguintes itens:</h3>
-            <strong>Epic:</strong> Aqui será onde você irá definir um objetivo principal da Sprint (MVP).
-            
-          </p>
-          <p>
-            <strong>User Story:</strong> Liste todas as funcionalidades que você deseja para o seu site e organize 
-            as User Stories por ordem de importância.
-    </li>
-          </p>
-          <p>
-            <strong>Votação estimada:</strong> Cada membro da equipe escolhe uma carta que representa sua estimativa para a User Story, 
-            com base no número de Story Points que eles acreditam
-            que ela vale. Os membros fazem isso secretamente, mantendo suas escolhas ocultas dos outros.
-          </p>
-          <p><strong>Revelação do valor:</strong> Quando todos os membros da equipe tiverem feito suas estimativas, eles revelam suas cartas 
-            simultaneamente. Isso garante que nenhuma influência
-            externa afete as estimativas individuais. É comum que as estimativas sejam diferentes, 
-            o que é perfeitamente normal.</p>
-          <p><strong>Discussão da estimativa:</strong> OOs membros com as estimativas mais altas e mais baixas explicam por que escolheram esses valores.
-              Essa discussão permite que a equipe compreenda as perspectivas de todos e ajuda a chegar a um 
-              consenso. A equipe tem a oportunidade de debater e esclarecer qualquer desacordo em relação às 
-              estimativas. Após a discussão, todos os membros da equipe fazem outra rodada de votação, usando 
-              as cartas novamente.</p>
-          <p><strong>Consenso de valores:</strong> Repita o processo de revelação e discussão até que a equipe alcance um consenso sobre o número 
-            de Story Points atribuídos à User Story.Isso pode levar algumas rodadas, mas o objetivo é 
-            chegar a um acordo que reflita a compreensão coletiva do esforço necessário.</p>
-            <p><strong>Registro de valores:</strong> Anote a estimativa final acordada para a User Story.Esse número de Story Points será usado para 
-              planejar sprints futuros e alocar recursos de acordo.</p>  
-        </li>
-      </ol>
-       <!-- tabela exemplo backlog -->
-    <strong style="font-size: 25px;text-align: center;">Exemplo Tabela Backlog</strong>
-    <div class="tabela_backlog">
-        <div class="linha_backlog">
-            <div class="coluna_backlog">MVP</div>
-            <div class="coluna_backlog">UserStory</div>
-            <div class="coluna_backlog">Sprint</div>
-            <div class="coluna_backlog">StoryPoint</div>
-            <div class="coluna_backlog">Prioridade</div>
-            <div class="coluna_backlog">Ferramentas</div>
+        <div class="col-10 p-0">
+            <div class="img-container">
+                <img src="../static/img/backlog_1.png" class="img-fluid" alt="Metodologia Ágil" />
+                <div class="text-overlay5">
+                    <h1 style="color: white">Product Backlog</h1>
+                    <p style="color: white">
+                        O Product Backlog é uma lista de requisitos do cliente mantida pelo Product Owner. Pode ser alterada a qualquer momento. Durante o
+                        Sprint Planning, a equipe escolhe itens do topo do backlog para trabalhar na sprint, priorizando e planejando sua execução.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="linha_backlog">
-            <div class="coluna_backlog">Protótipo do site</div>
-            <div class="coluna_backlog">Como um usuário, eu quero...</div>
-            <div class="coluna_backlog">1</div>
-            <div class="coluna_backlog">8</div>
-            <div class="coluna_backlog">100</div>
-            <div class="coluna_backlog">HTML/CSS</div>
-          </div>
+        <div style="background-color: #515d92" class="col p-0"></div>
+    </div>
+
+    <div class="row">
+        <div class="col p-0"></div>
+
+        <div class="col-10 p-0">
+            <div style="margin-top: 3%" class="text-overlay3">
+                <h5>Funcionalidade do Product backlog:</h5>
+                <p>
+                    O Product backlog é uma lista de tarefas que tem um determinado prazo para ser entregue. Simples assim. É possível acompanhar de perto o
+                    andamento de cada projeto, fazendo com que o trabalho seja organizado por etapas, como um fluxograma de processo. Com uma divisão
+                    categorizada entre: Corrigindo, Testando, Documentando e Entregue. Nada passa despercebido pelo gestor que utiliza esta estratégia a seu
+                    favor. Ele é, entretanto, diferente do modelo tradicional de gestão de projetos, em que é preciso fechar o escopo para, só então, começar a
+                    executar.
+                </p>
+            </div>
         </div>
 
-        
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-            Fechar
-          </button>
+        <div class="col p-0"></div>
+    </div>
+
+    <div class="row">
+        <div class="col p-0"></div>
+        <div class="col-10 p-0">
+            <div style="background-color: #24445c; color: white" class="card w-50 mb-5 mt-5">
+                <div class="card-body">
+                    <h5 class="card-title">Guia: Product Backlog</h5>
+                    <p class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona o artefato Product Backlog.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Clique aqui</button>
+                </div>
+            </div>
+
+            <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fs-5" id="exampleModalLabel">Guia: Exemplo de um Backlog</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <!-- Passo 1 -->
+                        <div class="modal-body">
+                            <ol style="list-style: none">
+                                <h3>Crie uma tabela com os seguintes itens:</h3>
+                                <li>
+                                    <p><strong>Epic:</strong> Aqui será onde você irá definir um objetivo principal da Sprint (MVP).</p>
+                                    <p>
+                                        <strong>User Story:</strong> Liste todas as funcionalidades que você deseja para o seu site e organize as User Stories
+                                        por ordem de importância.
+                                    </p>
+                                    <p>
+                                        <strong>Votação estimada:</strong> Cada membro da equipe escolhe uma carta que representa sua estimativa para a User
+                                        Story, com base no número de Story Points que eles acreditam que ela vale. Os membros fazem isso secretamente, mantendo
+                                        suas escolhas ocultas dos outros.
+                                    </p>
+                                    <p>
+                                        <strong>Revelação do valor:</strong> Quando todos os membros da equipe tiverem feito suas estimativas, eles revelam suas
+                                        cartas simultaneamente. Isso garante que nenhuma influência externa afete as estimativas individuais. É comum que as
+                                        estimativas sejam diferentes, o que é perfeitamente normal.
+                                    </p>
+                                    <p>
+                                        <strong>Discussão da estimativa:</strong> OOs membros com as estimativas mais altas e mais baixas explicam por que
+                                        escolheram esses valores. Essa discussão permite que a equipe compreenda as perspectivas de todos e ajuda a chegar a um
+                                        consenso. A equipe tem a oportunidade de debater e esclarecer qualquer desacordo em relação às estimativas. Após a
+                                        discussão, todos os membros da equipe fazem outra rodada de votação, usando as cartas novamente.
+                                    </p>
+                                    <p>
+                                        <strong>Consenso de valores:</strong> Repita o processo de revelação e discussão até que a equipe alcance um consenso
+                                        sobre o número de Story Points atribuídos à User Story.Isso pode levar algumas rodadas, mas o objetivo é chegar a um
+                                        acordo que reflita a compreensão coletiva do esforço necessário.
+                                    </p>
+                                    <p>
+                                        <strong>Registro de valores:</strong> Anote a estimativa final acordada para a User Story.Esse número de Story Points
+                                        será usado para planejar sprints futuros e alocar recursos de acordo.
+                                    </p>
+                                </li>
+                            </ol>
+                            <!-- tabela exemplo backlog -->
+                            <strong style="font-size: 25px; text-align: center">Exemplo Tabela Backlog</strong>
+                            <div class="tabela_backlog">
+                                <div class="linha_backlog">
+                                    <div class="coluna_backlog">MVP</div>
+                                    <div class="coluna_backlog">UserStory</div>
+                                    <div class="coluna_backlog">Sprint</div>
+                                    <div class="coluna_backlog">StoryPoint</div>
+                                    <div class="coluna_backlog">Prioridade</div>
+                                    <div class="coluna_backlog">Ferramentas</div>
+                                </div>
+                                <div class="linha_backlog">
+                                    <div class="coluna_backlog">Protótipo do site</div>
+                                    <div class="coluna_backlog">Como um usuário, eu quero...</div>
+                                    <div class="coluna_backlog">1</div>
+                                    <div class="coluna_backlog">8</div>
+                                    <div class="coluna_backlog">100</div>
+                                    <div class="coluna_backlog">HTML/CSS</div>
+                                </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="col p-0"></div>
     </div>
-  </div>
-</div>
 
- </div>
- <div class="col p-0"></div>
-</div>
+    <div class="row">
+        <div class="col p-0"></div>
+        <div class="col-10 p-0">
+            <div class="text-overlay3">
+                <h5>Quiz: Product Backlog</h5>
+                <form action="" id="quizForm">
+                    <div class="perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded">
+                        <div class="pergunta" id="pergunta1">
+                            <h6>1. O que é um Epic no contexto do Product Backlog?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao1_1"> a) Uma carta usada na votação estimada.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao1_2">b) Uma estimativa final acordada para a User Story.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao1_3">c) Um objetivo principal da Sprint (MVP).</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao1_4">d) Uma funcionalidade organizada por etapas.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao1_5">e) Uma lista de tarefas corrigidas.</label>
+                            </div>
+                        </div>
 
+                        <div class="pergunta" id="pergunta2" style="display: none">
+                            <h6>2. Qual é o propósito da votação estimada durante o planejamento do Product Backlog?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao2_1">a) Ocultar estimativas dos membros da equipe.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao2_2">b) Influenciar as estimativas individuais.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao2_3">c) Alcançar um consenso sobre o número de Story Points.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao2_4">d) Organizar as User Stories por ordem de importância.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao2_5">e) Registrar valores finais para as User Stories.</label>
+                            </div>
+                        </div>
 
+                        <div class="pergunta" id="pergunta3" style="display: none">
+                            <h6>3. Por que a discussão da estimativa é importante durante o processo de consenso de valores?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao3_1">a) Para ocultar influências externas.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao3_2">b) Para manter as estimativas uniformes.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao3_3">c) Para esclarecer desacordos e compreender perspectivas.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao3_4">d) Para organizar as User Stories por ordem de importância.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao3_5">e) Para definir o objetivo principal da Sprint (MVP).</label>
+                            </div>
+                        </div>
 
+                        <!-- Adicionar mais perguntas seguindo o modelo acima -->
 
-
-
-<div class="row">
-  <div  class="col p-0"></div>
-  <div class="col-10 p-0">
-<div class="text-overlay3">
-<h5>Quiz: Product Backlog</h5>
-<form action="" id="quizForm">
-<div class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
-<div class="pergunta" id="pergunta1">
-  <h6>1. O que é um Epic no contexto do Product Backlog?
-  </h6>
-  <div class="form-check">
-    <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1">
-    <label class="form-check-label" for="opcao1_1"> a) Uma carta usada na votação estimada.</label>
-  </div>
-  <div class="form-check" >
-    <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2">
-    <label class="form-check-label" for="opcao1_2">b) Uma estimativa final acordada para a User Story.</label>
-  </div>
-  <div class="form-check" correct>
-    <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3">
-    <label class="form-check-label" for="opcao1_3">c)  Um objetivo principal da Sprint (MVP).</label>
-  </div>
-  <div class="form-check">
-    <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4">
-    <label class="form-check-label" for="opcao1_4">d) Uma funcionalidade organizada por etapas.</label>
-  </div>
-  <div class="form-check">
-    <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5">
-    <label class="form-check-label" for="opcao1_5">e) Uma lista de tarefas corrigidas.</label>
-  </div>
-</div>
-
-<div class="pergunta" id="pergunta2" style="display: none;">
-  <h6>2. Qual é o propósito da votação estimada durante o planejamento do Product Backlog?</h6>
-  <div class="form-check">
-    <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1">
-    <label class="form-check-label" for="opcao2_1">a) Ocultar estimativas dos membros da equipe.</label>
-  </div>
-  <div class="form-check">
-    <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2">
-    <label class="form-check-label" for="opcao2_2">b) Influenciar as estimativas individuais.</label>
-  </div>
-  <div class="form-check" correct>
-    <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3">
-    <label class="form-check-label" for="opcao2_3">c) Alcançar um consenso sobre o número de Story Points.</label>
-  </div>
-  <div class="form-check" >
-    <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4">
-    <label class="form-check-label" for="opcao2_4">d) Organizar as User Stories por ordem de importância.</label>
-  </div>
-  <div class="form-check">
-    <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5">
-    <label class="form-check-label" for="opcao2_5">e) Registrar valores finais para as User Stories.</label>
-  </div>
-</div>
-
-<div class="pergunta" id="pergunta3" style="display: none;">
-  <h6>3. Por que a discussão da estimativa é importante durante o processo de consenso de valores?</h6>
-  <div class="form-check">
-    <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1">
-    <label class="form-check-label" for="opcao3_1">a) Para ocultar influências externas.</label>
-  </div>
-  <div class="form-check">
-    <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2">
-    <label class="form-check-label" for="opcao3_2">b) Para manter as estimativas uniformes.</label>
-  </div>
-  <div class="form-check" correct>
-    <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3">
-    <label class="form-check-label" for="opcao3_3">c) Para esclarecer desacordos e compreender perspectivas.</label>
-  </div>
-  <div class="form-check">
-    <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4">
-    <label class="form-check-label" for="opcao3_4">d) Para organizar as User Stories por ordem de importância.</label>
-  </div>
-  <div class="form-check" >
-    <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5">
-    <label class="form-check-label" for="opcao3_5">e)  Para definir o objetivo principal da Sprint (MVP).</label>
-  </div>
-</div>
-
-<!-- Adicionar mais perguntas seguindo o modelo acima -->
-
-<div class="d-flex justify-content-between align-items-center">
-  <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2 ">Verificar</button>
-  <div class="ml-auto">
-    <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2 " onclick="mudarPergunta(-1)"
-      style="display: none;">Anterior</button>
-    <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark  mt-2 "
-      onclick="mudarPergunta(1)">Próxima</button>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2">Verificar</button>
+                            <div class="ml-auto">
+                                <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2" onclick="mudarPergunta(-1)" style="display: none">
+                                    Anterior
+                                </button>
+                                <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark mt-2" onclick="mudarPergunta(1)">Próxima</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col p-0"></div>
+        <script src="../static/quiz.js"></script>
     </div>
-  </div>
 
-  </form>
-</div>
-</div>
-</div>
-<div  class="col p-0"></div>
-</div>
-<script src="../static/quiz.js"></script>
+    <!--------------- Imagem home 1---------------->
 
+    <div class="row">
+        <div style="background-color: #eff0f0" class="col p-0"></div>
 
+        <div class="col-10 p-0" style="background-color: #eff0f0">
+            <div class="text-start text-overlay6 mb-5 mt-5">
+                <h5>Benefícios do Product backlog:</h5>
 
+                <ul>
+                    <li>
+                        <strong>Identificação de Itens do Backlog:</strong> Coleta de ideias, requisitos e demandas do produto de várias fontes, incluindo
+                        stakeholders, usuários, equipes de desenvolvimento e feedbacks.
+                    </li>
 
+                    <li>
+                        <strong>Priorização:</strong> Priorize os itens do Product Backlog com base em importância e valor, utilizando técnicas como a matriz de
+                        valor x esforço para guiar as decisões.
+                    </li>
 
+                    <li>
+                        <strong>Detalhamento e Refinamento:</strong> A medida que os itens sobem na lista de prioridades, detalhe e refine-os. Isso inclui
+                        dividir tarefas maiores em mais simples e garantir clareza na equipe sobre o que deve ser feito.
+                    </li>
 
+                    <li>
+                        <strong>Estimativa:</strong> Priorize e detalhe os itens do backlog. Atribua estimativas de esforço para entender o trabalho envolvido.
+                    </li>
 
+                    <li>
+                        <strong>Manutenção Contínua:</strong> O Product Backlog é uma lista dinâmica, sujeita a revisões e atualizações constantes conforme
+                        novas informações surgem e as prioridades mudam.
+                    </li>
 
-
-
-
-<!--------------- Imagem home 1---------------->
-<div class="container_fluid">
-  <div class="row">
-    <div style="background-color: #EFF0F0" class="col p-0" ></div>
-
-    <div class="col-10 p-0" style="background-color: #EFF0F0;"> 
-      
-        <div  class="text-start text-overlay6 mb-5 mt-5">
-  <h5 >Benefícios do Product backlog:</h5>
- 
-    <ul >
-
-    <li><strong>Identificação de Itens do Backlog:</strong> Coleta de ideias,
-        requisitos e demandas do produto de várias fontes, incluindo
-        stakeholders, usuários, equipes de desenvolvimento e feedbacks.</li>
-
-    <li><strong>Priorização:</strong> Priorize os itens do Product Backlog
-        com base em importância e valor, utilizando técnicas como a matriz
-        de valor x esforço para guiar as decisões.</li> 
-
-    <li><strong>Detalhamento e Refinamento:</strong> A medida que os itens
-        sobem na lista de prioridades, detalhe e refine-os. Isso inclui
-        dividir tarefas maiores em mais simples e garantir clareza na equipe
-        sobre o que deve ser feito.</li>
-
-    <li><strong>Estimativa:</strong> Priorize e detalhe os itens do backlog.
-        Atribua estimativas de esforço para entender o trabalho envolvido.</li>
-
-    <li><strong>Manutenção Contínua:</strong> O Product Backlog é uma lista
-        dinâmica, sujeita a revisões e atualizações constantes conforme
-        novas informações surgem e as prioridades mudam.</li>
-
-    <li><strong>Comunicação e Colaboração:</strong> Comunique-se
-        regularmente para manter o Product Backlog alinhado com as
-        necessidades do produto, incluindo reuniões de refinamento.</li>
-
-    </ul>  
- 
-
-</div>
+                    <li>
+                        <strong>Comunicação e Colaboração:</strong> Comunique-se regularmente para manter o Product Backlog alinhado com as necessidades do
+                        produto, incluindo reuniões de refinamento.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="background-color: #eff0f0" class="col p-0"></div>
     </div>
-<div style="background-color:#EFF0F0" class="col p-0"></div>
 </div>
-</div>
-
-
-
-
-
-
-
 {% endblock %}

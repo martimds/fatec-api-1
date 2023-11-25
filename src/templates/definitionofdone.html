@@ -1,292 +1,251 @@
 {% extends "layout.html" %}{% block css %}
-<link rel="stylesheet" href="../static/po.css">
-{% endblock %}
-{% block content %}
+<!-- Colocar o CSS específico da página dentro desse bloco -->
+<link rel="stylesheet" href="../static/po.css" />
+{% endblock %}{% block content %}
 
+<div class="container-fluid">
+    <div class="row">
+        <div style="background-color: #cbddd1" class="col p-0"></div>
 
-<div class="container_fluid">
-  <div class="row">
-    <div style="background-color: #CBDDD1" class="col p-0"></div>
-
-    <div class="col-10 p-0">
-      <div class="img-container">
-        <img
-          src="../static/img/dod_1.png"
-          class="img-fluid"
-          alt="Metodologia Ágil"
-        />
-        <div class="text-overlay5">
-            <h1>Definition of Done</h1>
-            <p> É um conceito fundamental no framework
-                Scrum que estabelece os critérios que um incremento de produto deve
-                atender para ser considerado completo e pronto para ser entregue ao
-                cliente ou liberado em produção.</p>
-              </div>
+        <div class="col-10 p-0">
+            <div class="img-container">
+                <img src="../static/img/dod_1.png" class="img-fluid" alt="Metodologia Ágil" />
+                <div class="text-overlay5">
+                    <h1>Definition of Done</h1>
+                    <p>
+                        É um conceito fundamental no framework Scrum que estabelece os critérios que um incremento de produto deve atender para ser considerado
+                        completo e pronto para ser entregue ao cliente ou liberado em produção.
+                    </p>
+                </div>
             </div>
-         
-            </div>
-            <div style="background-color: #CBDDD1" class="col p-0"></div>
-            </div>
-</div>
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col p-0"></div>
-
-  <div class="col-10 p-0">
-    <div  style="margin-top: 3%" class="text-overlay3 ">
-    <h5>Funcionalidade do Definition of Done:</h5>
-    
-        <p>
-            O Definition of Done(DoD) é crucial para garantir a consistência,qualidade e transparência no
-            desenvolvimento de software ágil,ele deixa os critérios de conclusão claros e evita interpretações ambíguas sobre quando o trabalho esta realmente finalizado, contribuindo para a entrega eficaz e confiável de incrementos de produto.
-        </p>
-      </div>
-
+        </div>
+        <div style="background-color: #cbddd1" class="col p-0"></div>
     </div>
-    <div class="col p-0"></div>
-    </div>
-
 
     <div class="row">
-      <div class="col p-0"></div> 
-      <div class="col-10 p-0">
-     
-       <div style="background-color: #24445c; color: white;" class="card w-50 mb-5 mt-5">
-         <div class="card-body">
-          <h5 class="card-title">Guia: Definition of Done</h5>
-          <p  class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona a Definition of Done.</p>
-          <button type="button" class="btn btn-primary"
-          data-bs-toggle="modal" data-bs-target="#exampleModal">
-          Clique aqui
-        </button>
-      </div>
-    </div>
-    <!-- Modal -->
-    <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title fs-5" id="exampleModalLabel">
-                        Guia: Passos para uma boa Definition of Ready
-                    </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <!-- Passo 1 -->
-                <div class="modal-body">
-                    <ol style="list-style: none">
-                        <li>Para uma <em>User Story</em> de um sistema de gerenciamento de tarefas, sua definição de
-                            pronto pode incluir
-                            critérios como: <ol>
-                                <li>A <em>User Story</em> foi implementada.</li>
-                                <li>Passou nos testes de unidade.</li>
-                                <li>Testes de aceitação do usuário foram realizados.</li>
-                                <li>A documentação foi atualizada.</li>
-                            </ol>
-                        </li>
-                        <hr>
-                        <li>
-                            Para uma sprint em um projeto, a DoD pode incluir os seguintes critérios:
-                            <ol>
-                                <li>Todas as <em>User Stories</em> foram realizadas.</li>
-                                <li>Todas as <em>User Stories</em> foram implementadas.</li>
-                                <li>Todas as <em>User Stories</em> foram revisadas.</li>
-                                <li>Todas as <em>User Stories</em> foram documentadas.</li>
-                            </ol>
-                        </li>
-                        <hr>
-                        <li>Para o lançamento de um novo site, a DoD pode incluir:
-                            <ol>
-                                <li>Todas as páginas foram criadas com base no design aprovado.</li>
-                                <li>Todos os links estão funcionando.</li>
-                                <li>O site foi testado em diferentes navegadores e dispositivos.</li>
-                                <li>A documentação de suporte está pronta.</li>
-                            </ol>
-                        </li>
-                        <p></p>
-                        <p>Somente quando todos os critérios acima são cumpridos, uma tarefa deve ser considerada
-                            finalizada, e seu valor
-                            incrementado ao Backlog. Caso uma tarefa não cumpra com os requisitos, portanto não sendo
-                            considerada
-                            finalizada, seu valor <b>não</b> deve ser incrementado ao Backlog e a mesma não deve ser
-                            apresentada ao cliente
-                            ou ser inclusa na Sprint Review.</p>
-                    </ol>
-                
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                  Fechar
-                </button>
-              </div>
+        <div class="col p-0"></div>
+
+        <div class="col-10 p-0">
+            <div style="margin-top: 3%" class="text-overlay3">
+                <h5>Funcionalidade do Definition of Done:</h5>
+                <p>
+                    O Definition of Done(DoD) é crucial para garantir a consistência,qualidade e transparência no desenvolvimento de software ágil,ele deixa os
+                    critérios de conclusão claros e evita interpretações ambíguas sobre quando o trabalho esta realmente finalizado, contribuindo para a entrega
+                    eficaz e confiável de incrementos de produto.
+                </p>
             </div>
-          </div>
         </div>
-      </div>
-      
-       </div>
-       <div class="col p-0"></div>
-      </div>
-      
 
-
-
-<div class="row">
-  <div  class="col p-0"></div>
-  <div class="col-10 p-0">
-<div class="text-overlay3">
-    <h5>Quiz: Definition of Done</h5>
-    <form action="" id="quizForm">
-    <div class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
-      <div class="pergunta" id="pergunta1">
-        <h6>1. Qual dos seguintes critérios é um exemplo apropriado para a Definition of Done de uma User Story em um sistema de gerenciamento de tarefas?
-        </h6>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1">
-          <label class="form-check-label" for="opcao1_1"> a) Todos os membros da equipe revisaram a User Story.</label>
-        </div>
-        <div class="form-check" >
-          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2">
-          <label class="form-check-label" for="opcao1_2">b) A User Story foi incluída na Sprint Review.</label>
-        </div>
-        <div class="form-check" correct>
-          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3">
-          <label class="form-check-label" for="opcao1_3">c) A documentação foi atualizada.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4">
-          <label class="form-check-label" for="opcao1_4">d) Um novo Backlog foi criado para a User Story.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5">
-          <label class="form-check-label" for="opcao1_5">e) A User Story possui uma estimativa de esforço.</label>
-        </div>
-      </div>
-  
-      <div class="pergunta" id="pergunta2" style="display: none;">
-        <h6>2. O que deve ser verdadeiro para que uma Sprint seja considerada finalizada, de acordo com a Definition of Done apresentada?</h6>
-        <div class="form-check" correct>
-          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1">
-          <label class="form-check-label" for="opcao2_1">a) Todas as User Stories foram implementadas.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2">
-          <label class="form-check-label" for="opcao2_2">b) Algumas User Stories foram revisadas.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3">
-          <label class="form-check-label" for="opcao2_3">c) As User Stories foram apresentadas ao cliente.</label>
-        </div>
-        <div class="form-check" >
-          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4">
-          <label class="form-check-label" for="opcao2_4">d) Algumas User Stories não foram documentadas.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5">
-          <label class="form-check-label" for="opcao2_5">e) A Sprint não precisa ser revisada.</label>
-        </div>
-      </div>
-  
-      <div class="pergunta" id="pergunta3" style="display: none;">
-        <h6>3. Qual é um critério específico incluído na Definition of Done para o lançamento de um novo site?</h6>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1">
-          <label class="form-check-label" for="opcao3_1">a)O design do site foi aprovado.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2">
-          <label class="form-check-label" for="opcao3_2">b) Algumas páginas foram criadas.</label>
-        </div>
-        <div class="form-check" correct>
-          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3">
-          <label class="form-check-label" for="opcao3_3">c) O site foi testado em diferentes navegadores e dispositivos.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4">
-          <label class="form-check-label" for="opcao3_4">d) A documentação de suporte ainda está sendo elaborada.</label>
-        </div>
-        <div class="form-check" correct>
-          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5">
-          <label class="form-check-label" for="opcao3_5">e) Alguns links estão inativos.</label>
-        </div>
-      </div>
-  
-      <!-- Adicionar mais perguntas seguindo o modelo acima -->
-  
-      <div class="d-flex justify-content-between align-items-center">
-        <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2 ">Verificar</button>
-        <div class="ml-auto">
-          <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2 " onclick="mudarPergunta(-1)"
-            style="display: none;">Anterior</button>
-          <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark  mt-2 "
-            onclick="mudarPergunta(1)">Próxima</button>
-          </div>
-        </div>
-    
-      </form>
+        <div class="col p-0"></div>
     </div>
-    </div>
-    </div>
-    <div  class="col p-0"></div>
-    </div>
-    <script src="../static/quiz.js"></script>
-    
 
+    <div class="row">
+        <div class="col p-0"></div>
+        <div class="col-10 p-0">
+            <div style="background-color: #24445c; color: white" class="card w-50 mb-5 mt-5">
+                <div class="card-body">
+                    <h5 class="card-title">Guia: Definition of Done</h5>
+                    <p class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona a Definition of Done.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Clique aqui</button>
+                </div>
+            </div>
 
-
-<!--------------- Imagem home 1---------------->
-<div class="container_fluid">
-  <div class="row">
-    <div style="background-color: #EFF0F0" class="col p-0" ></div>
-
-    <div class="col-10 p-0" style="background-color: #EFF0F0;"> 
-      
-        <div  class="text-start text-overlay6 mb-5 mt-5">
-    <h5>Uma boa a DoD inclui os seguintes aspectos:</h5>
-    
-        <ul>
-            <li><strong>Funcionalidade:</strong> A funcionalidade implementada deve estar completa e funcionando
-                conforme as
-                especificações.
-                <br>Por exemplo, se a equipe estiver construindo um sistema de registro de usuários, a funcionalidade
-                estará
-                pronta quando os usuários puderem se registrar, receber confirmações do registro e fazer login com
-                sucesso.
-            </li>
-            <li>
-                <strong> Testes:</strong> Todas as funcionalidades devem ser testadas e passar nos testes de qualidade
-                estabelecidos para a tarefa. Isso pode incluir <em>unit tests</em>, testes de integração, aceitação do
-                usuário, e outros aspectos definidos pelo time.
-            </li>
-            <li><strong>Design:</strong> A tarefa deve seguir as diretrizes de design estabelecidas, como a aparência,
-                usabilidade e consistência visual.</li>
-            <li><strong>Desempenho:</strong> A tarefa deve desempenhar de forma conforme os requisitos estabelecidos.
-                <br>
-                Por exemplo, um sistema de registro de usuários deve responder de maneira rápida e eficiente sob carga.
-            </li>
-            <li> <strong> Revisão de código:</strong> O código-fonte deve ser revisado pela equipe e preferencialmente,
-                ter um
-                formato e utilizar convenções consistentes com outros códigos ou normas já presentes.</li>
-        </ul>
-      
-         
+            <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fs-5" id="exampleModalLabel">Guia: Passos para uma boa Definition of Ready</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <!-- Passo 1 -->
+                        <div class="modal-body">
+                            <ol style="list-style: none">
+                                <li>
+                                    Para uma <em>User Story</em> de um sistema de gerenciamento de tarefas, sua definição de pronto pode incluir critérios como:
+                                    <ol>
+                                        <li>A <em>User Story</em> foi implementada.</li>
+                                        <li>Passou nos testes de unidade.</li>
+                                        <li>Testes de aceitação do usuário foram realizados.</li>
+                                        <li>A documentação foi atualizada.</li>
+                                    </ol>
+                                </li>
+                                <hr />
+                                <li>
+                                    Para uma sprint em um projeto, a DoD pode incluir os seguintes critérios:
+                                    <ol>
+                                        <li>Todas as <em>User Stories</em> foram realizadas.</li>
+                                        <li>Todas as <em>User Stories</em> foram implementadas.</li>
+                                        <li>Todas as <em>User Stories</em> foram revisadas.</li>
+                                        <li>Todas as <em>User Stories</em> foram documentadas.</li>
+                                    </ol>
+                                </li>
+                                <hr />
+                                <li>
+                                    Para o lançamento de um novo site, a DoD pode incluir:
+                                    <ol>
+                                        <li>Todas as páginas foram criadas com base no design aprovado.</li>
+                                        <li>Todos os links estão funcionando.</li>
+                                        <li>O site foi testado em diferentes navegadores e dispositivos.</li>
+                                        <li>A documentação de suporte está pronta.</li>
+                                    </ol>
+                                </li>
+                                <p></p>
+                                <p>
+                                    Somente quando todos os critérios acima são cumpridos, uma tarefa deve ser considerada finalizada, e seu valor incrementado
+                                    ao Backlog. Caso uma tarefa não cumpra com os requisitos, portanto não sendo considerada finalizada, seu valor
+                                    <b>não</b> deve ser incrementado ao Backlog e a mesma não deve ser apresentada ao cliente ou ser inclusa na Sprint Review.
+                                </p>
+                            </ol>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col p-0"></div>
     </div>
- 
+
+    <div class="row">
+        <div class="col p-0"></div>
+        <div class="col-10 p-0">
+            <div class="text-overlay3">
+                <h5>Quiz: Burndown Chart</h5>
+                <form action="" id="quizForm">
+                    <div class="perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded">
+                        <div class="pergunta" id="pergunta1">
+                            <h6>
+                                1. Qual dos seguintes critérios é um exemplo apropriado para a Definition of Done de uma User Story em um sistema de
+                                gerenciamento de tarefas?
+                            </h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao1_1"> a) Todos os membros da equipe revisaram a User Story.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao1_2">b) A User Story foi incluída na Sprint Review.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao1_3">c) A documentação foi atualizada.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao1_4">d) Um novo Backlog foi criado para a User Story.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao1_5">e) A User Story possui uma estimativa de esforço.</label>
+                            </div>
+                        </div>
+
+                        <div class="pergunta" id="pergunta2" style="display: none">
+                            <h6>
+                                2. O que deve ser verdadeiro para que uma Sprint seja considerada finalizada, de acordo com a Definition of Done apresentada?
+                            </h6>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao2_1">a) Todas as User Stories foram implementadas.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao2_2">b) Algumas User Stories foram revisadas.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao2_3">c) As User Stories foram apresentadas ao cliente.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao2_4">d) Algumas User Stories não foram documentadas.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao2_5">e) A Sprint não precisa ser revisada.</label>
+                            </div>
+                        </div>
+
+                        <div class="pergunta" id="pergunta3" style="display: none">
+                            <h6>3. Qual é um critério específico incluído na Definition of Done para o lançamento de um novo site?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao3_1">a)O design do site foi aprovado.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao3_2">b) Algumas páginas foram criadas.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao3_3">c) O site foi testado em diferentes navegadores e dispositivos.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao3_4">d) A documentação de suporte ainda está sendo elaborada.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao3_5">e) Alguns links estão inativos.</label>
+                            </div>
+                        </div>
+
+                        <!-- Adicionar mais perguntas seguindo o modelo acima -->
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2">Verificar</button>
+                            <div class="ml-auto">
+                                <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2" onclick="mudarPergunta(-1)" style="display: none">
+                                    Anterior
+                                </button>
+                                <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark mt-2" onclick="mudarPergunta(1)">Próxima</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col p-0"></div>
+        <script src="../static/quiz.js"></script>
     </div>
-    <div style="background-color: #EFF0F0" class="col p-0"></div>
+
+    <!--------------- Imagem home 1---------------->
+
+    <div class="row">
+        <div style="background-color: #eff0f0" class="col p-0"></div>
+
+        <div class="col-10 p-0" style="background-color: #eff0f0">
+            <div class="text-start text-overlay6 mb-5 mt-5">
+                <h5>Uma boa a DoD inclui os seguintes aspectos:</h5>
+
+                <ul>
+                    <li>
+                        <strong>Funcionalidade:</strong> A funcionalidade implementada deve estar completa e funcionando conforme as especificações. <br />Por
+                        exemplo, se a equipe estiver construindo um sistema de registro de usuários, a funcionalidade estará pronta quando os usuários puderem
+                        se registrar, receber confirmações do registro e fazer login com sucesso.
+                    </li>
+                    <li>
+                        <strong> Testes:</strong> Todas as funcionalidades devem ser testadas e passar nos testes de qualidade estabelecidos para a tarefa. Isso
+                        pode incluir <em>unit tests</em>, testes de integração, aceitação do usuário, e outros aspectos definidos pelo time.
+                    </li>
+                    <li>
+                        <strong>Design:</strong> A tarefa deve seguir as diretrizes de design estabelecidas, como a aparência, usabilidade e consistência
+                        visual.
+                    </li>
+                    <li>
+                        <strong>Desempenho:</strong> A tarefa deve desempenhar de forma conforme os requisitos estabelecidos.
+                        <br />
+                        Por exemplo, um sistema de registro de usuários deve responder de maneira rápida e eficiente sob carga.
+                    </li>
+                    <li>
+                        <strong> Revisão de código:</strong> O código-fonte deve ser revisado pela equipe e preferencialmente, ter um formato e utilizar
+                        convenções consistentes com outros códigos ou normas já presentes.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="background-color: #eff0f0" class="col p-0"></div>
+    </div>
 </div>
-</div>
-
-
-
-
-
-
-
-
 {% endblock %}

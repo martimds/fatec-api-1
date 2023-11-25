@@ -1,367 +1,292 @@
 {% extends "layout.html" %}{% block css %}
-<link rel="stylesheet" href="../static/po.css">
-{% endblock %}
-{% block content %}
+<!-- Colocar o CSS específico da página dentro desse bloco -->
+<link rel="stylesheet" href="../static/po.css" />
+{% endblock %}{% block content %}
 
-<div class="container_fluid">
-  <div class="row">
-    <div style="background-color: #9AB0AD" class="col p-0"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div style="background-color: #9ab0ad" class="col p-0"></div>
 
-    <div class="col-10 p-0">
-      <div class="img-container">
-        <img
-          src="../static/img/eventos_1.png"
-          class="img-fluid"
-          alt="Metodologia Ágil"
-        />
-        <div class="text-overlay5">
-            <h1>Eventos Scrum</h1>
-            <p> A metodologia Scrum se baseia em eventos, conhecidos como cerimônias,
-                para facilitar o desenvolvimento iterativo e incremental de um produto.
-                Esses eventos promovem colaboração, transparência e inspeção constante
-                do progresso do projeto.</p>
-              </div>
-            </div>
-         
-            </div>
-            <div style="background-color: #9AB0AD" class="col p-0"></div>
-            </div>
-</div>
-
-
-
-
-<div class="row">
-  <div class="col p-0"></div>
-
-  <div class="col-10 p-0">
-    <div  style="margin-top: 3%" class="text-overlay3 ">
-    <h5>Porquê realizar esses eventos?</h5>
-    
-       <p>
-        Estes eventos são fundamentais para o sucesso do Scrum, pois mantêm a
-        equipe focada, promovem a inspeção contínua do trabalho e permitem a
-        adaptação às mudanças. Eles também facilitam a colaboração e a
-        transparência, garantindo que todos os envolvidos compreendam o
-        progresso do projeto e as prioridades do produto.
-      </p>
-    
-   
-
-    
-    </div>
-  </div>
-  <div class="col p-0"></div>
-</div>
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col p-0"></div> 
-  <div class="col-10 p-0">
- 
-   <div style="background-color: #24445c; color: white;" class="card w-50 mb-5 mt-5">
-     <div class="card-body">
-      <h5 class="card-title">Guia: Eventos Scrum</h5>
-      <p  class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona os Eventos do Scrum.</p>
-      <button type="button" class="btn btn-primary"
-      data-bs-toggle="modal" data-bs-target="#exampleModal">
-      Clique aqui
-    </button>
-  </div>
-</div>
-    <!-- Modal -->
-    <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title fs-5" id="exampleModalLabel">
-                        Guia: Passos para uma boa Definition of Ready
-                    </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="col-10 p-0">
+            <div class="img-container">
+                <img src="../static/img/eventos_1.png" class="img-fluid" alt="Metodologia Ágil" />
+                <div class="text-overlay5">
+                    <h1>Eventos Scrum</h1>
+                    <p>
+                        A metodologia Scrum se baseia em eventos, conhecidos como cerimônias, para facilitar o desenvolvimento iterativo e incremental de um
+                        produto. Esses eventos promovem colaboração, transparência e inspeção constante do progresso do projeto.
+                    </p>
                 </div>
-                <!-- Passo 1 -->
-                <div class="modal-body">
-                    <ol style="list-style: none">
-                        <p>
-                            <strong>A reunião de Planejamento (Sprint Planning
-                                Meeting):</strong>
-                        </p>
-                        <p></p>
-                        <p></p>
-                        <ul>
-                           
-                               <p><strong>O que é:</strong> A Reunião de Planejamento da Sprint marca o
-                                início de um Sprint e geralmente dura até 8 horas para um Sprint de
-                                um mês.</p>
-                           
+            </div>
+        </div>
+        <div style="background-color: #9ab0ad" class="col p-0"></div>
+    </div>
 
-                            
-                               <p> <strong>Propósito:</strong> O objetivo principal é definir o que será
-                                construído durante o Sprint, estabelecendo o objetivo da Sprint e
-                                selecionando as User Stories ou itens do backlog a serem incluídos
-                                no Sprint Backlog.</p>
-                            
-                               <p> <strong>Responsabilidades:</strong> O Product Owner apresenta os
-                                itens do backlog prioritários e esclarece os detalhes. A equipe
-                                Scrum discute, estimando o esforço necessário para cada item e
-                                comprometendo-se a entregá-los durante o Sprint.</p>
-                           
-                        </ul>
-                        </li>
-                        <hr>
-                        <p><strong>A Daily Scrum (Scrum Diário):</strong></p>
-                        <ul>
-                        
-                              <p>  <strong>O que é:</strong> O Daily Scrum é uma reunião curta, de até
-                                15 minutos, realizada diariamente durante o Sprint.</p>
-                            
+    <div class="row">
+        <div class="col p-0"></div>
 
-                        
-                                <p> <strong>Propósito:</strong> Serve para sincronizar a equipe,
-                                identificar impedimentos e garantir que o trabalho esteja
-                                progredindo de acordo com o plano.</p>
-                            
+        <div class="col-10 p-0">
+            <div style="margin-top: 3%" class="text-overlay3">
+                <h5>Porquê realizar esses eventos?</h5>
+                <p>
+                    Estes eventos são fundamentais para o sucesso do Scrum, pois mantêm a equipe focada, promovem a inspeção contínua do trabalho e permitem a
+                    adaptação às mudanças. Eles também facilitam a colaboração e a transparência, garantindo que todos os envolvidos compreendam o progresso do
+                    projeto e as prioridades do produto.
+                </p>
+            </div>
+        </div>
 
-                        
-                                <p>  <strong>Responsabilidades:</strong> Cada membro da equipe compartilha
-                                brevemente o que realizou desde a última reunião, o que planeja
-                                fazer até a próxima e se enfrenta algum impedimento. O foco é na
-                                colaboração e remoção de obstáculos.</p>
-                            
-                        </ul>
-                        <hr>
-                        <p><strong>Revisão da Sprint (Sprint Review):</strong></p>
-                        <ul>
-                        
-                                <p></p>
-                                <p></p>
-                              <p> <strong>O que é:</strong> A Revisão da Sprint acontece no final de um
-                                Sprint e dura até 4 horas para um Sprint de um mês.</p>
-                            
+        <div class="col p-0"></div>
+    </div>
 
-                        
-                                <p> <strong>Propósito:</strong> É uma reunião para inspecionar o
-                                incremento de produto entregue e obter feedback dos stakeholders
-                                para ajustar as prioridades do Product Backlog.</p>
-                            
+    <div class="row">
+        <div class="col p-0"></div>
+        <div class="col-10 p-0">
+            <div style="background-color: #24445c; color: white" class="card w-50 mb-5 mt-5">
+                <div class="card-body">
+                    <h5 class="card-title">Guia: Eventos Scrum</h5>
+                    <p class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona os Eventos do Scrum.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Clique aqui</button>
+                </div>
+            </div>
 
-                        
-                                <p> <strong>Responsabilidades:</strong> A equipe Scrum apresenta o
-                                incremento, destacando o que foi feito e o que não foi. Os
-                                stakeholders fornecem feedback e discutem as próximas prioridades.</p>
-                            
-                        </ul>
-                        <hr>
-                        <p><strong>Retrospectiva da Sprint (Sprint Retrospective):</strong></p>
-                        <ul>
-                        
-                                <p> <strong>O que é:</strong> A Retrospectiva da Sprint acontece após a
-                                Revisão da Sprint e dura até 3 horas para um Sprint de um mês.</p>
-                            
-                           
-                        
-                                <p> <strong>Propósito:</strong> É uma reunião estruturada para que a
-                                equipe Scrum analise o processo e identifique oportunidades de
-                                melhoria.</p>
-                            
-                            
-                        
-                                <p> <strong>Responsabilidades:</strong> A equipe revisa o Sprint,
-                                identificando o que funcionou bem e o que pode ser melhorado. Ações
-                                são definidas para implementar melhorias no próximo Sprint.</p>
+            <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fs-5" id="exampleModalLabel">Guia: Eventos Scrum</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <!-- Passo 1 -->
+                        <div class="modal-body">
+                            <ol style="list-style: none">
+                                <p>
+                                    <strong>A reunião de Planejamento (Sprint Planning Meeting):</strong>
+                                </p>
+                                <ul>
+                                    <p>
+                                        <strong>O que é:</strong> A Reunião de Planejamento da Sprint marca o início de um Sprint e geralmente dura até 8 horas
+                                        para um Sprint de um mês.
+                                    </p>
 
-                              </li>
-                          </ol>
-                    
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                        Fechar
-                      </button>
+                                    <p>
+                                        <strong>Propósito:</strong> O objetivo principal é definir o que será construído durante o Sprint, estabelecendo o
+                                        objetivo da Sprint e selecionando as User Stories ou itens do backlog a serem incluídos no Sprint Backlog.
+                                    </p>
+
+                                    <p>
+                                        <strong>Responsabilidades:</strong> O Product Owner apresenta os itens do backlog prioritários e esclarece os detalhes.
+                                        A equipe Scrum discute, estimando o esforço necessário para cada item e comprometendo-se a entregá-los durante o Sprint.
+                                    </p>
+                                </ul>
+                                <hr />
+                                <p><strong>A Daily Scrum (Scrum Diário):</strong></p>
+                                <ul>
+                                    <p>
+                                        <strong>O que é:</strong> O Daily Scrum é uma reunião curta, de até 15 minutos, realizada diariamente durante o Sprint.
+                                    </p>
+
+                                    <p>
+                                        <strong>Propósito:</strong> Serve para sincronizar a equipe, identificar impedimentos e garantir que o trabalho esteja
+                                        progredindo de acordo com o plano.
+                                    </p>
+
+                                    <p>
+                                        <strong>Responsabilidades:</strong> Cada membro da equipe compartilha brevemente o que realizou desde a última reunião,
+                                        o que planeja fazer até a próxima e se enfrenta algum impedimento. O foco é na colaboração e remoção de obstáculos.
+                                    </p>
+                                </ul>
+                                <hr />
+                                <p><strong>Revisão da Sprint (Sprint Review):</strong></p>
+                                <ul>
+                                    <p>
+                                        <strong>O que é:</strong> A Revisão da Sprint acontece no final de um Sprint e dura até 4 horas para um Sprint de um
+                                        mês.
+                                    </p>
+
+                                    <p>
+                                        <strong>Propósito:</strong> É uma reunião para inspecionar o incremento de produto entregue e obter feedback dos
+                                        stakeholders para ajustar as prioridades do Product Backlog.
+                                    </p>
+
+                                    <p>
+                                        <strong>Responsabilidades:</strong> A equipe Scrum apresenta o incremento, destacando o que foi feito e o que não foi.
+                                        Os stakeholders fornecem feedback e discutem as próximas prioridades.
+                                    </p>
+                                </ul>
+                                <hr />
+                                <p><strong>Retrospectiva da Sprint (Sprint Retrospective):</strong></p>
+                                <ul>
+                                    <p>
+                                        <strong>O que é:</strong> A Retrospectiva da Sprint acontece após a Revisão da Sprint e dura até 3 horas para um Sprint
+                                        de um mês.
+                                    </p>
+
+                                    <p>
+                                        <strong>Propósito:</strong> É uma reunião estruturada para que a equipe Scrum analise o processo e identifique
+                                        oportunidades de melhoria.
+                                    </p>
+
+                                    <p>
+                                        <strong>Responsabilidades:</strong> A equipe revisa o Sprint, identificando o que funcionou bem e o que pode ser
+                                        melhorado. Ações são definidas para implementar melhorias no próximo Sprint.
+                                    </p>
+                                </ul>
+                            </ol>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-            
-             </div>
-             <div class="col p-0"></div>
+        </div>
+        <div class="col p-0"></div>
+    </div>
+
+    <div class="row">
+        <div class="col p-0"></div>
+        <div class="col-10 p-0">
+            <div class="text-overlay3">
+                <h5>Quiz: Eventos Scrum</h5>
+                <form action="" id="quizForm">
+                    <div class="perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded">
+                        <div class="pergunta" id="pergunta1">
+                            <h6>1. Qual é o propósito principal da Reunião de Planejamento da Sprint?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao1_1"> a) Revisar o trabalho concluído no Sprint anterior.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao1_2">b) Estabelecer metas de longo prazo para o projeto.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao1_3">c) Selecionar as User Stories ou itens do backlog para o Sprint Backlog.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao1_4">d) Avaliar o desempenho individual dos membros da equipe.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao1_5">e) Conduzir discussões gerais sobre o projeto.</label>
+                            </div>
+                        </div>
+
+                        <div class="pergunta" id="pergunta2" style="display: none">
+                            <h6>2. Qual é o principal propósito da Daily Scrum (Scrum Diário)?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao2_1">a) Revisar o progresso do Sprint.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao2_2">b) Realizar uma análise detalhada de impedimentos.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao2_3">c) Sincronizar a equipe diariamente.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao2_4">d) Definir novas metas para o próximo Sprint.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao2_5">e) Compartilhar relatórios de status com partes interessadas.</label>
+                            </div>
+                        </div>
+
+                        <div class="pergunta" id="pergunta3" style="display: none">
+                            <h6>3. Qual é o propósito principal da Revisão da Sprint (Sprint Review)?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao3_1">a) Planejar as atividades do próximo Sprint.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao3_2">b) Inspeccionar o incremento de produto entregue.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao3_3">c) Sincronizar a equipe diariamente.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao3_4">d) Definir as User Stories para o Sprint Backlog.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao3_5">e) Estimar o esforço necessário para cada item do backlog.</label>
+                            </div>
+                        </div>
+
+                        <div class="pergunta" id="pergunta4" style="display: none">
+                            <h6>4. Qual é o propósito principal da Retrospectiva da Sprint (Sprint Retrospective)?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta4" id="opcao4_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao4_1">a) Apresentar o incremento de produto entregue.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta4" id="opcao4_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao4_2">b) Analisar o processo e identificar oportunidades de melhoria.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta4" id="opcao4_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao4_3">c) Obter feedback dos stakeholders.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta4" id="opcao4_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao4_4">d) Definir as User Stories para o próximo Sprint.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta4" id="opcao4_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao4_5">e) Sincronizar a equipe diariamente.</label>
+                            </div>
+                        </div>
+
+                        <!-- Adicionar mais perguntas seguindo o modelo acima -->
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2">Verificar</button>
+                            <div class="ml-auto">
+                                <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2" onclick="mudarPergunta(-1)" style="display: none">
+                                    Anterior
+                                </button>
+                                <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark mt-2" onclick="mudarPergunta(1)">Próxima</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
-            
-      
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div  class="col p-0"></div>
-  <div class="col-10 p-0">
-<div class="text-overlay3">
-    <h5>Quiz: Eventos Scrum</h5>
-    <form action="" id="quizForm">
-    <div  class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
-      <div class="pergunta" id="pergunta1">
-        <h6>1. Qual é o propósito principal da Reunião de Planejamento da Sprint?
-        </h6>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1">
-          <label class="form-check-label" for="opcao1_1"> a) Revisar o trabalho concluído no Sprint anterior.</label>
         </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2">
-          <label class="form-check-label" for="opcao1_2">b) Estabelecer metas de longo prazo para o projeto.</label>
-        </div>
-        <div class="form-check" correct>
-          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3">
-          <label class="form-check-label" for="opcao1_3">c) Selecionar as User Stories ou itens do backlog para o Sprint Backlog.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4">
-          <label class="form-check-label" for="opcao1_4">d)  Avaliar o desempenho individual dos membros da equipe.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5">
-          <label class="form-check-label" for="opcao1_5">e) Conduzir discussões gerais sobre o projeto.</label>
-        </div>
-      </div>
-  
-      <div class="pergunta" id="pergunta2" style="display: none;">
-        <h6>2. Qual é o principal propósito da Daily Scrum (Scrum Diário)?</h6>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1">
-          <label class="form-check-label" for="opcao2_1">a) Revisar o progresso do Sprint.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2">
-          <label class="form-check-label" for="opcao2_2">b) Realizar uma análise detalhada de impedimentos.</label>
-        </div>
-        <div class="form-check" correct>
-          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3">
-          <label class="form-check-label" for="opcao2_3">c) Sincronizar a equipe diariamente.</label>
-        </div>
-        <div class="form-check" >
-          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4">
-          <label class="form-check-label" for="opcao2_4">d) Definir novas metas para o próximo Sprint.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5">
-          <label class="form-check-label" for="opcao2_5">e) Compartilhar relatórios de status com partes interessadas.</label>
-        </div>
-      </div>
-  
-      <div class="pergunta" id="pergunta3" style="display: none;">
-        <h6>3. Qual é o propósito principal da Revisão da Sprint (Sprint Review)?</h6>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1">
-          <label class="form-check-label" for="opcao3_1">a) Planejar as atividades do próximo Sprint.</label>
-        </div>
-        <div class="form-check" correct>
-          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2">
-          <label class="form-check-label" for="opcao3_2">b) Inspeccionar o incremento de produto entregue.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3">
-          <label class="form-check-label" for="opcao3_3">c) Sincronizar a equipe diariamente.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4">
-          <label class="form-check-label" for="opcao3_4">d) Definir as User Stories para o Sprint Backlog.</label>
-        </div>
-        <div class="form-check" >
-          <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5">
-          <label class="form-check-label" for="opcao3_5">e) Estimar o esforço necessário para cada item do backlog.</label>
-        </div>
-      </div> 
-
-      <div class="pergunta" id="pergunta4" style="display: none;">
-        <h6>4. Qual é o propósito principal da Retrospectiva da Sprint (Sprint Retrospective)?</h6>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta4" id="opcao4_1" value="opcao1">
-          <label class="form-check-label" for="opcao4_1">a) Apresentar o incremento de produto entregue.</label>
-        </div>
-        <div class="form-check" correct>
-          <input class="form-check-input" type="radio" name="resposta4" id="opcao4_2" value="opcao2">
-          <label class="form-check-label" for="opcao4_2">b) Analisar o processo e identificar oportunidades de melhoria.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta4" id="opcao4_3" value="opcao3">
-          <label class="form-check-label" for="opcao4_3">c) Obter feedback dos stakeholders.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta4" id="opcao4_4" value="opcao4">
-          <label class="form-check-label" for="opcao4_4">d) Definir as User Stories para o próximo Sprint.</label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="resposta4" id="opcao4_5" value="opcao5">
-          <label class="form-check-label" for="opcao4_5">e) Sincronizar a equipe diariamente.</label>
-        </div>
-      </div>
-  
-      <!-- Adicionar mais perguntas seguindo o modelo acima -->
-  
-      <div class="d-flex justify-content-between align-items-center">
-        <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2 ">Verificar</button>
-        <div class="ml-auto">
-          <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2 " onclick="mudarPergunta(-1)"
-            style="display: none;">Anterior</button>
-          <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark  mt-2 "
-            onclick="mudarPergunta(1)">Próxima</button>
-          </div>
-        </div>
-    
-      </form>
-    </div>
-    </div>
-    </div>
-    <div  class="col p-0"></div>
-    </div>
-    <script src="../static/quiz.js"></script>
-
-
-
-
-<!--------------- Imagem home 1---------------->
-<div class="container_fluid">
-  <div class="row">
-    <div style="background-color: #EFF0F0" class="col p-0" ></div>
-
-    <div class="col-10 p-0" style="background-color: #EFF0F0;"> 
-      
-        <div  class="text-start text-overlay6 mb-5 mt-5">
-  <h5>Dicas para uma boa execução dos Eventos Scrum:</h5>
-  
-      <ul>
-          <li><strong>Envolvimento do Product Owner:</strong> Certifique-se de ter um  Product Owner bem  engajado para fornecer a direção certa.
-          </li>
-          <li>
-              <strong>Daily Scrum:</strong> Mantenha as reuniões diárias curtas e focadas.
-          </li>
-          <li><strong>Retrospectiva:</strong>Utilize a retrospectiva para identificar melhorias conntínuas. </li>
-          <li><strong>Comunicação:</strong> Promova a comunicação aberta e transparente entre a equipe.
-          </li>
-          <li> <strong> Backlog:</strong> Mantenha o backlog atualizado e priorizado.</li>
-          <li> <strong> Colaboração:</strong> Adapte-se a mudanças de forma colaborativa e encoraje a auto organização da equipe</li>
-          <li> <strong> Uso de ferramentas:</strong> Use  ferramentas visuais, como quadros scrum, para acompanhar o progresso.</li>
-  
-      
-         
-      </div>
-
+        <div class="col p-0"></div>
+        <script src="../static/quiz.js"></script>
     </div>
 
-      <div style="background-color: #EFF0F0" class="col p-0"></div>
-      
+    <!--------------- Imagem home 1---------------->
+
+    <div class="row">
+        <div style="background-color: #eff0f0" class="col p-0"></div>
+
+        <div class="col-10 p-0" style="background-color: #eff0f0">
+            <div class="text-start text-overlay6 mb-5 mt-5">
+                <h5>Dicas para uma boa execução dos Eventos Scrum:</h5>
+
+                <ul>
+                    <li><strong>Envolvimento do Product Owner:</strong> Certifique-se de ter um Product Owner bem engajado para fornecer a direção certa.</li>
+                    <li><strong>Daily Scrum:</strong> Mantenha as reuniões diárias curtas e focadas.</li>
+                    <li><strong>Retrospectiva:</strong>Utilize a retrospectiva para identificar melhorias conntínuas.</li>
+                    <li><strong>Comunicação:</strong> Promova a comunicação aberta e transparente entre a equipe.</li>
+                    <li><strong> Backlog:</strong> Mantenha o backlog atualizado e priorizado.</li>
+                    <li><strong> Colaboração:</strong> Adapte-se a mudanças de forma colaborativa e encoraje a auto organização da equipe</li>
+                    <li><strong> Uso de ferramentas:</strong> Use ferramentas visuais, como quadros scrum, para acompanhar o progresso.</li>
+                </ul>
+            </div>
+        </div>
+        <div style="background-color: #eff0f0" class="col p-0"></div>
     </div>
 </div>
-
 {% endblock %}

@@ -1,280 +1,232 @@
 {% extends "layout.html" %}{% block css %}
-<link rel="stylesheet" href="../static/po.css">
-{% endblock %}
-{% block content %}
+<!-- Colocar o CSS específico da página dentro desse bloco -->
+<link rel="stylesheet" href="../static/po.css" />
+{% endblock %}{% block content %}
 
-<div class="container_fluid">
-  <div class="row">
-    <div style="background-color: #BDDCDC" class="col p-0"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div style="background-color: #bddcdc" class="col p-0"></div>
 
-    <div class="col-10 p-0">
-      <div class="img-container">
-        <img
-          src="../static/img/sprint_1.png"
-          class="img-fluid"
-          alt="Metodologia Ágil"
-        />
-        <div class="text-overlay5">
-      <h1>Sprint Backlog</h1>
-      <p> É uma lista de tarefas concretas selecionadas do Product Backlog para a
-        próxima sprint. Ele representa o trabalho planejado pelo Development
-        Team exclusivamente para a sprint atual.</p>
-      </div>
-    </div>
- 
-    </div>
-    <div style="background-color: #BDDCDC" class="col p-0"></div>
-    </div>
-</div>
-
-
-
-
-<div class="row">
-  <div class="col p-0"></div>
-
-  <div class="col-10 p-0">
-    <div  style="margin-top: 3%" class="text-overlay3 ">
-  <h5>O que é uma Sprint:</h5>
-  
-    <p>
-      Sprint no Scrum é um período de trabalho intensivo e focado, geralmente
-      com duração de 2 a 4 semanas, no qual a equipe de desenvolvimento
-      trabalha para criar incrementos de um produto. É uma abordagem iterativa
-      e colaborativa que permite à equipe responder rapidamente às mudanças e
-      entregar valor de forma constante aos clientes e partes interessadas. A
-      Sprint é uma das principais características do Scrum e ajuda a promover
-      a transparência, a colaboração e a entrega de produtos de alta
-      qualidade.
-    </p>
-    
-  </div>
-  
-  </div>
-  <div class="col p-0"></div>
-  </div>
-  
-
-<div class="row">
-  <div class="col p-0"></div> 
-  <div class="col-10 p-0">
- 
-   <div style="background-color: #24445c; color: white;" class="card w-50 mb-5 mt-5">
-     <div class="card-body">
-      <h5 class="card-title">Guia: Sprint</h5>
-      <p  class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona uma Sprint.</p>
-      <button type="button" class="btn btn-primary"
-      data-bs-toggle="modal" data-bs-target="#exampleModal">
-      Clique aqui
-    </button>
-  </div>
-</div>
-
-  <!-- Modal -->
-  <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title fs-5" id="exampleModalLabel">
-            Guia: Exemplo de uma Sprint Backlog
-          </h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="col-10 p-0">
+            <div class="img-container">
+                <img src="../static/img/sprint_1.png" class="img-fluid" alt="Metodologia Ágil" />
+                <div class="text-overlay5">
+                    <h1>Sprint Backlog</h1>
+                    <p>
+                        É uma lista de tarefas concretas selecionadas do Product Backlog para a próxima sprint. Ele representa o trabalho planejado pelo
+                        Development Team exclusivamente para a sprint atual.
+                    </p>
+                </div>
+            </div>
         </div>
-        <!-- Passo 1 -->
-        <div class="modal-body">
-          <ol style="list-style: none">
-            <li>
-
-              <p>
-                <strong> Planejamento da Sprint:</strong> Realize uma reunião de
-                planejamento do Sprint para definir os objetivos e metas do Sprint.
-              </p>
-              <p>
-                <strong>Seleção de Histórias de Usuário:</strong> Escolha as
-                histórias de usuário que serão trabalhadas durante o Sprint.
-              </p>
-              <p>
-                <strong>Estimativas e Priorização:</strong> A equipe estima o
-                esforço de cada história, prioriza as tarefas e, com base nisso, faz
-                um compromisso sobre o que será realizado no Sprint.
-            </li>
-            </p>
-            <p><strong>Registro no Sprint Backlog:</strong> Documente as tarefas,
-              estimativas e priorizações em um Sprint Backlog visível para a
-              equipe.</p>
-            <p><strong>Acompanhamento e Revisão:</strong> Acompanhe o progresso
-              durante o Sprint, ajustando o Sprint Backlog conforme necessário, e
-              revise-o na conclusão do Sprint para avaliação e melhoria contínua.</p>
-
-          
-            </li>
-          </ol>
-    
-    <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-        Fechar
-      </button>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="col p-0"></div>
-</div>
-
-
-
-<div class="row">
-  <div  class="col p-0"></div>
-  <div class="col-10 p-0">
-<div class="text-overlay3">
-  <h5>Quiz: Sprint Backlog</h5>
-  <form action="" id="quizForm">
-  <div  class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
-    <div class="pergunta" id="pergunta1">
-      <h6>1. Qual é o principal objetivo da reunião de planejamento do Sprint?
-      </h6>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1">
-        <label class="form-check-label" for="opcao1_1"> a) Rever o progresso do Sprint passado.</label>
-      </div>
-      <div class="form-check" >
-        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2">
-        <label class="form-check-label" for="opcao1_2">b) Identificar problemas de longo prazo no projeto.</label>
-      </div>
-      <div class="form-check" correct>
-        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3">
-        <label class="form-check-label" for="opcao1_3">c) Definir os objetivos e metas do Sprint.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4">
-        <label class="form-check-label" for="opcao1_4">d) Realizar uma retrospectiva detalhada.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5">
-        <label class="form-check-label" for="opcao1_5">e) Revisar as histórias de usuário concluídas.</label>
-      </div>
+        <div style="background-color: #bddcdc" class="col p-0"></div>
     </div>
 
-    <div class="pergunta" id="pergunta2" style="display: none;">
-      <h6>2. Por que a equipe realiza estimativas durante o planejamento do Sprint?</h6>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1">
-        <label class="form-check-label" for="opcao2_1">a) Para determinar a equipe mais eficiente</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2">
-        <label class="form-check-label" for="opcao2_2">b) Para criar pressão sobre os membros da equipe.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3">
-        <label class="form-check-label" for="opcao2_3">c) Para documentar as conclusões da retrospectiva.</label>
-      </div>
-      <div class="form-check" correct>
-        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4">
-        <label class="form-check-label" for="opcao2_4">d) Para comprometer-se com o que será realizado no Sprint.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5">
-        <label class="form-check-label" for="opcao2_5">e) Para escolher as histórias de usuário menos importantes.</label>
-      </div>
-    </div>
+    <div class="row">
+        <div class="col p-0"></div>
 
-    <div class="pergunta" id="pergunta3" style="display: none;">
-      <h6>3. O que é fundamental para a revisão do Sprint ao final de cada ciclo?</h6>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1">
-        <label class="form-check-label" for="opcao3_1">a) Apenas avaliar o progresso geral.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2">
-        <label class="form-check-label" for="opcao3_2">b) Realizar uma retrospectiva da equipe.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3">
-        <label class="form-check-label" for="opcao3_3">c) Registrar tarefas no Sprint Backlog.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4">
-        <label class="form-check-label" for="opcao3_4">d)  Manter o mesmo Sprint Backlog por várias Sprints.</label>
-      </div>
-      <div class="form-check" correct>
-        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5">
-        <label class="form-check-label" for="opcao3_5">e) Entregar um incremento de produto potencialmente utilizável.</label>
-      </div>
-    </div>
-
-    <!-- Adicionar mais perguntas seguindo o modelo acima -->
-
-    <div class="d-flex justify-content-between align-items-center">
-      <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2 ">Verificar</button>
-      <div class="ml-auto">
-        <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2 " onclick="mudarPergunta(-1)"
-          style="display: none;">Anterior</button>
-        <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark  mt-2 "
-          onclick="mudarPergunta(1)">Próxima</</button>
+        <div class="col-10 p-0">
+            <div style="margin-top: 3%" class="text-overlay3">
+                <h5>O que é uma Sprint:</h5>
+                <p>
+                    Sprint no Scrum é um período de trabalho intensivo e focado, geralmente com duração de 2 a 4 semanas, no qual a equipe de desenvolvimento
+                    trabalha para criar incrementos de um produto. É uma abordagem iterativa e colaborativa que permite à equipe responder rapidamente às
+                    mudanças e entregar valor de forma constante aos clientes e partes interessadas. A Sprint é uma das principais características do Scrum e
+                    ajuda a promover a transparência, a colaboração e a entrega de produtos de alta qualidade.
+                </p>
+            </div>
         </div>
-      </div>
-  
-    </form>
-  </div>
-  </div>
-  </div>
-  <div  class="col p-0"></div>
-  </div>
-  <script src="../static/quiz.js"></script>
 
+        <div class="col p-0"></div>
+    </div>
 
+    <div class="row">
+        <div class="col p-0"></div>
+        <div class="col-10 p-0">
+            <div style="background-color: #24445c; color: white" class="card w-50 mb-5 mt-5">
+                <div class="card-body">
+                    <h5 class="card-title">Guia: Sprint</h5>
+                    <p class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona uma Sprint.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Clique aqui</button>
+                </div>
+            </div>
 
+            <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fs-5" id="exampleModalLabel">Guia: Exemplo de uma Sprint Backlog</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <!-- Passo 1 -->
+                        <div class="modal-body">
+                            <ol style="list-style: none">
+                                <li>
+                                    <p>
+                                        <strong> Planejamento da Sprint:</strong> Realize uma reunião de planejamento do Sprint para definir os objetivos e
+                                        metas do Sprint.
+                                    </p>
+                                    <p>
+                                        <strong>Seleção de Histórias de Usuário:</strong> Escolha as histórias de usuário que serão trabalhadas durante o
+                                        Sprint.
+                                    </p>
+                                    <p>
+                                        <strong>Estimativas e Priorização:</strong> A equipe estima o esforço de cada história, prioriza as tarefas e, com base
+                                        nisso, faz um compromisso sobre o que será realizado no Sprint.
+                                    </p>
+                                    <p>
+                                        <strong>Registro no Sprint Backlog:</strong> Documente as tarefas, estimativas e priorizações em um Sprint Backlog
+                                        visível para a equipe.
+                                    </p>
+                                    <p>
+                                        <strong>Acompanhamento e Revisão:</strong> Acompanhe o progresso durante o Sprint, ajustando o Sprint Backlog conforme
+                                        necessário, e revise-o na conclusão do Sprint para avaliação e melhoria contínua.
+                                    </p>
+                                </li>
+                            </ol>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col p-0"></div>
+    </div>
 
+    <div class="row">
+        <div class="col p-0"></div>
+        <div class="col-10 p-0">
+            <div class="text-overlay3">
+                <h5>Quiz: Sprint Backlog</h5>
+                <form action="" id="quizForm">
+                    <div class="perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded">
+                        <div class="pergunta" id="pergunta1">
+                            <h6>1. Qual é o principal objetivo da reunião de planejamento do Sprint?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao1_1"> a) Rever o progresso do Sprint passado.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao1_2">b) Identificar problemas de longo prazo no projeto.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao1_3">c) Definir os objetivos e metas do Sprint.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao1_4">d) Realizar uma retrospectiva detalhada.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao1_5">e) Revisar as histórias de usuário concluídas.</label>
+                            </div>
+                        </div>
 
+                        <div class="pergunta" id="pergunta2" style="display: none">
+                            <h6>2. Por que a equipe realiza estimativas durante o planejamento do Sprint?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao2_1">a) Para determinar a equipe mais eficiente</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao2_2">b) Para criar pressão sobre os membros da equipe.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao2_3">c) Para documentar as conclusões da retrospectiva.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao2_4">d) Para comprometer-se com o que será realizado no Sprint.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao2_5">e) Para escolher as histórias de usuário menos importantes.</label>
+                            </div>
+                        </div>
 
-<!--------------- Imagem home 1---------------->
-<div class="container_fluid">
-  <div class="row">
-    <div style="background-color: #EFF0F0" class="col p-0" ></div>
+                        <div class="pergunta" id="pergunta3" style="display: none">
+                            <h6>3. O que é fundamental para a revisão do Sprint ao final de cada ciclo?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao3_1">a) Apenas avaliar o progresso geral.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao3_2">b) Realizar uma retrospectiva da equipe.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao3_3">c) Registrar tarefas no Sprint Backlog.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao3_4">d) Manter o mesmo Sprint Backlog por várias Sprints.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao3_5">e) Entregar um incremento de produto potencialmente utilizável.</label>
+                            </div>
+                        </div>
 
-    <div class="col-10 p-0" style="background-color: #EFF0F0;"> 
-      
-        <div  class="text-start text-overlay6 mb-5 mt-5">
-  <h5>Dicas para um bom Sprint Backlog:</h5>
-  
-    <ul>
-      <li><strong>Colabore com a Equipe de Desenvolvimento:</strong> Envolver a equipe de desenvolvimento na elaboração
-        do Sprint Backlog ajuda a garantir que todos tenham uma compreensão compartilhada das tarefas e compromissos.
-      </li>
-      <li>
-        <strong> Divida Tarefas em Itens Menores:</strong> Quebre as histórias de usuário em tarefas menores e mais
-        gerenciáveis. Isso facilita o acompanhamento do progresso e permite uma melhor estimativa do esforço necessário.
-      </li>
-      <li><strong> Defina Critérios de Conclusão (Definition of Done):</strong> Para cada tarefa, estabeleça critérios
-        claros que determinem quando uma tarefa está completa. Isso evita ambiguidades e assegura que o trabalho atenda
-        aos padrões de qualidade.</li>
-      <li><strong> Promova a Transparência:</strong> Garanta que o Sprint Backlog seja transparente e compreensível para
-        todos os membros da equipe. A transparência promove a colaboração e a responsabilidade compartilhada.</li>
-      <li> <strong> Aprenda com Retrospectivas: </strong> Após cada sprint, conduza retrospectivas para avaliar o
-        desempenho da equipe e identificar oportunidades de melhoria no processo de planejamento.</li>
-      </ul>  
- 
+                        <!-- Adicionar mais perguntas seguindo o modelo acima -->
 
-            
-    
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2">Verificar</button>
+                            <div class="ml-auto">
+                                <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2" onclick="mudarPergunta(-1)" style="display: none">
+                                    Anterior
+                                </button>
+                                <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark mt-2" onclick="mudarPergunta(1)">Próxima</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col p-0"></div>
+        <script src="../static/quiz.js"></script>
+    </div>
 
+    <!--------------- Imagem home 1---------------->
+
+    <div class="row">
+        <div style="background-color: #eff0f0" class="col p-0"></div>
+
+        <div class="col-10 p-0" style="background-color: #eff0f0">
+            <div class="text-start text-overlay6 mb-5 mt-5">
+                <h5>Dicas para um bom Sprint Backlog:</h5>
+
+                <ul>
+                    <li>
+                        <strong>Colabore com a Equipe de Desenvolvimento:</strong> Envolver a equipe de desenvolvimento na elaboração do Sprint Backlog ajuda a
+                        garantir que todos tenham uma compreensão compartilhada das tarefas e compromissos.
+                    </li>
+                    <li>
+                        <strong> Divida Tarefas em Itens Menores:</strong> Quebre as histórias de usuário em tarefas menores e mais gerenciáveis. Isso facilita
+                        o acompanhamento do progresso e permite uma melhor estimativa do esforço necessário.
+                    </li>
+                    <li>
+                        <strong> Defina Critérios de Conclusão (Definition of Done):</strong> Para cada tarefa, estabeleça critérios claros que determinem
+                        quando uma tarefa está completa. Isso evita ambiguidades e assegura que o trabalho atenda aos padrões de qualidade.
+                    </li>
+                    <li>
+                        <strong> Promova a Transparência:</strong> Garanta que o Sprint Backlog seja transparente e compreensível para todos os membros da
+                        equipe. A transparência promove a colaboração e a responsabilidade compartilhada.
+                    </li>
+                    <li>
+                        <strong> Aprenda com Retrospectivas: </strong> Após cada sprint, conduza retrospectivas para avaliar o desempenho da equipe e
+                        identificar oportunidades de melhoria no processo de planejamento.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="background-color: #eff0f0" class="col p-0"></div>
+    </div>
 </div>
-
-</div>
-<div style="background-color: #EFF0F0" class="col p-0"></div>
-</div>
-</div>
-
-
-
-
-
-
-  
-
 {% endblock %}

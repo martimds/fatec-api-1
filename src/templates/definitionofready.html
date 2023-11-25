@@ -1,310 +1,248 @@
 {% extends "layout.html" %}{% block css %}
-<link rel="stylesheet" href="../static/po.css">
-{% endblock %}
-{% block content %}
+<!-- Colocar o CSS específico da página dentro desse bloco -->
+<link rel="stylesheet" href="../static/po.css" />
+{% endblock %}{% block content %}
 
+<div class="container-fluid">
+    <div class="row">
+        <div style="background-color: #dec3c3" class="col p-0"></div>
 
-<div class="container_fluid">
-  <div class="row">
-    <div style="background-color: #DEC3C3" class="col p-0"></div>
-
-    <div class="col-10 p-0">
-      <div class="img-container">
-        <img
-          src="../static/img/dor_1.png"
-          class="img-fluid"
-          alt="Metodologia Ágil"
-        />
-        <div class="text-overlay5">
-            <h1>Definition of Ready</h1>
-            <p> A Definition of Ready(DoR) é um conceito dentro do framework Scrum
-                que descreve as condições que um item de backlog (normalmente, uma User
-                Story) deve atender antes de ser considerado pronto para ser incluído em
-                um Sprint e desenvolvido pela equipe de Scrum.</p>
-              </div>
-            </div>
-         
-            </div>
-            <div style="background-color: #DEC3C3" class="col p-0"></div>
-            </div>
-</div>
-
-
-
-
-
-
-<div class="row">
-  <div class="col p-0"></div>
-
-  <div class="col-10 p-0">
-    <div  style="margin-top: 3%" class="text-overlay3 ">
-    <h5>Funcionalidade do Definition of Ready:</h5>
-        <p>
-            O Definition of Ready(DoR) desempenha um papel crucial na garantia de que as histórias ou tarefas adicionais
-            ao backlog do sprint estão prontas para serem trabalhadas,isso resulta em entregas mais consistentes e de
-            alta qualidade promovendo assim um execução eficiente e eficaz do
-            trabalho pela equipe Scrum.
-        </p>
-    
-</div>
-
-</div>
-<div class="col p-0"></div>
-</div>
-
-
-
-
-
-<div class="row">
-  <div class="col p-0"></div> 
-  <div class="col-10 p-0">
- 
-   <div style="background-color: #24445c; color: white;" class="card w-50 mb-5 mt-5">
-     <div class="card-body">
-      <h5 class="card-title">Guia: Definition of Ready</h5>
-      <p  class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona a Definition of Ready.</p>
-      <button type="button" class="btn btn-primary"
-      data-bs-toggle="modal" data-bs-target="#exampleModal">
-      Clique aqui
-    </button>
-  </div>
-</div>
-
-    <!-- Modal -->
-    <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title fs-5" id="exampleModalLabel">
-                        Guia: Passos para uma boa Definition of Ready
-                    </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <!-- Passo 1 -->
-                <div class="modal-body">
-                    <ol style="list-style: none">
-                        <li>
-
-                            <p>
-                                <strong> Descrição clara da User Story:</strong> A DoR deve incluir
-                                uma descrição clara e concisa da User Story que seja compreensível
-                                por todos os membros da equipe e partes interessadas. Deve responder
-                                às perguntas básicas: O que precisa ser feito? Por que é importante?
-                            </p>
-                            <p>
-                                <strong>Critérios de aceitação:</strong> Esses critérios descrevem
-                                condições específicas que a User Story deve atender para ser
-                                considerada concluída. Eles são usados para determinar se a User
-                                Story atende aos requisitos do cliente e às expectativas do Product
-                                Owner.
-                            </p>
-                            <p>
-                                <strong>Estimativa de tamanho e esforço:</strong> A equipe de
-                                desenvolvimento deve fornecer uma estimativa aproximada do tamanho e
-                                do esforço necessários para completar a User Story. Isso ajuda a
-                                equipe a planejar o Sprint e alocar o trabalho de maneira adequada.
-                        </li>
-                        </p>
-                        <p><strong>Dependências e pré-requisitos:</strong> Se a User Story tiver
-                            dependências de outras User Stories ou requisitos, essas
-                            dependências devem ser identificadas na DoR. Isso permite que a
-                            equipe e o Product Owner entendam quais atividades podem precisar
-                            ser realizadas antes que a User Story em questão possa ser iniciada.</p>
-
-                        <p><strong>Definição de pronto para teste:</strong> A DoR pode incluir
-                            critérios que indiquem quando a User Story estará pronta para ser
-                            testada. Isso ajuda a garantir que o trabalho seja desenvolvido de
-                            maneira apropriada para testes e validações posteriores.</p>
-
-                        <p><strong>Aceitação pelo Product Owner: </strong> Antes que uma User
-                            Story seja considerada pronta, o Product Owner deve revisá-la e
-                            concordar que ela atende aos critérios definidos na DoR. A aceitação
-                            do Product Owner é essencial para garantir que o trabalho realizado
-                            esteja alinhado com as expectativas do cliente e com os objetivos do
-                            produto.</p>
-
-                        <p><strong>Apoio da equipe: </strong> A equipe de desenvolvimento
-                            também deve concordar que a User Story está pronta para ser
-                            trabalhada. Isso envolve a análise da equipe para garantir que todos
-                            os recursos necessários estão disponíveis e que a User Story é
-                            suficientemente compreendida.</p>
-
-                        </li>
-                    </ol>
-              
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                  Fechar
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-       </div>
-       <div class="col p-0"></div>
-      </div>
-      
-
-
-
-
-
-
-      <div class="row">
-        <div  class="col p-0"></div>
         <div class="col-10 p-0">
-      <div class="text-overlay3">
-          <h5>Quiz: Definition of Ready</h5>
-          <form action="" id="quizForm">
-          <div  class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
-            <div class="pergunta" id="pergunta1">
-              <h6>1. Qual é um componente essencial da Definition of Ready relacionado à descrição da User Story?
-              </h6>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1">
-                <label class="form-check-label" for="opcao1_1"> a)  Data de conclusão da User Story.</label>
-              </div>
-              <div class="form-check" >
-                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2">
-                <label class="form-check-label" for="opcao1_2">b)  Número total de tarefas na Sprint.</label>
-              </div>
-              <div class="form-check" correct>
-                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3">
-                <label class="form-check-label" for="opcao1_3">c) Descrição clara e compreensível da User Story.</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4">
-                <label class="form-check-label" for="opcao1_4">d) Relatório de progresso diário da equipe.</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5">
-                <label class="form-check-label" for="opcao1_5">e)  Lista de bugs conhecidos.</label>
-              </div>
-            </div>
-        
-            <div class="pergunta" id="pergunta2" style="display: none;">
-              <h6>2. Qual é a função dos critérios de aceitação mencionados na Definition of Ready?</h6>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1">
-                <label class="form-check-label" for="opcao2_1">a) Determinar o tamanho da equipe necessária.</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2">
-                <label class="form-check-label" for="opcao2_2">b) Avaliar a eficiência da Sprint.</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3">
-                <label class="form-check-label" for="opcao2_3">c) Identificar dependências entre User Stories.</label>
-              </div>
-              <div class="form-check" correct>
-                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4">
-                <label class="form-check-label" for="opcao2_4">d)  Definir quando a User Story é considerada concluída.</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5">
-                <label class="form-check-label" for="opcao2_5">e) Estimar a complexidade da User Story.</label>
-              </div>
-            </div>
-        
-            <div class="pergunta" id="pergunta3" style="display: none;">
-              <h6>3. Por que a aceitação do Product Owner é crucial antes de considerar uma User Story pronta?</h6>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1">
-                <label class="form-check-label" for="opcao3_1">a) Para determinar a velocidade da equipe.</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2">
-                <label class="form-check-label" for="opcao3_2">b) Para garantir que a Sprint tenha a duração adequada.</label>
-              </div>
-              <div class="form-check" correct>
-                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3">
-                <label class="form-check-label" for="opcao3_3">c)  Para confirmar que a User Story atende aos critérios da DoR.</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4">
-                <label class="form-check-label" for="opcao3_4">d) Para criar um novo Backlog de Sprint.</label>
-              </div>
-              <div class="form-check" >
-                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5">
-                <label class="form-check-label" for="opcao3_5">e)Para iniciar o processo de revisão da Sprint.</label>
-              </div>
-            </div>
-        
-            <!-- Adicionar mais perguntas seguindo o modelo acima -->
-        
-            <div class="d-flex justify-content-between align-items-center">
-              <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2 ">Verificar</button>
-              <div class="ml-auto">
-                <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2 " onclick="mudarPergunta(-1)"
-                  style="display: none;">Anterior</button>
-                <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark  mt-2 "
-                  onclick="mudarPergunta(1)">Próxima</button>
-              </div>
-            </div>
-        
-          </form>
-        </div>
-        </div>
-        </div>
-        <div  class="col p-0"></div>
-        </div>
-        <script src="../static/quiz.js"></script>
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<!--------------- Imagem home 1---------------->
-<div class="container_fluid">
-  <div class="row">
-    <div style="background-color: #EFF0F0" class="col p-0" ></div>
-
-    <div class="col-10 p-0" style="background-color: #EFF0F0;"> 
-      
-        <div  class="text-start text-overlay6 mb-5 mt-5">
-    <h5>Dicas para um boa Definition of Ready:</h5>
-    
-        <ul>
-            <li><strong>Envolver a Equipe:</strong> Inclua membros da equipe na definição dos critérios da DoR. Isso
-                garante que todos compreendam e concordem com os requisitos de prontidão.
-            </li>
-            <li>
-                <strong> Revisão Regular:</strong> Revise e atualize a DoR regularmente, especialmente em
-                retrospectivas. As necessidades e processos da equipe podem evoluir, e a DoR deve refletir essas
-                mudanças.
-            </li>
-            <li><strong> Especificidade:</strong> Seja específico ao descrever os critérios. Quanto mais claro e
-                específico, melhor será o entendimento e a aplicação da DoR.</li>
-            <li><strong>Validação com Exemplos:</strong> Inclua exemplos práticos de tarefas que atendem aos critérios
-                da DoR. Isso ajuda a ilustrar os requisitos de forma mais tangível.
-            </li>
-            <li> <strong> Feedback Contínuo: </strong> Solicite feedback regular da equipe sobre a eficácia da DoR.
-                Esteja aberto a ajustes para melhorar continuamente o processo.</li>
-              </ul>  
- 
-
-            
+            <div class="img-container">
+                <img src="../static/img/dor_1.png" class="img-fluid" alt="Metodologia Ágil" />
+                <div class="text-overlay5">
+                    <h1>Definition of Ready</h1>
+                    <p>
+                        A Definition of Ready(DoR) é um conceito dentro do framework Scrum que descreve as condições que um item de backlog (normalmente, uma
+                        User Story) deve atender antes de ser considerado pronto para ser incluído em um Sprint e desenvolvido pela equipe de Scrum.
+                    </p>
                 </div>
-         
             </div>
-            <div style="background-color: #EFF0F0" class="col p-0"></div>
+        </div>
+        <div style="background-color: #dec3c3" class="col p-0"></div>
+    </div>
+
+    <div class="row">
+        <div class="col p-0"></div>
+
+        <div class="col-10 p-0">
+            <div style="margin-top: 3%" class="text-overlay3">
+                <h5>Funcionalidade do Definition of Ready:</h5>
+                <p>
+                    O Definition of Ready(DoR) desempenha um papel crucial na garantia de que as histórias ou tarefas adicionais ao backlog do sprint estão
+                    prontas para serem trabalhadas,isso resulta em entregas mais consistentes e de alta qualidade promovendo assim um execução eficiente e
+                    eficaz do trabalho pela equipe Scrum.
+                </p>
             </div>
+        </div>
+
+        <div class="col p-0"></div>
+    </div>
+
+    <div class="row">
+        <div class="col p-0"></div>
+        <div class="col-10 p-0">
+            <div style="background-color: #24445c; color: white" class="card w-50 mb-5 mt-5">
+                <div class="card-body">
+                    <h5 class="card-title">Guia: Definition of Ready</h5>
+                    <p class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona a Definition of Ready.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Clique aqui</button>
+                </div>
+            </div>
+
+            <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fs-5" id="exampleModalLabel">Guia: Passos para uma boa Definition of Ready</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <!-- Passo 1 -->
+                        <div class="modal-body">
+                            <ol style="list-style: none">
+                                <li>
+                                    <p>
+                                        <strong> Descrição clara da User Story:</strong> A DoR deve incluir uma descrição clara e concisa da User Story que seja
+                                        compreensível por todos os membros da equipe e partes interessadas. Deve responder às perguntas básicas: O que precisa
+                                        ser feito? Por que é importante?
+                                    </p>
+                                    <p>
+                                        <strong>Critérios de aceitação:</strong> Esses critérios descrevem condições específicas que a User Story deve atender
+                                        para ser considerada concluída. Eles são usados para determinar se a User Story atende aos requisitos do cliente e às
+                                        expectativas do Product Owner.
+                                    </p>
+                                    <p>
+                                        <strong>Estimativa de tamanho e esforço:</strong> A equipe de desenvolvimento deve fornecer uma estimativa aproximada do
+                                        tamanho e do esforço necessários para completar a User Story. Isso ajuda a equipe a planejar o Sprint e alocar o
+                                        trabalho de maneira adequada.
+                                    </p>
+                                    <p>
+                                        <strong>Dependências e pré-requisitos:</strong> Se a User Story tiver dependências de outras User Stories ou requisitos,
+                                        essas dependências devem ser identificadas na DoR. Isso permite que a equipe e o Product Owner entendam quais atividades
+                                        podem precisar ser realizadas antes que a User Story em questão possa ser iniciada.
+                                    </p>
+
+                                    <p>
+                                        <strong>Definição de pronto para teste:</strong> A DoR pode incluir critérios que indiquem quando a User Story estará
+                                        pronta para ser testada. Isso ajuda a garantir que o trabalho seja desenvolvido de maneira apropriada para testes e
+                                        validações posteriores.
+                                    </p>
+
+                                    <p>
+                                        <strong>Aceitação pelo Product Owner: </strong> Antes que uma User Story seja considerada pronta, o Product Owner deve
+                                        revisá-la e concordar que ela atende aos critérios definidos na DoR. A aceitação do Product Owner é essencial para
+                                        garantir que o trabalho realizado esteja alinhado com as expectativas do cliente e com os objetivos do produto.
+                                    </p>
+
+                                    <p>
+                                        <strong>Apoio da equipe: </strong> A equipe de desenvolvimento também deve concordar que a User Story está pronta para
+                                        ser trabalhada. Isso envolve a análise da equipe para garantir que todos os recursos necessários estão disponíveis e que
+                                        a User Story é suficientemente compreendida.
+                                    </p>
+                                </li>
+                            </ol>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col p-0"></div>
+    </div>
+
+    <div class="row">
+        <div class="col p-0"></div>
+        <div class="col-10 p-0">
+            <div class="text-overlay3">
+                <h5>Quiz: Definition of Ready</h5>
+                <form action="" id="quizForm">
+                    <div class="perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded">
+                        <div class="pergunta" id="pergunta1">
+                            <h6>1. Qual é um componente essencial da Definition of Ready relacionado à descrição da User Story?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao1_1"> a) Data de conclusão da User Story.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao1_2">b) Número total de tarefas na Sprint.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao1_3">c) Descrição clara e compreensível da User Story.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao1_4">d) Relatório de progresso diário da equipe.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao1_5">e) Lista de bugs conhecidos.</label>
+                            </div>
+                        </div>
+
+                        <div class="pergunta" id="pergunta2" style="display: none">
+                            <h6>2. Qual é a função dos critérios de aceitação mencionados na Definition of Ready?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao2_1">a) Determinar o tamanho da equipe necessária.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao2_2">b) Avaliar a eficiência da Sprint.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao2_3">c) Identificar dependências entre User Stories.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao2_4">d) Definir quando a User Story é considerada concluída.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao2_5">e) Estimar a complexidade da User Story.</label>
+                            </div>
+                        </div>
+
+                        <div class="pergunta" id="pergunta3" style="display: none">
+                            <h6>3. Por que a aceitação do Product Owner é crucial antes de considerar uma User Story pronta?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao3_1">a) Para determinar a velocidade da equipe.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao3_2">b) Para garantir que a Sprint tenha a duração adequada.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao3_3">c) Para confirmar que a User Story atende aos critérios da DoR.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao3_4">d) Para criar um novo Backlog de Sprint.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao3_5">e)Para iniciar o processo de revisão da Sprint.</label>
+                            </div>
+                        </div>
+
+                        <!-- Adicionar mais perguntas seguindo o modelo acima -->
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2">Verificar</button>
+                            <div class="ml-auto">
+                                <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2" onclick="mudarPergunta(-1)" style="display: none">
+                                    Anterior
+                                </button>
+                                <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark mt-2" onclick="mudarPergunta(1)">Próxima</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col p-0"></div>
+        <script src="../static/quiz.js"></script>
+    </div>
+
+    <!--------------- Imagem home 1---------------->
+
+    <div class="row">
+        <div style="background-color: #eff0f0" class="col p-0"></div>
+
+        <div class="col-10 p-0" style="background-color: #eff0f0">
+            <div class="text-start text-overlay6 mb-5 mt-5">
+                <h5>Dicas para um boa Definition of Ready:</h5>
+                <ul>
+                    <li>
+                        <strong>Envolver a Equipe:</strong> Inclua membros da equipe na definição dos critérios da DoR. Isso garante que todos compreendam e
+                        concordem com os requisitos de prontidão.
+                    </li>
+                    <li>
+                        <strong> Revisão Regular:</strong> Revise e atualize a DoR regularmente, especialmente em retrospectivas. As necessidades e processos da
+                        equipe podem evoluir, e a DoR deve refletir essas mudanças.
+                    </li>
+                    <li>
+                        <strong> Especificidade:</strong> Seja específico ao descrever os critérios. Quanto mais claro e específico, melhor será o entendimento
+                        e a aplicação da DoR.
+                    </li>
+                    <li>
+                        <strong>Validação com Exemplos:</strong> Inclua exemplos práticos de tarefas que atendem aos critérios da DoR. Isso ajuda a ilustrar os
+                        requisitos de forma mais tangível.
+                    </li>
+                    <li>
+                        <strong> Feedback Contínuo: </strong> Solicite feedback regular da equipe sobre a eficácia da DoR. Esteja aberto a ajustes para melhorar
+                        continuamente o processo.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="background-color: #eff0f0" class="col p-0"></div>
+    </div>
 </div>
-
-
-
-
 {% endblock %}

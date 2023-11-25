@@ -1,278 +1,239 @@
 {% extends "layout.html" %}{% block css %}
 <!-- Colocar o CSS específico da página dentro desse bloco -->
-<link rel="stylesheet" href="../static/po.css">
+<link rel="stylesheet" href="../static/po.css" />
 {% endblock %}{% block content %}
-<!-- Imagem po -->
 
+<div class="container-fluid">
+    <div class="row">
+        <div style="background-color: #627be9" class="col p-0"></div>
 
-<div class="container_fluid">
-  <div class="row">
-    <div style="background-color: #627BE9" class="col p-0"></div>
-
-    <div class="col-10 p-0">
-      <div class="img-container">
-        <img
-          src="../static/img/poker_1.png"
-          class="img-fluid"
-          alt="Metodologia Ágil"
-        />
-        <div class="text-overlay5">
-          <h1 style="color: white;">Planning Poker</h1>
-          <p style="color: white;">O Planning Poker é uma técnica amplamente utilizada na metodologia ágil, especialmente no contexto de desenvolvimento de software, para estimar o
-            esforço necessário para implementar as User Stories, usando "Story Points" como unidade de medida relativa. Esta abordagem ajuda a equipe a estimar o
-            trabalho de forma colaborativa, considerando diferentes perspectivas e evitando a influência individual.      
-          </div>
+        <div class="col-10 p-0">
+            <div class="img-container">
+                <img src="../static/img/poker_1.png" class="img-fluid" alt="Metodologia Ágil" />
+                <div class="text-overlay5">
+                    <h1 style="color: white">Planning Poker</h1>
+                    <p style="color: white">
+                        O Planning Poker é uma técnica amplamente utilizada na metodologia ágil, especialmente no contexto de desenvolvimento de software, para
+                        estimar o esforço necessário para implementar as User Stories, usando "Story Points" como unidade de medida relativa. Esta abordagem
+                        ajuda a equipe a estimar o trabalho de forma colaborativa, considerando diferentes perspectivas e evitando a influência individual.
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-      <div style="background-color: #627BE9" class="col p-0"></div>
-      </div>
-      </div>
+        <div style="background-color: #627be9" class="col p-0"></div>
+    </div>
 
-
-
-
-
-
-      <div class="row">
+    <div class="row">
         <div class="col p-0"></div>
-      
+
         <div class="col-10 p-0">
-          <div  style="margin-top: 3%" class="text-overlay3 ">
-  <h5>Funcionalidade do Planning Poker:</h5>
-  
-     <p>
-        O Planning Poker funciona porque incorpora a opinião de diversos especialistas da equipe, promovendo discussões que levam a estimativas mais precisas. A
-        utilização da sequência de Fibonacci ajuda a refletir a incerteza associada ao tamanho das histórias, criando intervalos que facilitam o planejamento.
-      </p>
-    
+            <div style="margin-top: 3%" class="text-overlay3">
+                <h5>Funcionalidade do Planning Poker:</h5>
+                <p>
+                    O Planning Poker funciona porque incorpora a opinião de diversos especialistas da equipe, promovendo discussões que levam a estimativas mais
+                    precisas. A utilização da sequência de Fibonacci ajuda a refletir a incerteza associada ao tamanho das histórias, criando intervalos que
+                    facilitam o planejamento.
+                </p>
+            </div>
+        </div>
+
+        <div class="col p-0"></div>
     </div>
-   
-    </div>
 
-    <div class="col p-0"></div>
-      </div>
-    
-
-
-
-
-
-
-
-
-      <div class="row">
-        <div class="col p-0"></div> 
+    <div class="row">
+        <div class="col p-0"></div>
         <div class="col-10 p-0">
-       
-         <div style="background-color: #24445c; color: white;" class="card w-50 mb-5 mt-5">
-           <div class="card-body">
-            <h5 class="card-title">Guia: Planning Poker</h5>
-            <p  class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona o artefato Planning Poker.</p>
-            <button type="button" class="btn btn-primary"
-            data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Clique aqui
-          </button>
+            <div style="background-color: #24445c; color: white" class="card w-50 mb-5 mt-5">
+                <div class="card-body">
+                    <h5 class="card-title">Guia: Planning Poker</h5>
+                    <p class="card-text fw-light">Este guia oferece para você o passo-a-passo essencial de como funciona o artefato Planning Poker.</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Clique aqui</button>
+                </div>
+            </div>
+
+            <div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fs-5" id="exampleModalLabel">Guia: Exemplo do planning poker</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <!-- Passo 1 -->
+                        <div class="modal-body">
+                            <ol style="list-style: none">
+                                <li>
+                                    <p>
+                                        <strong> Preparação da reunião:</strong> Reúna os membros da equipe envolvidos no projeto, incluindo o Product Owner,
+                                        Scrum Master e o Development Team. Certifique-se de que a equipe tenha um baralho de cartas do Planning Poker contendo
+                                        valores como 0, 1, 2, 3, 5, 8, 13, 20, 40 e 100 (com base nase quência de Fibonacci).
+                                    </p>
+                                    <p>
+                                        <strong> Descrição da User Story:</strong> O Product Owner apresenta a User Story que precisa ser estimada. A equipe tem
+                                        a oportunidade de fazer perguntas e esclarecer qualquer dúvida sobre a história para garantir que todos compreendam os
+                                        requisitos.
+                                    </p>
+                                    <p>
+                                        <strong>Votação estimada:</strong> Cada membro da equipe escolhe uma carta que representa sua estimativa para a User
+                                        Story, com base no número de Story Points que eles acreditam que ela vale. Os membros fazem isso secretamente, mantendo
+                                        suas escolhas ocultas dos outros.
+                                    </p>
+                                    <p>
+                                        <strong>Revelação do valor:</strong> Quando todos os membros da equipe tiverem feito suas estimativas, eles revelam suas
+                                        cartas simultaneamente. Isso garante que nenhuma influência externa afete as estimativas individuais. É comum que as
+                                        estimativas sejam diferentes, o que é perfeitamente normal.
+                                    </p>
+                                    <p>
+                                        <strong>Discussão da estimativa:</strong> OOs membros com as estimativas mais altas e mais baixas explicam por que
+                                        escolheram esses valores. Essa discussão permite que a equipe compreenda as perspectivas de todos e ajuda a chegar a um
+                                        consenso. A equipe tem a oportunidade de debater e esclarecer qualquer desacordo em relação às estimativas. Após a
+                                        discussão, todos os membros da equipe fazem outra rodada de votação, usando as cartas novamente.
+                                    </p>
+                                    <p>
+                                        <strong>Consenso de valores:</strong> Repita o processo de revelação e discussão até que a equipe alcance um consenso
+                                        sobre o número de Story Points atribuídos à User Story.Isso pode levar algumas rodadas, mas o objetivo é chegar a um
+                                        acordo que reflita a compreensão coletiva do esforço necessário.
+                                    </p>
+                                    <p>
+                                        <strong>Registro de valores:</strong> Anote a estimativa final acordada para a User Story.Esse número de Story Points
+                                        será usado para planejar sprints futuros e alocar recursos de acordo.
+                                    </p>
+                                </li>
+                            </ol>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-  <!-- Modal -->
-<!-- Modal -->
-<div style="color: black" class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-aria-hidden="true">
-<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h5 class="modal-title fs-5" id="exampleModalLabel">
-        Guia: Exemplo do planning poker
-      </h5>
-      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div>
-    <!-- Passo 1 -->
-    <div class="modal-body">
-      <ol style="list-style: none">
-        <li>
-        
-          <p>
-            <strong> Preparação da reunião:</strong> Reúna os membros da equipe envolvidos no projeto, incluindo o Product Owner, Scrum Master e o 
-            Development Team. Certifique-se de que a equipe tenha um baralho de cartas do Planning Poker contendo valores como
-             0, 1, 2, 3, 5, 8, 13, 20, 40 e 100 (com base nase quência de Fibonacci).
-          </p>
-          <p>
-            <strong> Descrição da User Story:</strong> O Product Owner apresenta a User Story que precisa ser estimada.
-            A equipe tem a oportunidade de fazer perguntas e esclarecer qualquer dúvida sobre a 
-            história para garantir que todos compreendam os requisitos. 
-    </li>
-          </p>
-          <p>
-            <strong>Votação estimada:</strong> Cada membro da equipe escolhe uma carta que representa sua estimativa para a User Story, 
-            com base no número de Story Points que eles acreditam
-            que ela vale. Os membros fazem isso secretamente, mantendo suas escolhas ocultas dos outros.
-          </p>
-          <p><strong>Revelação do valor:</strong> Quando todos os membros da equipe tiverem feito suas estimativas, eles revelam suas cartas 
-            simultaneamente. Isso garante que nenhuma influência
-            externa afete as estimativas individuais. É comum que as estimativas sejam diferentes, 
-            o que é perfeitamente normal.</p>
-          <p><strong>Discussão da estimativa:</strong> OOs membros com as estimativas mais altas e mais baixas explicam por que escolheram esses valores.
-              Essa discussão permite que a equipe compreenda as perspectivas de todos e ajuda a chegar a um 
-              consenso. A equipe tem a oportunidade de debater e esclarecer qualquer desacordo em relação às 
-              estimativas. Após a discussão, todos os membros da equipe fazem outra rodada de votação, usando 
-              as cartas novamente.</p>
-          <p><strong>Consenso de valores:</strong> Repita o processo de revelação e discussão até que a equipe alcance um consenso sobre o número 
-            de Story Points atribuídos à User Story.Isso pode levar algumas rodadas, mas o objetivo é 
-            chegar a um acordo que reflita a compreensão coletiva do esforço necessário.</p>
-            <p><strong>Registro de valores:</strong> Anote a estimativa final acordada para a User Story.Esse número de Story Points será usado para 
-              planejar sprints futuros e alocar recursos de acordo.</p>  
-        </li>
-      </ol>
-    
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-          Fechar
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-</div>
-<div class="col p-0"></div>
-</div>
-
-
-<div class="row">
-  <div  class="col p-0"></div>
-  <div class="col-10 p-0">
-<div class="text-overlay3">
-  <h5>Quiz: Planning Poker</h5>
-  <form action="" id="quizForm">
-  <div  class=" perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded ">
-    <div class="pergunta" id="pergunta1">
-      <h6>1. Qual é a importância de reunir membros da equipe, incluindo Product Owner, Scrum Master e Development Team, antes de iniciar o Planning Poker?
-      </h6>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1">
-        <label class="form-check-label" for="opcao1_1"> a) Definir a sequência de Fibonacci.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2">
-        <label class="form-check-label" for="opcao1_2">b)  Garantir que a equipe tenha um baralho de cartas.</label>
-      </div>
-      <div class="form-check" correct>
-        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3">
-        <label class="form-check-label" for="opcao1_3">c) Promover discussões e incorporar diversas opiniões.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4">
-        <label class="form-check-label" for="opcao1_4">d)  Apresentar a User Story.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5">
-        <label class="form-check-label" for="opcao1_5">e) Fazer perguntas sobre a sequência de Fibonacci.</label>
-      </div>
+        <div class="col p-0"></div>
     </div>
 
-    <div class="pergunta" id="pergunta2" style="display: none;">
-      <h6>2. Por que os membros da equipe escolhem suas cartas secretamente durante a votação estimada no Planning Poker?</h6>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1">
-        <label class="form-check-label" for="opcao2_1">a) Para influenciar as estimativas dos outros.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2">
-        <label class="form-check-label" for="opcao2_2">b) Para garantir que a sequência de Fibonacci seja seguida.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3">
-        <label class="form-check-label" for="opcao2_3">c) Para refletir a incerteza associada ao tamanho das histórias.</label>
-      </div>
-      <div class="form-check" correct>
-        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4">
-        <label class="form-check-label" for="opcao2_4">d) Para manter as escolhas ocultas dos outros membros.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5">
-        <label class="form-check-label" for="opcao2_5">e) Para evitar discussões durante a votação.</label>
-      </div>
-    </div>
+    <div class="row">
+        <div class="col p-0"></div>
+        <div class="col-10 p-0">
+            <div class="text-overlay3">
+                <h5>Quiz: Planning Poker</h5>
+                <form action="" id="quizForm">
+                    <div class="perguntas texto_home_1 shadow p-3 mb-5 bg-body-tertiary rounded">
+                        <div class="pergunta" id="pergunta1">
+                            <h6>
+                                1. Qual é a importância de reunir membros da equipe, incluindo Product Owner, Scrum Master e Development Team, antes de iniciar
+                                o Planning Poker?
+                            </h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao1_1"> a) Definir a sequência de Fibonacci.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao1_2">b) Garantir que a equipe tenha um baralho de cartas.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao1_3">c) Promover discussões e incorporar diversas opiniões.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao1_4">d) Apresentar a User Story.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta1" id="opcao1_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao1_5">e) Fazer perguntas sobre a sequência de Fibonacci.</label>
+                            </div>
+                        </div>
 
-    <div class="pergunta" id="pergunta3" style="display: none;">
-      <h6>3. Qual é o objetivo do processo de repetição de revelação e discussão no Planning Poker?</h6>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1">
-        <label class="form-check-label" for="opcao3_1">a) Anotar a estimativa final acordada.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2">
-        <label class="form-check-label" for="opcao3_2">b)  Influenciar as estimativas individuais.</label>
-      </div>
-      <div class="form-check" correct>
-        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3">
-        <label class="form-check-label" for="opcao3_3">c) Chegar a um consenso sobre o número de Story Points.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4">
-        <label class="form-check-label" for="opcao3_4">d) Apresentar a User Story novamente.</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5">
-        <label class="form-check-label" for="opcao3_5">e) Evitar qualquer desacordo durante a discussão.</label>
-      </div>
-    </div>
+                        <div class="pergunta" id="pergunta2" style="display: none">
+                            <h6>2. Por que os membros da equipe escolhem suas cartas secretamente durante a votação estimada no Planning Poker?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao2_1">a) Para influenciar as estimativas dos outros.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao2_2">b) Para garantir que a sequência de Fibonacci seja seguida.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao2_3">c) Para refletir a incerteza associada ao tamanho das histórias.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao2_4">d) Para manter as escolhas ocultas dos outros membros.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta2" id="opcao2_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao2_5">e) Para evitar discussões durante a votação.</label>
+                            </div>
+                        </div>
 
-    <!-- Adicionar mais perguntas seguindo o modelo acima -->
+                        <div class="pergunta" id="pergunta3" style="display: none">
+                            <h6>3. Qual é o objetivo do processo de repetição de revelação e discussão no Planning Poker?</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_1" value="opcao1" />
+                                <label class="form-check-label" for="opcao3_1">a) Anotar a estimativa final acordada.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_2" value="opcao2" />
+                                <label class="form-check-label" for="opcao3_2">b) Influenciar as estimativas individuais.</label>
+                            </div>
+                            <div class="form-check" correct>
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_3" value="opcao3" />
+                                <label class="form-check-label" for="opcao3_3">c) Chegar a um consenso sobre o número de Story Points.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_4" value="opcao4" />
+                                <label class="form-check-label" for="opcao3_4">d) Apresentar a User Story novamente.</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="resposta3" id="opcao3_5" value="opcao5" />
+                                <label class="form-check-label" for="opcao3_5">e) Evitar qualquer desacordo durante a discussão.</label>
+                            </div>
+                        </div>
 
-    <div class="d-flex justify-content-between align-items-center">
-      <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2 ">Verificar</button>
-      <div class="ml-auto">
-        <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2 " onclick="mudarPergunta(-1)"
-          style="display: none;">Anterior</button>
-        <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark  mt-2 "
-          onclick="mudarPergunta(1)">Próxima</button>
+                        <!-- Adicionar mais perguntas seguindo o modelo acima -->
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button type="submit" id="bverificar" class="btn btn-sm btn-outline-primary mt-2">Verificar</button>
+                            <div class="ml-auto">
+                                <button type="button" id="banterior" class="btn btn-sm btn-outline-dark mt-2" onclick="mudarPergunta(-1)" style="display: none">
+                                    Anterior
+                                </button>
+                                <button type="button" id="bproximo" class="btn btn-sm btn-outline-dark mt-2" onclick="mudarPergunta(1)">Próxima</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
-      </div>
-  
-    </form>
-  </div>
-  </div>
-  </div>
-  <div  class="col p-0"></div>
-  </div>
-  <script src="../static/quiz.js"></script>
-  
+        <div class="col p-0"></div>
+        <script src="../static/quiz.js"></script>
+    </div>
 
+    <!--------------- Imagem home 1---------------->
 
+    <div class="row">
+        <div style="background-color: #eff0f0" class="col p-0"></div>
 
+        <div class="col-10 p-0" style="background-color: #eff0f0">
+            <div class="text-start text-overlay6 mb-5 mt-5">
+                <h5>Benefícios do planning poker:</h5>
+                <ul>
+                    <li><strong>Agilidade:</strong> É mais rápida que abordagens tradicionais de estimativa, mantendo um bom resultado.</li>
 
+                    <li><strong>Analysis paralysis:</strong> Auxilia a prevenir discussões em “loop infinito”</li>
 
-<!--------------- Imagem home 1---------------->
-<div class="container_fluid">
-  <div class="row">
-    <div style="background-color: #EFF0F0" class="col p-0" ></div>
+                    <li><strong>Validação:</strong> Previne também que apenas uma pessoa faça as estimativas para o restante do time.</li>
 
-    <div class="col-10 p-0" style="background-color: #EFF0F0;"> 
-      
-        <div   class="text-start text-overlay6 mb-5 mt-5">
-  <h5  >Benefícios do planning poker:</h5>
-    <ul>
-
-    <li><strong>Agilidade:</strong> É mais rápida que abordagens tradicionais de estimativa, mantendo um bom resultado.</li>
-
-    <li><strong>Analysis paralysis:</strong> Auxilia a prevenir discussões em “loop infinito”</li> 
-
-    <li><strong>Validação:</strong> Previne também que apenas uma pessoa faça as estimativas para o restante do time.</li>
-
-    <li><strong>Fortalecimento:</strong> Cria engajamento e senso de pertencimento ao time por estar tendo discussões abertas e todos trazendo suas próprias estimativas.</li>
-
-  </ul>  
- 
-
-
+                    <li>
+                        <strong>Fortalecimento:</strong> Cria engajamento e senso de pertencimento ao time por estar tendo discussões abertas e todos trazendo
+                        suas próprias estimativas.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div style="background-color: #eff0f0" class="col p-0"></div>
+    </div>
 </div>
-
-</div>
-<div style="background-color: #EFF0F0" class="col p-0"></div>
-</div>
-</div>
-
 {% endblock %}
