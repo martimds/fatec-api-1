@@ -1,43 +1,47 @@
 {% extends "layout.html" %}{% block css %}
 <!-- Colocar o CSS específico da página dentro desse bloco -->
-<link rel="stylesheet" href="../static/po.css">
-{% endblock %}
-{% block name %}Developer Team{% endblock %}
-{% block content %}
-<!-- Imagem po -->
+<link rel="stylesheet" href="../static/po.css" />
 
-<div class="container_img">
-  <div class="img-container">
-      <img src="../static/img/devteam_1.png" class="img-fluid" alt="Metodologia Ágil" />
-      <div class="text-overlay">
-          <h1>Developer Team</h1>
-          <p>O Time de Desenvolvimento é a espinha dorsal do projeto, responsável por transformar conceitos em produtos tangíveis e inovadores. Cada membro desse time desempenha um papel crucial na realização das metas e na entrega contínua de valor aos clientes.</p>
-      </div>
-  </div>
-</div>
-  
+{% endblock %}{% block content %}
 
+<!--------------- Imagem home 1---------------->
+<div class="container-fluid">
+    <div class="row">
+        <div style="background-color: #F7F7F7" class="col p-0"></div>
 
+        <div class="col-10 p-0">
+            <div class="img-container">
+                <img src="../static/img/team_1.png" class="img-fluid" alt="Metodologia Ágil" />
+                <div class="text-overlay5">
+                    <h1>Developer Team</h1>
+                    <p>
+                        O Time de Desenvolvimento é a espinha dorsal do projeto, responsável por transformar conceitos em produtos tangíveis e inovadores. Cada
+                        membro desse time desempenha um papel crucial na realização das metas e na entrega contínua de valor aos clientes.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #F7F7F7" class="col p-0"></div>
+    </div>
 
+    <div class="row">
+        <div class="col p-0"></div>
 
-<!-- Introdução PO -->
-<div class="txt4" style="margin-top: 3.5%">
-  <h5>Responsabilidades do Time de Desenvolvimento:</h5>
-  <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded texto_home_1">
-    <ul>
-      <li>Colaborar na definição e implementação das funcionalidades do produto;</li>
-      <li>
-        Trabalhar de forma interdisciplinar e autogerenciada para alcançar os objetivos do Sprint;
-      </li>
-      <li>
-        Manter altos padrões de qualidade em todas as entregas ao cliente.
-      </li>
-      <li>
-        Participar ativamente em reuniões e eventos Scrum para promover a transparência e a colaboração no time.
-      </li>
-    </ul>
-  </div>
-</div>
+        <div class="col-10 p-0">
+            <div style="margin-top: 3%" class="text-overlay3">
+                <h5>Responsabilidades do Time de Desenvolvimento:</h5>
+                <ul>
+                    <li>Colaborar na definição e implementação das funcionalidades do produto;</li>
+                    <li>Trabalhar de forma interdisciplinar e autogerenciada para alcançar os objetivos do Sprint;</li>
+                    <li>Manter altos padrões de qualidade em todas as entregas ao cliente.</li>
+                    <li>Participar ativamente em reuniões e eventos Scrum para promover a transparência e a colaboração no time.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col p-0"></div>
+    </div>
+
+    <!-- 
 <div class="card text-bg-dark" style="
   display: flex; width:70%; margin: 0 auto; align-items: flex-start;
   background-position: left top;

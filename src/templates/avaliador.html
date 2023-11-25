@@ -1,9 +1,11 @@
-{% extends "layout.html" %} {% block css %}
+{% extends "layout.html" %}{% block content %} {% block css %}
 <!-- Colocar o CSS específico da página dentro desse bloco -->
 <link rel="stylesheet" href="../static/po.css" />
 {% endblock %}
-{% block name %}Avaliador{% endblock %}
-{% block content %}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col" style="background-color: #efefef"></div>
 
         <div class="col-10 p-0">
             <div class="img-container">
