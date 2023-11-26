@@ -140,6 +140,14 @@ Na terceira entrega, aprimoramos significativamente o conteúdo do site sobre Sc
 
 [**Código Fonte**](https://github.com/martimds/fatec-api-1/releases/tag/sprint3)
 
+### 4ª Entrega
+
+Na terceira entrega, aprimoramos significativamente o conteúdo do site sobre Scrum, visando proporcionar aos usuários uma experiência mais completa e enriquecedora. Esta atualização concentrou-se principalmente no aprofundamento dos conceitos fundamentais do Scrum, bem como na adição de exemplos práticos de sua aplicação.
+
+![GIF Sprint 4](https://github.com/martimds/fatec-api-1/blob/main/docs/imagens/gif-quarta-entrega.gif)
+
+[**Código Fonte**](https://github.com/martimds/fatec-api-1/releases/tag/sprint4)
+
 ## Autores
 
 |     Nome      |            Função            |                                                                     Github                                                                     |                                                                                     Linkedin                                                                                     |
