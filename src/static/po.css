@@ -80,6 +80,36 @@ font-size: 90%;
   font-weight: 300;
 }
 
+
+
+/* ------- texto 2.2 -------- */
+.text-overlay2_2{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px;
+  top: 0%;
+  right:50%;
+  position: absolute;
+  text-align: start ;
+  max-width: 50%;
+  padding: 0px 0px;
+  
+}
+
+.text-overlay2_2 h1 {
+  margin-top: 3%;
+  color: #333;
+  font-size: 4vh;
+  margin-bottom: 5%;
+}
+
+
+
+.text-overlay2_2 p {
+  color: #333;
+  font-size: 2.2vh;
+  font-weight: 300;
+}
 /* ------- texto 3  -------- */
 .text-overlay3 {
   display: flex;
@@ -119,7 +149,7 @@ font-size: 90%;
   justify-content: start;
   flex-direction: column;
   margin: 0px 0px;
-  top: 22%;
+  top: 19%;
   position: absolute;
   text-align: start;
   padding: 0px 0px;
@@ -305,7 +335,9 @@ font-size: 90%;
 
 
 @media screen and (max-width: 1100px) {
-  .text-overlay2  {
+  .text-overlay2,
+  .text-overlay2_2,
+  .img-media {
     display: none;
   }
 }
