@@ -99,15 +99,15 @@ Este projeto está sendo conduzido utilizando a metodologia ágil Scrum para o g
 
 ## Revisão da sprint
 
-Em andamento ✍🏻
+[**Conclusão:** 26/11/2023](https://github.com/martimds/fatec-api-1#4%C2%AA-entrega)
 
 ## Backlog da Sprint
 
 | ID do item |               Resumo               |                            Descrição                             | Story points | Prioridade |     Status      |
 |:----------:|:---------------------------------:|:---------------------------------------------------------------:|:------------:|:----------:|:---------------:|
-|   DPA-x   | Design Atraente e Intuitivo das Páginas para Facilitar a Compreensão   | Como um usuário, eu quero que as páginas tenham um design atraente e intuitivo para facilitar a leitura e a compreensão.   |       4      |     100      | Item pendente  |
-|   DPA-x   | Questionário relacionado ao Scrum   | Como usuário, desejo testar meu conhecimento sobre o Scrum por meio de questionários. |       4      |     95      | Item pendente  |
-|   DPA-x   | Formatação de Texto para Conteúdo Legível e Organizado   | Como um usuário, eu quero um site com formatação nos textos (negrito, itálico, listas, etc.) para visualizar um conteúdo legível e organizado. |       4      |     90      | Item pendente  |
+|   DPA-53   | Design Atraente e Intuitivo das Páginas para Facilitar a Compreensão   | Como um usuário, eu quero que as páginas tenham um design atraente e intuitivo para facilitar a leitura e a compreensão.   |       4      |     100      | Concluído  |
+|   DPA-54   | Questionário relacionado ao Scrum   | Como usuário, desejo testar meu conhecimento sobre o Scrum por meio de questionários. |       4      |     95      | Concluído  |
+|   DPA-55   | Formatação de Texto para Conteúdo Legível e Organizado   | Como um usuário, eu quero um site com formatação nos textos (negrito, itálico, listas, etc.) para visualizar um conteúdo legível e organizado. |       4      |     90      | Concluído  |
 
 
 
